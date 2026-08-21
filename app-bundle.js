@@ -716,19 +716,35 @@ function Services({
   }))))), /*#__PURE__*/React.createElement("div", {
     style: {
       display: 'flex',
-      justifyContent: 'center',
+      flexDirection: 'column',
+      alignItems: 'center',
+      gap: 16,
       marginTop: 40
     }
   }, /*#__PURE__*/React.createElement(Button, {
     variant: "whatsapp",
     size: "lg",
-    as: "a",
-    href: "tecnico-refrigeracao-comercial.html",
+    onClick: onQuote,
     iconLeft: /*#__PURE__*/React.createElement(Icon, {
       name: "message-circle",
       size: 20
     })
-  }, "N\xE3o achou seu equipamento? Fale conosco")));
+  }, "N\xE3o achou seu equipamento? Fale conosco"), /*#__PURE__*/React.createElement("p", {
+    style: {
+      fontFamily: 'var(--font-body)',
+      fontSize: 'var(--fs-sm)',
+      color: 'var(--text-muted)',
+      margin: 0,
+      textAlign: 'center'
+    }
+  }, "Atendemos todos os equipamentos comerciais de refrigera\xE7\xE3o \u2014 ", /*#__PURE__*/React.createElement("a", {
+    href: "tecnico-refrigeracao-comercial.html",
+    style: {
+      color: 'inherit',
+      textDecoration: 'underline',
+      textUnderlineOffset: 3
+    }
+  }, "conhe\xE7a nosso servi\xE7o t\xE9cnico"))));
 }
 Object.assign(window, {
   TrustStrip,
