@@ -492,6 +492,15 @@ function Hero({
 Object.assign(window, {
   Hero
 });
+window.__abrirWa = window.__abrirWa || function (url) {
+  var a = document.createElement('a');
+  a.href = url;
+  a.target = '_blank';
+  a.rel = 'noopener';
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+};
 // Trust strip — three reassurance features below the hero.
 function TrustStrip() {
   const items = [['wrench', 'Instalação e manutenção', 'Preventiva e corretiva em todos os equipamentos de refrigeração.'], ['map-pin', 'No local ou na oficina', 'Atendemos no seu endereço ou na nossa oficina, bem localizada no Rio.'], ['badge-check', 'Técnicos especializados', 'Equipe experiente, peças de qualidade e garantia no serviço.']];
@@ -722,7 +731,7 @@ function Services({
   }, /*#__PURE__*/React.createElement(Button, {
     variant: "whatsapp",
     size: "lg",
-    onClick: onQuote,
+    onClick: () => window.__abrirWa('https://wa.me/5521967826279?text=' + encodeURIComponent('Olá! Não encontrei meu equipamento no site. Vocês atendem?')),
     iconLeft: /*#__PURE__*/React.createElement(Icon, {
       name: "message-circle",
       size: 20
