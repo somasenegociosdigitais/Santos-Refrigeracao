@@ -1370,7 +1370,7 @@ function Footer() {
     Logo
   } = window.DS;
   const all = window.SERVICES_DATA || {};
-  const services = Object.values(all).length ? Object.values(all).map(s => [s.title, s.slug + '.html']) : [['Câmara fria', 'camara-fria.html'], ['Chopeiras', 'chopeiras.html'], ['Gela Caneca', 'gela-caneca.html'], ['Ar condicionado', 'ar-condicionado.html'], ['Geladeira comercial', 'geladeira-comercial.html'], ['Balcão refrigerado', 'balcao-refrigerado.html'], ['Ilha de congelados', 'ilha-de-congelados.html'], ['Ultra freezer', 'ultra-freezer.html'], ['Refresqueira', 'refresqueira.html'], ['Máquina de gelo', 'maquina-de-gelo.html']];
+  const services = Object.values(all).length ? Object.values(all).filter(s => !s.hideFromNav).map(s => [s.title, s.slug + '.html']) : [['Câmara fria', 'camara-fria.html'], ['Chopeiras', 'chopeiras.html'], ['Gela Caneca', 'gela-caneca.html'], ['Ar condicionado', 'ar-condicionado.html'], ['Geladeira comercial', 'geladeira-comercial.html'], ['Balcão refrigerado', 'balcao-refrigerado.html'], ['Ilha de congelados', 'ilha-de-congelados.html'], ['Ultra freezer', 'ultra-freezer.html'], ['Refresqueira', 'refresqueira.html'], ['Máquina de gelo', 'maquina-de-gelo.html']];
   return /*#__PURE__*/React.createElement("footer", {
     style: {
       background: 'var(--blue-950)',
@@ -1505,7 +1505,7 @@ function Footer() {
       marginTop: 2
     }
   }), " ", /*#__PURE__*/React.createElement("span", null, "Av. Dom H\xE9lder C\xE2mara, 10229 \u2014 Cascadura, Rio de Janeiro - RJ, 21380-002", /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("a", {
-    href: "https://www.google.com/maps/search/?api=1&query=Av.%20Dom%20H%C3%A9lder%20C%C3%A2mara%2C%2010229%20-%20Cascadura%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2021380-002",
+    href: "https://g.page/r/CeLzyrBgWaOwEBM",
     target: "_blank",
     rel: "noopener",
     style: {
