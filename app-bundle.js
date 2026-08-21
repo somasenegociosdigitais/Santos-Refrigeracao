@@ -716,9 +716,7 @@ function Services({
   }))))), /*#__PURE__*/React.createElement("div", {
     style: {
       display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      gap: 16,
+      justifyContent: 'center',
       marginTop: 40
     }
   }, /*#__PURE__*/React.createElement(Button, {
@@ -729,22 +727,7 @@ function Services({
       name: "message-circle",
       size: 20
     })
-  }, "N\xE3o achou seu equipamento? Fale conosco"), /*#__PURE__*/React.createElement("p", {
-    style: {
-      fontFamily: 'var(--font-body)',
-      fontSize: 'var(--fs-sm)',
-      color: 'var(--text-muted)',
-      margin: 0,
-      textAlign: 'center'
-    }
-  }, "Atendemos todos os equipamentos comerciais de refrigera\xE7\xE3o \u2014 ", /*#__PURE__*/React.createElement("a", {
-    href: "tecnico-refrigeracao-comercial.html",
-    style: {
-      color: 'inherit',
-      textDecoration: 'underline',
-      textUnderlineOffset: 3
-    }
-  }, "conhe\xE7a nosso servi\xE7o t\xE9cnico"))));
+  }, "N\xE3o achou seu equipamento? Fale conosco")));
 }
 Object.assign(window, {
   TrustStrip,
@@ -881,7 +864,14 @@ function Equipment({
       margin: 0,
       lineHeight: 'var(--lh-relaxed)'
     }
-  }, "Mais do que prestar assist\xEAncia t\xE9cnica, entregamos seguran\xE7a, tranquilidade e a certeza de que existe uma equipe comprometida em fazer o trabalho da maneira certa. \xC9 assim que, ao longo dos anos, transformamos a confian\xE7a de nossos clientes em relacionamentos duradouros e constru\xEDmos uma reputa\xE7\xE3o que levamos com orgulho em cada servi\xE7o realizado."), /*#__PURE__*/React.createElement("div", {
+  }, "Mais do que prestar ", /*#__PURE__*/React.createElement("a", {
+    href: "tecnico-refrigeracao-comercial.html",
+    style: {
+      color: 'inherit',
+      textDecoration: 'underline',
+      textUnderlineOffset: 3
+    }
+  }, "assist\xEAncia t\xE9cnica em refrigera\xE7\xE3o comercial"), ", entregamos seguran\xE7a, tranquilidade e a certeza de que existe uma equipe comprometida em fazer o trabalho da maneira certa. \xC9 assim que, ao longo dos anos, transformamos a confian\xE7a de nossos clientes em relacionamentos duradouros e constru\xEDmos uma reputa\xE7\xE3o que levamos com orgulho em cada servi\xE7o realizado."), /*#__PURE__*/React.createElement("div", {
     style: {
       marginTop: 10
     }
@@ -1582,6 +1572,15 @@ Object.assign(window, {
   ContactSection,
   ContatoApp
 });
+window.__abrirWa = function (url) {
+  var a = document.createElement('a');
+  a.href = url;
+  a.target = '_blank';
+  a.rel = 'noopener';
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+};
 // ServicePage — template reutilizável para páginas de serviço (câmara fria, etc).
 // Use window.SERVICE_PAGE = {…} antes de montar para configurar o conteúdo.
 
@@ -1680,7 +1679,7 @@ function ServicePage({
   const [openFaq, setOpenFaq] = React.useState(-1);
   const [lightbox, setLightbox] = React.useState(-1);
   const all = window.SERVICES_DATA || {};
-  const related = Object.values(all).filter(s => s.slug !== data.slug).slice(0, 4);
+  const related = Object.values(all).filter(s => s.slug !== data.slug && !s.hideFromNav).slice(0, 4);
 
   // SEO: título, meta description e JSON-LD (Service + Breadcrumb) injetados no <head>.
   React.useEffect(() => {
@@ -1991,7 +1990,92 @@ function ServicePage({
     }
   }, data.services.map(s => /*#__PURE__*/React.createElement(CheckItem, {
     key: s
-  }, s)))))), data.sections && data.sections.length > 0 && /*#__PURE__*/React.createElement(Section, { tone: "subtle" }, /*#__PURE__*/React.createElement("div", { style: { maxWidth: 900, marginInline: 'auto', display: 'flex', flexDirection: 'column', gap: 'clamp(32px, 4vw, 44px)' } }, data.sections.map((sec, si) => /*#__PURE__*/React.createElement("div", { key: si, style: { display: 'flex', flexDirection: 'column', gap: 14 } }, /*#__PURE__*/React.createElement("h2", { style: { fontSize: 'var(--fs-h3)', margin: 0, textWrap: 'balance' } }, highlightTitle(sec.title, data.highlight, 'var(--color-accent-strong)')), sec.body.map((p, pj) => /*#__PURE__*/React.createElement("p", { key: pj, style: { fontSize: 'var(--fs-base)', color: 'var(--text-muted)', margin: 0, lineHeight: 'var(--lh-relaxed)' } }, p)))))), data.hubLinks && data.hubLinks.length > 0 && /*#__PURE__*/React.createElement(Section, { tone: "page" }, /*#__PURE__*/React.createElement(SectionHead, { eyebrow: "Equipamentos", title: data.hubTitle || 'Equipamentos que atendemos', lead: "Clique no equipamento para ver o servi\xE7o em detalhe." }), /*#__PURE__*/React.createElement("div", { className: "cards-grid-3", style: { display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 18 } }, data.hubLinks.map(([hl, hh, hi, hd]) => /*#__PURE__*/React.createElement("a", { key: hh, href: hh, style: { textDecoration: 'none', background: 'var(--white)', border: '1px solid var(--border-subtle)', borderRadius: 'var(--radius-lg)', boxShadow: 'var(--shadow-sm)', padding: 'var(--space-6)', display: 'flex', flexDirection: 'column', gap: 10 } }, /*#__PURE__*/React.createElement("span", { style: { display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: 46, height: 46, borderRadius: 'var(--radius-md)', background: 'var(--blue-100)', color: 'var(--color-primary)' } }, /*#__PURE__*/React.createElement(Icon, { name: hi, size: 22 })), /*#__PURE__*/React.createElement("h3", { style: { fontSize: 'var(--fs-h4)', margin: 0, color: 'var(--text-strong)' } }, hl), /*#__PURE__*/React.createElement("p", { style: { fontSize: 'var(--fs-sm)', color: 'var(--text-muted)', margin: 0, lineHeight: 'var(--lh-normal)' } }, hd))))), data.gallery && data.gallery.length > 0 && /*#__PURE__*/React.createElement(Section, {
+  }, s)))))), data.sections && data.sections.length > 0 && /*#__PURE__*/React.createElement(Section, {
+    tone: "subtle"
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      maxWidth: 900,
+      marginInline: 'auto',
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 'clamp(32px, 4vw, 44px)'
+    }
+  }, data.sections.map((sec, i) => /*#__PURE__*/React.createElement("div", {
+    key: i,
+    style: {
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 14
+    }
+  }, /*#__PURE__*/React.createElement("h2", {
+    style: {
+      fontSize: 'var(--fs-h3)',
+      margin: 0,
+      textWrap: 'balance'
+    }
+  }, highlightTitle(sec.title, data.highlight, 'var(--color-accent-strong)')), sec.body.map((p, j) => /*#__PURE__*/React.createElement("p", {
+    key: j,
+    style: {
+      fontSize: 'var(--fs-base)',
+      color: 'var(--text-muted)',
+      margin: 0,
+      lineHeight: 'var(--lh-relaxed)'
+    }
+  }, p)))))), data.hubLinks && data.hubLinks.length > 0 && /*#__PURE__*/React.createElement(Section, {
+    tone: "page"
+  }, /*#__PURE__*/React.createElement(SectionHead, {
+    eyebrow: "Equipamentos",
+    title: data.hubTitle || 'Equipamentos que atendemos',
+    lead: "Clique no equipamento para ver o servi\xE7o em detalhe."
+  }), /*#__PURE__*/React.createElement("div", {
+    className: "cards-grid-3",
+    style: {
+      display: 'grid',
+      gridTemplateColumns: 'repeat(3, 1fr)',
+      gap: 18
+    }
+  }, data.hubLinks.map(([label, href, ic, desc]) => /*#__PURE__*/React.createElement("a", {
+    key: href,
+    href: href,
+    style: {
+      textDecoration: 'none',
+      background: 'var(--white)',
+      border: '1px solid var(--border-subtle)',
+      borderRadius: 'var(--radius-lg)',
+      boxShadow: 'var(--shadow-sm)',
+      padding: 'var(--space-6)',
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 10
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      display: 'inline-flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      width: 46,
+      height: 46,
+      borderRadius: 'var(--radius-md)',
+      background: 'var(--blue-100)',
+      color: 'var(--color-primary)'
+    }
+  }, /*#__PURE__*/React.createElement(Icon, {
+    name: ic,
+    size: 22
+  })), /*#__PURE__*/React.createElement("h3", {
+    style: {
+      fontSize: 'var(--fs-h4)',
+      margin: 0,
+      color: 'var(--text-strong)'
+    }
+  }, label), /*#__PURE__*/React.createElement("p", {
+    style: {
+      fontSize: 'var(--fs-sm)',
+      color: 'var(--text-muted)',
+      margin: 0,
+      lineHeight: 'var(--lh-normal)'
+    }
+  }, desc))))), data.gallery && data.gallery.length > 0 && /*#__PURE__*/React.createElement(Section, {
     tone: "page"
   }, /*#__PURE__*/React.createElement(SectionHead, {
     eyebrow: "Trabalhos realizados",
@@ -2134,7 +2218,7 @@ function ServicePage({
       gridTemplateColumns: 'repeat(3, 1fr)',
       gap: 22
     }
-  }, data.signs.map(([ic, title, desc]) => /*#__PURE__*/React.createElement("div", {
+  }, data.signs.map(([ic, title, desc, link]) => /*#__PURE__*/React.createElement("div", {
     key: title,
     style: {
       background: 'var(--white)',
@@ -2172,7 +2256,23 @@ function ServicePage({
       margin: 0,
       lineHeight: 'var(--lh-normal)'
     }
-  }, desc))))), data.faq && data.faq.length > 0 && /*#__PURE__*/React.createElement(Section, {
+  }, desc), link && /*#__PURE__*/React.createElement("a", {
+    href: link[1],
+    style: {
+      marginTop: 'auto',
+      paddingTop: 4,
+      display: 'inline-flex',
+      alignItems: 'center',
+      gap: 6,
+      fontSize: 'var(--fs-sm)',
+      fontWeight: 700,
+      color: 'var(--color-primary)',
+      textDecoration: 'none'
+    }
+  }, link[0], " ", /*#__PURE__*/React.createElement(Icon, {
+    name: "arrow-right",
+    size: 14
+  })))))), data.faq && data.faq.length > 0 && /*#__PURE__*/React.createElement(Section, {
     tone: "page"
   }, /*#__PURE__*/React.createElement(SectionHead, {
     eyebrow: "Perguntas frequentes",
