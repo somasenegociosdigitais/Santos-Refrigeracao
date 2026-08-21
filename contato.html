@@ -74,7 +74,7 @@
   <script src="services-data2.js"></script>
   <script src="app-bundle.js"></script>
   <script>
-    ReactDOM.createRoot(document.getElementById('root')).render(<ContatoApp />);
+    ReactDOM.createRoot(document.getElementById('root')).render(React.createElement(window.ContatoApp));
     const upgrade = () => window.lucide && window.lucide.createIcons();
     setTimeout(upgrade, 120);
     setTimeout(upgrade, 400);
