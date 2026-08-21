@@ -1,0 +1,61 @@
+<!-- @dsCard group="Website" viewport="1280x760" name="Serviço — Instalação de ar condicionado" subtitle="Service detail page" -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Instalação de ar condicionado no Rio de Janeiro | Santos Refrigeração</title>
+<meta name="description" content="Instalação de ar condicionado split, multi split e comercial no Rio de Janeiro e Grande Rio. Dimensionamento, tubulação, vácuo e carga de gás. Orçamento sem compromisso.">
+<link rel="canonical" href="https://www.santosrefricomercial.com.br/instalacao-ar-condicionado.html">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Santos Refrigeração">
+<meta property="og:title" content="Instalação de ar condicionado no Rio de Janeiro | Santos Refrigeração">
+<meta property="og:description" content="Instalação de ar condicionado split, multi split e comercial no Rio de Janeiro e Grande Rio. Dimensionamento, tubulação, vácuo e carga de gás. Orçamento sem compromisso.">
+<meta property="og:url" content="https://www.santosrefricomercial.com.br/instalacao-ar-condicionado.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap">
+<link rel="stylesheet" href="styles.css">
+<style>
+  html { scroll-behavior: smooth; }
+  body { margin: 0; }
+  .menu-btn { display: none; }
+  @media (max-width: 960px) {
+    .nav-links { display: none !important; }
+    .menu-btn { display: inline-flex !important; }
+    .mobile-action { display: inline-flex !important; }
+    .header-cta { display: none !important; }
+    .hero-grid, .split-grid { grid-template-columns: 1fr !important; }
+    .cards-grid, .cards-grid-3 { grid-template-columns: repeat(2, 1fr) !important; }
+    .footer-grid { grid-template-columns: 1fr !important; gap: 32px !important; }
+    .hide-sm { display: none !important; }
+  }
+  @media (max-width: 560px) {
+    .ds-container { padding-inline: 1rem !important; }
+    .cards-grid, .cards-grid-3 { grid-template-columns: 1fr !important; }
+  }
+</style>
+<script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/lucide@0.323.0/dist/umd/lucide.min.js"></script>
+<script>window.React||document.write('<script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"><\/script>');</script>
+<script>window.ReactDOM||document.write('<script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"><\/script>');</script>
+<script>window.lucide||document.write('<script src="https://cdn.jsdelivr.net/npm/lucide@0.323.0/dist/umd/lucide.min.js"><\/script>');</script>
+<script src="ds-bundle.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Vocês vendem o aparelho ou só instalam?","acceptedAnswer":{"@type":"Answer","text":"Somos empresa de serviço: fazemos a instalação e a manutenção, não a venda de equipamento. Orientamos qual capacidade e qual tipo de aparelho atende o seu ambiente antes de você comprar — o cálculo de carga térmica é justamente o que evita comprar errado."}},{"@type":"Question","name":"Quantos BTUs eu preciso?","acceptedAnswer":{"@type":"Answer","text":"Depende de mais coisas que a metragem: pé-direito, orientação solar, número de pessoas e equipamentos que geram calor no ambiente. Uma sala de 20 m² voltada para o poente pode exigir bem mais que outra de 20 m² sombreada. Fazemos o cálculo na visita técnica."}},{"@type":"Question","name":"Quanto tempo leva uma instalação?","acceptedAnswer":{"@type":"Answer","text":"Uma instalação residencial de split com infraestrutura simples costuma ser concluída no mesmo dia. Quando envolve passagem de tubulação longa, ponto elétrico novo, prumada ou várias evaporadoras, informamos o prazo no orçamento, antes de começar."}},{"@type":"Question","name":"A instalação tem garantia?","acceptedAnswer":{"@type":"Answer","text":"Sim. Todo serviço tem garantia, e ela cobre a execução: vazamento em solda ou conexão que fizemos, dreno, fixação e parte elétrica da instalação. A garantia do equipamento em si é do fabricante, e uma instalação feita pelo procedimento correto é o que preserva essa garantia."}},{"@type":"Question","name":"Vocês fazem só a infraestrutura, para instalar o aparelho depois?","acceptedAnswer":{"@type":"Answer","text":"Sim, e é o mais comum em obra. Executamos tubulação de cobre, dreno, ponto elétrico e base da condensadora na fase de alvenaria, e o equipamento é instalado quando a obra termina. Veja também a nossa página de <a href=\"tubulacao-ar-condicionado.html\">tubulação de ar condicionado</a>."}}]}</script>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="services-data2.js"></script>
+  <script src="app-bundle.js"></script>
+  <script>
+    const data = window.SERVICES_DATA['instalacao-ar-condicionado'];
+    ReactDOM.createRoot(document.getElementById('root')).render(React.createElement(ServicePage, { data: data }));
+    const upgrade = () => window.lucide && window.lucide.createIcons();
+    setTimeout(upgrade, 120);
+    setTimeout(upgrade, 400);
+  </script>
+</body>
+</html>

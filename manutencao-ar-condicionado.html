@@ -1,0 +1,61 @@
+<!-- @dsCard group="Website" viewport="1280x760" name="Serviço — Manutenção de ar condicionado" subtitle="Service detail page" -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Manutenção de ar condicionado no Rio de Janeiro | Santos Refrigeração</title>
+<meta name="description" content="Manutenção preventiva e corretiva de ar condicionado no Rio de Janeiro e Grande Rio. Aparelho que não gela, vazamento, ruído e recarga de gás. Orçamento sem compromisso.">
+<link rel="canonical" href="https://www.santosrefricomercial.com.br/manutencao-ar-condicionado.html">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Santos Refrigeração">
+<meta property="og:title" content="Manutenção de ar condicionado no Rio de Janeiro | Santos Refrigeração">
+<meta property="og:description" content="Manutenção preventiva e corretiva de ar condicionado no Rio de Janeiro e Grande Rio. Aparelho que não gela, vazamento, ruído e recarga de gás. Orçamento sem compromisso.">
+<meta property="og:url" content="https://www.santosrefricomercial.com.br/manutencao-ar-condicionado.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap">
+<link rel="stylesheet" href="styles.css">
+<style>
+  html { scroll-behavior: smooth; }
+  body { margin: 0; }
+  .menu-btn { display: none; }
+  @media (max-width: 960px) {
+    .nav-links { display: none !important; }
+    .menu-btn { display: inline-flex !important; }
+    .mobile-action { display: inline-flex !important; }
+    .header-cta { display: none !important; }
+    .hero-grid, .split-grid { grid-template-columns: 1fr !important; }
+    .cards-grid, .cards-grid-3 { grid-template-columns: repeat(2, 1fr) !important; }
+    .footer-grid { grid-template-columns: 1fr !important; gap: 32px !important; }
+    .hide-sm { display: none !important; }
+  }
+  @media (max-width: 560px) {
+    .ds-container { padding-inline: 1rem !important; }
+    .cards-grid, .cards-grid-3 { grid-template-columns: 1fr !important; }
+  }
+</style>
+<script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/lucide@0.323.0/dist/umd/lucide.min.js"></script>
+<script>window.React||document.write('<script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"><\/script>');</script>
+<script>window.ReactDOM||document.write('<script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"><\/script>');</script>
+<script>window.lucide||document.write('<script src="https://cdn.jsdelivr.net/npm/lucide@0.323.0/dist/umd/lucide.min.js"><\/script>');</script>
+<script src="ds-bundle.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Meu ar condicionado não está gelando. É falta de gás?","acceptedAnswer":{"@type":"Answer","text":"Pode ser, mas é apenas uma das causas. Serpentina obstruída, condensadora suja, capacitor com perda de capacidade, placa com defeito e sensor descalibrado dão o mesmo sintoma. Medimos pressão de alta e baixa antes de concluir — e se for gás, localizamos o vazamento, porque gás não se consome, ele escapa."}},{"@type":"Question","name":"Preciso recarregar o gás todo ano?","acceptedAnswer":{"@type":"Answer","text":"Não. Em sistema íntegro a carga de gás dura anos. Recarga anual é sinal de vazamento não localizado. Recarregar sem reparar é serviço que dura poucos meses e custa duas vezes."}},{"@type":"Question","name":"Qual a diferença entre manutenção e higienização?","acceptedAnswer":{"@type":"Answer","text":"A higienização trata a limpeza: filtros, serpentina, turbina, bandeja e dreno. A manutenção inclui isso e vai além — medição de pressão, verificação da carga de gás, teste do capacitor, aperto de conexões elétricas e avaliação do compressor. Veja também a página de <a href=\"higienizacao-ar-condicionado.html\">higienização de ar condicionado</a>."}},{"@type":"Question","name":"Vale consertar ou trocar o aparelho?","acceptedAnswer":{"@type":"Answer","text":"Depende da idade, do custo do reparo e do histórico. Compressor queimado em aparelho de dez anos, com outros componentes no fim da vida, geralmente não compensa. Apresentamos o custo real do reparo para você decidir com número na mão."}},{"@type":"Question","name":"Vocês fazem contrato de manutenção mensal?","acceptedAnswer":{"@type":"Answer","text":"Sim, com visitas programadas, escopo definido por equipamento e relatório por atendimento. É a modalidade indicada para comércio, escritório, clínica e condomínio, e sai mais barato que chamados avulsos."}}]}</script>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="services-data2.js"></script>
+  <script src="app-bundle.js"></script>
+  <script>
+    const data = window.SERVICES_DATA['manutencao-ar-condicionado'];
+    ReactDOM.createRoot(document.getElementById('root')).render(React.createElement(ServicePage, { data: data }));
+    const upgrade = () => window.lucide && window.lucide.createIcons();
+    setTimeout(upgrade, 120);
+    setTimeout(upgrade, 400);
+  </script>
+</body>
+</html>
