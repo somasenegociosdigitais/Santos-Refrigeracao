@@ -1,0 +1,118 @@
+<!-- @dsCard group="Website" viewport="1280x760" name="Marketing Site — Home" subtitle="Full Santos Refrigeração landing page (interactive)" -->
+<!-- @startingPoint section="Website" subtitle="Santos Refrigeração marketing home page" viewport="1280x900" -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Santos Refrigeração — Refrigeração Comercial no Rio de Janeiro e Grande Rio</title>
+<meta name="description" content="Refrigeração comercial no Rio de Janeiro e Grande Rio: câmara fria, chopeira, ar condicionado, geladeira comercial e mais. Instalação, manutenção e conserto com técnicos especializados. Orçamento sem compromisso.">
+<link rel="canonical" href="https://www.santosrefrigeracao.com.br/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Santos Refrigeração">
+<meta property="og:title" content="Santos Refrigeração — Refrigeração Comercial no Rio e Grande Rio">
+<meta property="og:description" content="Instalação, manutenção e conserto de equipamentos de refrigeração comercial no Rio de Janeiro e Grande Rio. Atendimento rápido e orçamento sem compromisso.">
+<meta property="og:url" content="https://www.santosrefrigeracao.com.br/">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HVACBusiness",
+  "@id": "https://www.santosrefrigeracao.com.br/#business",
+  "name": "Santos Refrigeração",
+  "description": "Refrigeração comercial no Rio de Janeiro e Grande Rio. Instalação, manutenção preventiva e corretiva de câmara fria, chopeira, ar condicionado, geladeira comercial e demais equipamentos.",
+  "url": "https://www.santosrefrigeracao.com.br/",
+  "telephone": "+55-21-96782-6279",
+  "priceRange": "$$",
+  "image": "https://www.santosrefrigeracao.com.br/assets/cristo-original.png",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Av. Dom Hélder Câmara, 10229 - Cascadura",
+    "addressLocality": "Rio de Janeiro",
+    "addressRegion": "RJ",
+    "postalCode": "21380-002",
+    "addressCountry": "BR"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": -22.8869, "longitude": -43.3349 },
+  "areaServed": [
+    { "@type": "City", "name": "Rio de Janeiro" },
+    { "@type": "AdministrativeArea", "name": "Grande Rio" }
+  ],
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    "opens": "08:00", "closes": "18:00"
+  }],
+  "sameAs": [],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Serviços de refrigeração comercial",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Câmara fria" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Chopeiras" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Gela Caneca" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ar condicionado" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Geladeira comercial" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Balcão refrigerado" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ilha de congelados" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ultra freezer" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Refresqueira" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Máquina de gelo" } }
+    ]
+  }
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap">
+<link rel="stylesheet" href="styles.css">
+<style>
+  html { scroll-behavior: smooth; }
+  body { margin: 0; }
+  @keyframes dcPop { from { opacity: 0; transform: translateY(12px) scale(0.98); } to { opacity: 1; transform: none; } }
+
+  /* Responsive */
+  .menu-btn { display: none; }
+  @media (max-width: 960px) {
+    .nav-links { display: none !important; }
+    .menu-btn { display: inline-flex !important; }
+    .mobile-action { display: inline-flex !important; }
+    .header-cta { display: none !important; }
+    .hero-grid, .split-grid { grid-template-columns: 1fr !important; }
+    .trust-grid { grid-template-columns: 1fr !important; }
+    .cards-grid { grid-template-columns: repeat(2, 1fr) !important; }
+    .cards-grid-3 { grid-template-columns: 1fr !important; }
+    .footer-grid { grid-template-columns: 1fr !important; gap: 32px !important; }
+    .hide-sm { display: none !important; }
+    /* Quem somos: no mobile a ordem é título → foto → texto */
+    .about-head-mobile { display: flex !important; }
+    .about-head-desktop { display: none !important; }
+    .about-badge { bottom: 14px !important; right: 14px !important; }
+  }
+  @media (max-width: 560px) {
+    .cards-grid { grid-template-columns: 1fr !important; }
+    .equip-checklist { grid-template-columns: 1fr !important; }
+    .ds-container { padding-inline: 1rem !important; }
+    .trust-grid > div { padding: 18px !important; }
+  }
+</style>
+<script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/lucide@0.323.0/dist/umd/lucide.min.js"></script>
+<script src="image-slot.js"></script>
+<script src="site-images2.js"></script>
+<script src="_ds_bundle.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="services-data2.js"></script>
+  <script src="app-bundle.js"></script>
+  <script>
+    ReactDOM.createRoot(document.getElementById('root')).render(React.createElement(App));
+    const upgrade = () => window.lucide && window.lucide.createIcons();
+    setTimeout(upgrade, 120);
+    setTimeout(upgrade, 400);
+  </script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+/* ============================================================
+   Doutor Chopeira — Color tokens
+   Brand idea: commercial refrigeration (cold, blue, ice) meets
+   the "chopp" (draft beer) heritage of the name (warm amber).
+   Cold blue = trust + cold chain. Amber = energy + the chopeira.
+   ============================================================ */
+
+:root {
+  /* ---- Base palette: Workwear Navy (primary / cold chain) ----
+     Hue sampled from the technician's navy coverall photo (assets/tecnico-atendimento.jpg) */
+  --blue-950: #171F2E;
+  --blue-900: #212C42;
+  --blue-800: #2B3A57;
+  --blue-700: #36486C;
+  --blue-600: #425A85;  /* primary brand navy */
+  --blue-500: #566990;
+  --blue-400: #7E90B1;
+  --blue-300: #A9B6CD;
+  --blue-200: #CFD8E6;
+  --blue-100: #E7EBF3;
+
+  /* ---- Ice / Cyan (cold accent, frost) ---- */
+  --cyan-600: #0E8FAE;
+  --cyan-500: #16A9C9;
+  --cyan-400: #20BEDC;  /* ice accent */
+  --cyan-300: #6CD6EA;
+  --cyan-100: #DDF4F9;
+
+  /* ---- Amber (the "chopp" / CTA warmth) ---- */
+  --amber-700: #C97A06;
+  --amber-600: #E8930C;
+  --amber-500: #F7A516;  /* chopp / call-to-action */
+  --amber-400: #FFB938;
+  --amber-200: #FCE3B2;
+  --amber-100: #FEF3DC;
+
+  /* ---- Semantic status ---- */
+  --green-500: #1FA463;  /* success / verified checkmark */
+  --green-100: #DEF3E8;
+  --red-500:   #D64545;  /* error */
+  --red-100:   #FBE5E5;
+
+  /* ---- Neutrals (cool-tinted slate) ---- */
+  --ink:       #102230;  /* near-black headings */
+  --slate-800: #1E3340;
+  --slate-700: #38505F;
+  --slate-600: #51697A;
+  --slate-500: #6E8595;  /* muted text */
+  --slate-400: #97AAB8;
+  --slate-300: #C4D2DC;  /* borders */
+  --slate-200: #DDE7EE;
+  --slate-100: #ECF2F6;
+  --mist:      #EAF2F8;  /* tinted section surface */
+  --cloud:     #F5F9FC;  /* subtle surface */
+  --white:     #FFFFFF;
+
+  /* ============================================================
+     Semantic aliases — reference these in components
+     ============================================================ */
+
+  /* Brand */
+  --color-primary:        var(--blue-600);
+  --color-primary-hover:  var(--blue-700);
+  --color-primary-strong: var(--blue-800);
+  --color-primary-deep:   var(--blue-900);
+  --color-accent:         var(--cyan-400);
+  --color-accent-strong:  var(--cyan-600);
+  --color-cta:            var(--amber-500);
+  --color-cta-hover:      var(--amber-600);
+  --color-on-cta:         var(--ink);
+  --color-whatsapp:       #25D366;  /* WhatsApp brand green */
+  --color-whatsapp-hover: #1EBE5A;
+  --color-on-whatsapp:    var(--white);
+
+  /* Text */
+  --text-strong:   var(--ink);
+  --text-body:     var(--slate-700);
+  --text-muted:    var(--slate-600);
+  --text-inverse:  var(--white);
+  --text-on-brand: var(--white);
+  --text-link:     var(--blue-600);
+
+  /* Surfaces */
+  --surface-page:    var(--white);
+  --surface-subtle:  var(--cloud);
+  --surface-section: var(--mist);
+  --surface-card:    var(--white);
+  --surface-dark:    var(--blue-900);
+  --surface-darker:  var(--blue-950);
+  --surface-cta:     var(--amber-500);
+
+  /* Borders & lines */
+  --border-subtle: var(--slate-200);
+  --border-default: var(--slate-300);
+  --border-strong: var(--slate-400);
+  --border-on-dark: rgba(255, 255, 255, 0.16);
+
+  /* Status */
+  --status-success: var(--green-500);
+  --status-error:   var(--red-500);
+
+  /* Focus ring */
+  --ring: color-mix(in srgb, var(--blue-500) 55%, transparent);
+}

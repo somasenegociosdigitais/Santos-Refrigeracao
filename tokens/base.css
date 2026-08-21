@@ -1,0 +1,75 @@
+/* ============================================================
+   Doutor Chopeira — Base / reset + helpful utility primitives
+   ============================================================ */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: var(--fs-base);
+  line-height: var(--lh-normal);
+  color: var(--text-body);
+  background: var(--surface-page);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-display);
+  color: var(--text-strong);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--ls-tight);
+  margin: 0;
+}
+
+p { margin: 0; }
+
+a { color: var(--text-link); text-decoration: none; }
+a:hover { color: var(--color-primary-hover); }
+
+img { display: block; max-width: 100%; }
+
+::selection { background: var(--cyan-300); color: var(--ink); }
+
+:focus-visible {
+  outline: 3px solid var(--ring);
+  outline-offset: 2px;
+}
+
+/* ---- Reusable text roles ---- */
+.ds-eyebrow {
+  font-family: var(--font-body);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-xs);
+  letter-spacing: var(--ls-eyebrow);
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+
+.ds-container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding-inline: var(--container-pad);
+}
+
+/* ---- Mobile optimizations ---- */
+@media (max-width: 960px) {
+  /* Service-page hero on mobile: texto → foto → botão "Peça seu orçamento" */
+  .svc-hero { gap: 24px !important; }
+  .svc-hero-text { order: 1; }
+  .svc-hero-media { order: 2; }
+  .svc-actions-mobile { order: 3; display: flex !important; flex-direction: column; }
+  .svc-actions-desktop { display: none !important; }
+}
+
+@media (max-width: 640px) {
+  h1 { font-size: clamp(2rem, 8vw, 2.5rem) !important; }
+  h2 { font-size: clamp(1.6rem, 6.5vw, 2rem) !important; }
+  .svc-hero-media img { aspect-ratio: 4 / 3 !important; }
+  /* Comfortable tap targets + readable line length on phones */
+  .ds-container { padding-inline: 1rem !important; }
+  .gallery-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 10px !important; }
+}
+
