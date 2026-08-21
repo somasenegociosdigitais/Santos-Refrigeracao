@@ -551,14 +551,15 @@ function TrustStrip() {
   }, desc))))));
 }
 
-// Services grid — "Nossos serviços". Ícones Phosphor duotone (mais ricos).
+// Services grid — "Nossos serviços". Um card por equipamento; subserviços como
+// links reais dentro do card (mantém as páginas filhas a um clique da home).
 function Services({
   onQuote
 }) {
   const {
     Button
   } = window.DS;
-  const services = [['photo:assets/icon-p-camara.png', 'Câmara fria', 'Instalação e manutenção de câmaras frias e frigoríficos comerciais.', 'camara-fria.html'], ['photo:assets/icon-p-chopeira.png', 'Chopeiras', 'Instalação, manutenção e higienização de chopeiras.', 'chopeiras.html'], ['photo:assets/icon-p-gela-caneca.png', 'Gela Caneca', 'Manutenção e conserto de gela caneca para o seu bar.', 'gela-caneca.html'], ['photo:assets/icon-p-ar.png', 'Ar condicionado', 'Instalação, limpeza e manutenção de ar condicionado comercial e residencial.', 'ar-condicionado.html'], ['photo:assets/icon-p-ar.png', 'Instalação de ar condicionado', 'Dimensionamento de BTUs, infraestrutura de cobre e carga de gás na medida do fabricante.', 'instalacao-ar-condicionado.html'], ['photo:assets/icon-p-ar.png', 'Manutenção de ar condicionado', 'Manutenção preventiva e corretiva, com limpeza e revisão completa do sistema.', 'manutencao-ar-condicionado.html'], ['photo:assets/icon-p-ar.png', 'Tubulação de ar condicionado', 'Passagem, isolamento e reparo de tubulação de cobre.', 'tubulacao-ar-condicionado.html'], ['photo:assets/icon-p-ar.png', 'Higienização de ar condicionado', 'Limpeza técnica de evaporadora e condensadora, com laudo do serviço.', 'higienizacao-ar-condicionado.html'], ['photo:assets/icon-p-geladeira.png', 'Geladeira comercial', 'Geladeira e refrigerador comercial ou industrial sempre gelando.', 'geladeira-comercial.html'], ['photo:assets/icon-p-geladeira.png', 'Conserto de geladeira', 'Conserto de geladeira residencial e comercial, com diagnóstico e preço fechado.', 'conserto-de-geladeira.html'], ['photo:assets/icon-balcao-foto.png', 'Balcão refrigerado', 'Balcões e expositores refrigerados para seu ponto de venda.', 'balcao-refrigerado.html'], ['photo:assets/icon-p-ilha.png', 'Ilha de congelados', 'Ilhas de congelados e expositores em pleno funcionamento.', 'ilha-de-congelados.html'], ['photo:assets/icon-p-ultra-freezer.png', 'Ultra freezer', 'Ultra freezers e equipamentos de baixa temperatura.', 'ultra-freezer.html'], ['photo:assets/icon-p-refresqueira.png', 'Refresqueira', 'Refresqueiras para lanchonetes, comércios e eventos.', 'refresqueira.html'], ['photo:assets/icon-p-maquina-gelo.png', 'Máquina de gelo', 'Conserto e manutenção de máquinas de gelo, sem faltar gelo.', 'maquina-de-gelo.html'], ['photo:assets/icon-p-adega.png', 'Adega de vinhos', 'Instalação e manutenção de adega climatizada de vinhos.', 'adega-vinhos.html'], ['wrench', 'Técnico de refrigeração comercial', 'Manutenção, conserto e instalação em todos os equipamentos comerciais.', 'tecnico-refrigeracao-comercial.html']];
+  const services = [['photo:assets/icon-p-camara.png', 'Câmara fria', 'Instalação e manutenção de câmaras frias e frigoríficos comerciais.', 'camara-fria.html'], ['photo:assets/icon-p-chopeira.png', 'Chopeiras', 'Instalação, manutenção e higienização de chopeiras.', 'chopeiras.html'], ['photo:assets/icon-p-gela-caneca.png', 'Gela Caneca', 'Manutenção e conserto de gela caneca para o seu bar.', 'gela-caneca.html'], ['photo:assets/icon-p-ar.png', 'Ar condicionado', 'Instalação, limpeza e manutenção de ar condicionado comercial e residencial.', 'ar-condicionado.html', [['Instalação', 'instalacao-ar-condicionado.html'], ['Manutenção', 'manutencao-ar-condicionado.html'], ['Higienização', 'higienizacao-ar-condicionado.html'], ['Tubulação', 'tubulacao-ar-condicionado.html']]], ['photo:assets/icon-p-geladeira.png', 'Geladeira', 'Geladeira e refrigerador sempre gelando, do comércio à residência.', 'geladeira-comercial.html', [['Comercial', 'geladeira-comercial.html'], ['Residencial', 'conserto-de-geladeira.html'], ['Industrial', 'geladeira-comercial.html']]], ['photo:assets/icon-balcao-foto.png', 'Balcão refrigerado', 'Balcões e expositores refrigerados para seu ponto de venda.', 'balcao-refrigerado.html'], ['photo:assets/icon-p-ilha.png', 'Ilha de congelados', 'Ilhas de congelados e expositores em pleno funcionamento.', 'ilha-de-congelados.html'], ['photo:assets/icon-p-ultra-freezer.png', 'Ultra freezer', 'Ultra freezers e equipamentos de baixa temperatura.', 'ultra-freezer.html'], ['photo:assets/icon-p-refresqueira.png', 'Refresqueira', 'Refresqueiras para lanchonetes, comércios e eventos.', 'refresqueira.html'], ['photo:assets/icon-p-maquina-gelo.png', 'Máquina de gelo', 'Conserto e manutenção de máquinas de gelo, sem faltar gelo.', 'maquina-de-gelo.html'], ['photo:assets/icon-p-adega.png', 'Adega climatizada de vinhos', 'Instalação e manutenção de adega climatizada de vinhos.', 'adega-vinhos.html']];
   return /*#__PURE__*/React.createElement(Section, {
     id: "servicos",
     tone: "subtle"
@@ -577,15 +578,11 @@ function Services({
       gridTemplateColumns: 'repeat(4, 1fr)',
       gap: 22
     }
-  }, services.map(([icon, title, desc, href]) => /*#__PURE__*/React.createElement("a", {
+  }, services.map(([icon, title, desc, href, subs]) => /*#__PURE__*/React.createElement("div", {
     key: title,
-    href: href,
-    style: {
-      textDecoration: 'none',
-      display: 'block',
-      height: '100%'
-    }
-  }, /*#__PURE__*/React.createElement("div", {
+    onClick: e => {
+      if (!e.target.closest('a')) window.location.href = href;
+    },
     style: {
       height: '100%',
       background: 'var(--surface-card)',
@@ -655,10 +652,15 @@ function Services({
       fontFamily: 'var(--font-display)',
       fontWeight: 700,
       fontSize: 'var(--fs-h4)',
-      color: 'var(--text-strong)',
       margin: 0
     }
-  }, title), /*#__PURE__*/React.createElement("p", {
+  }, /*#__PURE__*/React.createElement("a", {
+    href: href,
+    style: {
+      color: 'var(--text-strong)',
+      textDecoration: 'none'
+    }
+  }, title)), /*#__PURE__*/React.createElement("p", {
     style: {
       fontFamily: 'var(--font-body)',
       fontSize: 'var(--fs-base)',
@@ -666,7 +668,36 @@ function Services({
       margin: 0,
       lineHeight: 'var(--lh-normal)'
     }
-  }, desc), /*#__PURE__*/React.createElement("span", {
+  }, desc), subs && /*#__PURE__*/React.createElement("div", {
+    style: {
+      display: 'flex',
+      flexWrap: 'wrap',
+      alignItems: 'center',
+      gap: '6px 8px',
+      fontFamily: 'var(--font-body)',
+      fontSize: 'var(--fs-sm)'
+    }
+  }, subs.map(([label, sh], i) => /*#__PURE__*/React.createElement(React.Fragment, {
+    key: label
+  }, i > 0 && /*#__PURE__*/React.createElement("span", {
+    style: {
+      color: 'var(--border-strong, #cbd5e1)'
+    }
+  }, "\xB7"), /*#__PURE__*/React.createElement("a", {
+    href: sh,
+    style: {
+      color: 'var(--color-primary)',
+      textDecoration: 'none',
+      fontWeight: 600
+    },
+    onMouseEnter: e => {
+      e.currentTarget.style.textDecoration = 'underline';
+    },
+    onMouseLeave: e => {
+      e.currentTarget.style.textDecoration = 'none';
+    }
+  }, label)))), /*#__PURE__*/React.createElement("a", {
+    href: href,
     style: {
       display: 'inline-flex',
       alignItems: 'center',
@@ -676,12 +707,13 @@ function Services({
       fontFamily: 'var(--font-body)',
       fontWeight: 700,
       fontSize: 'var(--fs-sm)',
-      color: 'var(--color-primary)'
+      color: 'var(--color-primary)',
+      textDecoration: 'none'
     }
   }, "Saiba mais ", /*#__PURE__*/React.createElement(Icon, {
     name: "arrow-right",
     size: 15
-  })))))), /*#__PURE__*/React.createElement("div", {
+  }))))), /*#__PURE__*/React.createElement("div", {
     style: {
       display: 'flex',
       justifyContent: 'center',
@@ -690,7 +722,8 @@ function Services({
   }, /*#__PURE__*/React.createElement(Button, {
     variant: "whatsapp",
     size: "lg",
-    onClick: onQuote,
+    as: "a",
+    href: "tecnico-refrigeracao-comercial.html",
     iconLeft: /*#__PURE__*/React.createElement(Icon, {
       name: "message-circle",
       size: 20
