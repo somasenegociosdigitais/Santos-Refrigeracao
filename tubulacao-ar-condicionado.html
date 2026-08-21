@@ -1,0 +1,61 @@
+<!-- @dsCard group="Website" viewport="1280x760" name="Serviço — Tubulação de ar condicionado" subtitle="Service detail page" -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tubulação de ar condicionado no Rio | Santos Refrigeração</title>
+<meta name="description" content="Projeto e instalação de tubulação de ar condicionado no Rio de Janeiro e Grande Rio: tubulação de cobre, dreno e infraestrutura para split e VRF. Orçamento sem compromisso.">
+<link rel="canonical" href="https://www.santosrefricomercial.com.br/tubulacao-ar-condicionado.html">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Santos Refrigeração">
+<meta property="og:title" content="Tubulação de ar condicionado no Rio | Santos Refrigeração">
+<meta property="og:description" content="Projeto e instalação de tubulação de ar condicionado no Rio de Janeiro e Grande Rio: tubulação de cobre, dreno e infraestrutura para split e VRF. Orçamento sem compromisso.">
+<meta property="og:url" content="https://www.santosrefricomercial.com.br/tubulacao-ar-condicionado.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap">
+<link rel="stylesheet" href="styles.css">
+<style>
+  html { scroll-behavior: smooth; }
+  body { margin: 0; }
+  .menu-btn { display: none; }
+  @media (max-width: 960px) {
+    .nav-links { display: none !important; }
+    .menu-btn { display: inline-flex !important; }
+    .mobile-action { display: inline-flex !important; }
+    .header-cta { display: none !important; }
+    .hero-grid, .split-grid { grid-template-columns: 1fr !important; }
+    .cards-grid, .cards-grid-3 { grid-template-columns: repeat(2, 1fr) !important; }
+    .footer-grid { grid-template-columns: 1fr !important; gap: 32px !important; }
+    .hide-sm { display: none !important; }
+  }
+  @media (max-width: 560px) {
+    .ds-container { padding-inline: 1rem !important; }
+    .cards-grid, .cards-grid-3 { grid-template-columns: 1fr !important; }
+  }
+</style>
+<script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/lucide@0.323.0/dist/umd/lucide.min.js"></script>
+<script src="ds-bundle.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Vocês fazem só a tubulação ou a instalação completa?","acceptedAnswer":{"@type":"Answer","text":"Fazemos as duas. Podemos executar apenas a infraestrutura — tubulação de cobre, dreno, elétrica e suportes — para o equipamento ser instalado depois, ou a instalação completa com vácuo, carga de gás e start-up. Muita obra contrata a infraestrutura na fase de alvenaria e o equipamento meses depois."}},{"@type":"Question","name":"Vocês vendem o tubo de cobre?","acceptedAnswer":{"@type":"Answer","text":"Somos empresa de serviço, não de material. Fornecemos o tubo e os insumos dentro do orçamento da obra, com a bitola correta para o seu equipamento, mas não trabalhamos com venda de tubo avulso."}},{"@type":"Question","name":"Qual a distância máxima entre a evaporadora e a condensadora?","acceptedAnswer":{"@type":"Answer","text":"Depende do modelo. Cada fabricante especifica o comprimento máximo de linha e o desnível permitido, e passar desse limite exige carga adicional de gás ou inviabiliza o trajeto. Verificamos a especificação do seu equipamento antes de definir o percurso."}},{"@type":"Question","name":"Dá para passar tubulação em imóvel já pronto, sem quebrar?","acceptedAnswer":{"@type":"Answer","text":"Na maioria dos casos, sim — com passagem aparente em canaleta, por forro ou por shaft existente. Avaliamos o imóvel e apresentamos as opções com o acabamento de cada uma antes de você decidir."}},{"@type":"Question","name":"O que é o vácuo e por que ele importa?","acceptedAnswer":{"@type":"Answer","text":"É a retirada do ar e da umidade de dentro da tubulação com bomba, antes da carga de gás. Sem isso, a umidade reage com o óleo do compressor e forma ácido, que corrói o sistema por dentro ao longo de meses. É a etapa mais pulada do mercado e uma das principais causas de compressor queimado em aparelho novo."}}]}</script>
+<script>window.React||document.write('<script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"><\/script>');</script>
+<script>window.ReactDOM||document.write('<script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"><\/script>');</script>
+<script>window.lucide||document.write('<script src="https://cdn.jsdelivr.net/npm/lucide@0.323.0/dist/umd/lucide.min.js"><\/script>');</script>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="services-data2.js"></script>
+  <script src="app-bundle.js"></script>
+  <script>
+    const data = window.SERVICES_DATA['tubulacao-ar-condicionado'];
+    ReactDOM.createRoot(document.getElementById('root')).render(React.createElement(ServicePage, { data: data }));
+    const upgrade = () => window.lucide && window.lucide.createIcons();
+    setTimeout(upgrade, 120);
+    setTimeout(upgrade, 400);
+  </script>
+</body>
+</html>

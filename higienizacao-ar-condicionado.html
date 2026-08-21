@@ -1,0 +1,61 @@
+<!-- @dsCard group="Website" viewport="1280x760" name="Serviço — Higienização de ar condicionado" subtitle="Service detail page" -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Higienização de ar condicionado no Rio | Santos Refrigeração</title>
+<meta name="description" content="Higienização e limpeza de ar condicionado no Rio de Janeiro e Grande Rio: filtros, serpentina e turbina. Para comércio, escritório e residência. Orçamento sem compromisso.">
+<link rel="canonical" href="https://www.santosrefricomercial.com.br/higienizacao-ar-condicionado.html">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Santos Refrigeração">
+<meta property="og:title" content="Higienização de ar condicionado no Rio | Santos Refrigeração">
+<meta property="og:description" content="Higienização e limpeza de ar condicionado no Rio de Janeiro e Grande Rio: filtros, serpentina e turbina. Para comércio, escritório e residência. Orçamento sem compromisso.">
+<meta property="og:url" content="https://www.santosrefricomercial.com.br/higienizacao-ar-condicionado.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap">
+<link rel="stylesheet" href="styles.css">
+<style>
+  html { scroll-behavior: smooth; }
+  body { margin: 0; }
+  .menu-btn { display: none; }
+  @media (max-width: 960px) {
+    .nav-links { display: none !important; }
+    .menu-btn { display: inline-flex !important; }
+    .mobile-action { display: inline-flex !important; }
+    .header-cta { display: none !important; }
+    .hero-grid, .split-grid { grid-template-columns: 1fr !important; }
+    .cards-grid, .cards-grid-3 { grid-template-columns: repeat(2, 1fr) !important; }
+    .footer-grid { grid-template-columns: 1fr !important; gap: 32px !important; }
+    .hide-sm { display: none !important; }
+  }
+  @media (max-width: 560px) {
+    .ds-container { padding-inline: 1rem !important; }
+    .cards-grid, .cards-grid-3 { grid-template-columns: 1fr !important; }
+  }
+</style>
+<script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/lucide@0.323.0/dist/umd/lucide.min.js"></script>
+<script src="ds-bundle.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Vocês fazem higienização de ar condicionado automotivo?","acceptedAnswer":{"@type":"Answer","text":"Não. Trabalhamos com ar condicionado de ambiente — split, multi split, janela, cassete e piso-teto — em comércio, escritório e residência. Higienização de ar condicionado de carro é serviço automotivo, com equipamento e acesso completamente diferentes, e não faz parte do nosso escopo."}},{"@type":"Question","name":"Qual a diferença entre limpar o filtro e higienizar?","acceptedAnswer":{"@type":"Answer","text":"Lavar o filtro é manutenção de usuário e remove só a poeira da superfície. A higienização desmonta o conjunto e trata o que está atrás do filtro: serpentina, turbina, bandeja e dreno. É ali que se forma o biofilme responsável pelo cheiro e pela queda de rendimento — e é a parte que a limpeza doméstica não alcança."}},{"@type":"Question","name":"Quanto tempo demora e preciso desligar o ambiente?","acceptedAnswer":{"@type":"Answer","text":"Uma unidade split leva em média de uma a duas horas, dependendo do grau de sujeira e do acesso. Trabalhamos com bolsa coletora e proteção de piso e móveis, então o ambiente continua utilizável ao redor. Em loja e escritório podemos agendar fora do horário de funcionamento."}},{"@type":"Question","name":"A higienização reduz a conta de luz?","acceptedAnswer":{"@type":"Answer","text":"Costuma reduzir. Serpentina obstruída diminui a troca térmica, e o compressor precisa ficar mais tempo ligado para chegar à temperatura configurada. Medimos a temperatura de insuflamento antes e depois, o que dá para ver o ganho de rendimento na prática."}},{"@type":"Question","name":"Vocês atendem vários aparelhos de uma vez?","acceptedAnswer":{"@type":"Answer","text":"Sim. Atendemos parque de equipamentos com visita programada e relatório por unidade, e trabalhamos com contrato de higienização periódica para comércio, escritório, clínica e condomínio."}}]}</script>
+<script>window.React||document.write('<script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"><\/script>');</script>
+<script>window.ReactDOM||document.write('<script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"><\/script>');</script>
+<script>window.lucide||document.write('<script src="https://cdn.jsdelivr.net/npm/lucide@0.323.0/dist/umd/lucide.min.js"><\/script>');</script>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="services-data2.js"></script>
+  <script src="app-bundle.js"></script>
+  <script>
+    const data = window.SERVICES_DATA['higienizacao-ar-condicionado'];
+    ReactDOM.createRoot(document.getElementById('root')).render(React.createElement(ServicePage, { data: data }));
+    const upgrade = () => window.lucide && window.lucide.createIcons();
+    setTimeout(upgrade, 120);
+    setTimeout(upgrade, 400);
+  </script>
+</body>
+</html>

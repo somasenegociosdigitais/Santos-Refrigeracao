@@ -60,8 +60,13 @@ img { display: block; max-width: 100%; }
   .svc-hero { gap: 24px !important; }
   .svc-hero-text { order: 1; }
   .svc-hero-media { order: 2; }
-  .svc-actions-mobile { order: 3; display: flex !important; flex-direction: column; }
+  .svc-actions-mobile { order: 3; display: flex !important; flex-direction: row; flex-wrap: wrap; }
+  .svc-actions-mobile > * { width: auto !important; }
   .svc-actions-desktop { display: none !important; }
+}
+@media (max-width: 560px) {
+  .svc-actions-mobile { flex-direction: column; }
+  .svc-actions-mobile > * { width: 100% !important; }
 }
 
 @media (max-width: 640px) {
