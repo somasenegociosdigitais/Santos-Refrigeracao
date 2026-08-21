@@ -558,7 +558,7 @@ function Services({
   const {
     Button
   } = window.DS;
-  const services = [['photo:assets/icon-p-camara.png', 'Câmara fria', 'Instalação e manutenção de câmaras frias e frigoríficos comerciais.', 'camara-fria.html'], ['photo:assets/icon-p-chopeira.png', 'Chopeiras', 'Instalação, manutenção e higienização de chopeiras.', 'chopeiras.html'], ['photo:assets/icon-p-gela-caneca.png', 'Gela Caneca', 'Manutenção e conserto de gela caneca para o seu bar.', 'gela-caneca.html'], ['photo:assets/icon-p-ar.png', 'Ar condicionado', 'Instalação, limpeza e manutenção de ar condicionado comercial e residencial.', 'ar-condicionado.html'], ['photo:assets/icon-p-geladeira.png', 'Geladeira comercial', 'Geladeira e refrigerador comercial ou industrial sempre gelando.', 'geladeira-comercial.html'], ['photo:assets/icon-balcao-foto.png', 'Balcão refrigerado', 'Balcões e expositores refrigerados para seu ponto de venda.', 'balcao-refrigerado.html'], ['photo:assets/icon-p-ilha.png', 'Ilha de congelados', 'Ilhas de congelados e expositores em pleno funcionamento.', 'ilha-de-congelados.html'], ['photo:assets/icon-p-ultra-freezer.png', 'Ultra freezer', 'Ultra freezers e equipamentos de baixa temperatura.', 'ultra-freezer.html'], ['photo:assets/icon-p-refresqueira.png', 'Refresqueira', 'Refresqueiras para lanchonetes, comércios e eventos.', 'refresqueira.html'], ['photo:assets/icon-p-maquina-gelo.png', 'Máquina de gelo', 'Conserto e manutenção de máquinas de gelo, sem faltar gelo.', 'maquina-de-gelo.html'], ['photo:assets/icon-p-adega.png', 'Adega de vinhos', 'Instalação e manutenção de adega climatizada de vinhos.', 'adega-vinhos.html']];
+  const services = [['photo:assets/icon-p-camara.png', 'Câmara fria', 'Instalação e manutenção de câmaras frias e frigoríficos comerciais.', 'camara-fria.html'], ['photo:assets/icon-p-chopeira.png', 'Chopeiras', 'Instalação, manutenção e higienização de chopeiras.', 'chopeiras.html'], ['photo:assets/icon-p-gela-caneca.png', 'Gela Caneca', 'Manutenção e conserto de gela caneca para o seu bar.', 'gela-caneca.html'], ['photo:assets/icon-p-ar.png', 'Ar condicionado', 'Instalação, limpeza e manutenção de ar condicionado comercial e residencial.', 'ar-condicionado.html'], ['photo:assets/icon-p-ar.png', 'Instalação de ar condicionado', 'Dimensionamento de BTUs, infraestrutura de cobre e carga de gás na medida do fabricante.', 'instalacao-ar-condicionado.html'], ['photo:assets/icon-p-ar.png', 'Manutenção de ar condicionado', 'Manutenção preventiva e corretiva, com limpeza e revisão completa do sistema.', 'manutencao-ar-condicionado.html'], ['photo:assets/icon-p-ar.png', 'Tubulação de ar condicionado', 'Passagem, isolamento e reparo de tubulação de cobre.', 'tubulacao-ar-condicionado.html'], ['photo:assets/icon-p-ar.png', 'Higienização de ar condicionado', 'Limpeza técnica de evaporadora e condensadora, com laudo do serviço.', 'higienizacao-ar-condicionado.html'], ['photo:assets/icon-p-geladeira.png', 'Geladeira comercial', 'Geladeira e refrigerador comercial ou industrial sempre gelando.', 'geladeira-comercial.html'], ['photo:assets/icon-p-geladeira.png', 'Conserto de geladeira', 'Conserto de geladeira residencial e comercial, com diagnóstico e preço fechado.', 'conserto-de-geladeira.html'], ['photo:assets/icon-balcao-foto.png', 'Balcão refrigerado', 'Balcões e expositores refrigerados para seu ponto de venda.', 'balcao-refrigerado.html'], ['photo:assets/icon-p-ilha.png', 'Ilha de congelados', 'Ilhas de congelados e expositores em pleno funcionamento.', 'ilha-de-congelados.html'], ['photo:assets/icon-p-ultra-freezer.png', 'Ultra freezer', 'Ultra freezers e equipamentos de baixa temperatura.', 'ultra-freezer.html'], ['photo:assets/icon-p-refresqueira.png', 'Refresqueira', 'Refresqueiras para lanchonetes, comércios e eventos.', 'refresqueira.html'], ['photo:assets/icon-p-maquina-gelo.png', 'Máquina de gelo', 'Conserto e manutenção de máquinas de gelo, sem faltar gelo.', 'maquina-de-gelo.html'], ['photo:assets/icon-p-adega.png', 'Adega de vinhos', 'Instalação e manutenção de adega climatizada de vinhos.', 'adega-vinhos.html'], ['wrench', 'Técnico de refrigeração comercial', 'Manutenção, conserto e instalação em todos os equipamentos comerciais.', 'tecnico-refrigeracao-comercial.html']];
   return /*#__PURE__*/React.createElement(Section, {
     id: "servicos",
     tone: "subtle"
@@ -1035,7 +1035,7 @@ function Footer() {
     className: "footer-grid",
     style: {
       display: 'grid',
-      gridTemplateColumns: '1.4fr 1fr 1fr',
+      gridTemplateColumns: '1.1fr 1.6fr 1fr',
       gap: 48,
       paddingBottom: 48
     }
@@ -1105,8 +1105,8 @@ function Footer() {
       padding: 0,
       margin: 0,
       display: 'grid',
-      gridTemplateColumns: '1fr 1fr',
-      gap: '10px 16px',
+      gridTemplateColumns: '1fr 1fr 1fr',
+      gap: '10px 20px',
       fontSize: 'var(--fs-sm)'
     }
   }, services.map(([label, href]) => /*#__PURE__*/React.createElement("li", {
