@@ -1232,7 +1232,7 @@ function Footer() {
       gap: 12,
       fontSize: 'var(--fs-xs)'
     }
-  }, /*#__PURE__*/React.createElement("span", null, "\xA9 2026 Santos Refrigera\xE7\xE3o \xB7 Refrigera\xE7\xE3o Comercial. Todos os direitos reservados."))));
+  }, /*#__PURE__*/React.createElement("span", null, "\xA9 2026 Santos Refrigera\xE7\xE3o \xB7 Refrigera\xE7\xE3o Comercial. CNPJ 62.899.580/0001-58. Todos os direitos reservados."))));
 }
 Object.assign(window, {
   Footer
@@ -1719,6 +1719,7 @@ function ServicePage({
       provider: {
         '@type': 'LocalBusiness',
         name: 'Santos Refrigeração',
+        taxID: '62.899.580/0001-58',
         telephone: '+55-21-96782-6279',
         areaServed: 'Rio de Janeiro e Grande Rio',
         address: {
