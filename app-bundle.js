@@ -1205,7 +1205,7 @@ function Footer() {
       marginTop: 2
     }
   }), " ", /*#__PURE__*/React.createElement("span", null, "Av. Dom H\xE9lder C\xE2mara, 10229 \u2014 Cascadura, Rio de Janeiro - RJ, 21380-002", /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("a", {
-    href: "https://g.page/r/CeLzyrBgWaOwEBM",
+    href: "https://maps.google.com/maps?cid=12728115243696976866",
     target: "_blank",
     rel: "noopener",
     style: {

@@ -1002,13 +1002,14 @@ sections: [
     servicesTitle: 'Conserto de geladeira com diagnóstico e preço fechado',
     intro: [
       'Geladeira parada é comida estragando. Por isso o atendimento é organizado para resolver na primeira visita: o técnico chega com instrumento de medição e as peças de reposição mais comuns, faz o diagnóstico no local e executa o reparo na mesma ida, quando não depende de componente específico.',
-      'Atendemos geladeira de uma e duas portas, frost free, side by side, duplex, freezer vertical e horizontal, além de geladeira e refrigerador comercial e industrial. Os defeitos mais frequentes são compressor sem partida, gás baixo por vazamento, degelo travado, termostato ou sensor com defeito, placa eletrônica queimada e dreno obstruído — cada um com sintoma parecido e causa distinta.',
+      'Atendemos geladeira, refrigerador e frigobar — residencial, comercial e industrial. Isso inclui geladeira de uma e duas portas, frost free, side by side, duplex, freezer vertical e horizontal. Os defeitos mais frequentes são compressor sem partida, gás baixo por vazamento, degelo travado, termostato ou sensor com defeito, placa eletrônica queimada e dreno obstruído — cada um com sintoma parecido e causa distinta.',
       'Trabalhamos com medição de pressão e corrente para separar uma causa da outra, em vez de trocar peça por tentativa. Você recebe o diagnóstico e o preço fechado antes de autorizar, e todo serviço tem garantia. Quando o reparo não compensa diante da idade do equipamento, dizemos isso.',
     ],
     servicesListTitle: 'Nossos serviços',
     services: [
       'Conserto de geladeira residencial',
       'Conserto de geladeira e refrigerador comercial',
+      'Conserto e manutenção de frigobar',
       'Manutenção de geladeira frost free e side by side',
       'Conserto de freezer vertical e horizontal',
       'Troca de compressor',
@@ -1053,7 +1054,7 @@ sections: [
     waMessage: 'Olá! Preciso de CONSERTO DE GELADEIRA. Podem me passar um orçamento?',
     faqTitle: 'Dúvidas sobre conserto de geladeira',
     faq: [
-      ['Vocês atendem geladeira residencial ou só comercial?', 'Atendemos as duas. Geladeira doméstica de todas as marcas — uma porta, duplex, frost free, side by side, inverse — e também geladeira e refrigerador comercial e industrial. O atendimento é no local, no Rio de Janeiro e Grande Rio.'],
+      ['Vocês atendem geladeira residencial ou só comercial?', 'Atendemos as duas. Geladeira doméstica de todas as marcas — uma porta, duplex, frost free, side by side, inverse — além de frigobar, geladeira e refrigerador comercial e industrial. O atendimento é no local, no Rio de Janeiro e Grande Rio.'],
       ['A geladeira não está gelando. O que pode ser?', 'As causas mais comuns são compressor sem partida, gás baixo por vazamento, termostato ou sensor com defeito, placa eletrônica queimada e condensador obstruído. Os sintomas são parecidos e a causa é diferente, por isso medimos pressão e corrente antes de concluir — trocar peça por tentativa sai mais caro.'],
       ['Preciso levar a geladeira ou vocês vão até mim?', 'Vamos até você. Atendimento no local é a regra, e não só por comodidade: geladeira deitada ou transportada sem cuidado pode ter migração do óleo do compressor para o circuito, criando um problema que não existia. Só levamos para a oficina quando o reparo exige bancada.'],
       ['Está juntando água dentro da geladeira. É grave?', 'Normalmente é dreno obstruído — o caminho da água do degelo entope e ela transborda, aparecendo na gaveta de legumes ou no chão. É um dos reparos mais simples e baratos, mas se ficar sem tratar pode molhar a parte elétrica.'],
