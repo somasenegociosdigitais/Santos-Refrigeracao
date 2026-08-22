@@ -1910,6 +1910,15 @@ window.__abrirWa = function (url) {
   a.click();
   a.remove();
 };
+window.__abrirWa = function (url) {
+  var a = document.createElement('a');
+  a.href = url;
+  a.target = '_blank';
+  a.rel = 'noopener';
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+};
 // ServicePage — template reutilizável para páginas de serviço (câmara fria, etc).
 // Use window.SERVICE_PAGE = {…} antes de montar para configurar o conteúdo.
 
@@ -2601,7 +2610,72 @@ function ServicePage({
   }, link[0], " ", /*#__PURE__*/React.createElement(Icon, {
     name: "arrow-right",
     size: 14
-  })))))), data.faq && data.faq.length > 0 && /*#__PURE__*/React.createElement(Section, {
+  })))))), data.emergency && /*#__PURE__*/React.createElement(Section, {
+    tone: "page"
+  }, /*#__PURE__*/React.createElement("div", {
+    style: {
+      maxWidth: 900,
+      marginInline: 'auto',
+      background: 'var(--blue-100)',
+      border: '1px solid var(--blue-200)',
+      borderRadius: 'var(--radius-lg)',
+      boxShadow: 'var(--shadow-sm)',
+      padding: 'clamp(28px, 4vw, 40px)',
+      display: 'flex',
+      flexDirection: 'column',
+      gap: 16
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    style: {
+      fontFamily: 'var(--font-body)',
+      fontSize: 'var(--fs-sm)',
+      fontWeight: 700,
+      letterSpacing: '0.12em',
+      textTransform: 'uppercase',
+      color: 'var(--color-primary)'
+    }
+  }, "Atendimento de emerg\xEAncia"), /*#__PURE__*/React.createElement("h2", {
+    style: {
+      fontFamily: 'var(--font-display)',
+      fontSize: 'var(--fs-h2)',
+      margin: 0,
+      textWrap: 'balance'
+    }
+  }, "Equipamento parado n\xE3o espera hor\xE1rio comercial"), /*#__PURE__*/React.createElement("p", {
+    style: {
+      fontFamily: 'var(--font-body)',
+      fontSize: 'var(--fs-lg)',
+      color: 'var(--text-muted)',
+      margin: 0,
+      lineHeight: 'var(--lh-normal)',
+      textWrap: 'pretty'
+    }
+  }, data.emergency), /*#__PURE__*/React.createElement("div", {
+    className: "emergency-cta",
+    style: {
+      display: 'flex',
+      gap: 12,
+      flexWrap: 'wrap',
+      marginTop: 4
+    }
+  }, /*#__PURE__*/React.createElement(Button, {
+    variant: "whatsapp",
+    size: "lg",
+    onClick: orcamento,
+    iconLeft: /*#__PURE__*/React.createElement(Icon, {
+      name: "message-circle",
+      size: 20
+    })
+  }, "Chamar no WhatsApp"), /*#__PURE__*/React.createElement(Button, {
+    variant: "secondary",
+    size: "lg",
+    as: "a",
+    href: "tel:+5521967826279",
+    iconLeft: /*#__PURE__*/React.createElement(Icon, {
+      name: "phone",
+      size: 18
+    })
+  }, "(21) 96782-6279")))), data.faq && data.faq.length > 0 && /*#__PURE__*/React.createElement(Section, {
     tone: "page"
   }, /*#__PURE__*/React.createElement(SectionHead, {
     eyebrow: "Perguntas frequentes",

@@ -57,7 +57,9 @@ window.SERVICES_DATA = {
     ctaTitle: 'Sua câmara fria parou? Conte conosco agora.',
     waMessage: 'Olá! Preciso de atendimento para CÂMARA FRIA. Podem me passar um orçamento?',
     faqTitle: 'Dúvidas sobre câmara fria',
+    emergency: 'Câmara fria parada gera prejuízo por hora — mercadoria em risco e operação travada. Para câmara fria e sistemas que não podem parar, atendemos fora do horário comercial. Ligue e avaliamos na hora.',
     faq: [
+      ['Vocês atendem fora do horário comercial?', 'Para equipamentos que não podem parar — câmara fria, ultra freezer, ilha de congelados — sim. Ligue e avaliamos o caso na hora. Prejuízo por hora parada é o critério, não o relógio.'],
       ['Como funciona a instalação de uma câmara fria do zero?', 'Seguimos etapas estruturadas: estudo da carga térmica e do tipo de produto (resfriado ou congelado), dimensionamento do motor, esquadrejamento e nivelamento da base, montagem dos painéis isotérmicos, fixação das unidades evaporadora e condensadora, parte elétrica e hidráulica, e vedação final com silicone. Você recebe o projeto e o preço fechado antes de começar.'],
       ['Qual a diferença entre câmara para resfriados e para congelados?', 'A finalidade define o projeto: resfriamento de bebidas e laticínios trabalha em temperaturas positivas; congelamento de carnes exige temperaturas negativas, motor mais robusto, isolamento reforçado e resistência de dreno para evitar congelamento interno. Por isso o dimensionamento correto é essencial.'],
       ['De quanto em quanto tempo fazer a manutenção preventiva?', 'Recomendamos visitas programadas periódicas, com limpeza do condensador, inspeção de gaxetas, verificação do fluido refrigerante e teste de drenos. O condensador sujo é a principal causa de motor desarmando ou queimando em dias quentes — a preventiva evita a parada e reduz a conta de luz.'],
@@ -278,7 +280,9 @@ sections: [
     ctaTitle: 'Geladeira comercial parada? Fale conosco agora.',
     waMessage: 'Olá! Preciso de atendimento para GELADEIRA COMERCIAL. Podem me passar um orçamento?',
     faqTitle: 'Dúvidas sobre geladeira comercial',
+    emergency: 'Geladeira comercial parada gera prejuízo por hora — mercadoria em risco e operação travada. Para geladeira comercial e sistemas que não podem parar, atendemos fora do horário comercial. Ligue e avaliamos na hora.',
     faq: [
+      ['Vocês atendem fora do horário comercial?', 'Para equipamentos que não podem parar — câmara fria, ultra freezer, ilha de congelados — sim. Ligue e avaliamos o caso na hora. Prejuízo por hora parada é o critério, não o relógio.'],
       ['Minha geladeira comercial não está gelando. O que fazer?', 'As causas mais comuns são gás baixo por vazamento, condensador sujo, termostato desregulado ou compressor com desgaste. Fazemos o diagnóstico medindo pressão e temperatura para corrigir a causa real e evitar perda de mercadoria.'],
       ['Vale a pena consertar ou é melhor trocar?', 'Depende do estado do compressor e da estrutura. Fazemos uma avaliação honesta: em muitos casos a troca de compressor, gás ou termostato devolve anos de vida útil por um custo bem menor que o de um equipamento novo. Você decide com o diagnóstico e o preço em mãos.'],
       ['De quanto em quanto tempo fazer manutenção preventiva?', 'Recomendamos revisões periódicas, principalmente a limpeza do condensador, que é a maior causa de motor desarmando em dias quentes. A preventiva mantém a temperatura estável, evita a parada e reduz a conta de luz.'],
@@ -388,7 +392,9 @@ sections: [
     ctaTitle: 'Ilha de congelados com problema? Fale conosco.',
     waMessage: 'Olá! Preciso de atendimento para ILHA DE CONGELADOS. Podem me passar um orçamento?',
     faqTitle: 'Dúvidas sobre ilha de congelados',
+    emergency: 'Ilha de congelados parada gera prejuízo por hora — mercadoria em risco e operação travada. Para ilha de congelados e sistemas que não podem parar, atendemos fora do horário comercial. Ligue e avaliamos na hora.',
     faq: [
+      ['Vocês atendem fora do horário comercial?', 'Para equipamentos que não podem parar — câmara fria, ultra freezer, ilha de congelados — sim. Ligue e avaliamos o caso na hora. Prejuízo por hora parada é o critério, não o relógio.'],
       ['A ilha está formando muito gelo. Qual a causa?', 'Excesso de gelo quase sempre é falha no sistema de degelo, vedação gasta ou umidade entrando no equipamento. Além de ocupar espaço, reduz o frio e aumenta o consumo. Fazemos o degelo técnico e corrigimos a origem do problema.'],
       ['Os produtos estão amolecendo. É perigoso?', 'Sim, porque compromete a segurança do alimento. Costuma ser gás baixo por vazamento, condensador sujo ou termostato desregulado. Medimos pressão e temperatura para restabelecer a temperatura correta com rapidez.'],
       ['De quanto em quanto tempo fazer manutenção?', 'Recomendamos revisões periódicas com limpeza do condensador e verificação do degelo e do gás. A preventiva evita a parada, mantém o produto seguro e reduz a conta de luz.'],
@@ -440,7 +446,9 @@ sections: [
     ctaTitle: 'Ultra freezer com problema? Fale conosco agora.',
     waMessage: 'Olá! Preciso de atendimento para ULTRA FREEZER. Podem me passar um orçamento?',
     faqTitle: 'Dúvidas sobre ultra freezer',
+    emergency: 'Ultra freezer parado gera prejuízo por hora — mercadoria em risco e operação travada. Para ultra freezer e sistemas que não podem parar, atendemos fora do horário comercial. Ligue e avaliamos na hora.',
     faq: [
+      ['Vocês atendem fora do horário comercial?', 'Para equipamentos que não podem parar — câmara fria, ultra freezer, ilha de congelados — sim. Ligue e avaliamos o caso na hora. Prejuízo por hora parada é o critério, não o relógio.'],
       ['O ultra freezer parou de atingir a temperatura. O que fazer?', 'Como o conteúdo costuma ser sensível, tratamos como urgência. As causas mais comuns são gás baixo por vazamento, falha em um dos estágios de compressão, controle eletrônico desregulado ou condensador sujo. Fazemos o diagnóstico completo para restabelecer a faixa correta.'],
       ['Com que frequência fazer manutenção preventiva?', 'Por se tratar de equipamento crítico, recomendamos manutenção preventiva periódica e, quando possível, monitoramento da estabilidade da temperatura. A preventiva reduz drasticamente o risco de perda do conteúdo.'],
       ['Vocês atendem laboratórios e clínicas?', 'Sim. Atendemos ultra freezers e equipamentos de baixa temperatura de laboratórios, clínicas, indústrias e comércios, com diagnóstico técnico e garantia no serviço.'],
