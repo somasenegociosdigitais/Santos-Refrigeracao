@@ -23,6 +23,10 @@ window.SERVICES_DATA = {
         'Câmara fria e câmara frigorífica são o mesmo equipamento — o segundo termo é mais usado em contexto industrial e em açougue, frigorífico e distribuidora. Atendemos os dois casos: montagem de câmara frigorífica nova a partir do cálculo de carga térmica, e manutenção de câmara já instalada.',
         'O projeto define tudo o que vem depois: tipo de produto (resfriado ou congelado), volume interno, espessura e material do painel isotérmico, capacidade do motor e posição das unidades. Câmara com motor subdimensionado nunca atinge a temperatura de projeto, e o erro só aparece com a câmara carregada.',
       ] },
+      { title: 'Diagnóstico por medição, antes de trocar peça', body: [
+        'O mesmo sintoma tem causas diferentes. Câmara que não atinge a temperatura pode ser carga de gás baixa por microvazamento, condensador obstruído, válvula de expansão travada, compressor com baixo rendimento ou parâmetro errado no controlador. Trocar peça por eliminação resolve por alguns dias e devolve o problema na semana seguinte.',
+        'Por isso o técnico chega com instrumento, não só com chave: medimos pressão de alta e baixa, superaquecimento, sub-resfriamento e corrente do compressor. São esses números que dizem onde está a falha. Só depois deles apresentamos o diagnóstico e o valor do reparo, para você aprovar antes de qualquer serviço.',
+      ] },
       { title: 'Quanto custa uma câmara fria? Como fazemos o orçamento', body: [
         'Não existe preço de tabela para câmara fria, porque o custo é definido pelo projeto: volume interno, temperatura de trabalho, tipo de painel, capacidade do motor, comprimento de tubulação e necessidade de adequação elétrica. Uma câmara de resfriados de 6 m³ e uma de congelados de 30 m³ não têm nada em comum além do nome.',
         'Fazemos a visita técnica, o cálculo de carga térmica e enviamos o orçamento com material e mão de obra discriminados. Para manutenção, o diagnóstico vem com preço fechado antes de qualquer serviço. Em ambos os casos você aprova antes de começar.',
@@ -55,7 +59,7 @@ window.SERVICES_DATA = {
       ['alert-triangle', 'Motor desarmando', 'Desligamentos frequentes costumam ser condensador sujo ou pressão alta.'],
     ],
     ctaTitle: 'Sua câmara fria parou? Conte conosco agora.',
-    waMessage: 'Olá! Preciso de atendimento para CÂMARA FRIA. Podem me passar um orçamento?',
+    waMessage: 'Olá! Preciso de atendimento para CÂMARA FRIA. Vou descrever o que está acontecendo com o equipamento e gostaria de agendar o diagnóstico.',
     faqTitle: 'Dúvidas sobre câmara fria',
     emergency: 'Câmara fria parada gera prejuízo por hora — mercadoria em risco e operação travada. Para câmara fria e sistemas que não podem parar, atendemos fora do horário comercial. Ligue e avaliamos na hora.',
     faq: [
@@ -113,7 +117,7 @@ window.SERVICES_DATA = {
       ['droplet', 'Vazamento de chopp ou CO₂', 'Pingos nas conexões ou gás acabando antes da hora pedem revisão.'],
     ],
     ctaTitle: 'Chopeira parada é faturamento parado. Fale conosco.',
-    waMessage: 'Olá! Preciso de atendimento para CHOPEIRA. Podem me passar um orçamento?',
+    waMessage: 'Olá! Preciso de atendimento para CHOPEIRA. Vou descrever o que está acontecendo com o equipamento e gostaria de agendar o diagnóstico.',
     faqTitle: 'Dúvidas sobre chopeira',
     faq: [
       ['De quanto em quanto tempo a chopeira precisa de higienização?', 'O ideal é higienizar as linhas a cada 15 dias em locais de alto movimento e, no mínimo, uma vez por mês. A assepsia periódica remove resíduos e leveduras que se acumulam nas serpentinas e mangueiras, preservando o sabor do chopp e evitando contaminação. Operações de delivery e eventos exigem atenção redobrada.'],
@@ -166,7 +170,7 @@ window.SERVICES_DATA = {
       ['power', 'Desliga sozinho', 'Desarmes frequentes apontam falha elétrica ou superaquecimento.'],
     ],
     ctaTitle: 'Gela caneca parado? Fale conosco agora.',
-    waMessage: 'Olá! Preciso de atendimento para GELA CANECA. Podem me passar um orçamento?',
+    waMessage: 'Olá! Preciso de atendimento para GELA CANECA. Vou descrever o que está acontecendo com o equipamento e gostaria de agendar o diagnóstico.',
     faqTitle: 'Dúvidas sobre gela caneca',
     faq: [
       ['Por que o gela caneca parou de congelar as canecas?', 'As causas mais comuns são gás refrigerante baixo por microvazamento, condensador sujo, termostato desregulado ou compressor com desgaste. Medimos pressão e temperatura para identificar a causa real e corrigir só o que precisa.'],
@@ -220,11 +224,11 @@ hubTitle: 'Serviços de ar condicionado',
       ['power', 'Aparelho novo a instalar', 'Obra, reforma ou troca de equipamento pedem projeto antes.', ['Ver instalação', 'instalacao-ar-condicionado.html']],
     ],
     ctaTitle: 'Ar condicionado com problema? Fale conosco.',
-    waMessage: 'Olá! Preciso de atendimento para AR CONDICIONADO. Podem me passar um orçamento?',
+    waMessage: 'Olá! Preciso de atendimento para AR CONDICIONADO. Vou descrever o que está acontecendo com o aparelho e gostaria de agendar o diagnóstico.',
     faqTitle: 'Dúvidas sobre ar condicionado',
     faq: [
       ['Vocês atendem residência ou só comércio?', 'Atendemos os dois. Fazemos instalação e manutenção de ar condicionado comercial (lojas, escritórios, restaurantes, indústrias) e residencial (apartamentos e casas) em todo o Rio e Grande Rio.'],
-      ['Quais tipos de aparelho vocês atendem?', 'Split, multi split, cassete, piso-teto, janela e sistemas comerciais de maior porte. Trabalhamos com todas as marcas.'],
+      ['Quais tipos de aparelho vocês atendem?', 'Split, multi split, cassete, piso-teto, janela e sistemas comerciais de maior porte. Atendemos diversas marcas e modelos, inclusive equipamento fora de linha: o que define o reparo é o sistema instalado, não o fabricante.'],
       ['Qual é a área de atendimento?', 'Rio de Janeiro capital e Grande Rio — Zona Norte, Zona Oeste, Zona Sul, Centro, Baixada Fluminense e Niterói. A oficina fica em Cascadura e o atendimento é feito no seu endereço.'],
     ],
   },
@@ -247,6 +251,10 @@ hubTitle: 'Serviços de ar condicionado',
       'Na corretiva de emergência resolvemos geladeira que não gela, excesso de gelo, vazamento de água, ruído e alto consumo — com troca de compressor, recarga de gás, reparo de termostato, vedação e parte elétrica. Diagnóstico e preço fechado antes do serviço, trocando só o necessário, com garantia no reparo.',
     ],
 sections: [
+      { title: 'Diagnóstico por medição, antes de trocar peça', body: [
+        'Geladeira comercial que não gela pode ser gás baixo por vazamento, condensador obstruído, termostato ou controlador desregulado, ventilador parado ou compressor com baixo rendimento. Os sintomas são parecidos e os custos não são: a diferença entre uma limpeza técnica e uma troca de compressor é grande demais para se decidir por tentativa.',
+        'O técnico chega com instrumento de medição e afere pressão de alta e baixa, superaquecimento, sub-resfriamento e corrente do compressor. Com esses números se sabe o que trocar e o que não trocar. O diagnóstico e o valor do reparo vão juntos para a sua aprovação, antes de o serviço começar.',
+      ] },
       { title: 'Geladeira comercial ou residencial: qual página é a sua', body: [
         'Esta página trata de geladeira e refrigerador de uso comercial e industrial: mercado, açougue, padaria, restaurante, lanchonete e distribuidora, onde o equipamento abre dezenas de vezes por hora e a parada significa perda de estoque.',
         'Se o equipamento é doméstico — uma porta, duplex, frost free, side by side —, o atendimento é o mesmo mas o conteúdo está na página de <a href="conserto-de-geladeira.html">conserto de geladeira</a>, com os defeitos e custos típicos de geladeira residencial.',
@@ -278,7 +286,7 @@ sections: [
       ['door-open', 'Porta que não veda', 'Gaxeta ressecada deixa o frio escapar e força o motor.'],
     ],
     ctaTitle: 'Geladeira comercial parada? Fale conosco agora.',
-    waMessage: 'Olá! Preciso de atendimento para GELADEIRA COMERCIAL. Podem me passar um orçamento?',
+    waMessage: 'Olá! Preciso de atendimento para GELADEIRA COMERCIAL. Vou descrever o que está acontecendo com o equipamento e gostaria de agendar o diagnóstico.',
     faqTitle: 'Dúvidas sobre geladeira comercial',
     emergency: 'Geladeira comercial parada gera prejuízo por hora — mercadoria em risco e operação travada. Para geladeira comercial e sistemas que não podem parar, atendemos fora do horário comercial. Ligue e avaliamos na hora.',
     faq: [
@@ -305,7 +313,7 @@ sections: [
     intro: [
       'O balcão refrigerado tem um desafio específico: refrigerar com o vidro exposto e a abertura constante para atendimento. A cortina de ar, a vedação e a circulação interna precisam estar no ponto para conservar o produto sem embaçar o vidro nem estragar a mercadoria. Fazemos a instalação nivelada e a regulagem inicial completa.',
       'Na manutenção preventiva limpamos o condensador e a serpentina, verificamos a carga de gás, testamos o termostato e o sistema de circulação, inspecionamos as borrachas de vedação, a iluminação e o dreno. Balcão bem regulado conserva mais, embaça menos e gasta menos energia.',
-      'Na corretiva resolvemos balcão que não conserva o produto, vidros embaçados, água acumulada, ruído e consumo alto — com troca de compressor, recarga de gás, reparo de vidros, vedação, iluminação e parte elétrica. Diagnóstico e preço fechado antes de começar, com garantia no serviço.',
+      'Na corretiva resolvemos balcão que não conserva o produto, vidros embaçados, água acumulada, ruído e consumo alto — com troca de compressor, recarga de gás, reparo de vidros, vedação, iluminação e parte elétrica. Você aprova o diagnóstico e o valor antes de o serviço começar, com garantia no reparo.',
     ],
 sections: [
       { title: 'Expositor de bebidas e refrigerador expositor', body: [
@@ -338,7 +346,7 @@ sections: [
       ['lightbulb', 'Iluminação falhando', 'Lâmpadas queimadas prejudicam a exposição e a venda.'],
     ],
     ctaTitle: 'Balcão refrigerado com problema? Fale conosco.',
-    waMessage: 'Olá! Preciso de atendimento para BALCÃO REFRIGERADO. Podem me passar um orçamento?',
+    waMessage: 'Olá! Preciso de atendimento para BALCÃO REFRIGERADO. Vou descrever o que está acontecendo com o equipamento e gostaria de agendar o diagnóstico.',
     faqTitle: 'Dúvidas sobre balcão refrigerado',
     faq: [
       ['Por que o vidro do balcão fica embaçado?', 'O embaçamento aparece quando a temperatura ou a circulação de ar estão desreguladas, a vedação está gasta ou a umidade está alta. Regulamos o sistema e corrigimos a vedação para o produto ficar bem exposto e visível.'],
@@ -363,7 +371,7 @@ sections: [
     intro: [
       'A ilha de congelados trabalha com temperaturas negativas e acesso aberto ao público, o que exige compressor robusto, isolamento e degelo eficientes. Fazemos a instalação nivelada, a avaliação do ponto elétrico e a regulagem para o produto se manter congelado sem formar gelo em excesso.',
       'Na manutenção preventiva limpamos o condensador, verificamos a carga de gás e microvazamentos, testamos o termostato e o sistema de degelo, inspecionamos a vedação e fazemos o degelo técnico. O degelo em dia é o que garante temperatura estável e menor consumo de energia.',
-      'Na corretiva resolvemos ilha que não mantém o congelado, excesso de gelo, ruído e alto consumo — com troca de compressor, recarga de gás, reparo de termostato, sistema de degelo e parte elétrica. Diagnóstico e preço fechado antes de começar, trocando só o necessário, com garantia no serviço.',
+      'Na corretiva resolvemos ilha que não mantém o congelado, excesso de gelo, ruído e alto consumo — com troca de compressor, recarga de gás, reparo de termostato, sistema de degelo e parte elétrica. Primeiro identificamos a causa, depois apresentamos o orçamento — trocando só o necessário, com garantia no reparo.',
     ],
     servicesListTitle: 'Nossos serviços',
     services: [
@@ -390,13 +398,13 @@ sections: [
       ['power', 'Desarma sozinho', 'Desligamentos frequentes apontam sobrecarga ou falha elétrica.'],
     ],
     ctaTitle: 'Ilha de congelados com problema? Fale conosco.',
-    waMessage: 'Olá! Preciso de atendimento para ILHA DE CONGELADOS. Podem me passar um orçamento?',
+    waMessage: 'Olá! Preciso de atendimento para ILHA DE CONGELADOS. Vou descrever o que está acontecendo com o equipamento e gostaria de agendar o diagnóstico.',
     faqTitle: 'Dúvidas sobre ilha de congelados',
     emergency: 'Ilha de congelados parada gera prejuízo por hora — mercadoria em risco e operação travada. Para ilha de congelados e sistemas que não podem parar, atendemos fora do horário comercial. Ligue e avaliamos na hora.',
     faq: [
       ['Vocês atendem fora do horário comercial?', 'Para equipamentos que não podem parar — câmara fria, ultra freezer, ilha de congelados — sim. Ligue e avaliamos o caso na hora. Prejuízo por hora parada é o critério, não o relógio.'],
       ['A ilha está formando muito gelo. Qual a causa?', 'Excesso de gelo quase sempre é falha no sistema de degelo, vedação gasta ou umidade entrando no equipamento. Além de ocupar espaço, reduz o frio e aumenta o consumo. Fazemos o degelo técnico e corrigimos a origem do problema.'],
-      ['Os produtos estão amolecendo. É perigoso?', 'Sim, porque compromete a segurança do alimento. Costuma ser gás baixo por vazamento, condensador sujo ou termostato desregulado. Medimos pressão e temperatura para restabelecer a temperatura correta com rapidez.'],
+      ['Os produtos estão amolecendo. É perigoso?', 'Compromete a conservação do produto, e a decisão sobre a mercadoria segue os procedimentos de segurança alimentar do próprio estabelecimento. Do lado do equipamento, costuma ser gás baixo por vazamento, condensador sujo ou termostato desregulado. Medimos pressão e temperatura para restabelecer a temperatura correta com rapidez.'],
       ['De quanto em quanto tempo fazer manutenção?', 'Recomendamos revisões periódicas com limpeza do condensador e verificação do degelo e do gás. A preventiva evita a parada, mantém o produto seguro e reduz a conta de luz.'],
       ['Vocês instalam ilha nova?', 'Sim. Fazemos a instalação com nivelamento, avaliação do ponto elétrico e regulagem inicial, deixando o equipamento pronto para conservar os congelados.'],
     ],
@@ -444,7 +452,7 @@ sections: [
       ['power', 'Desarma sozinho', 'Desligamentos comprometem conteúdo de alto valor.'],
     ],
     ctaTitle: 'Ultra freezer com problema? Fale conosco agora.',
-    waMessage: 'Olá! Preciso de atendimento para ULTRA FREEZER. Podem me passar um orçamento?',
+    waMessage: 'Olá! Preciso de atendimento para ULTRA FREEZER. Vou descrever o que está acontecendo com o equipamento e gostaria de agendar o diagnóstico.',
     faqTitle: 'Dúvidas sobre ultra freezer',
     emergency: 'Ultra freezer parado gera prejuízo por hora — mercadoria em risco e operação travada. Para ultra freezer e sistemas que não podem parar, atendemos fora do horário comercial. Ligue e avaliamos na hora.',
     faq: [
@@ -471,7 +479,14 @@ sections: [
     intro: [
       'A refresqueira combina refrigeração e circulação: além de gelar, a bomba precisa manter o suco em movimento constante para dar a aparência e a temperatura que atraem o cliente. Fazemos a instalação nivelada, a avaliação do ponto elétrico e a regulagem para o equipamento render no movimento.',
       'Na manutenção preventiva verificamos a carga de gás, testamos o compressor e a bomba de circulação, limpamos o condensador, inspecionamos as borrachas de vedação e higienizamos o sistema — item essencial por se tratar de equipamento que trabalha com bebida.',
-      'Na corretiva resolvemos refresqueira que sai com o suco quente, que não circula, com vazamento, ruído ou consumo alto — com troca de compressor, recarga de gás, reparo ou troca da bomba, substituição de borrachas e parte elétrica. Diagnóstico e preço fechado antes de começar, com garantia no serviço.',
+      'Na corretiva resolvemos refresqueira que sai com o suco quente, que não circula, com vazamento, ruído ou consumo alto — com troca de compressor, recarga de gás, reparo ou troca da bomba, substituição de borrachas e parte elétrica. O valor do reparo vem antes da execução, com garantia no serviço.',
+    ],
+    sections: [
+      { title: 'Higienização e limpeza da refresqueira', body: [
+        'Refresqueira é equipamento de bebida, e o suco fica horas circulando em circuito fechado. Açúcar e polpa deixam película na parede do reservatório, na bomba e no bico de saída — é dali que vem o gosto alterado que o cliente sente antes de qualquer defeito de refrigeração aparecer.',
+        'A higienização abre o circuito: reservatório, tampa, bomba de circulação, sifão, mangueira e torneira, com produto próprio para contato com alimento e enxágue completo. Também revisamos as borrachas de vedação na mesma visita, porque vedação ressecada deixa entrar ar e acelera a formação de resíduo.',
+        'A limpeza diária do reservatório é do estabelecimento. A higienização técnica, com desmontagem, entra em intervalo programado — e em lanchonete de alto giro, evento e quiosque na orla o intervalo é menor, porque o equipamento trabalha cheio e em ambiente quente.',
+      ] },
     ],
     servicesListTitle: 'Nossos serviços',
     services: [
@@ -498,7 +513,7 @@ sections: [
       ['power', 'Desliga sozinho', 'Desarmes frequentes apontam falha elétrica ou superaquecimento.'],
     ],
     ctaTitle: 'Refresqueira parada? Fale conosco agora.',
-    waMessage: 'Olá! Preciso de atendimento para REFRESQUEIRA. Podem me passar um orçamento?',
+    waMessage: 'Olá! Preciso de atendimento para REFRESQUEIRA. Vou descrever o que está acontecendo com o equipamento e gostaria de agendar o diagnóstico.',
     faqTitle: 'Dúvidas sobre refresqueira',
     faq: [
       ['A refresqueira não está gelando o suco. O que pode ser?', 'Geralmente é gás baixo por vazamento, condensador sujo, termostato desregulado ou compressor com desgaste. Medimos pressão e temperatura para identificar a causa e corrigir de forma definitiva.'],
@@ -517,11 +532,11 @@ sections: [
     metaDescription: 'Instalação, manutenção preventiva e corretiva de adegas climatizadas de vinhos para restaurantes, bares, adegas e residências no Rio e Grande Rio. Temperatura e umidade no ponto certo.',
     heroTitle: 'Manutenção e instalação de adega climatizada de vinhos no Rio e Grande Rio',
     highlight: 'adega climatizada',
-    heroLead: 'A adega climatizada conserva o vinho na temperatura e na umidade ideais, protegendo aroma, sabor e valor de cada garrafa. Fazemos instalação, manutenção preventiva e corretiva e conserto de adegas de compressor e termoelétricas para restaurantes, bares, adegas comerciais e residências, com controle preciso e vibração reduzida em todo o Rio e Grande Rio.',
+    heroLead: 'A adega climatizada conserva o vinho em temperatura estável e com vibração reduzida, protegendo aroma, sabor e valor de cada garrafa. Fazemos instalação, manutenção preventiva e corretiva e conserto de adegas de compressor e termoelétricas para restaurantes, bares, adegas comerciais e residências, com controle de temperatura preciso e vibração reduzida em todo o Rio e Grande Rio.',
     heroImageLabel: 'Adega climatizada de vinhos — serviço Santos Refrigeração',
     servicesTitle: 'Sua adega de vinhos sempre no ponto',
     intro: [
-      'A adega climatizada é um equipamento de precisão: além de gelar, precisa manter a temperatura estável (sem oscilações), a umidade controlada e a vibração mínima — fatores que preservam a rolha e a evolução do vinho. Trabalhamos com adegas de compressor e termoelétricas, de garrafeiras residenciais a expositores comerciais de grande capacidade.',
+      'A adega climatizada é um equipamento de precisão: além de gelar, precisa manter a temperatura estável, a vibração mínima e, nos modelos com esse recurso, a umidade controlada — fatores que preservam a rolha e a evolução do vinho. Trabalhamos com adegas de compressor e termoelétricas, de garrafeiras residenciais a expositores comerciais de grande capacidade.',
       'Na manutenção preventiva verificamos a carga de gás refrigerante e microvazamentos, testamos o compressor e o sistema de controle eletrônico, limpamos o condensador, inspecionamos as borrachas de vedação e a iluminação, e conferimos o sistema de umidade e a vedação da porta de vidro. Adega bem regulada mantém a temperatura estável, gasta menos energia e não deixa o vinho sofrer.',
       'Na corretiva resolvemos adega que não gela, que oscila de temperatura, com excesso de umidade ou condensação, ruído, vibração ou consumo alto — com troca de compressor, recarga de gás, reparo do controle eletrônico, iluminação, vedação e parte elétrica. Diagnóstico e preço fechado antes de começar, com garantia no serviço.',
     ],
@@ -550,7 +565,7 @@ sections: [
       ['lightbulb', 'Iluminação falhando', 'Lâmpadas queimadas prejudicam a exposição das garrafas.'],
     ],
     ctaTitle: 'Sua adega de vinhos com problema? Fale conosco.',
-    waMessage: 'Olá! Preciso de atendimento para ADEGA CLIMATIZADA DE VINHOS. Podem me passar um orçamento?',
+    waMessage: 'Olá! Preciso de atendimento para ADEGA CLIMATIZADA DE VINHOS. Vou descrever o que está acontecendo com o equipamento e gostaria de agendar o diagnóstico.',
     faqTitle: 'Dúvidas sobre adega climatizada de vinhos',
     faq: [
       ['Qual a diferença entre adega de compressor e termoelétrica?', 'A de compressor refrigera como uma geladeira, atinge temperaturas mais baixas e suporta maior capacidade e calor ambiente — ideal para uso comercial. A termoelétrica (pastilha Peltier) é mais silenciosa e com menos vibração, indicada para menores capacidades. Atendemos e consertamos os dois tipos.'],
@@ -575,7 +590,14 @@ sections: [
     intro: [
       'A máquina de gelo depende de três sistemas em harmonia: refrigeração, água e ciclo de produção/colheita. A qualidade da água e a limpeza interna afetam diretamente o formato e a transparência do gelo. Fazemos a instalação com avaliação do ponto de água e energia e a regulagem do ciclo de produção.',
       'Na manutenção preventiva limpamos e higienizamos o sistema (fundamental por produzir gelo para consumo), verificamos a carga de gás, testamos o compressor, o sistema de água e o filtro, e ajustamos o ciclo de produção e colheita. Máquina limpa produz mais, com gelo firme e transparente.',
-      'Na corretiva resolvemos máquina que produz pouco gelo, gelo mal formado, que trava no meio do ciclo, com ruído ou vazamento — com troca de compressor, recarga de gás, reparo do sistema de água, filtro e parte elétrica. Diagnóstico e preço fechado antes de começar, com garantia no reparo.',
+      'Na corretiva resolvemos máquina que produz pouco gelo, gelo mal formado, que trava no meio do ciclo, com ruído ou vazamento — com troca de compressor, recarga de gás, reparo do sistema de água, filtro e parte elétrica. Apresentamos o diagnóstico e o valor antes de executar, com garantia no reparo.',
+    ],
+    sections: [
+      { title: 'Higienização da máquina de gelo', body: [
+        'A máquina de gelo é o único equipamento de refrigeração que produz alimento. O gelo passa pela placa de formação, pela calha de colheita e pelo reservatório, e tudo que estiver nesse caminho vai para dentro do copo do cliente. Limpeza externa e higienização interna são serviços diferentes.',
+        'A higienização desmonta o circuito de água: placa ou cápsulas de formação, bomba, calha, cortina de descarga, reservatório e mangueiras, com produto próprio para superfície em contato com alimento, seguido de enxágue e sanitização. Trocamos o filtro na mesma visita, porque água dura deixa incrustação na placa e é a causa mais comum de gelo turvo e de queda de produção.',
+        'A frequência depende do volume de uso, da dureza da água na região e da orientação do fabricante do seu equipamento. Bar e restaurante de alto giro no Rio costumam precisar de intervalo menor do que o manual sugere, porque a máquina trabalha em ambiente quente e com ciclo contínuo. Definimos o calendário na primeira visita e trabalhamos com contrato de higienização programada.',
+      ] },
     ],
     servicesListTitle: 'Nossos serviços',
     services: [
@@ -602,7 +624,7 @@ sections: [
       ['filter', 'Gelo com gosto ou turvo', 'Água mal filtrada deixa o gelo turvo ou com sabor.'],
     ],
     ctaTitle: 'Sua máquina de gelo parou? Fale conosco agora.',
-    waMessage: 'Olá! Preciso de atendimento para MÁQUINA DE GELO. Podem me passar um orçamento?',
+    waMessage: 'Olá! Preciso de atendimento para MÁQUINA DE GELO. Vou descrever o que está acontecendo com o equipamento e gostaria de agendar o diagnóstico.',
     faqTitle: 'Dúvidas sobre máquina de gelo',
     faq: [
       ['A máquina está produzindo pouco gelo. Por quê?', 'As causas comuns são gás baixo por vazamento, condensador sujo, filtro de água entupido ou ciclo de produção desregulado. Fazemos o diagnóstico completo e corrigimos a causa para a produção voltar ao normal.'],
@@ -722,7 +744,7 @@ sections: [
     sections: [
       { title: 'Por que higienizar: mofo, cheiro e qualidade do ar', body: [
         'A evaporadora trabalha permanentemente úmida por causa da condensação. Somada à poeira que passa pelo filtro, essa umidade forma um meio onde mofo e bactéria se instalam na serpentina e na bandeja. O cheiro característico ao ligar o aparelho é o sinal mais direto disso — não é o gás, é matéria orgânica na serpentina.',
-        'Como o equipamento recircula o ar do ambiente, o que está retido ali é redistribuído continuamente. Em escritório e loja, onde as pessoas passam o dia inteiro com as janelas fechadas, isso costuma aparecer como irritação nas vias respiratórias e queixa recorrente de ar pesado.',
+        'Como o equipamento recircula o ar do ambiente, o que está retido ali é redistribuído continuamente. Em escritório e loja, onde as pessoas passam o dia inteiro com as janelas fechadas, isso costuma chegar até nós como queixa recorrente de ar pesado no ambiente.',
       ] },
       { title: 'Como fazemos: filtros, serpentina e turbina', body: [
         'Isolamos a área com bolsa coletora para a água de lavagem não cair no ambiente. Retiramos e lavamos os filtros, aplicamos químico específico para alumínio na serpentina e enxaguamos com pressão controlada — pressão alta amassa as aletas e reduz a troca térmica de forma permanente.',
@@ -747,7 +769,7 @@ sections: [
       ['alert-triangle', 'Queixa de ar pesado', 'Irritação respiratória recorrente em ambiente fechado e climatizado.'],
     ],
     ctaTitle: 'Ar condicionado com cheiro ou gelando pouco? Agende a higienização.',
-    waMessage: 'Olá! Preciso de HIGIENIZAÇÃO DE AR CONDICIONADO. Podem me passar um orçamento?',
+    waMessage: 'Olá! Preciso de HIGIENIZAÇÃO DE AR CONDICIONADO. Gostaria de agendar e saber o valor. Vou informar quantos aparelhos e o tipo de cada um.',
     faqTitle: 'Dúvidas sobre higienização de ar condicionado',
     faq: [
       ['Vocês fazem higienização de ar condicionado automotivo?', 'Não. Trabalhamos com ar condicionado de ambiente — split, multi split, janela, cassete e piso-teto — em comércio, escritório e residência. Higienização de ar condicionado de carro é serviço automotivo, com equipamento e acesso completamente diferentes, e não faz parte do nosso escopo.'],
@@ -833,7 +855,7 @@ sections: [
     waMessage: 'Olá! Preciso de um TÉCNICO DE REFRIGERAÇÃO. Podem me atender?',
     faqTitle: 'Dúvidas sobre assistência técnica em refrigeração',
     faq: [
-      ['Vocês atendem equipamento de qualquer marca?', 'Sim. Trabalhamos com equipamentos comerciais e industriais de refrigeração de todas as marcas, incluindo os fora de linha e sem assistência autorizada na região. O que define o reparo é o sistema — compressor, condensador, evaporador, gás e controle — não o fabricante.'],
+      ['Vocês atendem equipamento de qualquer marca?', 'Sim. Atendemos equipamentos comerciais e industriais de refrigeração de diversas marcas e modelos, inclusive os fora de linha e sem assistência autorizada na região, conforme a viabilidade técnica e a disponibilidade de peça. O que define o reparo é o sistema — compressor, condensador, evaporador, gás e controle — não o fabricante.'],
       ['Quanto custa a visita técnica?', 'Cobramos a visita de diagnóstico, e o valor é abatido do serviço caso o reparo seja aprovado. Passamos o valor no primeiro contato, antes de agendar. Parte dos casos se resolve na própria triagem por WhatsApp, sem visita.'],
       ['Em quanto tempo vocês atendem?', 'Trabalhamos com atendimento ágil e priorizamos equipamento parado em operação comercial, onde há perda de estoque ou de faturamento. O prazo depende da agenda do dia e da região; informamos no momento do contato. Nosso horário é de segunda a sábado, das 8h às 18h.'],
       ['Vale mais a pena consertar ou trocar o equipamento?', 'Depende da idade do equipamento, do custo do reparo e do histórico de falhas. Compressor queimado em equipamento antigo, com outros componentes no fim da vida útil, muitas vezes não compensa. Apresentamos o diagnóstico com o custo real do reparo para você decidir com número na mão — não empurramos serviço.'],
@@ -851,7 +873,7 @@ sections: [
     metaDescription: 'Instalação de ar condicionado split, multi split e comercial no Rio de Janeiro e Grande Rio. Dimensionamento, tubulação, vácuo e carga de gás. Orçamento sem compromisso.',
     heroTitle: 'Instalação de ar condicionado no Rio de Janeiro e Grande Rio',
     highlight: 'instalação',
-    heroLead: 'A instalação define o desempenho do aparelho pelos próximos dez anos. Fazemos o dimensionamento de BTUs, a infraestrutura de cobre, o vácuo na linha e a carga de gás na medida do fabricante — em split, multi split, cassete, piso-teto e sistemas comerciais, no Rio de Janeiro e Grande Rio.',
+    heroLead: 'A instalação é o que define o desempenho e a vida útil do aparelho. Fazemos o dimensionamento de BTUs, a infraestrutura de cobre, o vácuo na linha e a carga de gás na medida do fabricante — em split, multi split, cassete, piso-teto e sistemas comerciais, no Rio de Janeiro e Grande Rio.',
     heroImageLabel: 'Instalação de ar condicionado — Santos Refrigeração',
     servicesTitle: 'Instalação de ar condicionado feita pelo procedimento correto',
     intro: [
@@ -878,7 +900,7 @@ sections: [
     ],
     sections: [
       { title: 'Dimensionamento de BTUs: o cálculo que vem antes da compra', body: [
-        'A regra de bolso de BTU por metro quadrado erra na maioria dos casos reais. Sala com parede envidraçada voltada para o poente, loja com vitrine e movimento de pessoas, escritório com dez computadores e cozinha profissional têm cargas térmicas muito diferentes para a mesma metragem.',
+        'A regra de bolso de BTU por metro quadrado ignora justamente o que mais pesa na carga térmica. Sala com parede envidraçada voltada para o poente, loja com vitrine e movimento de pessoas, escritório com dez computadores e cozinha profissional têm cargas térmicas muito diferentes para a mesma metragem.',
         'Fazemos o cálculo considerando área, pé-direito, orientação solar, número de ocupantes e carga de equipamentos. É a etapa que evita o erro mais caro da instalação, porque ele só aparece depois, na forma de aparelho que não dá conta ou de compressor que liga e desliga sem parar.',
       ] },
       { title: 'Vácuo e carga de gás: onde a instalação barata falha', body: [
@@ -954,6 +976,10 @@ sections: [
         'Gás baixo é a suspeita imediata, e é a causa em parte dos casos — mas gás não se consome, ele vaza. Recarregar sem localizar o vazamento é serviço que dura poucos meses. Usamos detector eletrônico para achar o ponto antes de recarregar.',
         'As outras causas frequentes são serpentina e condensadora obstruídas, que reduzem a troca térmica; capacitor com perda de capacidade, que impede o compressor de partir com força; e sensor descalibrado, que faz o aparelho desligar antes de atingir a temperatura. A medição de pressão separa uma da outra em minutos.',
       ] },
+      { title: 'Conserto de ar condicionado: quando o reparo entra no lugar da revisão', body: [
+        'Conserto e manutenção não são a mesma coisa. Manutenção é o que se faz com o aparelho funcionando, para ele continuar funcionando. Conserto é o que se faz depois que ele parou, não liga, não gela ou desarmou o disjuntor — e nesse caso o que se procura é a peça com defeito, não o intervalo de revisão.',
+        'Atendemos os dois. No conserto, a diferença está em quanto tempo se leva para chegar à causa: compressor que não parte, placa eletrônica queimada, capacitor sem capacidade, sensor descalibrado e vazamento na linha dão sintomas parecidos e têm custos muito diferentes. A medição separa um do outro antes de qualquer troca, e o valor do reparo vai para a sua aprovação junto com o diagnóstico.',
+      ] },
       { title: 'Manutenção preventiva: de quanto em quanto tempo', body: [
         'Em residência com uso moderado, uma revisão anual antes do verão dá conta. Em comércio e escritório, com o equipamento ligado dez horas por dia, o intervalo cai para seis meses. Cozinha, academia e ambiente com gordura ou poeira em suspensão pedem intervalos menores.',
         'Preventiva não é gasto adiantado, é troca de um custo previsível por um imprevisível: limpeza e verificação custam uma fração do compressor queimado, e a parada não acontece no dia de maior movimento.',
@@ -977,10 +1003,11 @@ sections: [
       ['alert-triangle', 'Desarmando o disjuntor', 'Compressor com corrente alta ou problema na parte elétrica.'],
     ],
     ctaTitle: 'Ar condicionado com problema? Fale conosco agora.',
-    waMessage: 'Olá! Preciso de MANUTENÇÃO DE AR CONDICIONADO. Podem me passar um orçamento?',
+    waMessage: 'Olá! Preciso de MANUTENÇÃO DE AR CONDICIONADO. Vou descrever o que está acontecendo com o aparelho e gostaria de agendar o diagnóstico.',
     faqTitle: 'Dúvidas sobre manutenção de ar condicionado',
     faq: [
       ['Meu ar condicionado não está gelando. É falta de gás?', 'Pode ser, mas é apenas uma das causas. Serpentina obstruída, condensadora suja, capacitor com perda de capacidade, placa com defeito e sensor descalibrado dão o mesmo sintoma. Medimos pressão de alta e baixa antes de concluir — e se for gás, localizamos o vazamento, porque gás não se consome, ele escapa.'],
+      ['Qual a diferença entre conserto e manutenção de ar condicionado?', 'Manutenção é preventiva: limpeza, medição e verificação com o aparelho funcionando, para evitar a parada. Conserto é corretivo: o aparelho já parou, não gela ou desarma, e o trabalho é localizar a peça ou a falha responsável. Atendemos os dois, e nos dois casos você recebe o diagnóstico e o valor antes de autorizar.'],
       ['Preciso recarregar o gás todo ano?', 'Não. Em sistema íntegro a carga de gás dura anos. Recarga anual é sinal de vazamento não localizado. Recarregar sem reparar é serviço que dura poucos meses e custa duas vezes.'],
       ['Qual a diferença entre manutenção e higienização?', 'A higienização trata a limpeza: filtros, serpentina, turbina, bandeja e dreno. A manutenção inclui isso e vai além — medição de pressão, verificação da carga de gás, teste do capacitor, aperto de conexões elétricas e avaliação do compressor. Veja também a página de <a href="higienizacao-ar-condicionado.html">higienização de ar condicionado</a>.'],
       ['Vale consertar ou trocar o aparelho?', 'Depende da idade, do custo do reparo e do histórico. Compressor queimado em aparelho de dez anos, com outros componentes no fim da vida, geralmente não compensa. Apresentamos o custo real do reparo para você decidir com número na mão.'],
@@ -1025,7 +1052,7 @@ sections: [
     ],
     sections: [
       { title: 'Conserto de geladeira residencial', body: [
-        'Atendemos geladeira doméstica de todas as marcas e portes: uma porta, duplex, frost free, side by side e inverse. O atendimento é no local, na sua casa, porque mover geladeira sem necessidade cria mais problema que resolve — o óleo do compressor pode migrar para o circuito se o equipamento for deitado.',
+        'Atendemos geladeira doméstica de diversas marcas e portes: uma porta, duplex, frost free, side by side e inverse. O atendimento é no local, na sua casa, porque mover geladeira sem necessidade cria mais problema que resolve — o óleo do compressor pode migrar para o circuito se o equipamento for deitado.',
         'Os defeitos mais comuns em geladeira residencial são degelo travado com formação de gelo no fundo, dreno obstruído com água acumulando na gaveta de legumes, borracha de vedação ressecada deixando o frio escapar, e compressor que não parte. Fazemos o diagnóstico e informamos o custo antes de qualquer reparo.',
       ] },
       { title: 'Geladeira e refrigerador comercial', body: [
@@ -1051,10 +1078,10 @@ sections: [
       ['zap', 'Motor ligado sem parar', 'Perda de eficiência: condensador sujo, vedação ou carga de gás.'],
     ],
     ctaTitle: 'Geladeira parada? Fale conosco agora.',
-    waMessage: 'Olá! Preciso de CONSERTO DE GELADEIRA. Podem me passar um orçamento?',
+    waMessage: 'Olá! Preciso de CONSERTO DE GELADEIRA. Vou descrever o que está acontecendo com o equipamento e gostaria de agendar o diagnóstico.',
     faqTitle: 'Dúvidas sobre conserto de geladeira',
     faq: [
-      ['Vocês atendem geladeira residencial ou só comercial?', 'Atendemos as duas. Geladeira doméstica de todas as marcas — uma porta, duplex, frost free, side by side, inverse — além de frigobar, geladeira e refrigerador comercial e industrial. O atendimento é no local, no Rio de Janeiro e Grande Rio.'],
+      ['Vocês atendem geladeira residencial ou só comercial?', 'Atendemos as duas. Geladeira doméstica de diversas marcas — uma porta, duplex, frost free, side by side, inverse — além de frigobar, geladeira e refrigerador comercial e industrial. O atendimento é no local, no Rio de Janeiro e Grande Rio.'],
       ['A geladeira não está gelando. O que pode ser?', 'As causas mais comuns são compressor sem partida, gás baixo por vazamento, termostato ou sensor com defeito, placa eletrônica queimada e condensador obstruído. Os sintomas são parecidos e a causa é diferente, por isso medimos pressão e corrente antes de concluir — trocar peça por tentativa sai mais caro.'],
       ['Preciso levar a geladeira ou vocês vão até mim?', 'Vamos até você. Atendimento no local é a regra, e não só por comodidade: geladeira deitada ou transportada sem cuidado pode ter migração do óleo do compressor para o circuito, criando um problema que não existia. Só levamos para a oficina quando o reparo exige bancada.'],
       ['Está juntando água dentro da geladeira. É grave?', 'Normalmente é dreno obstruído — o caminho da água do degelo entope e ela transborda, aparecendo na gaveta de legumes ou no chão. É um dos reparos mais simples e baratos, mas se ficar sem tratar pode molhar a parte elétrica.'],
