@@ -1364,7 +1364,7 @@ function Services({
   const {
     Button
   } = window.DS;
-  const services = [['photo:assets/icon-p-camara.png', 'Câmara fria', 'Instalação e manutenção de câmara fria e frigorífico comercial.', 'camara-fria.html'], ['photo:assets/icon-p-chopeira.png', 'Chopeiras', 'Manutenção e instalação de chopeira, com higienização do sistema de tiragem.', 'chopeiras.html'], ['photo:assets/icon-p-gela-caneca.png', 'Gela Caneca', 'Manutenção e conserto de gela caneca para o seu bar.', 'gela-caneca.html'], ['photo:assets/icon-p-ar.png', 'Ar condicionado', 'Ar condicionado comercial e residencial: instalação, manutenção e higienização.', 'ar-condicionado.html', [['Instalação', 'instalacao-ar-condicionado.html'], ['Manutenção', 'manutencao-ar-condicionado.html'], ['Higienização', 'higienizacao-ar-condicionado.html'], ['Tubulação', 'tubulacao-ar-condicionado.html']]], ['photo:assets/icon-p-geladeira.png', 'Geladeira', 'Conserto e manutenção de geladeira comercial, industrial e residencial.', 'geladeira-comercial.html', [['Comercial e industrial', 'geladeira-comercial.html'], ['Residencial', 'conserto-de-geladeira.html']]], ['photo:assets/icon-balcao-foto.png', 'Balcão refrigerado', 'Conserto e manutenção de balcão refrigerado e expositor.', 'balcao-refrigerado.html'], ['photo:assets/icon-p-ilha.png', 'Ilha de congelados', 'Conserto e manutenção de ilha de congelados e expositor.', 'ilha-de-congelados.html'], ['photo:assets/icon-p-ultra-freezer.png', 'Ultra freezer', 'Conserto e manutenção de ultra freezer e equipamento de baixa temperatura.', 'ultra-freezer.html'], ['photo:assets/icon-p-refresqueira.png', 'Refresqueira', 'Conserto e manutenção de refresqueira para lanchonete, comércio e evento.', 'refresqueira.html'], ['photo:assets/icon-p-maquina-gelo.png', 'Máquina de gelo', 'Conserto e manutenção de máquina de gelo.', 'maquina-de-gelo.html'], ['photo:assets/icon-p-adega.png', 'Adega climatizada de vinhos', 'Manutenção e instalação de adega climatizada de vinhos.', 'adega-vinhos.html']];
+  const services = [['photo:assets/icon-p-camara.webp', 'Câmara fria', 'Instalação e manutenção de câmara fria e frigorífico comercial.', 'camara-fria.html'], ['photo:assets/icon-p-chopeira.webp', 'Chopeiras', 'Manutenção e instalação de chopeira, com higienização do sistema de tiragem.', 'chopeiras.html'], ['photo:assets/icon-p-gela-caneca.webp', 'Gela Caneca', 'Manutenção e conserto de gela caneca para o seu bar.', 'gela-caneca.html'], ['photo:assets/icon-p-ar.webp', 'Ar condicionado', 'Ar condicionado comercial e residencial: instalação, manutenção e higienização.', 'ar-condicionado.html', [['Instalação', 'instalacao-ar-condicionado.html'], ['Manutenção', 'manutencao-ar-condicionado.html'], ['Higienização', 'higienizacao-ar-condicionado.html'], ['Tubulação', 'tubulacao-ar-condicionado.html']]], ['photo:assets/icon-p-geladeira.webp', 'Geladeira', 'Conserto e manutenção de geladeira comercial, industrial e residencial.', 'geladeira-comercial.html', [['Comercial e industrial', 'geladeira-comercial.html'], ['Residencial', 'conserto-de-geladeira.html']]], ['photo:assets/icon-balcao-foto.webp', 'Balcão refrigerado', 'Conserto e manutenção de balcão refrigerado e expositor.', 'balcao-refrigerado.html'], ['photo:assets/icon-p-ilha.webp', 'Ilha de congelados', 'Conserto e manutenção de ilha de congelados e expositor.', 'ilha-de-congelados.html'], ['photo:assets/icon-p-ultra-freezer.webp', 'Ultra freezer', 'Conserto e manutenção de ultra freezer e equipamento de baixa temperatura.', 'ultra-freezer.html'], ['photo:assets/icon-p-refresqueira.webp', 'Refresqueira', 'Conserto e manutenção de refresqueira para lanchonete, comércio e evento.', 'refresqueira.html'], ['photo:assets/icon-p-maquina-gelo.webp', 'Máquina de gelo', 'Conserto e manutenção de máquina de gelo.', 'maquina-de-gelo.html'], ['photo:assets/icon-p-adega.webp', 'Adega climatizada de vinhos', 'Manutenção e instalação de adega climatizada de vinhos.', 'adega-vinhos.html']];
   return /*#__PURE__*/React.createElement(Section, {
     id: "servicos",
     tone: "subtle"
@@ -1425,6 +1425,10 @@ function Services({
   }, icon.indexOf('photo:') === 0 ? /*#__PURE__*/React.createElement("img", {
     src: icon.slice(6),
     alt: "",
+    loading: "lazy",
+    decoding: "async",
+    width: 48,
+    height: 48,
     style: {
       width: 48,
       height: 48,
@@ -1587,7 +1591,7 @@ function Equipment({
       boxShadow: 'var(--shadow-md)'
     }
   }, /*#__PURE__*/React.createElement("img", {
-    src: window.SITE_IMAGES && window.SITE_IMAGES.tecnico || 'assets/tecnico-atendimento.jpg',
+    src: window.SITE_IMAGES && window.SITE_IMAGES.tecnico || 'assets/opt-s0.webp',
     alt: "T\xE9cnico da Santos Refrigera\xE7\xE3o em atendimento de refrigera\xE7\xE3o comercial no Rio de Janeiro",
     style: {
       width: '100%',
@@ -1777,7 +1781,7 @@ function ServiceArea() {
   }, /*#__PURE__*/React.createElement("image-slot", {
     id: "cristo-foto",
     shape: "rect",
-    src: window.SITE_IMAGES && window.SITE_IMAGES.cristo || 'assets/cristo-original.png',
+    src: window.SITE_IMAGES && window.SITE_IMAGES.cristo || 'assets/opt-s1.webp',
     placeholder: "Arraste aqui uma foto do Cristo Redentor",
     style: {
       position: 'absolute',

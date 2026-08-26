@@ -17,6 +17,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://unpkg.com" crossorigin>
+<link rel="preload" as="script" href="app-service.js">
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap"></noscript>
@@ -352,8 +353,86 @@ img { display: block; max-width: 100%; }
 </head>
 <body>
   <div id="root"></div>
-  <script src="services-index.js"></script>
-  <script src="data/gela-caneca.js"></script>
+  <script>// Indice leve dos servicos: slug + titulo, o que o rodape precisa.
+// O corpo completo de cada pagina vem de data/<slug>.js.
+window.SERVICES_DATA = {
+  'camara-fria': { slug: 'camara-fria', title: 'Câmara fria' },
+  'chopeiras': { slug: 'chopeiras', title: 'Chopeiras' },
+  'gela-caneca': { slug: 'gela-caneca', title: 'Gela Caneca' },
+  'ar-condicionado': { slug: 'ar-condicionado', title: 'Ar condicionado' },
+  'geladeira-comercial': { slug: 'geladeira-comercial', title: 'Geladeira comercial' },
+  'balcao-refrigerado': { slug: 'balcao-refrigerado', title: 'Balcão refrigerado' },
+  'ilha-de-congelados': { slug: 'ilha-de-congelados', title: 'Ilha de congelados' },
+  'ultra-freezer': { slug: 'ultra-freezer', title: 'Ultra freezer' },
+  'refresqueira': { slug: 'refresqueira', title: 'Refresqueira' },
+  'adega-vinhos': { slug: 'adega-vinhos', title: 'Adega climatizada de vinhos' },
+  'maquina-de-gelo': { slug: 'maquina-de-gelo', title: 'Máquina de gelo' },
+  'tubulacao-ar-condicionado': { slug: 'tubulacao-ar-condicionado', title: 'Tubulação de ar condicionado' },
+  'higienizacao-ar-condicionado': { slug: 'higienizacao-ar-condicionado', title: 'Higienização de ar condicionado' },
+  'tecnico-refrigeracao-comercial': { slug: 'tecnico-refrigeracao-comercial', title: 'Técnico de refrigeração' },
+  'instalacao-ar-condicionado': { slug: 'instalacao-ar-condicionado', title: 'Instalação de ar condicionado' },
+  'manutencao-ar-condicionado': { slug: 'manutencao-ar-condicionado', title: 'Manutenção de ar condicionado' },
+  'conserto-de-geladeira': { slug: 'conserto-de-geladeira', title: 'Conserto de geladeira' },
+};</script>
+  <script>// Dados da pagina gela-caneca. Carregado so por gela-caneca.html.
+Object.assign(window.SERVICES_DATA['gela-caneca'], {
+    slug: 'gela-caneca',
+    title: 'Gela Caneca',
+    icon: 'glass-water',
+    eyebrow: 'Gela Caneca',
+    metaTitle: 'Conserto de gela caneca no Rio de Janeiro | Santos Refrigeração',
+    metaDescription: 'Manutenção, conserto e instalação de gela caneca para bares e restaurantes no Rio e Grande Rio. Canecas sempre congeladas. Orçamento sem compromisso.',
+    heroTitle: 'Manutenção e conserto de gela caneca no Rio e Grande Rio',
+    highlight: 'gela caneca',
+    heroLead: 'Especialistas em gela caneca, cuidamos da instalação, manutenção preventiva e corretiva e do sistema de refrigeração que mantém as canecas na temperatura de congelamento. Atendemos bares, restaurantes, distribuidoras e eventos, garantindo a camada de gelo perfeita e a apresentação que valoriza o seu chopp e a sua cerveja.',
+    heroImageLabel: 'Foto do gela caneca / serviço',
+    gallery: ['assets/trab-gc-1.webp', 'assets/trab-gc-2.webp', 'assets/trab-gc-3.webp', 'assets/trab-gc-4.webp'],
+    galleryFit: 'cover',
+    galleryTrim: 9,
+    galleryPos: { 2: 'center 45%', 3: '91% top' },
+    galleryTitle: 'Aparelhos de gela caneca que já atendemos',
+    galleryLead: 'Equipamentos de clientes no Rio e Grande Rio, com a temperatura conferida no painel depois do serviço.',
+    galleryAlt: 'Gela caneca atendido pela Santos Refrigeração',
+    servicesTitle: 'Seu gela caneca sempre no ponto',
+    intro: [
+      'O gela caneca trabalha com temperaturas negativas e ciclo contínuo: o compressor precisa vencer a abertura constante do equipamento sem perder rendimento. Fazemos a instalação dimensionada para o seu volume, o nivelamento correto e a regulagem do termostato para que as canecas saiam sempre com a camada de gelo uniforme.',
+      'Na manutenção preventiva verificamos a carga de gás refrigerante, testamos o compressor e o ventilador, limpamos o condensador (sujeira eleva a pressão e derruba o congelamento), inspecionamos as borrachas de vedação e fazemos o degelo técnico para evitar acúmulo excessivo de gelo interno.',
+      'Na corretiva resolvemos as falhas mais comuns — equipamento que não congela, formação exagerada de gelo, ruído no motor e alto consumo — com troca de compressor, recarga de gás, substituição de termostato e componentes elétricos. Você recebe o diagnóstico e o preço fechado antes de começar, com garantia no serviço.',
+    ],
+    servicesListTitle: 'Nossos serviços',
+    services: [
+      'Instalação e nivelamento de gela caneca',
+      'Manutenção preventiva programada',
+      'Manutenção corretiva de emergência',
+      'Recarga e troca de gás refrigerante',
+      'Troca de compressor',
+      'Limpeza técnica do condensador',
+      'Degelo técnico e higienização interna',
+      'Substituição de termostato e controle de temperatura',
+      'Troca de borrachas e vedações',
+      'Reparo de ventilador e parte elétrica',
+      'Ajuste e calibração da camada de gelo',
+      'Contrato de manutenção regular',
+    ],
+    signsTitle: 'Sinais de que o gela caneca precisa de atenção',
+    signs: [
+      ['thermometer-sun', 'Não congela', 'As canecas saem sem a camada de gelo característica.'],
+      ['snowflake', 'Gelo em excesso', 'Acúmulo espesso de gelo interno reduz o espaço e o rendimento.'],
+      ['volume-2', 'Ruído no motor', 'Barulho estranho indica desgaste do compressor.'],
+      ['zap', 'Conta de luz alta', 'Consumo elevado costuma ser condensador sujo ou gás baixo.'],
+      ['clock', 'Demora para congelar', 'A caneca leva tempo demais para atingir o ponto.'],
+      ['power', 'Desliga sozinho', 'Desarmes frequentes apontam falha elétrica ou superaquecimento.'],
+    ],
+    ctaTitle: 'Gela caneca parado? Fale conosco agora.',
+    waMessage: 'Olá! Preciso de atendimento para GELA CANECA. Vou descrever o que está acontecendo com o equipamento e gostaria de agendar o diagnóstico.',
+    faqTitle: 'Dúvidas sobre gela caneca',
+    faq: [
+      ['Por que o gela caneca parou de congelar as canecas?', 'As causas mais comuns são gás refrigerante baixo por microvazamento, condensador sujo, termostato desregulado ou compressor com desgaste. Medimos pressão e temperatura para identificar a causa real e corrigir só o que precisa.'],
+      ['Com que frequência devo fazer manutenção?', 'Recomendamos revisão preventiva periódica, com limpeza do condensador, verificação de gás e degelo técnico. Em locais de alto movimento, a preventiva evita a parada no fim de semana e mantém o consumo de energia sob controle.'],
+      ['Formou muito gelo dentro do equipamento. É problema?', 'Sim. O excesso de gelo indica falha na vedação, no degelo ou umidade entrando no equipamento. Além de reduzir o espaço útil, força o motor e aumenta a conta de luz. Fazemos o degelo técnico e corrigimos a causa.'],
+      ['Vocês instalam gela caneca novo?', 'Sim. Fazemos a instalação com nivelamento correto, avaliação do ponto elétrico e regulagem inicial da temperatura, deixando o equipamento pronto para operar com a camada de gelo no ponto.'],
+    ],
+  });</script>
   <script src="app-service.js"></script>
   <script>
     const data = window.SERVICES_DATA['gela-caneca'];

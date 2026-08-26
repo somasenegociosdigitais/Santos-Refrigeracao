@@ -17,6 +17,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://unpkg.com" crossorigin>
+<link rel="preload" as="script" href="app-service.js">
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap"></noscript>
@@ -352,8 +353,105 @@ img { display: block; max-width: 100%; }
 </head>
 <body>
   <div id="root"></div>
-  <script src="services-index.js"></script>
-  <script src="data/manutencao-ar-condicionado.js"></script>
+  <script>// Indice leve dos servicos: slug + titulo, o que o rodape precisa.
+// O corpo completo de cada pagina vem de data/<slug>.js.
+window.SERVICES_DATA = {
+  'camara-fria': { slug: 'camara-fria', title: 'Câmara fria' },
+  'chopeiras': { slug: 'chopeiras', title: 'Chopeiras' },
+  'gela-caneca': { slug: 'gela-caneca', title: 'Gela Caneca' },
+  'ar-condicionado': { slug: 'ar-condicionado', title: 'Ar condicionado' },
+  'geladeira-comercial': { slug: 'geladeira-comercial', title: 'Geladeira comercial' },
+  'balcao-refrigerado': { slug: 'balcao-refrigerado', title: 'Balcão refrigerado' },
+  'ilha-de-congelados': { slug: 'ilha-de-congelados', title: 'Ilha de congelados' },
+  'ultra-freezer': { slug: 'ultra-freezer', title: 'Ultra freezer' },
+  'refresqueira': { slug: 'refresqueira', title: 'Refresqueira' },
+  'adega-vinhos': { slug: 'adega-vinhos', title: 'Adega climatizada de vinhos' },
+  'maquina-de-gelo': { slug: 'maquina-de-gelo', title: 'Máquina de gelo' },
+  'tubulacao-ar-condicionado': { slug: 'tubulacao-ar-condicionado', title: 'Tubulação de ar condicionado' },
+  'higienizacao-ar-condicionado': { slug: 'higienizacao-ar-condicionado', title: 'Higienização de ar condicionado' },
+  'tecnico-refrigeracao-comercial': { slug: 'tecnico-refrigeracao-comercial', title: 'Técnico de refrigeração' },
+  'instalacao-ar-condicionado': { slug: 'instalacao-ar-condicionado', title: 'Instalação de ar condicionado' },
+  'manutencao-ar-condicionado': { slug: 'manutencao-ar-condicionado', title: 'Manutenção de ar condicionado' },
+  'conserto-de-geladeira': { slug: 'conserto-de-geladeira', title: 'Conserto de geladeira' },
+};</script>
+  <script>// Dados da pagina manutencao-ar-condicionado. Carregado so por manutencao-ar-condicionado.html.
+Object.assign(window.SERVICES_DATA['manutencao-ar-condicionado'], {
+    slug: 'manutencao-ar-condicionado',
+    title: 'Manutenção de ar condicionado',
+    icon: 'wrench',
+    eyebrow: 'Manutenção de ar condicionado',
+    metaTitle: 'Manutenção de ar condicionado no Rio de Janeiro | Santos Refrigeração',
+    metaDescription: 'Manutenção preventiva e corretiva de ar condicionado no Rio de Janeiro e Grande Rio. Aparelho que não gela, vazamento, ruído e recarga de gás. Orçamento sem compromisso.',
+    heroTitle: 'Manutenção de ar condicionado no Rio de Janeiro e Grande Rio',
+    highlight: 'manutenção',
+    heroLead: 'Aparelho que não gela, pinga, faz ruído ou desarma sozinho tem causa identificável — e ela raramente é a que parece. Fazemos manutenção preventiva programada e corretiva de emergência em ar condicionado comercial e residencial, com medição de pressão e diagnóstico antes de qualquer troca de peça.',
+    heroImageLabel: 'Manutenção de ar condicionado — Santos Refrigeração',
+    servicesTitle: 'Manutenção de ar condicionado com diagnóstico, não por tentativa',
+    intro: [
+      'O sintoma mais comum — não está gelando — tem pelo menos seis causas possíveis: carga de gás baixa por vazamento, serpentina obstruída, condensadora suja, capacitor com perda de capacidade, placa eletrônica com defeito ou sensor de temperatura descalibrado. Trocar peça sem medir resolve por alguns dias e o problema volta.',
+      'Nosso atendimento começa pela medição: pressão de alta e baixa, superaquecimento, sub-resfriamento, corrente do compressor e temperatura de insuflamento e retorno. Com esses números se sabe onde está a falha, e só então apresentamos o diagnóstico com o preço fechado do reparo.',
+      'Na preventiva programada fazemos limpeza de filtros, serpentina e turbina, lavagem da condensadora, verificação da carga de gás, desobstrução do dreno, aperto de conexões elétricas e medição de consumo. É o que evita a parada no pior momento — e no Rio, o pior momento é sempre em janeiro.',
+    ],
+    servicesListTitle: 'Nossos serviços',
+    services: [
+      'Manutenção preventiva programada',
+      'Manutenção corretiva de emergência',
+      'Diagnóstico com medição de pressão',
+      'Recarga de gás refrigerante',
+      'Localização e reparo de vazamento',
+      'Limpeza de serpentina, turbina e filtros',
+      'Lavagem da unidade condensadora',
+      'Desentupimento e reparo de dreno',
+      'Troca de capacitor e contator',
+      'Troca de placa eletrônica e sensores',
+      'Reparo de ruído e vibração',
+      'Correção de desarme do disjuntor',
+      'Contrato de manutenção para empresas',
+      'Atendimento a parque de equipamentos',
+    ],
+    sections: [
+      { title: 'Aparelho não está gelando: as causas reais', body: [
+        'Gás baixo é a suspeita imediata, e é a causa em parte dos casos — mas gás não se consome, ele vaza. Recarregar sem localizar o vazamento é serviço que dura poucos meses. Usamos detector eletrônico para achar o ponto antes de recarregar.',
+        'As outras causas frequentes são serpentina e condensadora obstruídas, que reduzem a troca térmica; capacitor com perda de capacidade, que impede o compressor de partir com força; e sensor descalibrado, que faz o aparelho desligar antes de atingir a temperatura. A medição de pressão separa uma da outra em minutos.',
+      ] },
+      { title: 'Conserto de ar condicionado: quando o reparo entra no lugar da revisão', body: [
+        'Conserto e manutenção não são a mesma coisa. Manutenção é o que se faz com o aparelho funcionando, para ele continuar funcionando. Conserto é o que se faz depois que ele parou, não liga, não gela ou desarmou o disjuntor — e nesse caso o que se procura é a peça com defeito, não o intervalo de revisão.',
+        'Atendemos os dois. No conserto, a diferença está em quanto tempo se leva para chegar à causa: compressor que não parte, placa eletrônica queimada, capacitor sem capacidade, sensor descalibrado e vazamento na linha dão sintomas parecidos e têm custos muito diferentes. A medição separa um do outro antes de qualquer troca, e o valor do reparo vai para a sua aprovação junto com o diagnóstico.',
+      ] },
+      { title: 'Manutenção preventiva: de quanto em quanto tempo', body: [
+        'Em residência com uso moderado, uma revisão anual antes do verão dá conta. Em comércio e escritório, com o equipamento ligado dez horas por dia, o intervalo cai para seis meses. Cozinha, academia e ambiente com gordura ou poeira em suspensão pedem intervalos menores.',
+        'Preventiva não é gasto adiantado, é troca de um custo previsível por um imprevisível: limpeza e verificação custam uma fração do compressor queimado, e a parada não acontece no dia de maior movimento.',
+      ] },
+      { title: 'Contrato de manutenção para comércio e empresas', body: [
+        'Para quem tem vários aparelhos, trabalhamos com contrato de visitas programadas, escopo definido por unidade e relatório de cada atendimento. Sai mais barato que o mesmo número de chamados avulsos e dá previsibilidade de orçamento.',
+        'Atendemos loja, escritório, clínica, restaurante, hotel e condomínio, com agendamento fora do horário de funcionamento quando necessário.',
+      ] },
+      { title: 'Quanto custa a manutenção de ar condicionado', body: [
+        'A visita de diagnóstico tem valor fechado, informado antes do agendamento e abatido do serviço caso o reparo seja aprovado. O reparo em si depende do que a medição encontrar — recarga com reparo de vazamento, troca de capacitor e troca de placa têm custos bem diferentes.',
+        'Você recebe o diagnóstico e o preço antes de autorizar. Não trocamos peça sem aprovação e não empurramos serviço: quando o reparo não compensa diante da idade do aparelho, dizemos isso.',
+      ] },
+    ],
+    signsTitle: 'Sinais de que a manutenção está atrasada',
+    signs: [
+      ['thermometer-sun', 'Gelando menos que antes', 'Queda gradual de rendimento é sujeira ou carga de gás baixa.'],
+      ['droplets', 'Pingando dentro do ambiente', 'Dreno obstruído ou bandeja com sujeira acumulada.'],
+      ['wind', 'Cheiro ao ligar', 'Mofo na serpentina, resolvido com higienização técnica.'],
+      ['zap', 'Conta de luz mais alta', 'Aparelho sujo fica mais tempo ligado para o mesmo resultado.'],
+      ['volume-2', 'Ruído novo', 'Turbina desbalanceada, ventilador ou compressor com desgaste.'],
+      ['alert-triangle', 'Desarmando o disjuntor', 'Compressor com corrente alta ou problema na parte elétrica.'],
+    ],
+    ctaTitle: 'Ar condicionado com problema? Fale conosco agora.',
+    waMessage: 'Olá! Preciso de MANUTENÇÃO DE AR CONDICIONADO. Vou descrever o que está acontecendo com o aparelho e gostaria de agendar o diagnóstico.',
+    faqTitle: 'Dúvidas sobre manutenção de ar condicionado',
+    faq: [
+      ['Meu ar condicionado não está gelando. É falta de gás?', 'Pode ser, mas é apenas uma das causas. Serpentina obstruída, condensadora suja, capacitor com perda de capacidade, placa com defeito e sensor descalibrado dão o mesmo sintoma. Medimos pressão de alta e baixa antes de concluir — e se for gás, localizamos o vazamento, porque gás não se consome, ele escapa.'],
+      ['Qual a diferença entre conserto e manutenção de ar condicionado?', 'Manutenção é preventiva: limpeza, medição e verificação com o aparelho funcionando, para evitar a parada. Conserto é corretivo: o aparelho já parou, não gela ou desarma, e o trabalho é localizar a peça ou a falha responsável. Atendemos os dois, e nos dois casos você recebe o diagnóstico e o valor antes de autorizar.'],
+      ['Preciso recarregar o gás todo ano?', 'Não. Em sistema íntegro a carga de gás dura anos. Recarga anual é sinal de vazamento não localizado. Recarregar sem reparar é serviço que dura poucos meses e custa duas vezes.'],
+      ['Qual a diferença entre manutenção e higienização?', 'A higienização trata a limpeza: filtros, serpentina, turbina, bandeja e dreno. A manutenção inclui isso e vai além — medição de pressão, verificação da carga de gás, teste do capacitor, aperto de conexões elétricas e avaliação do compressor. Veja também a página de <a href="higienizacao-ar-condicionado.html">higienização de ar condicionado</a>.'],
+      ['Vale consertar ou trocar o aparelho?', 'Depende da idade, do custo do reparo e do histórico. Compressor queimado em aparelho de dez anos, com outros componentes no fim da vida, geralmente não compensa. Apresentamos o custo real do reparo para você decidir com número na mão.'],
+      ['Vocês fazem contrato de manutenção mensal?', 'Sim, com visitas programadas, escopo definido por equipamento e relatório por atendimento. É a modalidade indicada para comércio, escritório, clínica e condomínio, e sai mais barato que chamados avulsos.'],
+    ],
+  });</script>
   <script src="app-service.js"></script>
   <script>
     const data = window.SERVICES_DATA['manutencao-ar-condicionado'];

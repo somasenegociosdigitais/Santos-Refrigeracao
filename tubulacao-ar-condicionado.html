@@ -17,6 +17,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://unpkg.com" crossorigin>
+<link rel="preload" as="script" href="app-service.js">
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap"></noscript>
@@ -352,8 +353,100 @@ img { display: block; max-width: 100%; }
 </head>
 <body>
   <div id="root"></div>
-  <script src="services-index.js"></script>
-  <script src="data/tubulacao-ar-condicionado.js"></script>
+  <script>// Indice leve dos servicos: slug + titulo, o que o rodape precisa.
+// O corpo completo de cada pagina vem de data/<slug>.js.
+window.SERVICES_DATA = {
+  'camara-fria': { slug: 'camara-fria', title: 'Câmara fria' },
+  'chopeiras': { slug: 'chopeiras', title: 'Chopeiras' },
+  'gela-caneca': { slug: 'gela-caneca', title: 'Gela Caneca' },
+  'ar-condicionado': { slug: 'ar-condicionado', title: 'Ar condicionado' },
+  'geladeira-comercial': { slug: 'geladeira-comercial', title: 'Geladeira comercial' },
+  'balcao-refrigerado': { slug: 'balcao-refrigerado', title: 'Balcão refrigerado' },
+  'ilha-de-congelados': { slug: 'ilha-de-congelados', title: 'Ilha de congelados' },
+  'ultra-freezer': { slug: 'ultra-freezer', title: 'Ultra freezer' },
+  'refresqueira': { slug: 'refresqueira', title: 'Refresqueira' },
+  'adega-vinhos': { slug: 'adega-vinhos', title: 'Adega climatizada de vinhos' },
+  'maquina-de-gelo': { slug: 'maquina-de-gelo', title: 'Máquina de gelo' },
+  'tubulacao-ar-condicionado': { slug: 'tubulacao-ar-condicionado', title: 'Tubulação de ar condicionado' },
+  'higienizacao-ar-condicionado': { slug: 'higienizacao-ar-condicionado', title: 'Higienização de ar condicionado' },
+  'tecnico-refrigeracao-comercial': { slug: 'tecnico-refrigeracao-comercial', title: 'Técnico de refrigeração' },
+  'instalacao-ar-condicionado': { slug: 'instalacao-ar-condicionado', title: 'Instalação de ar condicionado' },
+  'manutencao-ar-condicionado': { slug: 'manutencao-ar-condicionado', title: 'Manutenção de ar condicionado' },
+  'conserto-de-geladeira': { slug: 'conserto-de-geladeira', title: 'Conserto de geladeira' },
+};</script>
+  <script>// Dados da pagina tubulacao-ar-condicionado. Carregado so por tubulacao-ar-condicionado.html.
+Object.assign(window.SERVICES_DATA['tubulacao-ar-condicionado'], {
+    slug: 'tubulacao-ar-condicionado',
+    title: 'Tubulação de ar condicionado',
+    icon: 'git-branch',
+    eyebrow: 'Tubulação de ar condicionado',
+    metaTitle: 'Tubulação de ar condicionado no Rio | Santos Refrigeração',
+    metaDescription: 'Projeto e instalação de tubulação de ar condicionado no Rio de Janeiro e Grande Rio: tubulação de cobre, dreno e infraestrutura para split e VRF. Orçamento sem compromisso.',
+    heroTitle: 'Tubulação de ar condicionado no Rio de Janeiro e Grande Rio',
+    highlight: 'tubulação',
+    heroLead: 'A tubulação é a parte da instalação que ninguém vê e que define o desempenho do ar condicionado pelos próximos anos. Executamos o projeto e a passagem da tubulação de cobre, o dreno e toda a infraestrutura de split, multi split e VRF em obras novas e reformas, no Rio de Janeiro e Grande Rio.',
+    heroImageLabel: 'Tubulação de ar condicionado — serviço Santos Refrigeração',
+    servicesTitle: 'Tubulação de ar condicionado feita para durar',
+    intro: [
+      'Toda instalação de ar condicionado começa pela infraestrutura. Definimos o trajeto entre a evaporadora e a condensadora, a bitola correta do tubo de cobre para a capacidade do equipamento, o isolamento térmico das linhas de sucção e líquido, e o caimento do dreno. Tubulação subdimensionada ou com trajeto longo demais reduz a capacidade de refrigeração e sobrecarrega o compressor, mesmo com o aparelho novo.',
+      'Trabalhamos com tubo de cobre para refrigeração, solda com vareta de prata, isolamento em polietileno expandido e vácuo com bomba antes da carga de gás. O vácuo é a etapa mais negligenciada do mercado: umidade e ar dentro da linha reagem com o óleo do compressor e formam ácido, que corrói o sistema por dentro ao longo de meses. Também executamos o teste de estanqueidade com nitrogênio antes de liberar a linha.',
+      'Atendemos obra nova, reforma e readequação de infraestrutura existente: passagem em shaft, forro, alvenaria ou aparente com acabamento em canaleta, além de prumadas para prédios comerciais e sistemas com várias evaporadoras. Você recebe o projeto e o preço fechado antes de começar.',
+    ],
+    servicesListTitle: 'Nossos serviços',
+    services: [
+      'Projeto de infraestrutura para ar condicionado',
+      'Passagem de tubulação de cobre para split e multi split',
+      'Tubulação para sistemas VRF e prumadas comerciais',
+      'Dimensionamento de bitola conforme a capacidade (BTU)',
+      'Isolamento térmico das linhas de sucção e líquido',
+      'Solda com vareta de prata',
+      'Instalação de dreno com caimento correto',
+      'Teste de estanqueidade com nitrogênio',
+      'Vácuo com bomba antes da carga de gás',
+      'Tubulação embutida em alvenaria, forro ou shaft',
+      'Tubulação aparente com acabamento em canaleta',
+      'Readequação de infraestrutura existente',
+      'Instalação de suportes e bases para condensadora',
+      'Reparo de vazamento em linha de cobre',
+    ],
+    sections: [
+      { title: 'Projeto e passagem de tubulação de cobre', body: [
+        'A bitola do tubo é determinada pela capacidade do equipamento e pela distância entre as unidades. Um split de 12.000 BTU e um de 36.000 BTU não usam a mesma linha, e o erro nessa escolha aparece como perda de rendimento, não como defeito aparente — o aparelho liga, gela pouco e consome muito.',
+        'Definimos o trajeto no início da obra, junto com a elétrica e a hidráulica, para que a tubulação passe embutida sem quebra posterior. Quando a obra já está pronta, avaliamos as opções de passagem aparente com o melhor acabamento possível.',
+      ] },
+      { title: 'Tubulação aparente ou embutida: qual escolher', body: [
+        'A tubulação embutida em alvenaria ou forro desaparece visualmente e é a escolha natural em obra nova, desde que prevista antes do reboco. A contrapartida é o acesso: qualquer reparo futuro na linha exige abrir o revestimento.',
+        'A tubulação aparente, com canaleta de PVC ou acabamento em alumínio, permite manutenção sem quebra e é a solução para instalações em imóvel pronto, locado ou tombado. Bem executada, com alinhamento e canaleta na cor do ambiente, tem acabamento discreto.',
+      ] },
+      { title: 'Dreno com caimento correto: o detalhe que evita vazamento', body: [
+        'A evaporadora produz água por condensação, e essa água sai por gravidade. Sem caimento contínuo em toda a extensão do dreno, ela empoça dentro da linha, transborda pela bandeja e aparece como infiltração na parede ou pingando do aparelho — o defeito mais comum em instalação malfeita.',
+        'Executamos o dreno com inclinação constante, sem trechos em nível ou contra-fluxo, com sifão quando o ponto de descarte exige, e testamos com água antes de fechar o forro. Também corrigimos drenos existentes que estão vazando.',
+      ] },
+      { title: 'Quanto custa a tubulação de ar condicionado', body: [
+        'O valor depende da metragem de tubo, da bitola exigida pela capacidade do equipamento, do número de evaporadoras, do tipo de passagem (embutida, aparente, shaft) e da altura da prumada. Por isso não trabalhamos com tabela fechada.',
+        'Fazemos a visita técnica, medimos o trajeto real e enviamos o orçamento com material e mão de obra discriminados, antes de qualquer serviço. Sem surpresa na conta.',
+      ] },
+    ],
+    signsTitle: 'Sinais de tubulação mal executada',
+    signs: [
+      ['droplets', 'Pingando ou infiltrando', 'Água escorrendo do aparelho ou mancha na parede é dreno sem caimento.'],
+      ['thermometer-sun', 'Gela pouco desde o primeiro dia', 'Aparelho novo que não rende costuma ser bitola errada ou linha longa demais.'],
+      ['zap', 'Consumo acima do esperado', 'Linha sem isolamento faz o compressor trabalhar mais para o mesmo resultado.'],
+      ['snowflake', 'Gelo na tubulação', 'Formação de gelo no tubo indica isolamento rompido ou carga de gás incorreta.'],
+      ['wind', 'Gás acabando com frequência', 'Recarga repetida significa vazamento na linha, não consumo normal.'],
+      ['alert-triangle', 'Ruído de vibração na parede', 'Tubo sem fixação adequada transmite vibração para a estrutura.'],
+    ],
+    ctaTitle: 'Vai instalar ar condicionado? Comece pela tubulação certa.',
+    waMessage: 'Olá! Preciso de orçamento para TUBULAÇÃO DE AR CONDICIONADO. Podem me atender?',
+    faqTitle: 'Dúvidas sobre tubulação de ar condicionado',
+    faq: [
+      ['Vocês fazem só a tubulação ou a instalação completa?', 'Fazemos as duas. Podemos executar apenas a infraestrutura — tubulação de cobre, dreno, elétrica e suportes — para o equipamento ser instalado depois, ou a instalação completa com vácuo, carga de gás e start-up. Muita obra contrata a infraestrutura na fase de alvenaria e o equipamento meses depois.'],
+      ['Vocês vendem o tubo de cobre?', 'Somos empresa de serviço, não de material. Fornecemos o tubo e os insumos dentro do orçamento da obra, com a bitola correta para o seu equipamento, mas não trabalhamos com venda de tubo avulso.'],
+      ['Qual a distância máxima entre a evaporadora e a condensadora?', 'Depende do modelo. Cada fabricante especifica o comprimento máximo de linha e o desnível permitido, e passar desse limite exige carga adicional de gás ou inviabiliza o trajeto. Verificamos a especificação do seu equipamento antes de definir o percurso.'],
+      ['Dá para passar tubulação em imóvel já pronto, sem quebrar?', 'Na maioria dos casos, sim — com passagem aparente em canaleta, por forro ou por shaft existente. Avaliamos o imóvel e apresentamos as opções com o acabamento de cada uma antes de você decidir.'],
+      ['O que é o vácuo e por que ele importa?', 'É a retirada do ar e da umidade de dentro da tubulação com bomba, antes da carga de gás. Sem isso, a umidade reage com o óleo do compressor e forma ácido, que corrói o sistema por dentro ao longo de meses. É a etapa mais pulada do mercado e uma das principais causas de compressor queimado em aparelho novo.'],
+    ],
+  });</script>
   <script src="app-service.js"></script>
   <script>
     const data = window.SERVICES_DATA['tubulacao-ar-condicionado'];

@@ -17,6 +17,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://unpkg.com" crossorigin>
+<link rel="preload" as="script" href="app-service.js">
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap"></noscript>
@@ -352,8 +353,87 @@ img { display: block; max-width: 100%; }
 </head>
 <body>
   <div id="root"></div>
-  <script src="services-index.js"></script>
-  <script src="data/ultra-freezer.js"></script>
+  <script>// Indice leve dos servicos: slug + titulo, o que o rodape precisa.
+// O corpo completo de cada pagina vem de data/<slug>.js.
+window.SERVICES_DATA = {
+  'camara-fria': { slug: 'camara-fria', title: 'Câmara fria' },
+  'chopeiras': { slug: 'chopeiras', title: 'Chopeiras' },
+  'gela-caneca': { slug: 'gela-caneca', title: 'Gela Caneca' },
+  'ar-condicionado': { slug: 'ar-condicionado', title: 'Ar condicionado' },
+  'geladeira-comercial': { slug: 'geladeira-comercial', title: 'Geladeira comercial' },
+  'balcao-refrigerado': { slug: 'balcao-refrigerado', title: 'Balcão refrigerado' },
+  'ilha-de-congelados': { slug: 'ilha-de-congelados', title: 'Ilha de congelados' },
+  'ultra-freezer': { slug: 'ultra-freezer', title: 'Ultra freezer' },
+  'refresqueira': { slug: 'refresqueira', title: 'Refresqueira' },
+  'adega-vinhos': { slug: 'adega-vinhos', title: 'Adega climatizada de vinhos' },
+  'maquina-de-gelo': { slug: 'maquina-de-gelo', title: 'Máquina de gelo' },
+  'tubulacao-ar-condicionado': { slug: 'tubulacao-ar-condicionado', title: 'Tubulação de ar condicionado' },
+  'higienizacao-ar-condicionado': { slug: 'higienizacao-ar-condicionado', title: 'Higienização de ar condicionado' },
+  'tecnico-refrigeracao-comercial': { slug: 'tecnico-refrigeracao-comercial', title: 'Técnico de refrigeração' },
+  'instalacao-ar-condicionado': { slug: 'instalacao-ar-condicionado', title: 'Instalação de ar condicionado' },
+  'manutencao-ar-condicionado': { slug: 'manutencao-ar-condicionado', title: 'Manutenção de ar condicionado' },
+  'conserto-de-geladeira': { slug: 'conserto-de-geladeira', title: 'Conserto de geladeira' },
+};</script>
+  <script>// Dados da pagina ultra-freezer. Carregado so por ultra-freezer.html.
+Object.assign(window.SERVICES_DATA['ultra-freezer'], {
+    slug: 'ultra-freezer',
+    title: 'Ultra freezer',
+    icon: 'thermometer-snowflake',
+    eyebrow: 'Ultra freezer',
+    metaTitle: 'Conserto de ultra freezer no Rio de Janeiro | Santos Refrigeração',
+    metaDescription: 'Conserto e manutenção de ultra freezer e equipamentos de baixa temperatura no Rio e Grande Rio. Precisão e confiabilidade. Orçamento sem compromisso.',
+    heroTitle: 'Conserto e manutenção de ultra freezer no Rio e Grande Rio',
+    highlight: 'ultra freezer',
+    heroLead: 'Ultra freezer exige precisão de temperatura e confiabilidade total — não há margem para oscilação com o seu conteúdo. Fazemos manutenção preventiva e corretiva e conserto especializado de ultra freezers e equipamentos de baixa temperatura de laboratórios, clínicas, indústrias e comércios em todo o Rio e Grande Rio.',
+    heroImageLabel: 'Foto do ultra freezer / serviço',
+    gallery: ['assets/trab-uf-1.webp', 'assets/trab-uf-2.webp', 'assets/trab-uf-3.webp', 'assets/trab-uf-4.webp'],
+    galleryFit: 'cover',
+    galleryTrim: 9,
+    galleryTitle: 'Equipamentos de ultra freezer que já atendemos',
+    galleryLead: 'Equipamentos de clientes no Rio e Grande Rio, com a temperatura conferida no painel depois do serviço.',
+    galleryAlt: 'Ultra freezer atendido pela Santos Refrigeração',
+    servicesTitle: 'Ultra freezer com a precisão que você precisa',
+    intro: [
+      'O ultra freezer opera em temperaturas muito baixas (frequentemente abaixo de -40 °C) e protege conteúdos sensíveis e de alto valor. Isso exige compressores em cascata, isolamento reforçado e controle eletrônico preciso — qualquer oscilação pode comprometer todo o conteúdo, por isso o acompanhamento técnico é essencial.',
+      'Na manutenção preventiva verificamos a carga de gás e microvazamentos, testamos os estágios de compressão, o controle eletrônico e os alarmes, limpamos o condensador e inspecionamos a vedação. Monitoramos a estabilidade da temperatura para garantir que o equipamento se mantenha na faixa programada.',
+      'Na corretiva atuamos com urgência: equipamento que não atinge a temperatura, oscilações, alarme disparado, excesso de gelo ou ruído — com troca de compressor, recarga de gás, reparo de controle eletrônico, vedação e parte elétrica. Diagnóstico e preço fechado antes de começar, com garantia no reparo e prioridade no atendimento.',
+    ],
+    servicesListTitle: 'Nossos serviços',
+    services: [
+      'Manutenção preventiva programada',
+      'Manutenção corretiva de emergência',
+      'Diagnóstico de baixa temperatura e estabilidade',
+      'Troca de compressor (sistema em cascata)',
+      'Recarga e reparo de vazamento de gás',
+      'Reparo de controle eletrônico e alarmes',
+      'Limpeza técnica do condensador',
+      'Substituição de vedação e componentes',
+      'Reparo de parte elétrica',
+      'Ajuste e calibração de temperatura',
+      'Monitoramento de desempenho',
+      'Contrato de manutenção regular',
+    ],
+    signsTitle: 'Sinais de que o ultra freezer precisa de atenção',
+    signs: [
+      ['thermometer-sun', 'Não atinge a temperatura', 'O equipamento não chega à baixa temperatura programada.'],
+      ['alert-triangle', 'Alarme ou oscilação', 'Variações de temperatura colocam o conteúdo em risco.'],
+      ['snowflake', 'Excesso de gelo', 'Acúmulo de gelo compromete o desempenho e o espaço.'],
+      ['volume-2', 'Ruído ou vibração', 'Barulho fora do normal indica desgaste de componentes.'],
+      ['zap', 'Consumo elevado', 'Aumento no consumo aponta perda de eficiência do sistema.'],
+      ['power', 'Desarma sozinho', 'Desligamentos comprometem conteúdo de alto valor.'],
+    ],
+    ctaTitle: 'Ultra freezer com problema? Fale conosco agora.',
+    waMessage: 'Olá! Preciso de atendimento para ULTRA FREEZER. Vou descrever o que está acontecendo com o equipamento e gostaria de agendar o diagnóstico.',
+    faqTitle: 'Dúvidas sobre ultra freezer',
+    emergency: 'Ultra freezer parado gera prejuízo por hora — mercadoria em risco e operação travada. Para ultra freezer e sistemas que não podem parar, atendemos fora do horário comercial. Ligue e avaliamos na hora.',
+    faq: [
+      ['Vocês atendem fora do horário comercial?', 'Para equipamentos que não podem parar — câmara fria, ultra freezer, ilha de congelados — sim. Ligue e avaliamos o caso na hora. Prejuízo por hora parada é o critério, não o relógio.'],
+      ['O ultra freezer parou de atingir a temperatura. O que fazer?', 'Como o conteúdo costuma ser sensível, tratamos como urgência. As causas mais comuns são gás baixo por vazamento, falha em um dos estágios de compressão, controle eletrônico desregulado ou condensador sujo. Fazemos o diagnóstico completo para restabelecer a faixa correta.'],
+      ['Com que frequência fazer manutenção preventiva?', 'Por se tratar de equipamento crítico, recomendamos manutenção preventiva periódica e, quando possível, monitoramento da estabilidade da temperatura. A preventiva reduz drasticamente o risco de perda do conteúdo.'],
+      ['Vocês atendem laboratórios e clínicas?', 'Sim. Atendemos ultra freezers e equipamentos de baixa temperatura de laboratórios, clínicas, indústrias e comércios, com diagnóstico técnico e garantia no serviço.'],
+      ['O alarme do equipamento disparou. É grave?', 'O alarme sinaliza oscilação fora da faixa segura e deve ser tratado imediatamente. Atendemos com prioridade para identificar a causa — gás, compressão, controle ou vedação — e estabilizar a temperatura.'],
+    ],
+  });</script>
   <script src="app-service.js"></script>
   <script>
     const data = window.SERVICES_DATA['ultra-freezer'];

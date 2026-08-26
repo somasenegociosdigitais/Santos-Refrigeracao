@@ -43,6 +43,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://unpkg.com" crossorigin>
+<link rel="preload" as="script" href="app-bundle.js">
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap"></noscript>
@@ -378,7 +379,27 @@ img { display: block; max-width: 100%; }
 </head>
 <body>
   <div id="root"></div>
-  <script src="services-index.js"></script>
+  <script>// Indice leve dos servicos: slug + titulo, o que o rodape precisa.
+// O corpo completo de cada pagina vem de data/<slug>.js.
+window.SERVICES_DATA = {
+  'camara-fria': { slug: 'camara-fria', title: 'Câmara fria' },
+  'chopeiras': { slug: 'chopeiras', title: 'Chopeiras' },
+  'gela-caneca': { slug: 'gela-caneca', title: 'Gela Caneca' },
+  'ar-condicionado': { slug: 'ar-condicionado', title: 'Ar condicionado' },
+  'geladeira-comercial': { slug: 'geladeira-comercial', title: 'Geladeira comercial' },
+  'balcao-refrigerado': { slug: 'balcao-refrigerado', title: 'Balcão refrigerado' },
+  'ilha-de-congelados': { slug: 'ilha-de-congelados', title: 'Ilha de congelados' },
+  'ultra-freezer': { slug: 'ultra-freezer', title: 'Ultra freezer' },
+  'refresqueira': { slug: 'refresqueira', title: 'Refresqueira' },
+  'adega-vinhos': { slug: 'adega-vinhos', title: 'Adega climatizada de vinhos' },
+  'maquina-de-gelo': { slug: 'maquina-de-gelo', title: 'Máquina de gelo' },
+  'tubulacao-ar-condicionado': { slug: 'tubulacao-ar-condicionado', title: 'Tubulação de ar condicionado' },
+  'higienizacao-ar-condicionado': { slug: 'higienizacao-ar-condicionado', title: 'Higienização de ar condicionado' },
+  'tecnico-refrigeracao-comercial': { slug: 'tecnico-refrigeracao-comercial', title: 'Técnico de refrigeração' },
+  'instalacao-ar-condicionado': { slug: 'instalacao-ar-condicionado', title: 'Instalação de ar condicionado' },
+  'manutencao-ar-condicionado': { slug: 'manutencao-ar-condicionado', title: 'Manutenção de ar condicionado' },
+  'conserto-de-geladeira': { slug: 'conserto-de-geladeira', title: 'Conserto de geladeira' },
+};</script>
   <script src="app-bundle.js"></script>
   <script>
     ReactDOM.createRoot(document.getElementById('root')).render(React.createElement(window.ContatoApp));

@@ -17,6 +17,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://unpkg.com" crossorigin>
+<link rel="preload" as="script" href="app-service.js">
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap"></noscript>
@@ -352,8 +353,81 @@ img { display: block; max-width: 100%; }
 </head>
 <body>
   <div id="root"></div>
-  <script src="services-index.js"></script>
-  <script src="data/ilha-de-congelados.js"></script>
+  <script>// Indice leve dos servicos: slug + titulo, o que o rodape precisa.
+// O corpo completo de cada pagina vem de data/<slug>.js.
+window.SERVICES_DATA = {
+  'camara-fria': { slug: 'camara-fria', title: 'Câmara fria' },
+  'chopeiras': { slug: 'chopeiras', title: 'Chopeiras' },
+  'gela-caneca': { slug: 'gela-caneca', title: 'Gela Caneca' },
+  'ar-condicionado': { slug: 'ar-condicionado', title: 'Ar condicionado' },
+  'geladeira-comercial': { slug: 'geladeira-comercial', title: 'Geladeira comercial' },
+  'balcao-refrigerado': { slug: 'balcao-refrigerado', title: 'Balcão refrigerado' },
+  'ilha-de-congelados': { slug: 'ilha-de-congelados', title: 'Ilha de congelados' },
+  'ultra-freezer': { slug: 'ultra-freezer', title: 'Ultra freezer' },
+  'refresqueira': { slug: 'refresqueira', title: 'Refresqueira' },
+  'adega-vinhos': { slug: 'adega-vinhos', title: 'Adega climatizada de vinhos' },
+  'maquina-de-gelo': { slug: 'maquina-de-gelo', title: 'Máquina de gelo' },
+  'tubulacao-ar-condicionado': { slug: 'tubulacao-ar-condicionado', title: 'Tubulação de ar condicionado' },
+  'higienizacao-ar-condicionado': { slug: 'higienizacao-ar-condicionado', title: 'Higienização de ar condicionado' },
+  'tecnico-refrigeracao-comercial': { slug: 'tecnico-refrigeracao-comercial', title: 'Técnico de refrigeração' },
+  'instalacao-ar-condicionado': { slug: 'instalacao-ar-condicionado', title: 'Instalação de ar condicionado' },
+  'manutencao-ar-condicionado': { slug: 'manutencao-ar-condicionado', title: 'Manutenção de ar condicionado' },
+  'conserto-de-geladeira': { slug: 'conserto-de-geladeira', title: 'Conserto de geladeira' },
+};</script>
+  <script>// Dados da pagina ilha-de-congelados. Carregado so por ilha-de-congelados.html.
+Object.assign(window.SERVICES_DATA['ilha-de-congelados'], {
+    slug: 'ilha-de-congelados',
+    title: 'Ilha de congelados',
+    icon: 'boxes',
+    eyebrow: 'Ilha de congelados',
+    metaTitle: 'Conserto de ilha de congelados no Rio | Santos Refrigeração',
+    metaDescription: 'Conserto, manutenção e instalação de ilhas de congelados e expositores no Rio e Grande Rio. Congelados conservados e bem expostos. Orçamento sem compromisso.',
+    heroTitle: 'Conserto e manutenção de ilha de congelados no Rio e Grande Rio',
+    highlight: 'ilha de congelados',
+    heroLead: 'A ilha de congelados precisa manter temperatura negativa mesmo aberta o dia todo. Fazemos instalação, manutenção preventiva e corretiva e conserto de ilhas e expositores de congelados de mercados, açougues, sorveterias e distribuidoras, conservando o produto sem desperdício em todo o Rio e Grande Rio.',
+    heroImageLabel: 'Foto da ilha de congelados / serviço',
+    servicesTitle: 'Ilha de congelados sempre na temperatura certa',
+    intro: [
+      'A ilha de congelados trabalha com temperaturas negativas e acesso aberto ao público, o que exige compressor robusto, isolamento e degelo eficientes. Fazemos a instalação nivelada, a avaliação do ponto elétrico e a regulagem para o produto se manter congelado sem formar gelo em excesso.',
+      'Na manutenção preventiva limpamos o condensador, verificamos a carga de gás e microvazamentos, testamos o termostato e o sistema de degelo, inspecionamos a vedação e fazemos o degelo técnico. O degelo em dia é o que garante temperatura estável e menor consumo de energia.',
+      'Na corretiva resolvemos ilha que não mantém o congelado, excesso de gelo, ruído e alto consumo — com troca de compressor, recarga de gás, reparo de termostato, sistema de degelo e parte elétrica. Primeiro identificamos a causa, depois apresentamos o orçamento — trocando só o necessário, com garantia no reparo.',
+    ],
+    servicesListTitle: 'Nossos serviços',
+    services: [
+      'Instalação e nivelamento de ilha de congelados',
+      'Manutenção preventiva programada',
+      'Manutenção corretiva de emergência',
+      'Troca de compressor',
+      'Recarga e reparo de vazamento de gás',
+      'Limpeza técnica do condensador',
+      'Reparo do sistema de degelo automático',
+      'Reparo e troca de termostato e controlador',
+      'Substituição de vedação',
+      'Reparo de ventilador e parte elétrica',
+      'Ajuste e calibração de temperatura',
+      'Contrato de manutenção regular',
+    ],
+    signsTitle: 'Sinais de que a ilha precisa de atenção',
+    signs: [
+      ['thermometer-sun', 'Não mantém congelado', 'Os produtos amolecem ou descongelam parcialmente.'],
+      ['snowflake', 'Excesso de gelo', 'Camada espessa de gelo reduz a eficiência e o espaço.'],
+      ['droplets', 'Água acumulada', 'Poças indicam degelo com falha ou dreno entupido.'],
+      ['volume-2', 'Motor barulhento', 'Ruído fora do normal indica desgaste do compressor.'],
+      ['zap', 'Conta de luz alta', 'Consumo elevado costuma ser condensador sujo ou degelo com defeito.'],
+      ['power', 'Desarma sozinho', 'Desligamentos frequentes apontam sobrecarga ou falha elétrica.'],
+    ],
+    ctaTitle: 'Ilha de congelados com problema? Fale conosco.',
+    waMessage: 'Olá! Preciso de atendimento para ILHA DE CONGELADOS. Vou descrever o que está acontecendo com o equipamento e gostaria de agendar o diagnóstico.',
+    faqTitle: 'Dúvidas sobre ilha de congelados',
+    emergency: 'Ilha de congelados parada gera prejuízo por hora — mercadoria em risco e operação travada. Para ilha de congelados e sistemas que não podem parar, atendemos fora do horário comercial. Ligue e avaliamos na hora.',
+    faq: [
+      ['Vocês atendem fora do horário comercial?', 'Para equipamentos que não podem parar — câmara fria, ultra freezer, ilha de congelados — sim. Ligue e avaliamos o caso na hora. Prejuízo por hora parada é o critério, não o relógio.'],
+      ['A ilha está formando muito gelo. Qual a causa?', 'Excesso de gelo quase sempre é falha no sistema de degelo, vedação gasta ou umidade entrando no equipamento. Além de ocupar espaço, reduz o frio e aumenta o consumo. Fazemos o degelo técnico e corrigimos a origem do problema.'],
+      ['Os produtos estão amolecendo. É perigoso?', 'Compromete a conservação do produto, e a decisão sobre a mercadoria segue os procedimentos de segurança alimentar do próprio estabelecimento. Do lado do equipamento, costuma ser gás baixo por vazamento, condensador sujo ou termostato desregulado. Medimos pressão e temperatura para restabelecer a temperatura correta com rapidez.'],
+      ['De quanto em quanto tempo fazer manutenção?', 'Recomendamos revisões periódicas com limpeza do condensador e verificação do degelo e do gás. A preventiva evita a parada, mantém o produto seguro e reduz a conta de luz.'],
+      ['Vocês instalam ilha nova?', 'Sim. Fazemos a instalação com nivelamento, avaliação do ponto elétrico e regulagem inicial, deixando o equipamento pronto para conservar os congelados.'],
+    ],
+  });</script>
   <script src="app-service.js"></script>
   <script>
     const data = window.SERVICES_DATA['ilha-de-congelados'];

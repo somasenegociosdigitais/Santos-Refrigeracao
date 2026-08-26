@@ -17,6 +17,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://unpkg.com" crossorigin>
+<link rel="preload" as="script" href="app-service.js">
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap"></noscript>
@@ -352,8 +353,102 @@ img { display: block; max-width: 100%; }
 </head>
 <body>
   <div id="root"></div>
-  <script src="services-index.js"></script>
-  <script src="data/conserto-de-geladeira.js"></script>
+  <script>// Indice leve dos servicos: slug + titulo, o que o rodape precisa.
+// O corpo completo de cada pagina vem de data/<slug>.js.
+window.SERVICES_DATA = {
+  'camara-fria': { slug: 'camara-fria', title: 'Câmara fria' },
+  'chopeiras': { slug: 'chopeiras', title: 'Chopeiras' },
+  'gela-caneca': { slug: 'gela-caneca', title: 'Gela Caneca' },
+  'ar-condicionado': { slug: 'ar-condicionado', title: 'Ar condicionado' },
+  'geladeira-comercial': { slug: 'geladeira-comercial', title: 'Geladeira comercial' },
+  'balcao-refrigerado': { slug: 'balcao-refrigerado', title: 'Balcão refrigerado' },
+  'ilha-de-congelados': { slug: 'ilha-de-congelados', title: 'Ilha de congelados' },
+  'ultra-freezer': { slug: 'ultra-freezer', title: 'Ultra freezer' },
+  'refresqueira': { slug: 'refresqueira', title: 'Refresqueira' },
+  'adega-vinhos': { slug: 'adega-vinhos', title: 'Adega climatizada de vinhos' },
+  'maquina-de-gelo': { slug: 'maquina-de-gelo', title: 'Máquina de gelo' },
+  'tubulacao-ar-condicionado': { slug: 'tubulacao-ar-condicionado', title: 'Tubulação de ar condicionado' },
+  'higienizacao-ar-condicionado': { slug: 'higienizacao-ar-condicionado', title: 'Higienização de ar condicionado' },
+  'tecnico-refrigeracao-comercial': { slug: 'tecnico-refrigeracao-comercial', title: 'Técnico de refrigeração' },
+  'instalacao-ar-condicionado': { slug: 'instalacao-ar-condicionado', title: 'Instalação de ar condicionado' },
+  'manutencao-ar-condicionado': { slug: 'manutencao-ar-condicionado', title: 'Manutenção de ar condicionado' },
+  'conserto-de-geladeira': { slug: 'conserto-de-geladeira', title: 'Conserto de geladeira' },
+};</script>
+  <script>// Dados da pagina conserto-de-geladeira. Carregado so por conserto-de-geladeira.html.
+Object.assign(window.SERVICES_DATA['conserto-de-geladeira'], {
+    slug: 'conserto-de-geladeira',
+    title: 'Conserto de geladeira',
+    icon: 'refrigerator',
+    eyebrow: 'Conserto de geladeira',
+    metaTitle: 'Conserto de geladeira no Rio de Janeiro | Santos Refrigeração',
+    metaDescription: 'Conserto e manutenção de geladeira residencial e comercial no Rio de Janeiro e Grande Rio. Técnico de geladeira com atendimento no local. Orçamento sem compromisso.',
+    heroTitle: 'Conserto de geladeira no Rio de Janeiro e Grande Rio',
+    highlight: 'geladeira',
+    heroLead: 'Geladeira que não gela, gela demais, faz ruído ou junta água embaixo da gaveta. Fazemos o conserto e a manutenção de geladeira residencial, comercial e industrial no Rio de Janeiro e Grande Rio, com atendimento no local e diagnóstico antes de qualquer troca de peça.',
+    heroImageLabel: 'Conserto de geladeira — Santos Refrigeração',
+    servicesTitle: 'Conserto de geladeira com diagnóstico e preço fechado',
+    intro: [
+      'Geladeira parada é comida estragando. Por isso o atendimento é organizado para resolver na primeira visita: o técnico chega com instrumento de medição e as peças de reposição mais comuns, faz o diagnóstico no local e executa o reparo na mesma ida, quando não depende de componente específico.',
+      'Atendemos geladeira, refrigerador e frigobar — residencial, comercial e industrial. Isso inclui geladeira de uma e duas portas, frost free, side by side, duplex, freezer vertical e horizontal. Os defeitos mais frequentes são compressor sem partida, gás baixo por vazamento, degelo travado, termostato ou sensor com defeito, placa eletrônica queimada e dreno obstruído — cada um com sintoma parecido e causa distinta.',
+      'Trabalhamos com medição de pressão e corrente para separar uma causa da outra, em vez de trocar peça por tentativa. Você recebe o diagnóstico e o preço fechado antes de autorizar, e todo serviço tem garantia. Quando o reparo não compensa diante da idade do equipamento, dizemos isso.',
+    ],
+    servicesListTitle: 'Nossos serviços',
+    services: [
+      'Conserto de geladeira residencial',
+      'Conserto de geladeira e refrigerador comercial',
+      'Conserto e manutenção de frigobar',
+      'Manutenção de geladeira frost free e side by side',
+      'Conserto de freezer vertical e horizontal',
+      'Troca de compressor',
+      'Recarga de gás e reparo de vazamento',
+      'Troca de termostato e sensor de temperatura',
+      'Troca de placa eletrônica',
+      'Reparo do sistema de degelo',
+      'Desobstrução de dreno',
+      'Troca de borracha de vedação',
+      'Reparo de ruído e vibração',
+      'Reforma de geladeira comercial',
+      'Atendimento no local',
+    ],
+    sections: [
+      { title: 'Conserto de geladeira residencial', body: [
+        'Atendemos geladeira doméstica de diversas marcas e portes: uma porta, duplex, frost free, side by side e inverse. O atendimento é no local, na sua casa, porque mover geladeira sem necessidade cria mais problema que resolve — o óleo do compressor pode migrar para o circuito se o equipamento for deitado.',
+        'Os defeitos mais comuns em geladeira residencial são degelo travado com formação de gelo no fundo, dreno obstruído com água acumulando na gaveta de legumes, borracha de vedação ressecada deixando o frio escapar, e compressor que não parte. Fazemos o diagnóstico e informamos o custo antes de qualquer reparo.',
+      ] },
+      { title: 'Geladeira e refrigerador comercial', body: [
+        'Em geladeira comercial e industrial o cálculo é outro: cada hora parada é estoque em risco. Atendemos expositor de bebidas, refrigerador de quatro e seis portas, geladeira de padaria e açougue, câmara de resfriamento pequena e freezer de operação contínua.',
+        'Equipamento comercial trabalha com porta abrindo dezenas de vezes por hora, o que exige compressor mais robusto e condensador limpo. Além do conserto, oferecemos manutenção preventiva programada e reforma de equipamento antigo — troca de gaxeta, revisão de sistema e readequação de vedação. Para mercado, açougue, padaria e restaurante, veja a página dedicada de <a href="geladeira-comercial.html">geladeira comercial</a>.',
+      ] },
+      { title: 'Técnico de geladeira: atendimento no local', body: [
+        'Fazemos uma triagem por WhatsApp antes de agendar, porque parte dos casos se resolve por orientação: termostato no mínimo, porta desalinhada, geladeira encostada na parede sem espaço de ventilação, disjuntor desarmado. Não vale uma visita para isso.',
+        'Confirmada a necessidade, o técnico vai ao local com instrumento de medição e as peças de reposição mais comuns. Na maioria dos casos resolvemos na mesma visita; quando depende de peça específica, informamos o prazo antes de você aprovar.',
+      ] },
+      { title: 'Quanto custa consertar uma geladeira', body: [
+        'Depende do defeito. Desobstrução de dreno, troca de borracha e reparo de degelo estão na faixa mais baixa; troca de placa eletrônica e de compressor são os reparos mais caros, e é neles que vale comparar com o preço de um equipamento novo.',
+        'A visita de diagnóstico tem valor fechado, informado antes do agendamento e abatido do serviço caso o reparo seja aprovado. Apresentamos o custo real e a nossa opinião técnica sobre valer ou não a pena — sem empurrar serviço.',
+      ] },
+    ],
+    signsTitle: 'Sinais de que a geladeira precisa de técnico',
+    signs: [
+      ['thermometer-sun', 'Não está gelando', 'Compressor sem partida, gás baixo ou termostato com defeito.'],
+      ['snowflake', 'Gelo acumulando no fundo', 'Sistema de degelo travado ou resistência queimada.'],
+      ['droplets', 'Água na gaveta ou no chão', 'Dreno obstruído fazendo a água transbordar da bandeja.'],
+      ['volume-2', 'Ruído alto ou intermitente', 'Ventilador, compressor ou vibração por nivelamento.'],
+      ['door-open', 'Porta não veda', 'Borracha ressecada deixa o frio escapar e força o motor.'],
+      ['zap', 'Motor ligado sem parar', 'Perda de eficiência: condensador sujo, vedação ou carga de gás.'],
+    ],
+    ctaTitle: 'Geladeira parada? Fale conosco agora.',
+    waMessage: 'Olá! Preciso de CONSERTO DE GELADEIRA. Vou descrever o que está acontecendo com o equipamento e gostaria de agendar o diagnóstico.',
+    faqTitle: 'Dúvidas sobre conserto de geladeira',
+    faq: [
+      ['Vocês atendem geladeira residencial ou só comercial?', 'Atendemos as duas. Geladeira doméstica de diversas marcas — uma porta, duplex, frost free, side by side, inverse — além de frigobar, geladeira e refrigerador comercial e industrial. O atendimento é no local, no Rio de Janeiro e Grande Rio.'],
+      ['A geladeira não está gelando. O que pode ser?', 'As causas mais comuns são compressor sem partida, gás baixo por vazamento, termostato ou sensor com defeito, placa eletrônica queimada e condensador obstruído. Os sintomas são parecidos e a causa é diferente, por isso medimos pressão e corrente antes de concluir — trocar peça por tentativa sai mais caro.'],
+      ['Preciso levar a geladeira ou vocês vão até mim?', 'Vamos até você. Atendimento no local é a regra, e não só por comodidade: geladeira deitada ou transportada sem cuidado pode ter migração do óleo do compressor para o circuito, criando um problema que não existia. Só levamos para a oficina quando o reparo exige bancada.'],
+      ['Está juntando água dentro da geladeira. É grave?', 'Normalmente é dreno obstruído — o caminho da água do degelo entope e ela transborda, aparecendo na gaveta de legumes ou no chão. É um dos reparos mais simples e baratos, mas se ficar sem tratar pode molhar a parte elétrica.'],
+      ['Vale consertar ou comprar uma nova?', 'Depende do reparo e da idade. Dreno, borracha e degelo quase sempre compensam. Compressor e placa eletrônica em equipamento de mais de dez anos merecem comparação com o preço de um novo. Apresentamos o custo fechado e a nossa leitura técnica para você decidir com número na mão.'],
+      ['Vocês consertam freezer também?', 'Sim. Freezer vertical e horizontal, doméstico e comercial, além de ultra freezer e equipamentos de baixa temperatura — veja a página de <a href="ultra-freezer.html">ultra freezer</a> para operações que trabalham abaixo de -40 °C.'],
+    ],
+  });</script>
   <script src="app-service.js"></script>
   <script>
     const data = window.SERVICES_DATA['conserto-de-geladeira'];

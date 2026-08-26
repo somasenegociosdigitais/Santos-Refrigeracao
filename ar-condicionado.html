@@ -17,6 +17,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://unpkg.com" crossorigin>
+<link rel="preload" as="script" href="app-service.js">
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap"></noscript>
@@ -352,8 +353,80 @@ img { display: block; max-width: 100%; }
 </head>
 <body>
   <div id="root"></div>
-  <script src="services-index.js"></script>
-  <script src="data/ar-condicionado.js"></script>
+  <script>// Indice leve dos servicos: slug + titulo, o que o rodape precisa.
+// O corpo completo de cada pagina vem de data/<slug>.js.
+window.SERVICES_DATA = {
+  'camara-fria': { slug: 'camara-fria', title: 'Câmara fria' },
+  'chopeiras': { slug: 'chopeiras', title: 'Chopeiras' },
+  'gela-caneca': { slug: 'gela-caneca', title: 'Gela Caneca' },
+  'ar-condicionado': { slug: 'ar-condicionado', title: 'Ar condicionado' },
+  'geladeira-comercial': { slug: 'geladeira-comercial', title: 'Geladeira comercial' },
+  'balcao-refrigerado': { slug: 'balcao-refrigerado', title: 'Balcão refrigerado' },
+  'ilha-de-congelados': { slug: 'ilha-de-congelados', title: 'Ilha de congelados' },
+  'ultra-freezer': { slug: 'ultra-freezer', title: 'Ultra freezer' },
+  'refresqueira': { slug: 'refresqueira', title: 'Refresqueira' },
+  'adega-vinhos': { slug: 'adega-vinhos', title: 'Adega climatizada de vinhos' },
+  'maquina-de-gelo': { slug: 'maquina-de-gelo', title: 'Máquina de gelo' },
+  'tubulacao-ar-condicionado': { slug: 'tubulacao-ar-condicionado', title: 'Tubulação de ar condicionado' },
+  'higienizacao-ar-condicionado': { slug: 'higienizacao-ar-condicionado', title: 'Higienização de ar condicionado' },
+  'tecnico-refrigeracao-comercial': { slug: 'tecnico-refrigeracao-comercial', title: 'Técnico de refrigeração' },
+  'instalacao-ar-condicionado': { slug: 'instalacao-ar-condicionado', title: 'Instalação de ar condicionado' },
+  'manutencao-ar-condicionado': { slug: 'manutencao-ar-condicionado', title: 'Manutenção de ar condicionado' },
+  'conserto-de-geladeira': { slug: 'conserto-de-geladeira', title: 'Conserto de geladeira' },
+};</script>
+  <script>// Dados da pagina ar-condicionado. Carregado so por ar-condicionado.html.
+Object.assign(window.SERVICES_DATA['ar-condicionado'], {
+    slug: 'ar-condicionado',
+    title: 'Ar condicionado',
+    icon: 'air-vent',
+    eyebrow: 'Ar condicionado',
+    metaTitle: 'Ar condicionado no Rio de Janeiro e Grande Rio | Santos Refrigeração',
+    metaDescription: 'Instalação, limpeza e manutenção de ar condicionado comercial e residencial no Rio e Grande Rio. Ambiente climatizado, conta de luz sob controle. Orçamento sem compromisso.',
+    heroTitle: 'Ar condicionado no Rio de Janeiro e Grande Rio',
+    highlight: 'ar condicionado',
+    heroLead: 'Conforto térmico e conta de luz sob controle. Fazemos instalação, limpeza, higienização e manutenção preventiva e corretiva de ar condicionado comercial e residencial — split, cassete, piso-teto e sistemas de maior porte — com técnicos especializados, carga de gás correta e atendimento em todo o Rio e Grande Rio.',
+    heroImageLabel: 'Foto do ar condicionado / serviço',
+    servicesTitle: 'Ar condicionado: qual serviço você precisa',
+    intro: [
+      'Ar condicionado é o equipamento com mais tipos de serviço diferentes, e cada um resolve um problema. Aparelho novo pede instalação com dimensionamento de BTUs e infraestrutura. Aparelho que já roda pede manutenção. Aparelho que gela mas cheira mal pede higienização. Obra em andamento pede a tubulação passada antes do acabamento.',
+      'Atendemos os quatro casos, em comércio e residência, no Rio e Grande Rio — split, multi split, cassete, piso-teto e sistemas de maior porte. Abaixo estão os quatro serviços em detalhe; se não tiver certeza de qual é o seu caso, os sinais de alerta mais adiante ajudam a identificar.',
+    ],
+hubTitle: 'Serviços de ar condicionado',
+    hubLinks: [
+      ['Instalação de ar condicionado', 'instalacao-ar-condicionado.html', 'plug-zap', 'Dimensionamento de BTUs, infraestrutura, vácuo e carga de gás.'],
+      ['Manutenção de ar condicionado', 'manutencao-ar-condicionado.html', 'wrench', 'Preventiva programada e corretiva com medição de pressão.'],
+      ['Higienização de ar condicionado', 'higienizacao-ar-condicionado.html', 'spray-can', 'Filtros, serpentina, turbina, bandeja e dreno.'],
+      ['Tubulação de ar condicionado', 'tubulacao-ar-condicionado.html', 'git-branch', 'Projeto e passagem de tubulação de cobre e dreno.'],
+    ],
+    servicesListTitle: 'Nossos serviços',
+    services: [
+      'Instalação de ar condicionado split e comercial',
+      'Manutenção preventiva programada',
+      'Manutenção corretiva de emergência',
+      'Limpeza e higienização completa',
+      'Passagem de tubulação de cobre e dreno',
+      'Recarga e reparo de vazamento de gás',
+      'Atendimento residencial e comercial',
+      'Contrato de manutenção regular',
+    ],
+    signsTitle: 'Sinais de que o ar condicionado precisa de atenção',
+    signs: [
+      ['thermometer-sun', 'Não gela direito', 'O ambiente não atinge a temperatura desejada.', ['Ver manutenção', 'manutencao-ar-condicionado.html']],
+      ['droplets', 'Vazamento de água', 'Pingos ou poças indicam dreno entupido ou mal instalado.', ['Ver tubulação e dreno', 'tubulacao-ar-condicionado.html']],
+      ['wind', 'Cheiro ao ligar', 'Odor de mofo pede limpeza e higienização da serpentina.', ['Ver higienização', 'higienizacao-ar-condicionado.html']],
+      ['volume-2', 'Barulho ou vibração', 'Ruído alto aponta desgaste do ventilador ou da turbina.', ['Ver manutenção', 'manutencao-ar-condicionado.html']],
+      ['zap', 'Conta de luz alta', 'Consumo elevado costuma ser falta de manutenção ou gás baixo.', ['Ver manutenção', 'manutencao-ar-condicionado.html']],
+      ['power', 'Aparelho novo a instalar', 'Obra, reforma ou troca de equipamento pedem projeto antes.', ['Ver instalação', 'instalacao-ar-condicionado.html']],
+    ],
+    ctaTitle: 'Ar condicionado com problema? Fale conosco.',
+    waMessage: 'Olá! Preciso de atendimento para AR CONDICIONADO. Vou descrever o que está acontecendo com o aparelho e gostaria de agendar o diagnóstico.',
+    faqTitle: 'Dúvidas sobre ar condicionado',
+    faq: [
+      ['Vocês atendem residência ou só comércio?', 'Atendemos os dois. Fazemos instalação e manutenção de ar condicionado comercial (lojas, escritórios, restaurantes, indústrias) e residencial (apartamentos e casas) em todo o Rio e Grande Rio.'],
+      ['Quais tipos de aparelho vocês atendem?', 'Split, multi split, cassete, piso-teto, janela e sistemas comerciais de maior porte. Atendemos diversas marcas e modelos, inclusive equipamento fora de linha: o que define o reparo é o sistema instalado, não o fabricante.'],
+      ['Qual é a área de atendimento?', 'Rio de Janeiro capital e Grande Rio — Zona Norte, Zona Oeste, Zona Sul, Centro, Baixada Fluminense e Niterói. A oficina fica em Cascadura e o atendimento é feito no seu endereço.'],
+    ],
+  });</script>
   <script src="app-service.js"></script>
   <script>
     const data = window.SERVICES_DATA['ar-condicionado'];
