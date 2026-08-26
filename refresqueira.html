@@ -16,6 +16,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://unpkg.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap">
 <link rel="stylesheet" href="styles.css">
 <style>
@@ -39,16 +40,16 @@
 </style>
 <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/lucide@0.323.0/dist/umd/lucide.min.js"></script>
 <script>window.React||document.write('<script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"><\/script>');</script>
 <script>window.ReactDOM||document.write('<script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"><\/script>');</script>
-<script>window.lucide||document.write('<script src="https://cdn.jsdelivr.net/npm/lucide@0.323.0/dist/umd/lucide.min.js"><\/script>');</script>
+<script defer src="https://unpkg.com/lucide@0.323.0/dist/umd/lucide.min.js" onload="window.lucide&&window.lucide.createIcons()" onerror="var s=document.createElement('script');s.defer=true;s.src='https://cdn.jsdelivr.net/npm/lucide@0.323.0/dist/umd/lucide.min.js';s.onload=function(){window.lucide&&window.lucide.createIcons()};document.head.appendChild(s)"></script>
 <script src="ds-bundle.js"></script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"A refresqueira não está gelando o suco. O que pode ser?","acceptedAnswer":{"@type":"Answer","text":"Geralmente é gás baixo por vazamento, condensador sujo, termostato desregulado ou compressor com desgaste. Medimos pressão e temperatura para identificar a causa e corrigir de forma definitiva."}},{"@type":"Question","name":"O suco parou de circular. Como resolver?","acceptedAnswer":{"@type":"Answer","text":"A circulação depende da bomba. Quando o suco fica parado, costuma ser a bomba travada ou com defeito. Fazemos o reparo ou a troca da bomba para o líquido voltar a circular com a aparência certa."}},{"@type":"Question","name":"Com que frequência higienizar a refresqueira?","acceptedAnswer":{"@type":"Answer","text":"Por trabalhar com bebida, a higienização deve ser frequente — recomendamos limpeza regular do reservatório e do sistema, além da manutenção preventiva periódica, para garantir sabor e segurança."}},{"@type":"Question","name":"Vocês atendem eventos?","acceptedAnswer":{"@type":"Answer","text":"Sim. Atendemos lanchonetes, padarias, comércios e eventos. Fazemos instalação, manutenção e conserto para o equipamento não falhar justamente no dia de maior movimento."}}]}</script>
 </head>
 <body>
   <div id="root"></div>
-  <script src="services-data2.js"></script>
+  <script src="services-index.js"></script>
+  <script src="data/refresqueira.js"></script>
   <script src="app-bundle.js"></script>
   <script>
     const data = window.SERVICES_DATA['refresqueira'];

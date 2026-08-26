@@ -16,6 +16,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://unpkg.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap">
 <link rel="stylesheet" href="styles.css">
 <style>
@@ -39,16 +40,16 @@
 </style>
 <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/lucide@0.323.0/dist/umd/lucide.min.js"></script>
 <script>window.React||document.write('<script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"><\/script>');</script>
 <script>window.ReactDOM||document.write('<script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"><\/script>');</script>
-<script>window.lucide||document.write('<script src="https://cdn.jsdelivr.net/npm/lucide@0.323.0/dist/umd/lucide.min.js"><\/script>');</script>
+<script defer src="https://unpkg.com/lucide@0.323.0/dist/umd/lucide.min.js" onload="window.lucide&&window.lucide.createIcons()" onerror="var s=document.createElement('script');s.defer=true;s.src='https://cdn.jsdelivr.net/npm/lucide@0.323.0/dist/umd/lucide.min.js';s.onload=function(){window.lucide&&window.lucide.createIcons()};document.head.appendChild(s)"></script>
 <script src="ds-bundle.js"></script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"De quanto em quanto tempo a chopeira precisa de higienização?","acceptedAnswer":{"@type":"Answer","text":"O ideal é higienizar as linhas a cada 15 dias em locais de alto movimento e, no mínimo, uma vez por mês. A assepsia periódica remove resíduos e leveduras que se acumulam nas serpentinas e mangueiras, preservando o sabor do chopp e evitando contaminação. Operações de delivery e eventos exigem atenção redobrada."}},{"@type":"Question","name":"Vocês instalam chopeira nova e fazem o projeto?","acceptedAnswer":{"@type":"Answer","text":"Sim. Fazemos o projeto de instalação dimensionado para o seu espaço e volume de vendas, incluindo chopeiras a gelo e montagem de beertrucks. Avaliamos ponto de água, energia, posicionamento da torre e do cilindro de CO₂ para garantir a tiragem correta desde o primeiro dia."}},{"@type":"Question","name":"O chopp está saindo com muita espuma (chuvisco). O que pode ser?","acceptedAnswer":{"@type":"Answer","text":"Excesso de espuma e chuvisco geralmente indicam pressão de CO₂ desregulada, temperatura acima do ideal ou linha suja. Fazemos o diagnóstico medindo pressão e temperatura para identificar a causa real e ajustar o sistema — em vez de só tratar o sintoma."}},{"@type":"Question","name":"Atendem bares, eventos e delivery de chopp?","acceptedAnswer":{"@type":"Answer","text":"Atendemos bares, restaurantes, distribuidoras, eventos e operações de delivery em todo o Rio e Grande Rio. Para quem tem alto giro, oferecemos contratos de manutenção preventiva com visitas programadas, evitando paradas no movimento."}},{"@type":"Question","name":"Qual o prazo de atendimento e vocês dão garantia?","acceptedAnswer":{"@type":"Answer","text":"Trabalhamos com atendimento ágil e, na maioria dos casos, resolvemos na primeira visita. Você recebe o diagnóstico e o preço fechado antes de começar, sem surpresa na conta, e todo serviço tem garantia."}}]}</script>
 </head>
 <body>
   <div id="root"></div>
-  <script src="services-data2.js"></script>
+  <script src="services-index.js"></script>
+  <script src="data/chopeiras.js"></script>
   <script src="app-bundle.js"></script>
   <script>
     const data = window.SERVICES_DATA['chopeiras'];

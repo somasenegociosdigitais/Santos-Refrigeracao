@@ -16,6 +16,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://unpkg.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap">
 <link rel="stylesheet" href="styles.css">
 <style>
@@ -39,16 +40,16 @@
 </style>
 <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/lucide@0.323.0/dist/umd/lucide.min.js"></script>
 <script>window.React||document.write('<script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"><\/script>');</script>
 <script>window.ReactDOM||document.write('<script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"><\/script>');</script>
-<script>window.lucide||document.write('<script src="https://cdn.jsdelivr.net/npm/lucide@0.323.0/dist/umd/lucide.min.js"><\/script>');</script>
+<script defer src="https://unpkg.com/lucide@0.323.0/dist/umd/lucide.min.js" onload="window.lucide&&window.lucide.createIcons()" onerror="var s=document.createElement('script');s.defer=true;s.src='https://cdn.jsdelivr.net/npm/lucide@0.323.0/dist/umd/lucide.min.js';s.onload=function(){window.lucide&&window.lucide.createIcons()};document.head.appendChild(s)"></script>
 <script src="ds-bundle.js"></script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Vocês atendem fora do horário comercial?","acceptedAnswer":{"@type":"Answer","text":"Para equipamentos que não podem parar — câmara fria, ultra freezer, ilha de congelados — sim. Ligue e avaliamos o caso na hora. Prejuízo por hora parada é o critério, não o relógio."}},{"@type":"Question","name":"A ilha está formando muito gelo. Qual a causa?","acceptedAnswer":{"@type":"Answer","text":"Excesso de gelo quase sempre é falha no sistema de degelo, vedação gasta ou umidade entrando no equipamento. Além de ocupar espaço, reduz o frio e aumenta o consumo. Fazemos o degelo técnico e corrigimos a origem do problema."}},{"@type":"Question","name":"Os produtos estão amolecendo. É perigoso?","acceptedAnswer":{"@type":"Answer","text":"Compromete a conservação do produto, e a decisão sobre a mercadoria segue os procedimentos de segurança alimentar do próprio estabelecimento. Do lado do equipamento, costuma ser gás baixo por vazamento, condensador sujo ou termostato desregulado. Medimos pressão e temperatura para restabelecer a temperatura correta com rapidez."}},{"@type":"Question","name":"De quanto em quanto tempo fazer manutenção?","acceptedAnswer":{"@type":"Answer","text":"Recomendamos revisões periódicas com limpeza do condensador e verificação do degelo e do gás. A preventiva evita a parada, mantém o produto seguro e reduz a conta de luz."}},{"@type":"Question","name":"Vocês instalam ilha nova?","acceptedAnswer":{"@type":"Answer","text":"Sim. Fazemos a instalação com nivelamento, avaliação do ponto elétrico e regulagem inicial, deixando o equipamento pronto para conservar os congelados."}}]}</script>
 </head>
 <body>
   <div id="root"></div>
-  <script src="services-data2.js"></script>
+  <script src="services-index.js"></script>
+  <script src="data/ilha-de-congelados.js"></script>
   <script src="app-bundle.js"></script>
   <script>
     const data = window.SERVICES_DATA['ilha-de-congelados'];

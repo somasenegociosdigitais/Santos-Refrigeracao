@@ -16,6 +16,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://unpkg.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap">
 <link rel="stylesheet" href="styles.css">
 <style>
@@ -39,16 +40,16 @@
 </style>
 <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/lucide@0.323.0/dist/umd/lucide.min.js"></script>
 <script>window.React||document.write('<script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"><\/script>');</script>
 <script>window.ReactDOM||document.write('<script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"><\/script>');</script>
-<script>window.lucide||document.write('<script src="https://cdn.jsdelivr.net/npm/lucide@0.323.0/dist/umd/lucide.min.js"><\/script>');</script>
+<script defer src="https://unpkg.com/lucide@0.323.0/dist/umd/lucide.min.js" onload="window.lucide&&window.lucide.createIcons()" onerror="var s=document.createElement('script');s.defer=true;s.src='https://cdn.jsdelivr.net/npm/lucide@0.323.0/dist/umd/lucide.min.js';s.onload=function(){window.lucide&&window.lucide.createIcons()};document.head.appendChild(s)"></script>
 <script src="ds-bundle.js"></script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Vocês atendem fora do horário comercial?","acceptedAnswer":{"@type":"Answer","text":"Para equipamentos que não podem parar — câmara fria, ultra freezer, ilha de congelados — sim. Ligue e avaliamos o caso na hora. Prejuízo por hora parada é o critério, não o relógio."}},{"@type":"Question","name":"Minha geladeira comercial não está gelando. O que fazer?","acceptedAnswer":{"@type":"Answer","text":"As causas mais comuns são gás baixo por vazamento, condensador sujo, termostato desregulado ou compressor com desgaste. Fazemos o diagnóstico medindo pressão e temperatura para corrigir a causa real e evitar perda de mercadoria."}},{"@type":"Question","name":"Vale a pena consertar ou é melhor trocar?","acceptedAnswer":{"@type":"Answer","text":"Depende do estado do compressor e da estrutura. Fazemos uma avaliação honesta: em muitos casos a troca de compressor, gás ou termostato devolve anos de vida útil por um custo bem menor que o de um equipamento novo. Você decide com o diagnóstico e o preço em mãos."}},{"@type":"Question","name":"De quanto em quanto tempo fazer manutenção preventiva?","acceptedAnswer":{"@type":"Answer","text":"Recomendamos revisões periódicas, principalmente a limpeza do condensador, que é a maior causa de motor desarmando em dias quentes. A preventiva mantém a temperatura estável, evita a parada e reduz a conta de luz."}},{"@type":"Question","name":"Vocês atendem equipamento industrial?","acceptedAnswer":{"@type":"Answer","text":"Sim. Atendemos geladeiras e refrigeradores comerciais e industriais de todos os portes, incluindo expositores, câmaras compactas e sistemas de maior capacidade."}}]}</script>
 </head>
 <body>
   <div id="root"></div>
-  <script src="services-data2.js"></script>
+  <script src="services-index.js"></script>
+  <script src="data/geladeira-comercial.js"></script>
   <script src="app-bundle.js"></script>
   <script>
     const data = window.SERVICES_DATA['geladeira-comercial'];

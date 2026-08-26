@@ -16,6 +16,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://unpkg.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap">
 <link rel="stylesheet" href="styles.css">
 <style>
@@ -39,16 +40,16 @@
 </style>
 <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/lucide@0.323.0/dist/umd/lucide.min.js"></script>
 <script>window.React||document.write('<script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"><\/script>');</script>
 <script>window.ReactDOM||document.write('<script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"><\/script>');</script>
-<script>window.lucide||document.write('<script src="https://cdn.jsdelivr.net/npm/lucide@0.323.0/dist/umd/lucide.min.js"><\/script>');</script>
+<script defer src="https://unpkg.com/lucide@0.323.0/dist/umd/lucide.min.js" onload="window.lucide&&window.lucide.createIcons()" onerror="var s=document.createElement('script');s.defer=true;s.src='https://cdn.jsdelivr.net/npm/lucide@0.323.0/dist/umd/lucide.min.js';s.onload=function(){window.lucide&&window.lucide.createIcons()};document.head.appendChild(s)"></script>
 <script src="ds-bundle.js"></script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Vocês vendem o aparelho ou só instalam?","acceptedAnswer":{"@type":"Answer","text":"Somos empresa de serviço: fazemos a instalação e a manutenção, não a venda de equipamento. Orientamos qual capacidade e qual tipo de aparelho atende o seu ambiente antes de você comprar — o cálculo de carga térmica é justamente o que evita comprar errado."}},{"@type":"Question","name":"Quantos BTUs eu preciso?","acceptedAnswer":{"@type":"Answer","text":"Depende de mais coisas que a metragem: pé-direito, orientação solar, número de pessoas e equipamentos que geram calor no ambiente. Uma sala de 20 m² voltada para o poente pode exigir bem mais que outra de 20 m² sombreada. Fazemos o cálculo na visita técnica."}},{"@type":"Question","name":"Quanto tempo leva uma instalação?","acceptedAnswer":{"@type":"Answer","text":"Uma instalação residencial de split com infraestrutura simples costuma ser concluída no mesmo dia. Quando envolve passagem de tubulação longa, ponto elétrico novo, prumada ou várias evaporadoras, informamos o prazo no orçamento, antes de começar."}},{"@type":"Question","name":"A instalação tem garantia?","acceptedAnswer":{"@type":"Answer","text":"Sim. Todo serviço tem garantia, e ela cobre a execução: vazamento em solda ou conexão que fizemos, dreno, fixação e parte elétrica da instalação. A garantia do equipamento em si é do fabricante, e uma instalação feita pelo procedimento correto é o que preserva essa garantia."}},{"@type":"Question","name":"Vocês fazem só a infraestrutura, para instalar o aparelho depois?","acceptedAnswer":{"@type":"Answer","text":"Sim, e é o mais comum em obra. Executamos tubulação de cobre, dreno, ponto elétrico e base da condensadora na fase de alvenaria, e o equipamento é instalado quando a obra termina. Veja também a nossa página de <a href=\"tubulacao-ar-condicionado.html\">tubulação de ar condicionado</a>."}}]}</script>
 </head>
 <body>
   <div id="root"></div>
-  <script src="services-data2.js"></script>
+  <script src="services-index.js"></script>
+  <script src="data/instalacao-ar-condicionado.js"></script>
   <script src="app-bundle.js"></script>
   <script>
     const data = window.SERVICES_DATA['instalacao-ar-condicionado'];

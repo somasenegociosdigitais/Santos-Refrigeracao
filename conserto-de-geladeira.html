@@ -16,6 +16,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://unpkg.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap">
 <link rel="stylesheet" href="styles.css">
 <style>
@@ -39,16 +40,16 @@
 </style>
 <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/lucide@0.323.0/dist/umd/lucide.min.js"></script>
 <script>window.React||document.write('<script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"><\/script>');</script>
 <script>window.ReactDOM||document.write('<script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"><\/script>');</script>
-<script>window.lucide||document.write('<script src="https://cdn.jsdelivr.net/npm/lucide@0.323.0/dist/umd/lucide.min.js"><\/script>');</script>
+<script defer src="https://unpkg.com/lucide@0.323.0/dist/umd/lucide.min.js" onload="window.lucide&&window.lucide.createIcons()" onerror="var s=document.createElement('script');s.defer=true;s.src='https://cdn.jsdelivr.net/npm/lucide@0.323.0/dist/umd/lucide.min.js';s.onload=function(){window.lucide&&window.lucide.createIcons()};document.head.appendChild(s)"></script>
 <script src="ds-bundle.js"></script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Vocês atendem geladeira residencial ou só comercial?","acceptedAnswer":{"@type":"Answer","text":"Atendemos as duas. Geladeira doméstica de diversas marcas — uma porta, duplex, frost free, side by side, inverse — além de frigobar, geladeira e refrigerador comercial e industrial. O atendimento é no local, no Rio de Janeiro e Grande Rio."}},{"@type":"Question","name":"A geladeira não está gelando. O que pode ser?","acceptedAnswer":{"@type":"Answer","text":"As causas mais comuns são compressor sem partida, gás baixo por vazamento, termostato ou sensor com defeito, placa eletrônica queimada e condensador obstruído. Os sintomas são parecidos e a causa é diferente, por isso medimos pressão e corrente antes de concluir — trocar peça por tentativa sai mais caro."}},{"@type":"Question","name":"Preciso levar a geladeira ou vocês vão até mim?","acceptedAnswer":{"@type":"Answer","text":"Vamos até você. Atendimento no local é a regra, e não só por comodidade: geladeira deitada ou transportada sem cuidado pode ter migração do óleo do compressor para o circuito, criando um problema que não existia. Só levamos para a oficina quando o reparo exige bancada."}},{"@type":"Question","name":"Está juntando água dentro da geladeira. É grave?","acceptedAnswer":{"@type":"Answer","text":"Normalmente é dreno obstruído — o caminho da água do degelo entope e ela transborda, aparecendo na gaveta de legumes ou no chão. É um dos reparos mais simples e baratos, mas se ficar sem tratar pode molhar a parte elétrica."}},{"@type":"Question","name":"Vale consertar ou comprar uma nova?","acceptedAnswer":{"@type":"Answer","text":"Depende do reparo e da idade. Dreno, borracha e degelo quase sempre compensam. Compressor e placa eletrônica em equipamento de mais de dez anos merecem comparação com o preço de um novo. Apresentamos o custo fechado e a nossa leitura técnica para você decidir com número na mão."}},{"@type":"Question","name":"Vocês consertam freezer também?","acceptedAnswer":{"@type":"Answer","text":"Sim. Freezer vertical e horizontal, doméstico e comercial, além de ultra freezer e equipamentos de baixa temperatura — veja a página de <a href=\"ultra-freezer.html\">ultra freezer</a> para operações que trabalham abaixo de -40 °C."}}]}</script>
 </head>
 <body>
   <div id="root"></div>
-  <script src="services-data2.js"></script>
+  <script src="services-index.js"></script>
+  <script src="data/conserto-de-geladeira.js"></script>
   <script src="app-bundle.js"></script>
   <script>
     const data = window.SERVICES_DATA['conserto-de-geladeira'];

@@ -227,6 +227,7 @@ function Header({
     href: "https://wa.me/5521967826279",
     target: "_blank",
     rel: "noopener",
+    "aria-label": "Falar no WhatsApp",
     style: {
       display: 'inline-flex'
     }
@@ -545,7 +546,7 @@ function TrustStrip() {
   }, /*#__PURE__*/React.createElement(Icon, {
     name: ic,
     size: 24
-  })), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h4", {
+  })), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h2", {
     style: {
       fontSize: 'var(--fs-h4)',
       margin: '0 0 4px'
@@ -656,7 +657,7 @@ function Services({
     style: {
       fontSize: 34
     }
-  })), /*#__PURE__*/React.createElement("h4", {
+  })), /*#__PURE__*/React.createElement("h3", {
     style: {
       fontFamily: 'var(--font-display)',
       fontWeight: 700,
@@ -1113,6 +1114,7 @@ function Footer() {
     href: "https://wa.me/5521967826279",
     target: "_blank",
     rel: "noopener",
+    "aria-label": "Falar no WhatsApp",
     style: {
       display: 'inline-flex',
       alignItems: 'center',
@@ -1128,6 +1130,7 @@ function Footer() {
     size: 18
   })), /*#__PURE__*/React.createElement("a", {
     href: "tel:+5521967826279",
+    "aria-label": "Ligar para a Santos Refrigera\xE7\xE3o",
     style: {
       display: 'inline-flex',
       alignItems: 'center',
@@ -1141,7 +1144,7 @@ function Footer() {
   }, /*#__PURE__*/React.createElement(Icon, {
     name: "phone",
     size: 18
-  })))), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h5", {
+  })))), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h2", {
     style: {
       color: 'var(--white)',
       fontSize: 'var(--fs-base)',
@@ -1164,7 +1167,7 @@ function Footer() {
     style: {
       color: 'rgba(255,255,255,0.78)'
     }
-  }, label))))), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h5", {
+  }, label))))), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h2", {
     style: {
       color: 'var(--white)',
       fontSize: 'var(--fs-base)',
@@ -1435,7 +1438,7 @@ function ContactSection() {
       border: '1px solid var(--border-subtle)',
       padding: 32
     }
-  }, /*#__PURE__*/React.createElement("h3", {
+  }, /*#__PURE__*/React.createElement("h2", {
     style: {
       fontSize: 'var(--fs-h3)',
       margin: '0 0 6px'
@@ -2264,7 +2267,7 @@ function ServicePage({
   }, /*#__PURE__*/React.createElement(Icon, {
     name: ic,
     size: 24
-  })), /*#__PURE__*/React.createElement("h4", {
+  })), /*#__PURE__*/React.createElement("h3", {
     style: {
       fontSize: 'var(--fs-h4)',
       margin: 0

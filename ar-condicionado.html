@@ -16,6 +16,7 @@
 <meta name="description" content="Instalação, limpeza e manutenção de ar condicionado comercial e residencial no Rio de Janeiro e Grande Rio. Ambiente climatizado, conta de luz sob controle. Orçamento sem compromisso.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://unpkg.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap">
 <link rel="stylesheet" href="styles.css">
 <style>
@@ -39,16 +40,16 @@
 </style>
 <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/lucide@0.323.0/dist/umd/lucide.min.js"></script>
 <script>window.React||document.write('<script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"><\/script>');</script>
 <script>window.ReactDOM||document.write('<script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"><\/script>');</script>
-<script>window.lucide||document.write('<script src="https://cdn.jsdelivr.net/npm/lucide@0.323.0/dist/umd/lucide.min.js"><\/script>');</script>
+<script defer src="https://unpkg.com/lucide@0.323.0/dist/umd/lucide.min.js" onload="window.lucide&&window.lucide.createIcons()" onerror="var s=document.createElement('script');s.defer=true;s.src='https://cdn.jsdelivr.net/npm/lucide@0.323.0/dist/umd/lucide.min.js';s.onload=function(){window.lucide&&window.lucide.createIcons()};document.head.appendChild(s)"></script>
 <script src="ds-bundle.js"></script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Vocês atendem residência ou só comércio?","acceptedAnswer":{"@type":"Answer","text":"Atendemos os dois. Fazemos instalação e manutenção de ar condicionado comercial (lojas, escritórios, restaurantes, indústrias) e residencial (apartamentos e casas) em todo o Rio e Grande Rio."}},{"@type":"Question","name":"Quais tipos de aparelho vocês atendem?","acceptedAnswer":{"@type":"Answer","text":"Split, multi split, cassete, piso-teto, janela e sistemas comerciais de maior porte. Atendemos diversas marcas e modelos, inclusive equipamento fora de linha: o que define o reparo é o sistema instalado, não o fabricante."}},{"@type":"Question","name":"Qual é a área de atendimento?","acceptedAnswer":{"@type":"Answer","text":"Rio de Janeiro capital e Grande Rio — Zona Norte, Zona Oeste, Zona Sul, Centro, Baixada Fluminense e Niterói. A oficina fica em Cascadura e o atendimento é feito no seu endereço."}}]}</script>
 </head>
 <body>
   <div id="root"></div>
-  <script src="services-data2.js"></script>
+  <script src="services-index.js"></script>
+  <script src="data/ar-condicionado.js"></script>
   <script src="app-bundle.js"></script>
   <script>
     const data = window.SERVICES_DATA['ar-condicionado'];

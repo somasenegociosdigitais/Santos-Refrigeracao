@@ -16,6 +16,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://unpkg.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap">
 <link rel="stylesheet" href="styles.css">
 <style>
@@ -39,16 +40,16 @@
 </style>
 <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/lucide@0.323.0/dist/umd/lucide.min.js"></script>
 <script>window.React||document.write('<script src="https://cdn.jsdelivr.net/npm/react@18.3.1/umd/react.production.min.js"><\/script>');</script>
 <script>window.ReactDOM||document.write('<script src="https://cdn.jsdelivr.net/npm/react-dom@18.3.1/umd/react-dom.production.min.js"><\/script>');</script>
-<script>window.lucide||document.write('<script src="https://cdn.jsdelivr.net/npm/lucide@0.323.0/dist/umd/lucide.min.js"><\/script>');</script>
+<script defer src="https://unpkg.com/lucide@0.323.0/dist/umd/lucide.min.js" onload="window.lucide&&window.lucide.createIcons()" onerror="var s=document.createElement('script');s.defer=true;s.src='https://cdn.jsdelivr.net/npm/lucide@0.323.0/dist/umd/lucide.min.js';s.onload=function(){window.lucide&&window.lucide.createIcons()};document.head.appendChild(s)"></script>
 <script src="ds-bundle.js"></script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Vocês atendem fora do horário comercial?","acceptedAnswer":{"@type":"Answer","text":"Para equipamentos que não podem parar — câmara fria, ultra freezer, ilha de congelados — sim. Ligue e avaliamos o caso na hora. Prejuízo por hora parada é o critério, não o relógio."}},{"@type":"Question","name":"Como funciona a instalação de uma câmara fria do zero?","acceptedAnswer":{"@type":"Answer","text":"Seguimos etapas estruturadas: estudo da carga térmica e do tipo de produto (resfriado ou congelado), dimensionamento do motor, esquadrejamento e nivelamento da base, montagem dos painéis isotérmicos, fixação das unidades evaporadora e condensadora, parte elétrica e hidráulica, e vedação final com silicone. Você recebe o projeto e o preço fechado antes de começar."}},{"@type":"Question","name":"Qual a diferença entre câmara para resfriados e para congelados?","acceptedAnswer":{"@type":"Answer","text":"A finalidade define o projeto: resfriamento de bebidas e laticínios trabalha em temperaturas positivas; congelamento de carnes exige temperaturas negativas, motor mais robusto, isolamento reforçado e resistência de dreno para evitar congelamento interno. Por isso o dimensionamento correto é essencial."}},{"@type":"Question","name":"De quanto em quanto tempo fazer a manutenção preventiva?","acceptedAnswer":{"@type":"Answer","text":"Recomendamos visitas programadas periódicas, com limpeza do condensador, inspeção de gaxetas, verificação do fluido refrigerante e teste de drenos. O condensador sujo é a principal causa de motor desarmando ou queimando em dias quentes — a preventiva evita a parada e reduz a conta de luz."}},{"@type":"Question","name":"Minha câmara não atinge a temperatura. O que pode ser?","acceptedAnswer":{"@type":"Answer","text":"As causas mais comuns são parâmetros desajustados no controlador digital, gás refrigerante baixo por microvazamento, condensador sujo ou gaxetas de vedação ressecadas. Fazemos o diagnóstico medindo pressão e temperatura para corrigir a causa real, não só o sintoma."}},{"@type":"Question","name":"Vocês fazem reforma e contrato de manutenção regular?","acceptedAnswer":{"@type":"Answer","text":"Sim. Atendemos instalação do zero, reforma de câmaras existentes (substituição de painéis, readequação de vedação, modernização do sistema) e contratos de manutenção regular com visitas programadas — ideal para quem não pode ter parada no estoque."}}]}</script>
 </head>
 <body>
   <div id="root"></div>
-  <script src="services-data2.js"></script>
+  <script src="services-index.js"></script>
+  <script src="data/camara-fria.js"></script>
   <script src="app-bundle.js"></script>
   <script>
     const data = window.SERVICES_DATA['camara-fria'];
