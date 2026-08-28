@@ -8,7 +8,7 @@ const { itens = [] } = Astro.props;
 {itens.map(([q, a]) => (
   <details>
   <summary>{q}<span><Icone nome="chevron-down" tam={22} /></span></summary>
-  <p>{a}</p>
+  <p set:html={a}></p>
   </details>
 ))}
 </div>

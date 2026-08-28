@@ -479,7 +479,7 @@
     "title": "Geladeira comercial ou residencial: qual página é a sua",
     "body": [
      "Esta página trata de geladeira e refrigerador de uso comercial e industrial: mercado, açougue, padaria, restaurante, lanchonete e distribuidora, onde o equipamento abre dezenas de vezes por hora e a parada significa perda de estoque.",
-     "Se o equipamento é doméstico — uma porta, duplex, frost free, side by side —, o atendimento é o mesmo mas o conteúdo está na página de <a href=\"conserto-de-geladeira.html\">conserto de geladeira</a>, com os defeitos e custos típicos de geladeira residencial."
+     "Se o equipamento é doméstico — uma porta, duplex, frost free, side by side —, o atendimento é o mesmo mas o conteúdo está na página de <a href=\"/conserto-de-geladeira.html\">conserto de geladeira</a>, com os defeitos e custos típicos de geladeira residencial."
     ]
    }
   ],
@@ -1697,7 +1697,7 @@
    ],
    [
     "Vocês fazem só a infraestrutura, para instalar o aparelho depois?",
-    "Sim, e é o mais comum em obra. Executamos tubulação de cobre, dreno, ponto elétrico e base da condensadora na fase de alvenaria, e o equipamento é instalado quando a obra termina. Veja também a nossa página de <a href=\"tubulacao-ar-condicionado.html\">tubulação de ar condicionado</a>."
+    "Sim, e é o mais comum em obra. Executamos tubulação de cobre, dreno, ponto elétrico e base da condensadora na fase de alvenaria, e o equipamento é instalado quando a obra termina. Veja também a nossa página de <a href=\"/tubulacao-ar-condicionado.html\">tubulação de ar condicionado</a>."
    ]
   ]
  },
@@ -1823,7 +1823,7 @@
    ],
    [
     "Qual a diferença entre manutenção e higienização?",
-    "A higienização trata a limpeza: filtros, serpentina, turbina, bandeja e dreno. A manutenção inclui isso e vai além — medição de pressão, verificação da carga de gás, teste do capacitor, aperto de conexões elétricas e avaliação do compressor. Veja também a página de <a href=\"higienizacao-ar-condicionado.html\">higienização de ar condicionado</a>."
+    "A higienização trata a limpeza: filtros, serpentina, turbina, bandeja e dreno. A manutenção inclui isso e vai além — medição de pressão, verificação da carga de gás, teste do capacitor, aperto de conexões elétricas e avaliação do compressor. Veja também a página de <a href=\"/higienizacao-ar-condicionado.html\">higienização de ar condicionado</a>."
    ],
    [
     "Vale consertar ou trocar o aparelho?",
@@ -1841,23 +1841,23 @@
   "icon": "refrigerator",
   "eyebrow": "Conserto de geladeira",
   "metaTitle": "Conserto de geladeira no Rio de Janeiro | Santos Refrigeração",
-  "metaDescription": "Conserto e manutenção de geladeira residencial e comercial no Rio de Janeiro e Grande Rio. Técnico de geladeira com atendimento no local. Orçamento sem compromisso.",
+  "metaDescription": "Conserto e manutenção de geladeira e refrigerador comercial e industrial no Rio de Janeiro e Grande Rio. Técnico no local, diagnóstico com medição e preço fechado. Não atendemos geladeira residencial.",
   "heroTitle": "Conserto de geladeira no Rio de Janeiro e Grande Rio",
   "highlight": "geladeira",
-  "heroLead": "Geladeira que não gela, gela demais, faz ruído ou junta água embaixo da gaveta. Fazemos o conserto e a manutenção de geladeira comercial e industrial em todo o Rio de Janeiro e Grande Rio, e de geladeira residencial em Cascadura e bairros vizinhos, sempre no local e com diagnóstico antes de qualquer troca de peça. A visita de diagnóstico tem valor fechado, informado antes do agendamento e abatido do serviço quando o reparo é aprovado.",
+  "heroLead": "Geladeira que não gela, gela demais, faz ruído ou junta água embaixo da gaveta. Fazemos o conserto e a manutenção de geladeira, refrigerador e frigobar comercial e industrial em todo o Rio de Janeiro e Grande Rio, sempre no local e com diagnóstico antes de qualquer troca de peça. Não atendemos geladeira residencial.",
   "heroImageLabel": "Conserto de geladeira — Santos Refrigeração",
   "servicesTitle": "Conserto de geladeira com diagnóstico e preço fechado",
   "intro": [
-   "Geladeira parada é comida estragando. Por isso o atendimento é organizado para resolver na primeira visita: o técnico chega com instrumento de medição e as peças de reposição mais comuns, faz o diagnóstico no local e executa o reparo na mesma ida, quando não depende de componente específico.",
-   "Atendemos geladeira, refrigerador e frigobar — comercial e industrial em todo o Rio e Grande Rio, residencial em Cascadura e bairros vizinhos. Isso inclui geladeira de uma e duas portas, frost free, side by side, duplex, freezer vertical e horizontal. Os defeitos mais frequentes são compressor sem partida, gás baixo por vazamento, degelo travado, termostato ou sensor com defeito, placa eletrônica queimada e dreno obstruído — cada um com sintoma parecido e causa distinta.",
+   "Geladeira parada em comércio é estoque em risco por hora. Por isso o atendimento é organizado para resolver na primeira visita: o técnico chega com instrumento de medição e as peças de reposição mais comuns, faz o diagnóstico no local e executa o reparo na mesma ida, quando não depende de componente específico.",
+   "Atendemos geladeira, refrigerador e frigobar de uso comercial e industrial — expositor de bebidas, refrigerador de quatro e seis portas, geladeira de padaria e de açougue, freezer de operação contínua e frigobar de hotel e pousada. Os defeitos mais frequentes são compressor sem partida, gás baixo por vazamento, degelo travado, termostato ou sensor com defeito, placa eletrônica queimada e dreno obstruído — cada um com sintoma parecido e causa distinta.",
    "Trabalhamos com medição de pressão e corrente para separar uma causa da outra, em vez de trocar peça por tentativa. Você recebe o diagnóstico e o preço fechado antes de autorizar, e todo serviço tem garantia. Quando o reparo não compensa diante da idade do equipamento, dizemos isso."
   ],
   "servicesListTitle": "Nossos serviços",
   "services": [
-   "Conserto de geladeira residencial",
    "Conserto de geladeira e refrigerador comercial",
-   "Conserto e manutenção de frigobar",
-   "Manutenção de geladeira frost free e side by side",
+   "Conserto de geladeira e refrigerador industrial",
+   "Conserto e manutenção de frigobar comercial",
+   "Conserto de expositor de bebidas",
    "Conserto de freezer vertical e horizontal",
    "Troca de compressor",
    "Recarga de gás e reparo de vazamento",
@@ -1865,49 +1865,50 @@
    "Troca de placa eletrônica",
    "Reparo do sistema de degelo",
    "Desobstrução de dreno",
-   "Troca de borracha de vedação",
+   "Troca de gaxeta e borracha de vedação",
    "Reparo de ruído e vibração",
    "Reforma de geladeira comercial",
+   "Manutenção preventiva programada",
    "Atendimento no local"
   ],
   "sections": [
    {
-    "title": "Onde atendemos geladeira residencial",
+    "title": "O que atendemos: comercial e industrial",
     "body": [
-     "Geladeira doméstica atendemos em Cascadura e nos bairros vizinhos, onde o deslocamento cabe no custo do reparo. Fora dessa área o atendimento residencial fica sujeito a avaliação. Para geladeira, refrigerador e frigobar comercial e industrial atendemos todo o Rio de Janeiro e Grande Rio.",
-     "A visita de diagnóstico tem valor fechado, informado antes do agendamento e abatido do serviço caso o reparo seja aprovado. Dizemos o valor no primeiro contato, para você decidir antes de marcar."
-    ]
-   },
-   {
-    "title": "Conserto de geladeira residencial",
-    "body": [
-     "Atendemos geladeira doméstica de diversas marcas e portes: uma porta, duplex, frost free, side by side e inverse. O atendimento é no local, na sua casa, porque mover geladeira sem necessidade cria mais problema que resolve — o óleo do compressor pode migrar para o circuito se o equipamento for deitado.",
-     "Os defeitos mais comuns em geladeira residencial são degelo travado com formação de gelo no fundo, dreno obstruído com água acumulando na gaveta de legumes, borracha de vedação ressecada deixando o frio escapar, e compressor que não parte. Fazemos o diagnóstico e informamos o custo antes de qualquer reparo."
+     "Esta página é de conserto de geladeira de uso comercial e industrial. Atendemos mercado, padaria, açougue, restaurante, bar, lanchonete, distribuidora, hotel e pousada, em todo o Rio de Janeiro e Grande Rio.",
+     "<strong>Não atendemos geladeira residencial.</strong> Preferimos dizer isso aqui a marcar uma visita e desmarcar depois. Se a sua geladeira é de casa, esta não é a empresa certa — e vale procurar uma assistência de linha branca do seu bairro, que resolve mais rápido e mais barato."
     ]
    },
    {
     "title": "Geladeira e refrigerador comercial",
     "body": [
-     "Em geladeira comercial e industrial o cálculo é outro: cada hora parada é estoque em risco. Atendemos expositor de bebidas, refrigerador de quatro e seis portas, geladeira de padaria e açougue, câmara de resfriamento pequena e freezer de operação contínua.",
-     "Equipamento comercial trabalha com porta abrindo dezenas de vezes por hora, o que exige compressor mais robusto e condensador limpo. Além do conserto, oferecemos manutenção preventiva programada e reforma de equipamento antigo — troca de gaxeta, revisão de sistema e readequação de vedação. Para mercado, açougue, padaria e restaurante, veja a página dedicada de <a href=\"geladeira-comercial.html\">geladeira comercial</a>."
+     "Em geladeira comercial o cálculo é diferente do doméstico: cada hora parada é mercadoria em risco. Atendemos expositor de bebidas, refrigerador de quatro e seis portas, geladeira de padaria e açougue, câmara de resfriamento pequena e freezer de operação contínua.",
+     "Equipamento comercial trabalha com porta abrindo dezenas de vezes por hora, o que exige compressor mais robusto e condensador limpo. Além do conserto, oferecemos manutenção preventiva programada e reforma de equipamento antigo — troca de gaxeta, revisão de sistema e readequação de vedação. Para mercado, açougue, padaria e restaurante, veja a página dedicada de <a href=\"/geladeira-comercial.html\">geladeira comercial</a>."
+    ]
+   },
+   {
+    "title": "Geladeira industrial e equipamento de operação contínua",
+    "body": [
+     "Em cozinha industrial, distribuidora e indústria de alimentos o equipamento não para: porta abrindo o dia inteiro, carga térmica alta e tolerância zero a oscilação de temperatura. Atendemos refrigerador industrial de múltiplas portas, freezer de operação contínua e conjuntos com unidade condensadora remota.",
+     "Nesses casos a manutenção preventiva programada vale mais que o conserto: limpeza de condensador, medição de superaquecimento e sub-resfriamento, inspeção de gaxeta e verificação de carga de gás em visita agendada. Sai mais barato que uma parada não planejada com mercadoria dentro."
     ]
    },
    {
     "title": "Técnico de geladeira: atendimento no local",
     "body": [
-     "Fazemos uma triagem por WhatsApp antes de agendar, porque parte dos casos se resolve por orientação: termostato no mínimo, porta desalinhada, geladeira encostada na parede sem espaço de ventilação, disjuntor desarmado. Não vale uma visita para isso.",
+     "Fazemos uma triagem por WhatsApp antes de agendar, porque parte dos casos se resolve por orientação: termostato no mínimo, porta desalinhada, equipamento encostado na parede sem espaço de ventilação, disjuntor desarmado. Não vale uma visita para isso.",
      "Confirmada a necessidade, o técnico vai ao local com instrumento de medição e as peças de reposição mais comuns. Na maioria dos casos resolvemos na mesma visita; quando depende de peça específica, informamos o prazo antes de você aprovar."
     ]
    },
    {
-    "title": "Quanto custa consertar uma geladeira",
+    "title": "Quanto custa consertar uma geladeira comercial",
     "body": [
-     "Depende do defeito. Desobstrução de dreno, troca de borracha e reparo de degelo estão na faixa mais baixa; troca de placa eletrônica e de compressor são os reparos mais caros, e é neles que vale comparar com o preço de um equipamento novo.",
+     "Depende do defeito. Desobstrução de dreno, troca de gaxeta e reparo de degelo estão na faixa mais baixa; troca de placa eletrônica e de compressor são os reparos mais caros, e é neles que vale comparar com o preço de um equipamento novo.",
      "Apresentamos o custo real e a nossa opinião técnica sobre valer ou não a pena, sem empurrar serviço."
     ]
    }
   ],
-  "signsTitle": "Sinais de que a geladeira precisa de técnico",
+  "signsTitle": "Sinais de que a geladeira comercial precisa de técnico",
   "signs": [
    [
     "thermometer-sun",
@@ -1940,33 +1941,33 @@
     "Perda de eficiência: condensador sujo, vedação ou carga de gás."
    ]
   ],
-  "ctaTitle": "Geladeira parada? Fale conosco agora.",
-  "waMessage": "Olá! Preciso de CONSERTO DE GELADEIRA. Vou descrever o que está acontecendo com o equipamento e gostaria de agendar o diagnóstico.",
+  "ctaTitle": "Geladeira comercial parada? Fale conosco agora.",
+  "waMessage": "Olá! Preciso de CONSERTO DE GELADEIRA COMERCIAL. Vou descrever o que está acontecendo com o equipamento e gostaria de agendar o diagnóstico.",
   "faqTitle": "Dúvidas sobre conserto de geladeira",
   "faq": [
    [
-    "Vocês atendem geladeira residencial ou só comercial?",
-    "Atendemos as duas, com áreas diferentes. Geladeira doméstica de diversas marcas — uma porta, duplex, frost free, side by side, inverse — atendemos em Cascadura e bairros vizinhos. Frigobar, geladeira e refrigerador comercial e industrial atendemos em todo o Rio de Janeiro e Grande Rio. O atendimento é sempre no local."
+    "Vocês consertam geladeira residencial?",
+    "Não. Atendemos apenas geladeira, refrigerador e frigobar de uso comercial e industrial — mercado, padaria, açougue, restaurante, bar, distribuidora, hotel e pousada. Para geladeira de casa, procure uma assistência de linha branca do seu bairro: resolve mais rápido e sai mais barato que uma visita nossa."
    ],
    [
     "A geladeira não está gelando. O que pode ser?",
     "As causas mais comuns são compressor sem partida, gás baixo por vazamento, termostato ou sensor com defeito, placa eletrônica queimada e condensador obstruído. Os sintomas são parecidos e a causa é diferente, por isso medimos pressão e corrente antes de concluir — trocar peça por tentativa sai mais caro."
    ],
    [
-    "Preciso levar a geladeira ou vocês vão até mim?",
+    "Preciso levar o equipamento ou vocês vão até mim?",
     "Vamos até você. Atendimento no local é a regra, e não só por comodidade: geladeira deitada ou transportada sem cuidado pode ter migração do óleo do compressor para o circuito, criando um problema que não existia. Só levamos para a oficina quando o reparo exige bancada."
    ],
    [
-    "Está juntando água dentro da geladeira. É grave?",
-    "Normalmente é dreno obstruído — o caminho da água do degelo entope e ela transborda, aparecendo na gaveta de legumes ou no chão. É um dos reparos mais simples e baratos, mas se ficar sem tratar pode molhar a parte elétrica."
+    "Está juntando água dentro do equipamento. É grave?",
+    "Normalmente é dreno obstruído — o caminho da água do degelo entope e ela transborda. É um dos reparos mais simples e baratos, mas se ficar sem tratar pode molhar a parte elétrica."
    ],
    [
-    "Vale consertar ou comprar uma nova?",
-    "Depende do reparo e da idade. Dreno, borracha e degelo quase sempre compensam. Compressor e placa eletrônica em equipamento de mais de dez anos merecem comparação com o preço de um novo. Apresentamos o custo fechado e a nossa leitura técnica para você decidir com número na mão."
+    "Vale consertar ou comprar um novo?",
+    "Depende do reparo e da idade. Dreno, gaxeta e degelo quase sempre compensam. Compressor e placa eletrônica em equipamento de mais de dez anos merecem comparação com o preço de um novo. Apresentamos o custo fechado e a nossa leitura técnica para você decidir com número na mão."
    ],
    [
     "Vocês consertam freezer também?",
-    "Sim. Freezer vertical e horizontal, doméstico e comercial, além de ultra freezer e equipamentos de baixa temperatura — veja a página de <a href=\"ultra-freezer.html\">ultra freezer</a> para operações que trabalham abaixo de -40 °C."
+    "Sim. Freezer vertical e horizontal de uso comercial, além de ultra freezer e equipamentos de baixa temperatura — veja a página de <a href=\"/ultra-freezer.html\">ultra freezer</a> para operações que trabalham abaixo de -40 °C."
    ]
   ]
  }

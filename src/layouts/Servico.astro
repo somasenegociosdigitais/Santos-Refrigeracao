@@ -100,7 +100,7 @@ const accent = 'var(--color-accent-strong)';
 {d.sections.map((sec) => (
   <div style="display:flex;flex-direction:column;gap:14px">
   <h2 style="font-size:var(--fs-h3);margin:0;text-wrap:balance"><Destaque texto={sec.title} termo={d.highlight} cor={accent} /></h2>
-  {sec.body.map((p) => (<p style="font-size:var(--fs-base);color:var(--text-muted);margin:0;line-height:var(--lh-relaxed)">{p}</p>))}
+  {sec.body.map((p) => (<p style="font-size:var(--fs-base);color:var(--text-muted);margin:0;line-height:var(--lh-relaxed)" set:html={p}></p>))}
   </div>
 ))}
 </div>
