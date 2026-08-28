@@ -352,6 +352,8 @@ img{max-width:100%}
 .card-equip:hover .card-saiba{text-decoration:underline}
 .card-equip a{text-decoration:none}
 .card-equip a:hover{text-decoration:underline}
+.card-equip .card-subs a:hover{text-decoration:none;background:var(--blue-200)}
+.card-equip .card-subs a{transition:background var(--dur-base) var(--ease-out)}
 .card-equip .card-cobre::after{content:'';position:absolute;inset:0;z-index:1}
 .card-equip .card-subs,.card-equip .card-saiba{position:relative;z-index:2}
 
