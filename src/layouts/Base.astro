@@ -41,8 +41,12 @@ const desc = descricao.replace(/\s+/g, ' ').trim();
 <meta property="og:image" content={NEGOCIO.site + imagem}>
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#0B3C6B">
+<link rel="preload" href="/fonts/poppins-800.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/poppins-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/poppins-600.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/mulish-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/mulish-600.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/mulish-700.woff2" as="font" type="font/woff2" crossorigin>
 {jsonld.map((no) => (
   <script type="application/ld+json" set:html={JSON.stringify(no)}></script>
 ))}
