@@ -101,7 +101,7 @@ const confia = [
   {subs && (
     <p class="card-subs" style="margin:2px 0 0;font-family:var(--font-body);font-size:var(--fs-sm);color:var(--text-muted);line-height:1.8">
     {subs.map(([label, sh], i) => (
-      <Fragment>{i > 0 && <span style="color:var(--border-subtle);padding:0 6px">·</span>}<a href={sh} style="color:var(--color-primary);font-weight:600">{label}</a></Fragment>
+      <Fragment>{i > 0 && <span style="color:var(--border-subtle)">{' · '}</span>}<a href={sh} style="color:var(--color-primary);font-weight:600">{label}</a></Fragment>
     ))}
     </p>
   )}
