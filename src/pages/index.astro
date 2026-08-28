@@ -92,7 +92,7 @@ const confia = [
 <h2 style="font-size:var(--fs-h2);margin:0;text-wrap:balance">Cuidamos de <span style="color:var(--color-primary)">todo o seu equipamento</span> de refrigeração</h2>
 <p style="font-size:var(--fs-lg);color:var(--text-muted);margin:0;line-height:var(--lh-normal)">Atendemos clientes comerciais em toda a área de refrigeração — do bar ao restaurante, do mercado à indústria.</p>
 </div>
-<div class="cards-grid" style="display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:1fr;gap:22px">
+<div class="cards-grid" style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px">
 {GRADE_HOME.map(([icone, titulo, txt, href, subs]) => (
   <div class="card-equip">
   <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:12px">
@@ -102,7 +102,7 @@ const confia = [
   <h3 style="font-family:var(--font-display);font-weight:700;font-size:var(--fs-h4);margin:0"><a class="card-cobre" href={href} style="color:var(--text-strong)">{titulo}</a></h3>
   <p style="font-family:var(--font-body);font-size:var(--fs-base);color:var(--text-muted);margin:0;line-height:var(--lh-normal)">{txt}</p>
   {subs && (
-    <p class="card-subs" style="margin:2px 0 0;font-family:var(--font-body);font-size:var(--fs-sm);color:var(--text-muted);line-height:1.7">
+    <p class="card-subs" style="margin:2px 0 0;font-family:var(--font-body);font-size:var(--fs-sm);color:var(--text-muted);line-height:1.8;overflow-wrap:break-word">
     {subs.map(([label, sh], i) => (
       <Fragment>{i > 0 && <span style="color:var(--border-subtle);padding:0 6px">·</span>}<a href={sh} style="color:var(--color-primary);font-weight:600">{label}</a></Fragment>
     ))}
