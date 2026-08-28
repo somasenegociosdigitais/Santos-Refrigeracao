@@ -16,7 +16,8 @@ const jsonld = [{
   url: NEGOCIO.site + '/',
   telephone: '+55-21-96782-6279',
   priceRange: '$$',
-  image: NEGOCIO.site + '/assets/opt-s1.webp',
+  image: NEGOCIO.site + '/assets/mascote-grande.png',
+  logo: NEGOCIO.site + '/assets/favicon-512.png',
   address: {
     '@type': 'PostalAddress',
     streetAddress: NEGOCIO.endereco.rua,
@@ -117,16 +118,25 @@ const confia = [
 
 <section id="sobre" style="background:var(--surface-page);padding-block:clamp(56px,8.5vw,92px)">
 <div class="ds-container">
-<div class="split-grid" style="display:grid;grid-template-columns:0.9fr 1.1fr;gap:56px;align-items:start">
-<div style="display:flex;flex-direction:column;gap:20px">
+<div class="split-grid" style="display:grid;grid-template-columns:0.95fr 1.05fr;gap:56px;align-items:center">
+<div class="about-head-mobile" style="display:none;flex-direction:column;gap:12px">
 <span class="ds-eyebrow">Quem somos</span>
 <h2 style="font-size:var(--fs-h2);margin:0;text-wrap:balance">Qualidade que gera confiança, <span style="color:var(--color-accent-strong)">confiança que gera parcerias</span></h2>
-<div style="background:var(--color-cta);color:var(--ink);border-radius:var(--radius-lg);padding:20px 24px;box-shadow:var(--shadow-cta);max-width:240px">
-<strong style="font-family:var(--font-display);font-weight:800;font-size:34px;display:block;line-height:1">12 anos</strong>
+</div>
+<div style="position:relative">
+<div style="border-radius:var(--radius-xl);overflow:hidden;box-shadow:var(--shadow-md)">
+<img src="/assets/mascote-grande.png" alt="Mascote da Santos Refrigeração, um urso polar de macacão e chave inglesa" width="1200" height="807" style="width:100%;aspect-ratio:4 / 3.4;object-fit:cover;object-position:center 22%;display:block;background:var(--blue-100)">
+</div>
+<div class="about-badge" style="position:absolute;bottom:-24px;right:-16px;background:var(--color-cta);color:var(--ink);border-radius:var(--radius-lg);padding:16px 20px;box-shadow:var(--shadow-cta);max-width:200px">
+<strong style="font-family:var(--font-display);font-weight:800;font-size:26px;display:block;line-height:1">12 anos</strong>
 <span style="font-size:var(--fs-sm);font-weight:600">cuidando da refrigeração do seu negócio</span>
 </div>
 </div>
 <div style="display:flex;flex-direction:column;gap:22px">
+<div class="about-head-desktop" style="display:flex;flex-direction:column;gap:12px">
+<span class="ds-eyebrow">Quem somos</span>
+<h2 style="font-size:var(--fs-h2);margin:0;text-wrap:balance">Qualidade que gera confiança, <span style="color:var(--color-accent-strong)">confiança que gera parcerias</span></h2>
+</div>
 <p style="font-size:var(--fs-base);color:var(--text-muted);margin:0;line-height:var(--lh-relaxed)">Confiança não se conquista com promessas, mas com trabalho bem feito. Há 12 anos, a Santos Refrigeração constrói sua história com seriedade, transparência e compromisso em cada atendimento. É por isso que empresas de todo o Rio de Janeiro e Grande Rio depositam em nossa equipe a confiança de quem busca qualidade, responsabilidade e soluções executadas com excelência.</p>
 <p style="font-size:var(--fs-base);color:var(--text-muted);margin:0;line-height:var(--lh-relaxed)">Cada serviço é realizado com atenção aos detalhes, diagnóstico preciso e total clareza em todas as etapas. Trabalhamos com honestidade, preço definido antes da execução e garantia em tudo o que fazemos, porque acreditamos que respeito ao cliente e qualidade não são diferenciais, mas princípios.</p>
 <p style="font-size:var(--fs-base);color:var(--text-muted);margin:0;line-height:var(--lh-relaxed)">Mais do que prestar <a href="/tecnico-refrigeracao-comercial.html" style="color:inherit;text-decoration:underline;text-underline-offset:3px">assistência técnica em refrigeração comercial</a>, entregamos segurança, tranquilidade e a certeza de que existe uma equipe comprometida em fazer o trabalho da maneira certa. É assim que, ao longo dos anos, transformamos a confiança de nossos clientes em relacionamentos duradouros e construímos uma reputação que levamos com orgulho em cada serviço realizado.</p>

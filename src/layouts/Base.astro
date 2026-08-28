@@ -17,7 +17,7 @@ import Footer from '../components/Footer.astro';
 import ZapFlutuante from '../components/ZapFlutuante.astro';
 import { NEGOCIO } from '../data/site.js';
 
-const { titulo, descricao, caminho, jsonld = [], imagem = '/assets/opt-s1.webp', ogTitulo, ogDescricao, zapHref } = Astro.props;
+const { titulo, descricao, caminho, jsonld = [], imagem = '/assets/mascote-grande.png', ogTitulo, ogDescricao, zapHref } = Astro.props;
 const url = NEGOCIO.site + caminho;
 const desc = descricao.replace(/\s+/g, ' ').trim();
 ---
@@ -41,6 +41,9 @@ const desc = descricao.replace(/\s+/g, ' ').trim();
 <meta property="og:image" content={NEGOCIO.site + imagem}>
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#0B3C6B">
+<link rel="icon" href="/assets/favicon-192.png" type="image/png" sizes="192x192">
+<link rel="icon" href="/assets/favicon-512.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <link rel="preload" href="/fonts/poppins-800.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/poppins-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/poppins-600.woff2" as="font" type="font/woff2" crossorigin>

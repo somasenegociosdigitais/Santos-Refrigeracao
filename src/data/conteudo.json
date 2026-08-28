@@ -1841,10 +1841,10 @@
   "icon": "refrigerator",
   "eyebrow": "Conserto de geladeira",
   "metaTitle": "Conserto de geladeira no Rio de Janeiro | Santos Refrigeração",
-  "metaDescription": "Conserto e manutenção de geladeira, refrigerador e frigobar no Rio de Janeiro e Grande Rio. Foco em comercial e industrial, com orçamento sem compromisso. Residencial com visita de R$ 100, abatida do serviço.",
+  "metaDescription": "Conserto e manutenção de geladeira, refrigerador e frigobar no Rio de Janeiro e Grande Rio. Foco em comercial e industrial, com orçamento sem compromisso. Residencial: visita de R$ 100, cobrada só se o reparo não for feito.",
   "heroTitle": "Conserto de geladeira no Rio de Janeiro e Grande Rio",
   "highlight": "geladeira",
-  "heroLead": "Geladeira que não gela, gela demais, faz ruído ou junta água embaixo da gaveta. Fazemos o conserto e a manutenção de geladeira, refrigerador e frigobar em todo o Rio de Janeiro e Grande Rio, sempre no local e com diagnóstico antes de qualquer troca de peça. Em equipamento comercial e industrial o orçamento é sem compromisso; em geladeira residencial a visita de diagnóstico custa R$ 100, abatidos do serviço quando o reparo é aprovado.",
+  "heroLead": "Geladeira que não gela, gela demais, faz ruído ou junta água embaixo da gaveta. Fazemos o conserto e a manutenção de geladeira, refrigerador e frigobar em todo o Rio de Janeiro e Grande Rio, sempre no local e com diagnóstico antes de qualquer troca de peça. Em equipamento comercial e industrial o orçamento é sem compromisso; em geladeira residencial a visita de diagnóstico é de R$ 100, cobrados apenas se você não aprovar o reparo.",
   "heroImageLabel": "Conserto de geladeira — Santos Refrigeração",
   "servicesTitle": "Conserto de geladeira com diagnóstico e preço fechado",
   "intro": [
@@ -1877,7 +1877,7 @@
     "title": "Como funciona a visita, no comercial e no residencial",
     "body": [
      "Em equipamento comercial e industrial a visita é sem compromisso: o técnico vai até o local, faz o diagnóstico com medição e apresenta o preço fechado, e você decide sem pagar nada por isso. É o nosso foco de trabalho e o atendimento é organizado em torno dele.",
-     "Em geladeira residencial a visita de diagnóstico custa R$ 100, informados antes do agendamento e abatidos do serviço quando o reparo é aprovado. O motivo é simples de explicar: o deslocamento e a hora do técnico têm o mesmo custo nos dois casos, e sem isso o atendimento doméstico não se sustenta. Quem aprova o reparo não paga a visita.",
+     "Em geladeira residencial a visita de diagnóstico é de R$ 100, informados antes do agendamento — e cobrados apenas se você não fizer o serviço. Aprovando o reparo, a visita não é cobrada. O motivo de existir é simples: o deslocamento e a hora do técnico têm o mesmo custo nos dois casos, e sem isso o atendimento doméstico não se sustenta.",
      "Nos dois casos o diagnóstico é feito com instrumento: pressão de alta e baixa, superaquecimento e corrente do compressor. É o que separa gás baixo de condensador sujo, e termostato de compressor com desgaste. Não damos preço por telefone sem ver o equipamento — o mesmo sintoma tem causas de custo muito diferente."
     ]
    },
@@ -1949,11 +1949,11 @@
   "faq": [
    [
     "Vocês consertam geladeira residencial?",
-    "Sim. O nosso foco é equipamento comercial e industrial — mercado, padaria, açougue, restaurante, bar, distribuidora, hotel e pousada —, e nesses casos o orçamento é sem compromisso. Geladeira residencial também atendemos, com visita de diagnóstico de R$ 100, informados antes do agendamento e abatidos do serviço se o reparo for aprovado. Se você está pedindo orçamento a várias empresas para comparar preço, vale saber disso antes: aqui a visita ao domicílio é paga porque o diagnóstico é feito com medição, não por estimativa."
+    "Sim. O nosso foco é equipamento comercial e industrial — mercado, padaria, açougue, restaurante, bar, distribuidora, hotel e pousada —, e nesses casos o orçamento é sem compromisso. Geladeira residencial também atendemos: a visita de diagnóstico é de R$ 100, cobrados apenas se você não aprovar o reparo. Fazendo o serviço, a visita não é cobrada. Se você está pedindo orçamento a várias empresas só para comparar preço, vale saber disso antes — aqui o diagnóstico é feito com medição, não por estimativa."
    ],
    [
-    "A visita é paga?",
-    "Em equipamento comercial e industrial, não: orçamento sem compromisso. Em geladeira residencial, sim — R$ 100, que cobrem o deslocamento e o diagnóstico com medição e são abatidos do serviço quando o reparo é aprovado. Chame no WhatsApp descrevendo o equipamento e o sintoma que já agendamos."
+    "A visita é cobrada?",
+    "Em equipamento comercial e industrial, não: orçamento sem compromisso. Em geladeira residencial, a visita é de R$ 100, e só é cobrada se você não fizer o serviço — aprovando o reparo, ela não entra na conta. Chame no WhatsApp descrevendo o equipamento e o sintoma que já agendamos."
    ],
    [
     "A geladeira não está gelando. O que pode ser?",
