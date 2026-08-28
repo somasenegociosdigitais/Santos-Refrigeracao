@@ -99,11 +99,11 @@ const confia = [
   <h3 style="font-family:var(--font-display);font-weight:700;font-size:var(--fs-h4);margin:0"><a class="card-cobre" href={href} style="color:var(--text-strong)">{titulo}</a></h3>
   <p style="font-family:var(--font-body);font-size:var(--fs-base);color:var(--text-muted);margin:0;line-height:var(--lh-normal)">{txt}</p>
   {subs && (
-    <p class="card-subs" style="margin:2px 0 0;font-family:var(--font-body);font-size:var(--fs-sm);color:var(--text-muted);line-height:1.8">
-    {subs.map(([label, sh], i) => (
-      <Fragment>{i > 0 && <span style="color:var(--border-subtle)">{' · '}</span>}<a href={sh} style="color:var(--color-primary);font-weight:600;white-space:nowrap">{label}</a></Fragment>
+    <div class="card-subs" style="display:flex;flex-wrap:wrap;gap:6px;margin-top:4px">
+    {subs.map(([label, sh]) => (
+      <a href={sh} style="display:inline-flex;background:var(--blue-100);color:var(--color-primary);font-family:var(--font-body);font-weight:600;font-size:var(--fs-sm);padding:5px 11px;border-radius:var(--radius-pill);white-space:nowrap;text-decoration:none">{label}</a>
     ))}
-    </p>
+    </div>
   )}
   <a class="card-saiba" href={href} style="display:inline-flex;align-items:center;gap:6px;margin-top:auto;padding-top:10px;font-family:var(--font-body);font-weight:700;font-size:var(--fs-sm);color:var(--color-primary)">Saiba mais <Icone nome="arrow-right" tam={15} /></a>
   </div>
