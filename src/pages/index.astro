@@ -99,12 +99,9 @@ const confia = [
   <h3 style="font-family:var(--font-display);font-weight:700;font-size:var(--fs-h4);margin:0"><a class="card-cobre" href={href} style="color:var(--text-strong)">{titulo}</a></h3>
   <p style="font-family:var(--font-body);font-size:var(--fs-base);color:var(--text-muted);margin:0;line-height:var(--lh-normal)">{txt}</p>
   {subs && (
-    <div class="card-subs" style="display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;font-family:var(--font-body);font-size:var(--fs-sm)">
-    {subs.map(([label, sh], i) => (
-      <Fragment>
-      {i > 0 && <span style="color:#cbd5e1">·</span>}
-      <a href={sh} style="color:var(--color-primary);font-weight:600">{label}</a>
-      </Fragment>
+    <div class="card-subs" style="display:flex;flex-direction:column;margin-top:4px;border-bottom:1px solid var(--border-subtle)">
+    {subs.map(([label, sh]) => (
+      <a href={sh} style="display:flex;align-items:center;gap:8px;padding:10px 0;border-top:1px solid var(--border-subtle);font-family:var(--font-body);font-weight:700;font-size:var(--fs-sm);color:var(--color-primary);text-decoration:none"><Icone nome="chevron-right" tam={15} />{label}</a>
     ))}
     </div>
   )}
