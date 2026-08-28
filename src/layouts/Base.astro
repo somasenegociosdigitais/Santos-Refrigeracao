@@ -1,0 +1,59 @@
+---
+/**
+ * Layout base. Monta o <head> inteiro no build: title, description, canonical,
+ * Open Graph e o JSON-LD. Nada de SEO é injetado por script no navegador —
+ * era o que o ServicePage.jsx fazia com useEffect.
+ *
+ * props:
+ *   titulo     obrigatório
+ *   descricao  obrigatório
+ *   caminho    caminho da URL desta página, com .html ('/' na home)
+ *   jsonld     array de nós schema.org, já prontos
+ *   imagem     og:image (caminho relativo à raiz)
+ */
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import ZapFlutuante from '../components/ZapFlutuante.astro';
+import { NEGOCIO } from '../data/site.js';
+
+const { titulo, descricao, caminho, jsonld = [], imagem = '/assets/opt-s0.webp', ogTitulo, ogDescricao, zapHref } = Astro.props;
+const url = NEGOCIO.site + caminho;
+const desc = descricao.replace(/\s+/g, ' ').trim();
+---
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{titulo}</title>
+<meta name="description" content={desc}>
+<link rel="canonical" href={url}>
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="geo.region" content="BR-RJ">
+<meta name="geo.placename" content="Rio de Janeiro">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content={NEGOCIO.marca}>
+<meta property="og:title" content={ogTitulo || titulo}>
+<meta property="og:description" content={ogDescricao || desc}>
+<meta property="og:url" content={url}>
+<meta property="og:image" content={NEGOCIO.site + imagem}>
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0B3C6B">
+<link rel="preload" href="/fonts/poppins-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/mulish-400.woff2" as="font" type="font/woff2" crossorigin>
+{jsonld.map((no) => (
+  <script type="application/ld+json" set:html={JSON.stringify(no)}></script>
+))}
+</head>
+<body>
+<a class="pular" href="#conteudo">Ir para o conteúdo</a>
+<Header />
+<main id="conteudo">
+<slot />
+</main>
+<Footer />
+<ZapFlutuante href={zapHref} />
+</body>
+</html>

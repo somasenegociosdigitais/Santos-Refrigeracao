@@ -1,0 +1,6 @@
+---
+import Icone from './Icone.astro';
+import { NEGOCIO } from '../data/site.js';
+const { href = 'https://wa.me/' + NEGOCIO.whatsapp } = Astro.props;
+---
+<a href={href} target="_blank" rel="noopener" aria-label="WhatsApp" style="position:fixed;bottom:24px;right:24px;z-index:60;width:60px;height:60px;border-radius:var(--radius-pill);background:var(--color-whatsapp);color:var(--white);box-shadow:0 10px 24px rgba(37,211,102,0.4);display:inline-flex;align-items:center;justify-content:center"><Icone nome="message-circle" tam={28} /></a>
