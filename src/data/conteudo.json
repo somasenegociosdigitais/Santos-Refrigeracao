@@ -476,10 +476,10 @@
     ]
    },
    {
-    "title": "Geladeira comercial ou residencial: qual página é a sua",
+    "title": "Contrato de manutenção e conta de luz",
     "body": [
-     "Esta página trata de geladeira e refrigerador de uso comercial e industrial: mercado, açougue, padaria, restaurante, lanchonete e distribuidora, onde o equipamento abre dezenas de vezes por hora e a parada significa perda de estoque.",
-     "Se o equipamento é doméstico — uma porta, duplex, frost free, side by side —, o atendimento é o mesmo mas o conteúdo está na página de <a href=\"/conserto-de-geladeira.html\">conserto de geladeira</a>, com os defeitos e custos típicos de geladeira residencial."
+     "Em operação que depende de frio, a manutenção programada custa menos que a parada. Condensador sujo é a maior causa de motor desarmando em dia quente, e também o que mais pesa na conta de luz: o compressor trabalha mais tempo para entregar a mesma temperatura. Limpeza técnica, verificação de carga de gás, aferição de termostato e inspeção de gaxeta em visita agendada evitam os dois problemas.",
+     "Trabalhamos com contrato de manutenção regular para mercado, padaria, açougue, restaurante e distribuidora, com visitas periódicas e prioridade no atendimento corretivo. Para quem tem vários equipamentos, é o que transforma emergência em rotina. Se o seu caso agora é um equipamento parado, veja a página de <a href=\"/conserto-de-geladeira.html\">conserto de geladeira</a>."
     ]
    }
   ],
@@ -1841,23 +1841,24 @@
   "icon": "refrigerator",
   "eyebrow": "Conserto de geladeira",
   "metaTitle": "Conserto de geladeira no Rio de Janeiro | Santos Refrigeração",
-  "metaDescription": "Conserto e manutenção de geladeira e refrigerador comercial e industrial no Rio de Janeiro e Grande Rio. Técnico no local, diagnóstico com medição e preço fechado. Não atendemos geladeira residencial.",
+  "metaDescription": "Conserto e manutenção de geladeira, refrigerador e frigobar no Rio de Janeiro e Grande Rio. Foco em comercial e industrial, com orçamento sem compromisso. Residencial com visita de R$ 100, abatida do serviço.",
   "heroTitle": "Conserto de geladeira no Rio de Janeiro e Grande Rio",
   "highlight": "geladeira",
-  "heroLead": "Geladeira que não gela, gela demais, faz ruído ou junta água embaixo da gaveta. Fazemos o conserto e a manutenção de geladeira, refrigerador e frigobar comercial e industrial em todo o Rio de Janeiro e Grande Rio, sempre no local e com diagnóstico antes de qualquer troca de peça. Não atendemos geladeira residencial.",
+  "heroLead": "Geladeira que não gela, gela demais, faz ruído ou junta água embaixo da gaveta. Fazemos o conserto e a manutenção de geladeira, refrigerador e frigobar em todo o Rio de Janeiro e Grande Rio, sempre no local e com diagnóstico antes de qualquer troca de peça. Em equipamento comercial e industrial o orçamento é sem compromisso; em geladeira residencial a visita de diagnóstico custa R$ 100, abatidos do serviço quando o reparo é aprovado.",
   "heroImageLabel": "Conserto de geladeira — Santos Refrigeração",
   "servicesTitle": "Conserto de geladeira com diagnóstico e preço fechado",
   "intro": [
    "Geladeira parada em comércio é estoque em risco por hora. Por isso o atendimento é organizado para resolver na primeira visita: o técnico chega com instrumento de medição e as peças de reposição mais comuns, faz o diagnóstico no local e executa o reparo na mesma ida, quando não depende de componente específico.",
-   "Atendemos geladeira, refrigerador e frigobar de uso comercial e industrial — expositor de bebidas, refrigerador de quatro e seis portas, geladeira de padaria e de açougue, freezer de operação contínua e frigobar de hotel e pousada. Os defeitos mais frequentes são compressor sem partida, gás baixo por vazamento, degelo travado, termostato ou sensor com defeito, placa eletrônica queimada e dreno obstruído — cada um com sintoma parecido e causa distinta.",
+   "Nosso foco é geladeira, refrigerador e frigobar de uso comercial e industrial — expositor de bebidas, refrigerador de quatro e seis portas, geladeira de padaria e de açougue, freezer de operação contínua e frigobar de hotel e pousada. Também atendemos geladeira residencial, com a mesma visita de diagnóstico paga. Os defeitos mais frequentes são compressor sem partida, gás baixo por vazamento, degelo travado, termostato ou sensor com defeito, placa eletrônica queimada e dreno obstruído — cada um com sintoma parecido e causa distinta.",
    "Trabalhamos com medição de pressão e corrente para separar uma causa da outra, em vez de trocar peça por tentativa. Você recebe o diagnóstico e o preço fechado antes de autorizar, e todo serviço tem garantia. Quando o reparo não compensa diante da idade do equipamento, dizemos isso."
   ],
   "servicesListTitle": "Nossos serviços",
   "services": [
    "Conserto de geladeira e refrigerador comercial",
    "Conserto de geladeira e refrigerador industrial",
-   "Conserto e manutenção de frigobar comercial",
+   "Conserto e manutenção de frigobar",
    "Conserto de expositor de bebidas",
+   "Conserto de geladeira residencial",
    "Conserto de freezer vertical e horizontal",
    "Troca de compressor",
    "Recarga de gás e reparo de vazamento",
@@ -1873,10 +1874,11 @@
   ],
   "sections": [
    {
-    "title": "O que atendemos: comercial e industrial",
+    "title": "Como funciona a visita, no comercial e no residencial",
     "body": [
-     "Esta página é de conserto de geladeira de uso comercial e industrial. Atendemos mercado, padaria, açougue, restaurante, bar, lanchonete, distribuidora, hotel e pousada, em todo o Rio de Janeiro e Grande Rio.",
-     "<strong>Não atendemos geladeira residencial.</strong> Preferimos dizer isso aqui a marcar uma visita e desmarcar depois. Se a sua geladeira é de casa, esta não é a empresa certa — e vale procurar uma assistência de linha branca do seu bairro, que resolve mais rápido e mais barato."
+     "Em equipamento comercial e industrial a visita é sem compromisso: o técnico vai até o local, faz o diagnóstico com medição e apresenta o preço fechado, e você decide sem pagar nada por isso. É o nosso foco de trabalho e o atendimento é organizado em torno dele.",
+     "Em geladeira residencial a visita de diagnóstico custa R$ 100, informados antes do agendamento e abatidos do serviço quando o reparo é aprovado. O motivo é simples de explicar: o deslocamento e a hora do técnico têm o mesmo custo nos dois casos, e sem isso o atendimento doméstico não se sustenta. Quem aprova o reparo não paga a visita.",
+     "Nos dois casos o diagnóstico é feito com instrumento: pressão de alta e baixa, superaquecimento e corrente do compressor. É o que separa gás baixo de condensador sujo, e termostato de compressor com desgaste. Não damos preço por telefone sem ver o equipamento — o mesmo sintoma tem causas de custo muito diferente."
     ]
    },
    {
@@ -1947,7 +1949,11 @@
   "faq": [
    [
     "Vocês consertam geladeira residencial?",
-    "Não. Atendemos apenas geladeira, refrigerador e frigobar de uso comercial e industrial — mercado, padaria, açougue, restaurante, bar, distribuidora, hotel e pousada. Para geladeira de casa, procure uma assistência de linha branca do seu bairro: resolve mais rápido e sai mais barato que uma visita nossa."
+    "Sim. O nosso foco é equipamento comercial e industrial — mercado, padaria, açougue, restaurante, bar, distribuidora, hotel e pousada —, e nesses casos o orçamento é sem compromisso. Geladeira residencial também atendemos, com visita de diagnóstico de R$ 100, informados antes do agendamento e abatidos do serviço se o reparo for aprovado. Se você está pedindo orçamento a várias empresas para comparar preço, vale saber disso antes: aqui a visita ao domicílio é paga porque o diagnóstico é feito com medição, não por estimativa."
+   ],
+   [
+    "A visita é paga?",
+    "Em equipamento comercial e industrial, não: orçamento sem compromisso. Em geladeira residencial, sim — R$ 100, que cobrem o deslocamento e o diagnóstico com medição e são abatidos do serviço quando o reparo é aprovado. Chame no WhatsApp descrevendo o equipamento e o sintoma que já agendamos."
    ],
    [
     "A geladeira não está gelando. O que pode ser?",
