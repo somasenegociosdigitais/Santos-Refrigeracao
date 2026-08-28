@@ -1,0 +1,87 @@
+---
+import Base from '../layouts/Base.astro';
+import Icone from '../components/Icone.astro';
+import { NEGOCIO, wa } from '../data/site.js';
+
+const equipamentos = ['Câmara fria','Chopeira','Ar-condicionado','Geladeira comercial','Balcão refrigerado','Ilha de congelados','Ultra freezer','Expositor de bebidas','Refresqueira','Gela Caneca','Outro equipamento'];
+const info = [
+  ['phone', 'Telefone / WhatsApp', NEGOCIO.telefone, 'tel:' + NEGOCIO.telefoneE164],
+  ['map-pin', 'Endereço', 'Av. Dom Hélder Câmara, 10229 — Cascadura, RJ', NEGOCIO.google.maps],
+  ['clock', 'Horário de atendimento', NEGOCIO.horario, null],
+  ['wrench', 'Onde atendemos', 'No seu endereço ou na nossa oficina', null],
+];
+const zap = wa('Olá! Vim pelo site e gostaria de um orçamento.');
+---
+<Base titulo="Contato | Santos Refrigeração — Refrigeração comercial no Rio" descricao="Fale com a Santos Refrigeração: telefone, WhatsApp e endereço da oficina em Cascadura. Orçamento sem compromisso para refrigeração comercial no Rio e Grande Rio." caminho="/contato.html">
+
+<section style="background:var(--surface-subtle);padding-block:72px">
+<div class="ds-container">
+<div class="split-grid" style="display:grid;grid-template-columns:0.9fr 1.1fr;gap:48px;align-items:start">
+<div style="display:flex;flex-direction:column;gap:26px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<span class="ds-eyebrow">Contato</span>
+<h1 style="font-size:var(--fs-h2);margin:0;text-wrap:balance">Fale conosco e peça seu orçamento</h1>
+<p style="color:var(--text-muted);margin:0;line-height:var(--lh-relaxed)">Preencha o formulário ou chame direto no WhatsApp. Orçamento sem compromisso, com resposta rápida.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:14px">
+{info.map(([ic, rotulo, valor, href]) => (
+  <div style="display:flex;gap:14px;align-items:center;background:var(--white);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);padding:16px 18px;box-shadow:var(--shadow-xs)">
+  <span style="display:inline-flex;align-items:center;justify-content:center;width:46px;height:46px;flex:0 0 auto;border-radius:var(--radius-md);background:var(--blue-100);color:var(--color-primary)"><Icone nome={ic} tam={22} /></span>
+  <div style="display:flex;flex-direction:column;line-height:1.35">
+  <span style="font-size:var(--fs-xs);font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-muted)">{rotulo}</span>
+  {href
+    ? <a href={href} style="font-family:var(--font-display);font-weight:600;font-size:var(--fs-lg);color:var(--text-strong)">{valor}</a>
+    : <span style="font-family:var(--font-display);font-weight:600;font-size:var(--fs-lg);color:var(--text-strong)">{valor}</span>}
+  </div>
+  </div>
+))}
+</div>
+<a href={zap} target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;align-self:flex-start;background:var(--color-whatsapp);color:var(--white);font-family:var(--font-body);font-weight:700;font-size:var(--fs-base);padding:14px 24px;border-radius:var(--radius-md);text-decoration:none"><Icone nome="message-circle" tam={20} />Chamar direto no WhatsApp</a>
+</div>
+
+<div style="background:var(--white);border-radius:var(--radius-xl);box-shadow:var(--shadow-md);border:1px solid var(--border-subtle);padding:32px">
+<h2 style="font-size:var(--fs-h3);margin:0 0 6px">Solicite seu orçamento</h2>
+<p style="color:var(--text-muted);margin:0 0 22px;font-size:var(--fs-sm)">Ao enviar, abrimos o WhatsApp com a sua mensagem pronta.</p>
+<form id="form-orcamento" style="display:flex;flex-direction:column;gap:16px">
+<div class="form-row" style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+<label style="display:flex;flex-direction:column;gap:0.4rem"><span style="font-family:var(--font-body);font-weight:600;font-size:var(--fs-sm);color:var(--text-strong)">Seu nome</span>
+<input name="nome" type="text" placeholder="Nome completo" required autocomplete="name" style="font-family:var(--font-body);font-size:var(--fs-base);padding:0.75rem 0.9rem;border-radius:var(--radius-md);border:1px solid var(--border-default);background:var(--white);outline:none;width:100%"></label>
+<label style="display:flex;flex-direction:column;gap:0.4rem"><span style="font-family:var(--font-body);font-weight:600;font-size:var(--fs-sm);color:var(--text-strong)">WhatsApp</span>
+<input name="zap" type="tel" placeholder="(21) 9XXXX-XXXX" inputmode="tel" autocomplete="tel" style="font-family:var(--font-body);font-size:var(--fs-base);padding:0.75rem 0.9rem;border-radius:var(--radius-md);border:1px solid var(--border-default);background:var(--white);outline:none;width:100%"></label>
+</div>
+<label style="display:flex;flex-direction:column;gap:0.4rem"><span style="font-family:var(--font-body);font-weight:600;font-size:var(--fs-sm);color:var(--text-strong)">Qual equipamento?</span>
+<select name="equip" required style="font-family:var(--font-body);font-size:var(--fs-base);padding:0.75rem 0.9rem;border-radius:var(--radius-md);border:1px solid var(--border-default);background:var(--white);outline:none;width:100%;cursor:pointer">
+<option value="" disabled selected>Selecione o equipamento</option>
+{equipamentos.map((eq) => (<option value={eq}>{eq}</option>))}
+</select></label>
+<label style="display:flex;flex-direction:column;gap:0.4rem"><span style="font-family:var(--font-body);font-weight:600;font-size:var(--fs-sm);color:var(--text-strong)">Descreva o problema ou serviço</span>
+<textarea name="msg" rows="4" placeholder="Ex.: câmara fria não está gelando; instalação de chopeira nova..." style="font-family:var(--font-body);font-size:var(--fs-base);padding:0.75rem 0.9rem;border-radius:var(--radius-md);border:1px solid var(--border-default);background:var(--white);outline:none;width:100%;resize:vertical"></textarea></label>
+<button type="submit" style="display:inline-flex;align-items:center;justify-content:center;gap:10px;width:100%;background:var(--color-whatsapp);color:var(--white);font-family:var(--font-body);font-weight:700;font-size:var(--fs-base);padding:14px 24px;border:none;border-radius:var(--radius-md);cursor:pointer"><Icone nome="send" tam={18} />Enviar pelo WhatsApp</button>
+<span style="display:inline-flex;align-items:center;gap:7px;justify-content:center;font-size:var(--fs-xs);color:var(--text-muted)"><Icone nome="lock" tam={13} /> Seus dados só são usados para o atendimento</span>
+</form>
+</div>
+</div>
+
+<div style="margin-top:48px;border-radius:var(--radius-xl);overflow:hidden;box-shadow:var(--shadow-md);border:1px solid var(--border-subtle);height:340px">
+<iframe title="Santos Refrigeração — Av. Dom Hélder Câmara, 10229, Cascadura" src="https://maps.google.com/maps?q=Av.%20Dom%20H%C3%A9lder%20C%C3%A2mara%2C%2010229%20-%20Cascadura%2C%20Rio%20de%20Janeiro%20-%20RJ&z=16&output=embed" style="width:100%;height:100%;border:0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+</section>
+
+<script is:inline define:vars={{ whatsapp: NEGOCIO.whatsapp }}>
+/* Único JavaScript do site: monta a mensagem e abre o WhatsApp.
+   Usa <a target="_blank"> em vez de window.open, que o mobile bloqueia. */
+document.getElementById('form-orcamento').addEventListener('submit', function (e) {
+  e.preventDefault();
+  var d = new FormData(e.target);
+  var nome = (d.get('nome') || '...').trim();
+  var equip = d.get('equip') || 'equipamento de refrigeração';
+  var msg = (d.get('msg') || '').trim();
+  var texto = 'Olá! Me chamo ' + nome + '.\nEquipamento: ' + equip + '.\n' + (msg ? 'Detalhes: ' + msg + '\n' : '') + 'Pode me passar um orçamento?';
+  var a = document.createElement('a');
+  a.href = 'https://wa.me/' + whatsapp + '?text=' + encodeURIComponent(texto);
+  a.target = '_blank'; a.rel = 'noopener';
+  document.body.appendChild(a); a.click(); a.remove();
+});
+</script>
+</Base>
