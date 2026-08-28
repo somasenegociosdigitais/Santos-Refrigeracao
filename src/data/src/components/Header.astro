@@ -1,0 +1,49 @@
+---
+/** Barra superior + navegação. O menu mobile abre por checkbox + :checked,
+ *  sem JavaScript. O estado "scrolled" com blur foi retirado na migração:
+ *  dependia de listener de scroll no React e vale menos que o JS que custa. */
+import Icone from './Icone.astro';
+import Logo from './Logo.astro';
+import { NEGOCIO, MENU } from '../data/site.js';
+---
+<header id="top" style="position:sticky;top:0;z-index:50">
+<div style="background:var(--blue-950);color:rgba(255,255,255,0.88);font-size:var(--fs-sm)">
+<div class="ds-container" style="display:flex;align-items:center;justify-content:space-between;height:40px;gap:16px">
+<div style="display:flex;align-items:center;gap:20px">
+<span style="display:inline-flex;align-items:center;gap:7px"><Icone nome="phone" tam={15} cor="var(--cyan-300)" /> {NEGOCIO.telefone}</span>
+<span class="hide-sm" style="display:inline-flex;align-items:center;gap:7px"><Icone nome="clock" tam={15} cor="var(--cyan-300)" /> {NEGOCIO.horario}</span>
+</div>
+<div style="display:flex;align-items:center;gap:14px">
+<span class="hide-sm" style="display:inline-flex;align-items:center;gap:7px"><Icone nome="map-pin" tam={15} cor="var(--cyan-300)" /> Rio de Janeiro · Grande Rio</span>
+<a href={'https://wa.me/' + NEGOCIO.whatsapp} target="_blank" rel="noopener" aria-label="Falar no WhatsApp" style="display:inline-flex"><Icone nome="message-circle" tam={16} cor="var(--cyan-300)" /></a>
+</div>
+</div>
+</div>
+<div style="background:var(--white);border-bottom:1px solid var(--border-subtle)">
+<input type="checkbox" id="menu-mobile" class="menu-toggle" aria-hidden="true">
+<div class="ds-container" style="display:flex;align-items:center;justify-content:space-between;height:74px;gap:16px">
+<a href="/" aria-label="Santos Refrigeração — início"><Logo tam={36} /></a>
+<nav class="nav-links" style="display:flex;align-items:center;gap:26px">
+{MENU.map((l) => (
+  <a href={l.href} style="font-family:var(--font-body);font-weight:600;font-size:var(--fs-sm);color:var(--text-body);white-space:nowrap;text-decoration:none">{l.label}</a>
+))}
+</nav>
+<div style="display:flex;align-items:center;gap:10px">
+<a class="header-cta" href={'https://wa.me/' + NEGOCIO.whatsapp} target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:var(--color-whatsapp);color:var(--white);font-family:var(--font-body);font-weight:700;font-size:var(--fs-sm);padding:10px 18px;border-radius:var(--radius-md);text-decoration:none"><Icone nome="message-circle" tam={18} />WhatsApp</a>
+<a class="mobile-action" href={'tel:' + NEGOCIO.telefoneE164} aria-label="Ligar" style="display:none;align-items:center;justify-content:center;width:42px;height:42px;border-radius:var(--radius-md);background:var(--blue-100);color:var(--color-primary)"><Icone nome="phone" tam={20} /></a>
+<a class="mobile-action" href={'https://wa.me/' + NEGOCIO.whatsapp} target="_blank" rel="noopener" aria-label="WhatsApp" style="display:none;align-items:center;justify-content:center;width:42px;height:42px;border-radius:var(--radius-md);background:var(--color-whatsapp);color:var(--white)"><Icone nome="message-circle" tam={20} /></a>
+<label class="menu-btn" for="menu-mobile" aria-label="Menu" style="cursor:pointer;color:var(--text-strong);padding:4px">
+<span class="icone-abrir" style="display:inline-flex"><Icone nome="menu" tam={26} /></span>
+<span class="icone-fechar"><Icone nome="x" tam={26} /></span>
+</label>
+</div>
+</div>
+<div class="mobile-menu">
+<div class="ds-container" style="display:flex;flex-direction:column;gap:4px">
+{MENU.map((l) => (
+  <a href={l.href} style="font-family:var(--font-body);font-weight:600;color:var(--text-body);padding:10px 4px;text-decoration:none">{l.label}</a>
+))}
+</div>
+</div>
+</div>
+</header>
