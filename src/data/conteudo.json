@@ -2038,26 +2038,15 @@
   "eyebrow": "Cascadura, Zona Norte do Rio",
   "metaTitle": "Refrigeração em Cascadura: assistência técnica comercial | Santos Refrigeração",
   "metaDescription": "Empresa de refrigeração comercial em Cascadura, Zona Norte do Rio. Assistência técnica em câmara fria, geladeira comercial, chopeira, balcão e ar condicionado, com atendimento no local em todo o Rio e Grande Rio.",
+  "heroTitle": "Refrigeração comercial em Cascadura e Zona Norte do Rio",
+  "highlight": "Cascadura",
   "heroLead": "A Santos Refrigeração fica na Av. Dom Hélder Câmara, em Cascadura, e atende comércio e indústria em toda a Zona Norte e no Grande Rio. Você pode ser atendido na oficina, em Cascadura, ou receber o técnico no seu estabelecimento — nas duas formas o que oferecemos é serviço: instalação, manutenção e conserto.",
+  "heroImageLabel": "Foto da oficina em Cascadura",
+  "servicesTitle": "Assistência técnica em refrigeração perto de você",
   "intro": [
    "Quem procura uma empresa de refrigeração perto de Cascadura normalmente está com equipamento parado e mercadoria em risco. Por isso o atendimento começa por WhatsApp: descrevendo o equipamento e o sintoma, fazemos uma triagem antes de agendar, e parte dos casos se resolve ali mesmo por orientação.",
    "Estamos em Cascadura há doze anos, e a proximidade é o que permite chegar rápido em Madureira, Piedade, Engenho de Dentro, Méier, Todos os Santos, Cavalcanti, Quintino, Bento Ribeiro, Marechal Hermes e Osvaldo Cruz. Fora dessa região atendemos todo o Rio de Janeiro e o Grande Rio, com agendamento.",
    "Trabalhamos com refrigeração comercial e industrial: câmara fria, geladeira e refrigerador comercial, freezer, balcão refrigerado, ilha de congelados, chopeira, máquina de gelo, refresqueira, adega climatizada e ar condicionado. Todo serviço tem diagnóstico com medição, preço fechado antes da aprovação e garantia."
-  ],
-  "services": [
-   "Atendimento na oficina em Cascadura",
-   "Assistência técnica em refrigeração comercial",
-   "Assistência técnica em refrigeração industrial",
-   "Atendimento no local em toda a Zona Norte",
-   "Câmara fria e câmara frigorífica",
-   "Geladeira e refrigerador comercial",
-   "Freezer, balcão refrigerado e ilha de congelados",
-   "Chopeira, máquina de gelo e refresqueira",
-   "Adega climatizada",
-   "Ar condicionado: instalação, manutenção e higienização",
-   "Manutenção preventiva programada",
-   "Contrato de manutenção para comércio",
-   "Diagnóstico com medição e preço fechado"
   ],
   "sections": [
    {
@@ -2090,17 +2079,74 @@
     ]
    }
   ],
+  "servicesListTitle": "Nossos serviços",
+  "services": [
+   "Atendimento na oficina em Cascadura",
+   "Assistência técnica em refrigeração comercial",
+   "Assistência técnica em refrigeração industrial",
+   "Atendimento no local em toda a Zona Norte",
+   "Câmara fria e câmara frigorífica",
+   "Geladeira e refrigerador comercial",
+   "Freezer, balcão refrigerado e ilha de congelados",
+   "Chopeira, máquina de gelo e refresqueira",
+   "Adega climatizada",
+   "Ar condicionado: instalação, manutenção e higienização",
+   "Manutenção preventiva programada",
+   "Contrato de manutenção para comércio",
+   "Diagnóstico com medição e preço fechado"
+  ],
   "signsTitle": "Quando chamar a assistência técnica",
   "signs": [
-   "Equipamento não gela ou gela menos do que gelava",
-   "Compressor não parte, faz ruído alto ou desarma o disjuntor",
-   "Formação de gelo em excesso ou degelo travado",
-   "Água acumulando dentro ou embaixo do equipamento",
-   "Temperatura oscilando ao longo do dia",
-   "Conta de energia subindo sem mudança de operação"
+   [
+    "snowflake",
+    "Não gela como antes",
+    "Equipamento ligado, mas a temperatura não desce ao ponto de sempre. Costuma ser condensador sujo, gás baixo por vazamento ou termostato descalibrado.",
+    [
+     "Ver câmara fria",
+     "/camara-fria.html"
+    ]
+   ],
+   [
+    "power",
+    "Compressor não parte ou desarma",
+    "Estala e não liga, faz ruído alto ou derruba o disjuntor. Pode ser capacitor, relé de partida ou o próprio compressor.",
+    null
+   ],
+   [
+    "thermometer-snowflake",
+    "Gelo em excesso ou degelo travado",
+    "Camada de gelo na serpentina ou no evaporador reduz a troca de calor e faz o equipamento trabalhar sem gelar.",
+    null
+   ],
+   [
+    "droplet",
+    "Água acumulando no equipamento",
+    "Quase sempre é dreno obstruído. Reparo barato quando tratado cedo, e risco elétrico quando não.",
+    [
+     "Ver conserto de geladeira",
+     "/conserto-de-geladeira.html"
+    ]
+   ],
+   [
+    "gauge",
+    "Temperatura oscilando no dia",
+    "Sobe e desce sem mudança de operação. Sensor, termostato ou vedação de porta comprometida.",
+    null
+   ],
+   [
+    "zap",
+    "Conta de energia subindo sem motivo",
+    "Equipamento com condensador sujo ou gás fora de carga consome mais para entregar o mesmo frio. É o sintoma que aparece antes da parada.",
+    [
+     "Ver manutenção preventiva",
+     "/tecnico-refrigeracao-comercial.html"
+    ]
+   ]
   ],
   "ctaTitle": "Precisa de refrigeração em Cascadura? Fale conosco agora.",
   "waMessage": "Olá! Encontrei vocês procurando refrigeração em Cascadura. Vou descrever o equipamento e o problema para agendar o atendimento.",
+  "faqTitle": "Dúvidas sobre a oficina em Cascadura",
+  "emergency": "Equipamento comercial parado gera prejuízo por hora. Estando em Cascadura, chegamos rápido em toda a Zona Norte — fale conosco agora pelo WhatsApp.",
   "faq": [
    [
     "Posso ir até a oficina em Cascadura?",
