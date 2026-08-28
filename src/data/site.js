@@ -46,7 +46,7 @@ export const GRADE_HOME = [
   ]],
   ['/assets/icon-p-geladeira.webp', 'Geladeira', 'Conserto e manutenção de geladeira e refrigerador comercial e industrial.', '/geladeira-comercial.html', [
     ['Geladeira comercial', '/geladeira-comercial.html'],
-    ['Conserto e manutenção', '/conserto-de-geladeira.html'],
+    ['Conserto de geladeira', '/conserto-de-geladeira.html'],
   ]],
   ['/assets/icon-balcao-foto.webp', 'Balcão refrigerado', 'Conserto e manutenção de balcão refrigerado e expositor.', '/balcao-refrigerado.html'],
   ['/assets/icon-p-ilha.webp', 'Ilha de congelados', 'Conserto e manutenção de ilha de congelados e expositor.', '/ilha-de-congelados.html'],
