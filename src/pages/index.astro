@@ -95,19 +95,17 @@ const confia = [
 <div class="cards-grid" style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px">
 {GRADE_HOME.map(([icone, titulo, txt, href, subs]) => (
   <div class="card-equip">
-  <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:12px">
   <span style="display:inline-flex;align-items:center;justify-content:center;width:60px;height:60px;border-radius:var(--radius-md);background:var(--blue-100)"><img src={icone} alt="" loading="lazy" decoding="async" width="48" height="48" style="width:48px;height:48px;object-fit:contain;display:block"></span>
-  <span class="card-seta" style="display:inline-flex;color:var(--color-primary);opacity:0.5;margin-top:6px"><Icone nome="arrow-right" tam={18} /></span>
-  </div>
   <h3 style="font-family:var(--font-display);font-weight:700;font-size:var(--fs-h4);margin:0"><a class="card-cobre" href={href} style="color:var(--text-strong)">{titulo}</a></h3>
   <p style="font-family:var(--font-body);font-size:var(--fs-base);color:var(--text-muted);margin:0;line-height:var(--lh-normal)">{txt}</p>
   {subs && (
-    <p class="card-subs" style="margin:2px 0 0;font-family:var(--font-body);font-size:var(--fs-sm);color:var(--text-muted);line-height:1.8;overflow-wrap:break-word">
+    <p class="card-subs" style="margin:2px 0 0;font-family:var(--font-body);font-size:var(--fs-sm);color:var(--text-muted);line-height:1.8">
     {subs.map(([label, sh], i) => (
       <Fragment>{i > 0 && <span style="color:var(--border-subtle);padding:0 6px">·</span>}<a href={sh} style="color:var(--color-primary);font-weight:600">{label}</a></Fragment>
     ))}
     </p>
   )}
+  <a class="card-saiba" href={href} style="display:inline-flex;align-items:center;gap:6px;margin-top:auto;padding-top:10px;font-family:var(--font-body);font-weight:700;font-size:var(--fs-sm);color:var(--color-primary)">Saiba mais <Icone nome="arrow-right" tam={15} /></a>
   </div>
 ))}
 </div>
