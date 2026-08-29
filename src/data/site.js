@@ -25,7 +25,6 @@ export const MENU = [
   { label: 'Serviços', href: '/#servicos' },
   { label: 'Quem somos', href: '/#sobre' },
   { label: 'Área de atendimento', href: '/#area' },
-  { label: 'Cascadura', href: '/refrigeracao-cascadura.html' },
   { label: 'Contato', href: '/contato.html' },
 ];
 
