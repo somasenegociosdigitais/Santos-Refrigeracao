@@ -474,6 +474,16 @@
   "highlight": "geladeira comercial",
   "heroLead": "Geladeira parada é produto estragado e prejuízo. Fazemos conserto, manutenção preventiva e corretiva e instalação de geladeiras e refrigeradores comerciais e industriais — expositores, verticais, de encosto e câmaras compactas — mantendo a temperatura estável e a conta de luz sob controle em todo o Rio e Grande Rio.",
   "heroImageLabel": "Foto da geladeira comercial / serviço",
+  "gallery": [
+   "/assets/trab-gex-1.webp",
+   "/assets/trab-gex-2.webp",
+   "/assets/trab-gex-3.webp",
+   "/assets/trab-gex-4.webp"
+  ],
+  "galleryFit": "cover",
+  "galleryTitle": "Expositores de bebidas que já atendemos",
+  "galleryLead": "Equipamentos de clientes no Rio e Grande Rio, depois do conserto e da manutenção.",
+  "galleryAlt": "Geladeira expositora de bebidas atendida pela Santos Refrigeração",
   "servicesTitle": "Sua geladeira comercial sempre gelando",
   "intro": [
    "Atendemos geladeiras e refrigeradores comerciais e industriais de mercados, padarias, açougues, restaurantes e lojas. O ponto crítico desses equipamentos é a estabilidade da temperatura: portas que abrem o tempo todo, ambiente quente e sobrecarga de produtos exigem compressor e vedação em perfeito estado.",
