@@ -44,7 +44,8 @@ export const GRADE_HOME = [
     ['Higienização', '/higienizacao-ar-condicionado.html'],
     ['Tubulação', '/tubulacao-ar-condicionado.html'],
   ]],
-  ['/assets/icon-p-geladeira.webp', 'Geladeira', 'Conserto e manutenção de geladeira e refrigerador comercial e industrial.', '/geladeira-comercial.html', [
+  ['/assets/icon-p-geladeira.webp', 'Geladeira', 'Conserto e manutenção de expositor de bebidas, geladeira e refrigerador comercial.', '/geladeira-comercial.html', [
+    ['Expositor de bebidas e cervejeira', '/expositor-de-bebidas.html'],
     ['Geladeira comercial', '/geladeira-comercial.html'],
     ['Conserto de geladeira', '/conserto-de-geladeira.html'],
   ]],

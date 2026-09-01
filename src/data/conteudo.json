@@ -468,28 +468,18 @@
   "title": "Geladeira comercial",
   "icon": "refrigerator",
   "eyebrow": "Geladeira comercial",
-  "metaTitle": "Expositor de bebidas e geladeira comercial no Rio",
-  "metaDescription": "Conserto e manutenção de expositor de bebidas, geladeira comercial e industrial no Rio e Grande Rio. Diagnóstico com medição e preço fechado.",
+  "metaTitle": "Conserto de geladeira comercial e industrial no Rio",
+  "metaDescription": "Conserto e manutenção preventiva de geladeira e refrigerador comercial e industrial no Rio e Grande Rio. Diagnóstico com medição e preço fechado.",
   "heroTitle": "Conserto e manutenção de geladeira comercial no Rio e Grande Rio",
   "highlight": "geladeira comercial",
-  "heroLead": "Geladeira parada é produto estragado e prejuízo. Fazemos conserto, manutenção preventiva e corretiva e instalação de geladeiras e refrigeradores comerciais e industriais — expositores, verticais, de encosto e câmaras compactas — mantendo a temperatura estável e a conta de luz sob controle em todo o Rio e Grande Rio.",
+  "heroLead": "Geladeira parada é produto estragado e prejuízo. Fazemos conserto, manutenção preventiva e corretiva e instalação de geladeiras e refrigeradores comerciais e industriais — verticais de quatro e seis portas, de encosto, de padaria e açougue e câmaras compactas — mantendo a temperatura estável e a conta de luz sob controle em todo o Rio e Grande Rio.",
   "heroImageLabel": "Foto da geladeira comercial / serviço",
-  "gallery": [
-   "/assets/trab-gex-1.webp",
-   "/assets/trab-gex-2.webp",
-   "/assets/trab-gex-3.webp",
-   "/assets/trab-gex-4.webp"
-  ],
-  "galleryFit": "cover",
-  "galleryTitle": "Expositores de bebidas que já atendemos",
-  "galleryLead": "Equipamentos de clientes no Rio e Grande Rio, depois do conserto e da manutenção.",
-  "galleryAlt": "Geladeira expositora de bebidas atendida pela Santos Refrigeração",
   "servicesTitle": "Sua geladeira comercial sempre gelando",
   "intro": [
    "Atendemos geladeiras e refrigeradores comerciais e industriais de mercados, padarias, açougues, restaurantes e lojas. O ponto crítico desses equipamentos é a estabilidade da temperatura: portas que abrem o tempo todo, ambiente quente e sobrecarga de produtos exigem compressor e vedação em perfeito estado.",
    "Na manutenção preventiva limpamos o condensador (a principal causa de motor superaquecido e desarme), verificamos a carga de gás e microvazamentos, testamos termostato e controlador, inspecionamos as gaxetas das portas e fazemos a limpeza técnica do sistema. Assim a temperatura se mantém e o consumo de energia cai.",
    "Na corretiva de emergência resolvemos geladeira que não gela, excesso de gelo, vazamento de água, ruído e alto consumo — com troca de compressor, recarga de gás, reparo de termostato, vedação e parte elétrica. Diagnóstico e preço fechado antes do serviço, trocando só o necessário, com garantia no reparo.",
-   "Se a sua busca foi técnico de geladeira comercial, técnico de expositor de bebidas ou assistência técnica de geladeira expositora — Metalfrio, Fricon, Gelopar, Hussmann e outras marcas —, este é o serviço."
+   "Se a sua busca foi técnico de geladeira comercial, técnico de geladeira industrial ou assistência técnica de refrigerador comercial, este é o serviço. Se o equipamento é um expositor de bebidas ou uma cervejeira, essa linha tem página própria, com as marcas atendidas e as fotos dos equipamentos."
   ],
   "sections": [
    {
@@ -507,10 +497,10 @@
     ]
    },
    {
-    "title": "Cervejeira, expositora e resfriador de água",
+    "title": "Expositor de bebidas e cervejeira têm página própria",
     "body": [
-     "Conserto de cervejeira e de geladeira expositora de bebidas faz parte da mesma especialidade da geladeira comercial. Atendemos Metalfrio, Fricon, Gelopar, Hussmann e outras marcas, com diagnóstico baseado em medição de pressão e corrente antes de qualquer troca de peça. Se a cervejeira não atinge a temperatura esperada, primeiro verificamos o funcionamento do sistema para identificar se o problema está em regulagem, carga de gás, compressor ou outro componente.",
-     "Atendemos também resfriador de água comercial e industrial — o de padaria, cozinha industrial e linha de produção —, com o mesmo padrão de diagnóstico e preço fechado antes de aprovar."
+     "Geladeira expositora de bebidas e cervejeira são a linha que atendemos em maior volume, com sintomas e marcas próprias — porta de vidro, iluminação, equipamento ligado o dia inteiro com a porta abrindo a cada minuto. O serviço está descrito em detalhe, com as marcas e as fotos dos equipamentos, na página de <a href=\"/expositor-de-bebidas.html\">conserto de expositor de bebidas e cervejeira</a>.",
+     "Atendemos também resfriador de água comercial e industrial — o de padaria, cozinha industrial e linha de produção —, com o mesmo padrão de diagnóstico por medição e preço fechado antes de aprovar."
     ]
    }
   ],
@@ -529,8 +519,7 @@
    "Degelo técnico e higienização",
    "Avaliação de eficiência e consumo",
    "Contrato de manutenção regular",
-   "Conserto de cervejeira e de expositor de cerveja",
-   "Conserto de geladeira expositora de bebidas",
+   "Geladeira industrial de maior capacidade",
    "Resfriador de água comercial e industrial"
   ],
   "signsTitle": "Sinais de que a geladeira precisa de atenção",
@@ -590,6 +579,148 @@
    [
     "Vocês atendem equipamento industrial?",
     "Sim. Atendemos geladeiras e refrigeradores comerciais e industriais de todos os portes, incluindo expositores, câmaras compactas e sistemas de maior capacidade."
+   ],
+   [
+    "Vocês consertam expositor de bebidas e cervejeira?",
+    "Sim, é a linha que atendemos em maior volume. O serviço tem página própria, com as marcas e as fotos dos equipamentos: <a href=\"/expositor-de-bebidas.html\">conserto de expositor de bebidas e cervejeira</a>."
+   ]
+  ]
+ },
+ "expositor-de-bebidas": {
+  "slug": "expositor-de-bebidas",
+  "title": "Expositor de bebidas",
+  "icon": "refrigerator",
+  "eyebrow": "Expositor de bebidas e cervejeira",
+  "metaTitle": "Conserto de expositor de bebidas e cervejeira no Rio",
+  "metaDescription": "Conserto e manutenção de geladeira expositora de bebidas e cervejeira no Rio e Grande Rio. Ambev, Metalfrio, Imbera e outras marcas. Preço fechado.",
+  "heroTitle": "Conserto e manutenção de expositor de bebidas e cervejeira no Rio",
+  "highlight": "expositor de bebidas",
+  "heroLead": "É a linha que atendemos em maior volume: <strong>geladeira expositora de bebidas e cervejeira</strong> de bar, mercado, adega, restaurante, padaria, distribuidora e conveniência. Ambev, Metalfrio, Imbera, Fricon, Gelopar, Hussmann e expositores sem marca aparente, com diagnóstico por medição e preço fechado antes de aprovar.",
+  "heroImageLabel": "Foto de expositor de bebidas / serviço",
+  "gallery": [
+   "/assets/trab-gex-1.webp",
+   "/assets/trab-gex-2.webp",
+   "/assets/trab-gex-3.webp",
+   "/assets/trab-gex-4.webp"
+  ],
+  "galleryFit": "cover",
+  "galleryTitle": "Expositores de bebidas que já atendemos",
+  "galleryLead": "Equipamentos de clientes no Rio e Grande Rio, depois do conserto e da manutenção.",
+  "galleryAlt": "Geladeira expositora de bebidas comercial atendida pela Santos Refrigeração",
+  "servicesTitle": "Expositor de bebidas gelando no ponto, o dia inteiro",
+  "intro": [
+   "Expositor de bebidas e cervejeira trabalham em condição mais dura que qualquer outro refrigerador do estabelecimento: porta de vidro, iluminação interna, equipamento ligado o dia inteiro e a porta abrindo a cada minuto, muitas vezes em ambiente quente e sem folga na circulação de ar. É por isso que condensador, ventilador, degelo e vedação são o que mais falha nessa linha.",
+   "Atendemos expositor vertical de uma, duas e três portas, cervejeira vertical e de encosto, conservador de bebidas e expositor envelopado com a marca de cervejaria ou refrigerante, em bar, mercado, adega, restaurante, padaria, distribuidora e loja de conveniência.",
+   "Atendemos os expositores da Ambev, os das marcas Metalfrio, Imbera, Fricon, Gelopar e Hussmann, e os de fabricação nacional sem marca aparente. O reparo é definido pelo sistema, não pelo fabricante — por isso o diagnóstico começa pela medição, e não pela troca de peça.",
+   "Se a sua busca foi técnico de expositor de bebidas, técnico de cervejeira, conserto de geladeira expositora ou assistência técnica de expositor de cerveja, este é o serviço."
+  ],
+  "sections": [
+   {
+    "title": "Quando o expositor não chega na temperatura",
+    "body": [
+     "O sintoma é sempre o mesmo — a bebida não está gelada no ponto — e as causas não são. Pode ser condensador obstruído, ventilador do evaporador parado, degelo travado com bloco de gelo cobrindo a serpentina, carga de gás baixa por microvazamento, termostato ou controlador desregulado, borracha da porta de vidro ressecada, ou compressor com baixo rendimento.",
+     "O técnico chega com instrumento e afere pressão de alta e baixa, superaquecimento, sub-resfriamento, corrente do compressor e a temperatura real dentro do gabinete. Com esses números se sabe o que trocar e o que não trocar. O diagnóstico e o valor do reparo vão juntos para a sua aprovação, antes de o serviço começar."
+    ]
+   },
+   {
+    "title": "A porta de vidro é a parte que mais custa em consumo",
+    "body": [
+     "Num expositor, o que separa o frio do salão é um vidro e uma borracha. Gaxeta ressecada, vidro com vedação rompida ou dobradiça desalinhada fazem o equipamento puxar calor sem parar: o compressor não desliga, a bebida não chega no ponto e a conta de luz sobe sem que nada tenha \"quebrado\".",
+     "Na manutenção verificamos vedação e alinhamento das portas, o sistema de degelo, o ventilador, a iluminação e a limpeza do condensador. Em ponto de venda com movimento, é a diferença entre um equipamento que entrega bebida gelada na hora do pico e um que só gela de madrugada."
+    ]
+   },
+   {
+    "title": "Cervejeira: temperatura de trabalho é outra",
+    "body": [
+     "Cervejeira não é expositor de refrigerante com outro nome — trabalha numa faixa mais baixa, próxima de zero, e por isso qualquer perda de rendimento aparece primeiro nela. Atendemos cervejeira vertical, de encosto e expositor de cerveja das mesmas marcas da linha.",
+     "Se a cervejeira não atinge a temperatura esperada, a medição é que identifica se o problema está em regulagem, carga de gás, degelo, ventilador ou compressor. Não antecipamos diagnóstico por telefone nessa linha: os sintomas se repetem entre causas de custo muito diferente."
+    ]
+   },
+   {
+    "title": "Manutenção programada para quem tem vários equipamentos",
+    "body": [
+     "Bar, distribuidora e conveniência raramente têm um expositor só. Para esses casos trabalhamos com contrato de manutenção regular, com visita periódica em todos os equipamentos do ponto — limpeza técnica do condensador, verificação de carga de gás, aferição de termostato, inspeção de gaxeta e teste de degelo — e prioridade no atendimento corretivo.",
+     "Também atendemos <a href=\"/geladeira-comercial.html\">geladeira e refrigerador comercial</a>, <a href=\"/balcao-refrigerado.html\">balcão refrigerado</a> e <a href=\"/chopeiras.html\">chopeira</a> no mesmo contrato, o que costuma ser o caso de quem tem cozinha e salão no mesmo endereço."
+    ]
+   }
+  ],
+  "servicesListTitle": "Nossos serviços",
+  "services": [
+   "Conserto de geladeira expositora de bebidas",
+   "Conserto de cervejeira e de expositor de cerveja",
+   "Manutenção preventiva de expositor de porta de vidro",
+   "Limpeza técnica do condensador",
+   "Localização de microvazamento e recarga de gás",
+   "Reparo do sistema de degelo elétrico ou por gás quente",
+   "Troca de compressor e de motor ventilador",
+   "Substituição e calibração de termostato e controlador digital",
+   "Troca de borracha de vedação (gaxeta) da porta de vidro",
+   "Ajuste de dobradiça e alinhamento de porta",
+   "Reparo de iluminação interna",
+   "Ajuste e calibração de temperatura",
+   "Instalação técnica e realocação de expositor",
+   "Contrato de manutenção para vários equipamentos"
+  ],
+  "signsTitle": "Sinais de que o expositor precisa de atenção",
+  "signs": [
+   [
+    "thermometer-sun",
+    "Bebida não gela no ponto",
+    "A temperatura oscila ou sobe nas horas de movimento."
+   ],
+   [
+    "snowflake",
+    "Bloqueio de gelo",
+    "Bloco de gelo na serpentina corta o fluxo de ar frio."
+   ],
+   [
+    "door-open",
+    "Borracha descolada ou rígida",
+    "Fresta na vedação deixa entrar o ar quente do salão."
+   ],
+   [
+    "wind",
+    "Ventilador inoperante",
+    "Sem circulação, o frio fica na serpentina e não na bebida."
+   ],
+   [
+    "zap",
+    "Compressor ligado direto",
+    "Motor que não desliga é perda de rendimento ou condensador sujo."
+   ],
+   [
+    "lightbulb",
+    "Vitrine escura",
+    "Falha na iluminação tira o expositor da função de vender."
+   ]
+  ],
+  "ctaTitle": "Expositor de bebidas sem gelar? Fale conosco agora.",
+  "waMessage": "Olá! Preciso de atendimento para EXPOSITOR DE BEBIDAS / CERVEJEIRA. Vou descrever o que está acontecendo com o equipamento e gostaria de agendar o diagnóstico.",
+  "faqTitle": "Dúvidas sobre expositor de bebidas e cervejeira",
+  "faq": [
+   [
+    "Quais marcas de expositor vocês atendem?",
+    "Os expositores da Ambev, as marcas Metalfrio, Imbera, Fricon, Gelopar e Hussmann, e expositores de fabricação nacional sem marca aparente, de uma a três portas. O reparo é definido pelo sistema de refrigeração, não pelo fabricante — o que muda de marca para marca é o componente, não o método de diagnóstico."
+   ],
+   [
+    "Meu expositor não está gelando. O que costuma ser?",
+    "As causas mais comuns são condensador sujo, degelo travado, ventilador do evaporador parado, gás baixo por microvazamento, termostato desregulado ou borracha da porta ressecada. Os sintomas são parecidos e os custos não são, então o diagnóstico é feito medindo pressão, corrente e a temperatura real do gabinete."
+   ],
+   [
+    "Vocês atendem cervejeira vertical e de encosto?",
+    "Sim, as duas. A faixa de trabalho da cervejeira é mais baixa que a de um expositor de refrigerante, e é isso que faz qualquer perda de rendimento aparecer primeiro nela. Ajustamos o sistema para a faixa que o equipamento exige."
+   ],
+   [
+    "Vale a pena consertar ou é melhor trocar?",
+    "Depende do estado do compressor, do gabinete e do vidro. Em boa parte dos casos a troca de compressor, a recarga de gás ou o reparo de degelo devolvem anos de uso por um custo bem menor que o de um equipamento novo. Você decide com o diagnóstico e o preço em mãos."
+   ],
+   [
+    "Vocês atendem quem tem vários expositores no mesmo ponto?",
+    "Sim, é o caso mais comum em bar, distribuidora e conveniência. Trabalhamos com contrato de manutenção regular, com visita periódica em todos os equipamentos e prioridade no atendimento corretivo."
+   ],
+   [
+    "Vocês vendem expositor de bebidas ou peças?",
+    "Não. Somos assistência técnica: instalamos, consertamos e fazemos manutenção. Não vendemos peças nem equipamentos."
    ]
   ]
  },
@@ -1553,8 +1684,8 @@
    {
     "title": "Técnico para cada equipamento",
     "body": [
-     "Procure pelo nome que você usa: <a href=\"/chopeiras.html\">técnico de chopeira</a>, <a href=\"/camara-fria.html\">técnico de câmara fria</a>, <a href=\"/conserto-de-geladeira.html\">técnico de geladeira</a>, <a href=\"/geladeira-comercial.html\">técnico de geladeira comercial e expositora</a>, <a href=\"/ilha-de-congelados.html\">técnico de freezer</a>, <a href=\"/balcao-refrigerado.html\">técnico de balcão refrigerado</a>, <a href=\"/maquina-de-gelo.html\">técnico de máquina de gelo</a> ou <a href=\"/manutencao-ar-condicionado.html\">técnico de ar condicionado</a>. Cada página descreve o serviço daquele equipamento.",
-     "Também atendemos quem busca assistência técnica pela marca — Metalfrio, Fricon, Gelopar, Hussmann e outras — ou pelo sintoma. O caminho é o mesmo: o técnico chega com instrumento, faz as medições e você aprova o valor antes de qualquer serviço."
+     "Procure pelo nome que você usa: <a href=\"/chopeiras.html\">técnico de chopeira</a>, <a href=\"/camara-fria.html\">técnico de câmara fria</a>, <a href=\"/conserto-de-geladeira.html\">técnico de geladeira</a>, <a href=\"/expositor-de-bebidas.html\">técnico de expositor de bebidas</a>, <a href=\"/geladeira-comercial.html\">técnico de geladeira comercial</a>, <a href=\"/ilha-de-congelados.html\">técnico de freezer</a>, <a href=\"/balcao-refrigerado.html\">técnico de balcão refrigerado</a>, <a href=\"/maquina-de-gelo.html\">técnico de máquina de gelo</a> ou <a href=\"/manutencao-ar-condicionado.html\">técnico de ar condicionado</a>. Cada página descreve o serviço daquele equipamento.",
+     "Também atendemos quem busca assistência técnica pela marca — Ambev, Metalfrio, Imbera, Fricon, Gelopar, Hussmann e outras — ou pelo sintoma. O caminho é o mesmo: o técnico chega com instrumento, faz as medições e você aprova o valor antes de qualquer serviço."
     ]
    }
   ],
@@ -1577,6 +1708,12 @@
     "/ar-condicionado.html",
     "air-vent",
     "Instalação, manutenção, higienização e tubulação."
+   ],
+   [
+    "Expositor de bebidas",
+    "/expositor-de-bebidas.html",
+    "refrigerator",
+    "Conserto e manutenção de expositor de bebidas e cervejeira."
    ],
    [
     "Geladeira comercial",
