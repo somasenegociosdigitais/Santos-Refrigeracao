@@ -584,7 +584,15 @@
     "Vocês consertam expositor de bebidas e cervejeira?",
     "Sim, é a linha que atendemos em maior volume. O serviço tem página própria, com as marcas e as fotos dos equipamentos: <a href=\"/expositor-de-bebidas.html\">conserto de expositor de bebidas e cervejeira</a>."
    ]
-  ]
+  ],
+  "gallery": [
+   "/assets/trab-gcom-1.webp"
+  ],
+  "galleryCols": 2,
+  "galleryFit": "cover",
+  "galleryTitle": "Geladeiras comerciais que já atendemos",
+  "galleryLead": "Equipamentos de clientes no Rio e Grande Rio, fotografados no ponto de venda depois do serviço.",
+  "galleryAlt": "Geladeira comercial expositora de frios e laticínios atendida pela Santos Refrigeração"
  },
  "expositor-de-bebidas": {
   "slug": "expositor-de-bebidas",
@@ -2082,7 +2090,17 @@
     "Vocês fazem contrato de manutenção mensal?",
     "Sim, com visitas programadas, escopo definido por equipamento e relatório por atendimento. É a modalidade indicada para comércio, escritório, clínica e condomínio, e sai mais barato que chamados avulsos."
    ]
-  ]
+  ],
+  "gallery": [
+   "/assets/trab-ac-1.webp",
+   "/assets/trab-ac-2.webp"
+  ],
+  "galleryCols": 2,
+  "galleryAspect": "16 / 9",
+  "galleryFit": "cover",
+  "galleryTitle": "Manutenções de ar condicionado que já executamos",
+  "galleryLead": "Aparelhos piso-teto de clientes no Rio e Grande Rio, abertos para manutenção durante o atendimento.",
+  "galleryAlt": "Manutenção de ar condicionado piso-teto em comércio pela Santos Refrigeração"
  },
  "conserto-de-geladeira": {
   "slug": "conserto-de-geladeira",
