@@ -45,8 +45,8 @@ const confia = [
 ];
 ---
 <Base
-  titulo="Santos Refrigeração — Refrigeração Comercial no Rio de Janeiro e Grande Rio"
-  descricao="Refrigeração comercial no Rio de Janeiro e Grande Rio: câmara fria, chopeira, ar condicionado, geladeira comercial e mais. Instalação, manutenção e conserto com técnicos especializados. Orçamento sem compromisso."
+  titulo="Santos Refrigeração — Refrigeração Comercial no Rio"
+  descricao="Refrigeração comercial no Rio e Grande Rio: câmara fria, chopeira, ar condicionado e geladeira. Instalação, manutenção e conserto com técnico especializado."
   caminho="/"
   ogTitulo="Santos Refrigeração — Refrigeração Comercial no Rio e Grande Rio"
   ogDescricao="Instalação, manutenção e conserto de equipamentos de refrigeração comercial no Rio de Janeiro e Grande Rio. Atendimento rápido e orçamento sem compromisso."
@@ -96,7 +96,7 @@ const confia = [
 <div class="cards-grid" style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px">
 {GRADE_HOME.map(([icone, titulo, txt, href, subs]) => (
   <div class="card-equip">
-  <span style="display:inline-flex;align-items:center;justify-content:center;width:60px;height:60px;border-radius:var(--radius-md);background:var(--blue-100)"><img src={icone} alt="" loading="lazy" decoding="async" width="48" height="48" style="width:48px;height:48px;object-fit:contain;display:block"></span>
+  <span style="display:inline-flex;align-items:center;justify-content:center;width:60px;height:60px;border-radius:var(--radius-md);background:var(--blue-100)"><img src={icone} alt={titulo} loading="lazy" decoding="async" width="48" height="48" style="width:48px;height:48px;object-fit:contain;display:block"></span>
   <h3 style="font-family:var(--font-display);font-weight:700;font-size:var(--fs-h4);margin:0"><a class="card-cobre" href={href} style="color:var(--text-strong)">{titulo}</a></h3>
   <p style="font-family:var(--font-body);font-size:var(--fs-base);color:var(--text-muted);margin:0;line-height:var(--lh-normal)">{txt}</p>
   {subs && (
@@ -111,7 +111,7 @@ const confia = [
 ))}
 </div>
 <div style="display:flex;justify-content:center;margin-top:40px">
-<a href={zapOutro} target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:var(--color-whatsapp);color:var(--white);font-family:var(--font-body);font-weight:700;font-size:var(--fs-base);padding:14px 24px;border-radius:var(--radius-md);text-decoration:none"><Icone nome="message-circle" tam={20} />Não achou seu equipamento? Fale conosco</a>
+<a href={zapOutro} target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:var(--color-whatsapp);color:var(--white);font-family:var(--font-body);font-weight:700;font-size:var(--fs-base);padding:14px 24px;border-radius:var(--radius-md);text-decoration:none"><Icone nome="message-circle" tam={20} />Não achou seu equipamento? Fale conosco</a>
 </div>
 </div>
 </section>
@@ -125,7 +125,7 @@ const confia = [
 </div>
 <div>
 <div style="border-radius:var(--radius-xl);overflow:hidden;box-shadow:var(--shadow-md)">
-<img src="/assets/equipe-mascote.png" alt="Técnico da Santos Refrigeração ao lado do mascote, um cubo de gelo com boné da empresa" width="1200" height="807" style="width:100%;height:auto;display:block;background:var(--blue-100)">
+<img src="/assets/equipe-mascote.webp" alt="Técnico da Santos Refrigeração ao lado do mascote, um cubo de gelo com boné da empresa" width="1200" height="807" style="width:100%;height:auto;display:block;background:var(--blue-100)">
 </div>
 <div style="display:flex;align-items:center;gap:14px;background:var(--color-cta);color:var(--ink);border-radius:var(--radius-lg);padding:14px 20px;box-shadow:var(--shadow-cta);margin-top:16px">
 <strong style="font-family:var(--font-display);font-weight:800;font-size:30px;line-height:1;flex:0 0 auto">12 anos</strong>
@@ -141,7 +141,7 @@ const confia = [
 <p style="font-size:var(--fs-base);color:var(--text-muted);margin:0;line-height:var(--lh-relaxed)">Cada serviço é realizado com atenção aos detalhes, diagnóstico preciso e total clareza em todas as etapas. Trabalhamos com honestidade, preço definido antes da execução e garantia em tudo o que fazemos, porque acreditamos que respeito ao cliente e qualidade não são diferenciais, mas princípios.</p>
 <p style="font-size:var(--fs-base);color:var(--text-muted);margin:0;line-height:var(--lh-relaxed)">Mais do que prestar <a href="/tecnico-refrigeracao-comercial.html" style="color:inherit;text-decoration:underline;text-underline-offset:3px">assistência técnica em refrigeração comercial</a>, entregamos segurança, tranquilidade e a certeza de que existe uma equipe comprometida em fazer o trabalho da maneira certa. É assim que, ao longo dos anos, transformamos a confiança de nossos clientes em relacionamentos duradouros e construímos uma reputação que levamos com orgulho em cada serviço realizado.</p>
 <div style="margin-top:10px">
-<a href={zap} target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;align-self:flex-start;background:var(--color-whatsapp);color:var(--white);font-family:var(--font-body);font-weight:700;font-size:var(--fs-base);padding:14px 24px;border-radius:var(--radius-md);text-decoration:none;width:fit-content"><Icone nome="message-circle" tam={20} />Solicitar atendimento</a>
+<a href={zap} target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;align-self:flex-start;background:var(--color-whatsapp);color:var(--white);font-family:var(--font-body);font-weight:700;font-size:var(--fs-base);padding:14px 24px;border-radius:var(--radius-md);text-decoration:none;width:fit-content"><Icone nome="message-circle" tam={20} />Solicitar atendimento</a>
 </div>
 </div>
 </div>
@@ -176,7 +176,7 @@ const confia = [
 <p style="font-size:var(--fs-lg);color:rgba(255,255,255,0.82);margin:0">Orçamento sem compromisso. Atendimento rápido no Rio e Grande Rio.</p>
 </div>
 <div style="display:flex;gap:12px;flex-wrap:wrap">
-<a href={zap} target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:var(--color-whatsapp);color:var(--white);font-family:var(--font-body);font-weight:700;padding:14px 24px;border-radius:var(--radius-md);text-decoration:none"><Icone nome="message-circle" tam={20} />Falar no WhatsApp</a>
+<a href={zap} target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:var(--color-whatsapp);color:var(--white);font-family:var(--font-body);font-weight:700;padding:14px 24px;border-radius:var(--radius-md);text-decoration:none"><Icone nome="message-circle" tam={20} />Falar no WhatsApp</a>
 <a href="/contato.html" style="display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,0.12);border:1px solid rgba(255,255,255,0.3);color:var(--white);font-family:var(--font-body);font-weight:700;padding:14px 24px;border-radius:var(--radius-md);text-decoration:none"><Icone nome="arrow-right" tam={18} />Página de contato</a>
 </div>
 </div>

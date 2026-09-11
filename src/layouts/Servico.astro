@@ -62,7 +62,7 @@ const accent = 'var(--color-accent-strong)';
 <h1 style="font-size:var(--fs-h1);line-height:1.05;color:var(--white);margin:0;text-wrap:balance"><Destaque texto={d.heroTitle} termo={d.highlight} /></h1>
 <p style="font-size:var(--fs-lg);color:rgba(255,255,255,0.85);margin:0;max-width:640px;line-height:var(--lh-normal);text-wrap:pretty" set:html={d.heroLead}></p>
 <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:6px">
-<a href={zap} target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:var(--color-whatsapp);color:var(--white);font-family:var(--font-body);font-weight:700;font-size:var(--fs-base);padding:14px 24px;border-radius:var(--radius-md);text-decoration:none"><Icone nome="message-circle" tam={20} />Peça seu orçamento</a>
+<a href={zap} target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:var(--color-whatsapp);color:var(--white);font-family:var(--font-body);font-weight:700;font-size:var(--fs-base);padding:14px 24px;border-radius:var(--radius-md);text-decoration:none"><Icone nome="message-circle" tam={20} />Peça seu orçamento</a>
 <a href={'tel:' + NEGOCIO.telefoneE164} style="display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,0.12);border:1px solid rgba(255,255,255,0.3);color:var(--white);font-family:var(--font-body);font-weight:700;font-size:var(--fs-base);padding:14px 24px;border-radius:var(--radius-md);text-decoration:none"><Icone nome="phone" tam={18} />{NEGOCIO.telefone}</a>
 </div>
 </div>
@@ -151,7 +151,7 @@ const accent = 'var(--color-accent-strong)';
 {d.gallery && d.gallery.length > 0 && d.gallery.map((src, i) => (
   <div id={'foto-' + d.slug + '-' + i} class="lightbox">
   <a href="#" class="lightbox__fundo" aria-label="Fechar"></a>
-  <img src={src} alt="">
+  <img src={src} alt={(d.galleryAlt || 'Serviço realizado pela Santos Refrigeração') + ' — foto ampliada'}>
   <a href="#" class="lightbox__x" aria-label="Fechar"><Icone nome="x" tam={24} /></a>
   </div>
 ))}
@@ -184,7 +184,7 @@ const accent = 'var(--color-accent-strong)';
 <h2 style="font-family:var(--font-display);font-size:var(--fs-h2);margin:0;text-wrap:balance">Equipamento parado não espera horário comercial</h2>
 <p style="font-family:var(--font-body);font-size:var(--fs-lg);color:var(--text-muted);margin:0;line-height:var(--lh-normal);text-wrap:pretty">{d.emergency}</p>
 <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:4px">
-<a href={zap} target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:var(--color-whatsapp);color:var(--white);font-family:var(--font-body);font-weight:700;padding:14px 24px;border-radius:var(--radius-md);text-decoration:none"><Icone nome="message-circle" tam={20} />Chamar no WhatsApp</a>
+<a href={zap} target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:var(--color-whatsapp);color:var(--white);font-family:var(--font-body);font-weight:700;padding:14px 24px;border-radius:var(--radius-md);text-decoration:none"><Icone nome="message-circle" tam={20} />Chamar no WhatsApp</a>
 <a href={'tel:' + NEGOCIO.telefoneE164} style="display:inline-flex;align-items:center;gap:10px;background:var(--white);border:1px solid var(--border-default);color:var(--text-strong);font-family:var(--font-body);font-weight:700;padding:14px 24px;border-radius:var(--radius-md);text-decoration:none"><Icone nome="phone" tam={18} />{NEGOCIO.telefone}</a>
 </div>
 </div>
@@ -211,7 +211,7 @@ const accent = 'var(--color-accent-strong)';
 <p style="font-size:var(--fs-lg);color:rgba(255,255,255,0.82);margin:0">Orçamento sem compromisso. Atendimento rápido no Rio e Grande Rio.</p>
 </div>
 <div style="display:flex;gap:12px;flex-wrap:wrap">
-<a href={zap} target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:10px;background:var(--color-whatsapp);color:var(--white);font-family:var(--font-body);font-weight:700;padding:14px 24px;border-radius:var(--radius-md);text-decoration:none"><Icone nome="message-circle" tam={20} />Falar no WhatsApp</a>
+<a href={zap} target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:var(--color-whatsapp);color:var(--white);font-family:var(--font-body);font-weight:700;padding:14px 24px;border-radius:var(--radius-md);text-decoration:none"><Icone nome="message-circle" tam={20} />Falar no WhatsApp</a>
 <a href="/#servicos" style="display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,0.12);border:1px solid rgba(255,255,255,0.3);color:var(--white);font-family:var(--font-body);font-weight:700;padding:14px 24px;border-radius:var(--radius-md);text-decoration:none"><Icone nome="arrow-left" tam={18} />Ver outros serviços</a>
 </div>
 </div>

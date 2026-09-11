@@ -15,7 +15,7 @@ import { NEGOCIO, MENU } from '../data/site.js';
 </div>
 <div style="display:flex;align-items:center;gap:14px">
 <span class="hide-sm" style="display:inline-flex;align-items:center;gap:7px"><Icone nome="map-pin" tam={15} cor="var(--cyan-300)" /> Rio de Janeiro · Grande Rio</span>
-<a href={'https://wa.me/' + NEGOCIO.whatsapp} target="_blank" rel="noopener" aria-label="Falar no WhatsApp" style="display:inline-flex"><Icone nome="message-circle" tam={16} cor="var(--cyan-300)" /></a>
+<a href={'https://wa.me/' + NEGOCIO.whatsapp} target="_blank" rel="noopener nofollow" aria-label="Falar no WhatsApp" style="display:inline-flex"><Icone nome="message-circle" tam={16} cor="var(--cyan-300)" /><span class="ancora-oculta">Falar no WhatsApp</span></a>
 </div>
 </div>
 </div>
@@ -29,9 +29,9 @@ import { NEGOCIO, MENU } from '../data/site.js';
 ))}
 </nav>
 <div style="display:flex;align-items:center;gap:10px">
-<a class="header-cta" href={'https://wa.me/' + NEGOCIO.whatsapp} target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:8px;background:var(--color-whatsapp);color:var(--white);font-family:var(--font-body);font-weight:700;font-size:var(--fs-sm);padding:10px 18px;border-radius:var(--radius-md);text-decoration:none"><Icone nome="message-circle" tam={18} />WhatsApp</a>
+<a class="header-cta" href={'https://wa.me/' + NEGOCIO.whatsapp} target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:8px;background:var(--color-whatsapp);color:var(--white);font-family:var(--font-body);font-weight:700;font-size:var(--fs-sm);padding:10px 18px;border-radius:var(--radius-md);text-decoration:none"><Icone nome="message-circle" tam={18} />WhatsApp</a>
 <a class="mobile-action" href={'tel:' + NEGOCIO.telefoneE164} aria-label="Ligar" style="display:none;align-items:center;justify-content:center;width:42px;height:42px;border-radius:var(--radius-md);background:var(--blue-100);color:var(--color-primary)"><Icone nome="phone" tam={20} /></a>
-<a class="mobile-action" href={'https://wa.me/' + NEGOCIO.whatsapp} target="_blank" rel="noopener" aria-label="WhatsApp" style="display:none;align-items:center;justify-content:center;width:42px;height:42px;border-radius:var(--radius-md);background:var(--color-whatsapp);color:var(--white)"><Icone nome="message-circle" tam={20} /></a>
+<a class="mobile-action" href={'https://wa.me/' + NEGOCIO.whatsapp} target="_blank" rel="noopener nofollow" aria-label="WhatsApp" style="display:none;align-items:center;justify-content:center;width:42px;height:42px;border-radius:var(--radius-md);background:var(--color-whatsapp);color:var(--white)"><Icone nome="message-circle" tam={20} /><span class="ancora-oculta">WhatsApp</span></a>
 <label class="menu-btn" for="menu-mobile" aria-label="Menu" style="cursor:pointer;color:var(--text-strong);padding:4px">
 <span class="icone-abrir" style="display:inline-flex"><Icone nome="menu" tam={26} /></span>
 <span class="icone-fechar"><Icone nome="x" tam={26} /></span>
