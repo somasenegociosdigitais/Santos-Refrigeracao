@@ -4,9 +4,9 @@
   "title": "Câmara fria",
   "icon": "warehouse",
   "eyebrow": "Câmara fria",
-  "metaTitle": "Conserto de câmara fria no Rio | Santos Refrigeração",
+  "metaTitle": "Câmara fria e frigorífica no Rio | Santos Refrigeração",
   "metaDescription": "Instalação, manutenção e conserto de câmara fria e câmara frigorífica no Rio e Grande Rio. Diagnóstico com medição e preço fechado antes de aprovar.",
-  "heroTitle": "Instalação e manutenção de câmara fria no Rio e Grande Rio",
+  "heroTitle": "Instalação e manutenção de câmara fria e câmara frigorífica no Rio e Grande Rio",
   "highlight": "câmara fria",
   "heroLead": "A instalação e a manutenção de câmaras frias exigem alta especialização técnica para assegurar a conservação ideal das mercadorias, a eficiência energética e a integridade do sistema. Seja em novos projetos ou em equipamentos em funcionamento, cada detalhe impacta diretamente o consumo elétrico e a durabilidade da sua câmara.",
   "heroImageLabel": "Foto da câmara fria / serviço",
@@ -21,7 +21,7 @@
    {
     "title": "Câmara frigorífica: projeto, montagem e manutenção",
     "body": [
-     "Câmara fria e câmara frigorífica são o mesmo equipamento — o segundo termo é mais usado em contexto industrial e em açougue, frigorífico e distribuidora. Atendemos os dois casos: montagem de câmara frigorífica nova a partir do cálculo de carga térmica, e manutenção de câmara já instalada.",
+     "Câmara fria e câmara frigorífica são o mesmo equipamento — o segundo termo é mais usado em contexto industrial e em açougue, frigorífico, restaurante e distribuidora. Atendemos os dois casos: montagem de câmara frigorífica nova a partir do cálculo de carga térmica, e manutenção de câmara já instalada.",
      "O projeto define tudo o que vem depois: tipo de produto (resfriado ou congelado), volume interno, espessura e material do painel isotérmico, capacidade do motor e posição das unidades. Câmara com motor subdimensionado nunca atinge a temperatura de projeto, e o erro só aparece com a câmara carregada."
     ]
    },
@@ -118,6 +118,10 @@
    [
     "Vocês fazem reforma e contrato de manutenção regular?",
     "Sim. Atendemos instalação do zero, reforma de câmaras existentes (substituição de painéis, readequação de vedação, modernização do sistema) e contratos de manutenção regular com visitas programadas — ideal para quem não pode ter parada no estoque."
+   ],
+   [
+    "Vocês fazem conserto de câmara frigorífica?",
+    "Sim. Câmara fria e câmara frigorífica são o mesmo equipamento, e atendemos os dois termos: conserto, manutenção preventiva e montagem nova. Trabalhamos com câmara de resfriados e de congelados em açougue, mercado, restaurante, padaria, frigorífico e distribuidora, no Rio e Grande Rio. O diagnóstico é feito com medição e o preço é informado antes da aprovação."
    ]
   ],
   "gallery": [
