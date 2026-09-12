@@ -138,16 +138,18 @@
   "icon": "beer",
   "eyebrow": "Chopeiras",
   "metaTitle": "Manutenção de chopeira no Rio | Santos Refrigeração",
-  "metaDescription": "Assistência técnica em chopeira para bar, restaurante, distribuidora e evento no Rio e Grande Rio. Instalação, higienização e regulagem de tiragem.",
+  "metaDescription": "Assepsia de linha completa, manutenção e instalação de chopeira para bar, restaurante e evento no Rio e Grande Rio. Técnico especializado.",
   "heroTitle": "Manutenção e instalação de chopeira no Rio e Grande Rio",
   "highlight": "chopeira",
   "heroLead": "Especialistas em chopeiras comerciais, realizamos instalação, manutenção preventiva e corretiva, higienização e regulagem completa do sistema de tiragem. Atendemos bares, restaurantes, distribuidoras, eventos e operações de delivery, garantindo o máximo desempenho do equipamento, a qualidade do chopp servido e a continuidade da sua operação.",
   "heroImageLabel": "Chopeira torre — serviço Santos Refrigeração",
   "gallery": [
+   "/assets/trab-ch-assepsia-1.webp",
+   "/assets/trab-ch-assepsia-3.webp",
+   "/assets/trab-ch-assepsia-2.webp",
    "/assets/opt-d0.webp",
    "/assets/opt-d1.webp",
-   "/assets/opt-d2.webp",
-   "/assets/opt-d3.webp"
+   "/assets/opt-d2.webp"
   ],
   "servicesTitle": "Sua chopeira sempre pronta para o movimento",
   "intro": [
@@ -159,7 +161,7 @@
   "servicesListTitle": "Nossos serviços",
   "services": [
    "Manutenção e instalação de chopeiras",
-   "Assepsia / Sanitização",
+   "Assepsia de linha completa com desmontagem das torneiras",
    "Revisão",
    "Projetos de instalação para chopeira",
    "Montagem de chopeiras a gelo",
@@ -187,8 +189,8 @@
    ],
    [
     "droplets",
-    "Gosto alterado",
-    "Sabor estranho costuma ser falta de higienização das linhas."
+    "Gosto alterado ou chope turvo",
+    "Levedura e biofilme na linha mudam o sabor. Pede assepsia, não conserto."
    ],
    [
     "volume-2",
@@ -212,7 +214,19 @@
   "faq": [
    [
     "De quanto em quanto tempo a chopeira precisa de higienização?",
-    "O ideal é higienizar as linhas a cada 15 dias em locais de alto movimento e, no mínimo, uma vez por mês. A assepsia periódica remove resíduos e leveduras que se acumulam nas serpentinas e mangueiras, preservando o sabor do chopp e evitando contaminação. Operações de delivery e eventos exigem atenção redobrada."
+    "O ideal é higienizar as linhas a cada 15 dias em locais de movimento moderado e, em operação de alto giro, a cada troca de barril. No mínimo, uma vez por mês. A assepsia periódica preserva o sabor do chope, evita chuvisco e prolonga a vida da chopeira. Atendemos por contrato com visita programada, para o bar não depender de lembrar."
+   ],
+   [
+    "O que é assepsia de chopeira?",
+    "Assepsia de chopeira é a limpeza técnica do caminho que o chope percorre entre o barril e a torneira. A linha acumula levedura, proteína da cerveja e biofilme na parede interna do tubo — uma película que não se vê, mas altera o sabor, deixa o chope turvo e produz espuma que não se sustenta. Na assepsia, circulamos produto próprio para linha de bebida pela linha inteira, desmontamos as torneiras, limpamos peça por peça, enxaguamos e remontamos conferindo a vedação."
+   ],
+   [
+    "Qual a diferença entre assepsia de linha completa e assepsia parcial?",
+    "Assepsia parcial só empurra solução pela linha e não alcança o corpo da torneira, o anel de vedação nem a válvula. A torneira é justamente onde o resíduo mais se fixa, porque fica exposta ao ar entre um chope e outro — por isso o gosto alterado volta em poucos dias depois de uma limpeza parcial. Na assepsia de linha completa, desmontamos as torneiras e limpamos cada peça separadamente, além de circular o produto por toda a linha."
+   ],
+   [
+    "O chope está com gosto estranho. É problema do barril ou da chopeira?",
+    "Na maioria dos casos é a linha, não o barril. Levedura e biofilme acumulados na tubulação e no corpo da torneira mudam o sabor do chope, deixam a bebida turva e alteram a espuma. É comum o bar trocar de barril ou reclamar com a cervejaria quando a causa está nos poucos metros entre o barril e a torneira. Se o sabor mudou sem que a chopeira tenha parado de gelar, o serviço indicado é assepsia, não conserto."
    ],
    [
     "Vocês instalam chopeira nova e fazem o projeto?",
@@ -239,8 +253,17 @@
      "Chopeira de coluna, direta ou com serpentina em banho de água atendem operações diferentes. Delivery e evento têm exigência própria de transporte e de higienização entre usos.",
      "<strong>Não vendemos chopeira.</strong> Fazemos a instalação, a manutenção preventiva, a higienização periódica e o conserto do equipamento que você tem — inclusive quando ele veio da cervejaria em comodato."
     ]
+   },
+   {
+    "title": "Assepsia de chopeira: por que a linha completa muda o sabor do chope",
+    "body": [
+     "A linha de chope acumula levedura, proteína da cerveja e biofilme na parede interna do tubo. Não é sujeira visível: forma uma película que altera o sabor, deixa o chope turvo e produz espuma que não se sustenta. O dono do bar costuma culpar o barril ou a cervejaria quando a causa está nos poucos metros entre o barril e a torneira.",
+     "<strong>Fazemos a assepsia na linha completa, com desmontagem das torneiras.</strong> A torneira é onde o resíduo mais se fixa, porque fica exposta ao ar entre um chope e outro. Assepsia que só empurra solução pela linha não alcança o corpo da torneira, o anel de vedação nem a válvula — e é assim que o problema volta em poucos dias. Desmontamos peça por peça, aplicamos produto próprio para linha de bebida, circulamos pela linha inteira, enxaguamos e remontamos com a vedação conferida.",
+     "A periodicidade depende do giro: operação de alto movimento pede assepsia a cada troca de barril; movimento moderado, a cada 15 dias. Casa que passa do intervalo sente primeiro no sabor, depois na fila do balcão, porque chope com espuma errada demora mais para servir. Atendemos por contrato com visita programada, para o bar não depender de lembrar."
+    ]
    }
-  ]
+  ],
+  "galleryAlt": "Assepsia de linha de chope feita pela Santos Refrigeração"
  },
  "gela-caneca": {
   "slug": "gela-caneca",
