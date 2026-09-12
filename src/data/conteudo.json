@@ -1008,7 +1008,18 @@
      "Quem procura técnico de freezer encontra aqui o mesmo serviço da ilha: diagnóstico com medição e preço fechado. Para equipamento de baixa temperatura, abaixo de -40 °C, veja a página de <a href=\"/ultra-freezer.html\">ultra freezer</a>; para a cervejeira e o expositor vertical de bebidas, veja a de <a href=\"/expositor-de-bebidas.html\">expositor de bebidas e cervejeira</a>."
     ]
    }
-  ]
+  ],
+  "gallery": [
+   "/assets/trab-ilha-1.webp",
+   "/assets/trab-ilha-2.webp",
+   "/assets/trab-ilha-3.webp",
+   "/assets/trab-ilha-4.webp"
+  ],
+  "galleryCols": 2,
+  "galleryFit": "cover",
+  "galleryTitle": "Ilhas de congelados que já atendemos",
+  "galleryLead": "Ilhas de mercado e loja de conveniência atendidas por nós no Rio e Grande Rio.",
+  "galleryAlt": "Ilha de congelados atendida pela Santos Refrigeração"
  },
  "ultra-freezer": {
   "slug": "ultra-freezer",
