@@ -136,7 +136,8 @@
   "galleryFit": "cover",
   "galleryTitle": "Câmaras frias que já atendemos",
   "galleryLead": "Instalações e manutenções de clientes no Rio e Grande Rio, fotografadas depois do serviço.",
-  "galleryAlt": "Câmara fria instalada e mantida pela Santos Refrigeração"
+  "galleryAlt": "Câmara fria instalada e mantida pela Santos Refrigeração",
+  "galleryAspect": "4 / 3"
  },
  "chopeiras": {
   "slug": "chopeiras",
@@ -269,7 +270,9 @@
     ]
    }
   ],
-  "galleryAlt": "Assepsia de linha de chope feita pela Santos Refrigeração"
+  "galleryAlt": "Assepsia de linha de chope feita pela Santos Refrigeração",
+  "galleryFit": "cover",
+  "galleryCols": 3
  },
  "gela-caneca": {
   "slug": "gela-caneca",
@@ -512,7 +515,8 @@
   "galleryLead": "Aparelhos de clientes no Rio e Grande Rio, durante a manutenção e a instalação.",
   "galleryAlt": "Serviço de ar condicionado em comércio pela Santos Refrigeração",
   "galleryCols": 2,
-  "galleryFit": "cover"
+  "galleryFit": "cover",
+  "galleryAspect": "4 / 3"
  },
  "geladeira-comercial": {
   "slug": "geladeira-comercial",
@@ -646,7 +650,8 @@
   "galleryFit": "cover",
   "galleryTitle": "Geladeiras comerciais que já atendemos",
   "galleryLead": "Equipamentos de clientes no Rio e Grande Rio, fotografados no ponto de venda depois do serviço.",
-  "galleryAlt": "Geladeira comercial atendida pela Santos Refrigeração"
+  "galleryAlt": "Geladeira comercial atendida pela Santos Refrigeração",
+  "galleryAspect": "4 / 3"
  },
  "expositor-de-bebidas": {
   "slug": "expositor-de-bebidas",
@@ -1023,7 +1028,8 @@
   "galleryFit": "cover",
   "galleryTitle": "Ilhas de congelados que já atendemos",
   "galleryLead": "Ilhas de mercado e loja de conveniência atendidas por nós no Rio e Grande Rio.",
-  "galleryAlt": "Ilha de congelados atendida pela Santos Refrigeração"
+  "galleryAlt": "Ilha de congelados atendida pela Santos Refrigeração",
+  "galleryAspect": "4 / 3"
  },
  "ultra-freezer": {
   "slug": "ultra-freezer",
@@ -1583,7 +1589,8 @@
   "galleryFit": "cover",
   "galleryTitle": "Ar condicionado que atendemos",
   "galleryLead": "Aparelhos piso-teto e split instalados e mantidos por nós, com tubulação embutida e drenagem conferida.",
-  "galleryAlt": "Ar condicionado atendido pela Santos Refrigeração"
+  "galleryAlt": "Ar condicionado atendido pela Santos Refrigeração",
+  "galleryAspect": "4 / 3"
  },
  "higienizacao-ar-condicionado": {
   "slug": "higienizacao-ar-condicionado",
@@ -1717,7 +1724,8 @@
   "galleryFit": "cover",
   "galleryTitle": "Ar condicionado que atendemos",
   "galleryLead": "Aparelhos de comércio atendidos por nós: higienização, limpeza de serpentina e manutenção.",
-  "galleryAlt": "Ar condicionado atendido pela Santos Refrigeração"
+  "galleryAlt": "Ar condicionado atendido pela Santos Refrigeração",
+  "galleryAspect": "4 / 3"
  },
  "tecnico-refrigeracao-comercial": {
   "slug": "tecnico-refrigeracao-comercial",
@@ -2066,7 +2074,8 @@
   "galleryFit": "cover",
   "galleryTitle": "Instalações de ar condicionado que já fizemos",
   "galleryLead": "Aparelhos piso-teto e split instalados e mantidos por nós em comércios no Rio e Grande Rio.",
-  "galleryAlt": "Ar condicionado atendido pela Santos Refrigeração"
+  "galleryAlt": "Ar condicionado atendido pela Santos Refrigeração",
+  "galleryAspect": "4 / 3"
  },
  "manutencao-ar-condicionado": {
   "slug": "manutencao-ar-condicionado",
@@ -2209,7 +2218,7 @@
    "/assets/trab-ac-4.webp"
   ],
   "galleryCols": 2,
-  "galleryAspect": "16 / 9",
+  "galleryAspect": "4 / 3",
   "galleryFit": "cover",
   "galleryTitle": "Manutenções de ar condicionado que já executamos",
   "galleryLead": "Aparelhos piso-teto de clientes no Rio e Grande Rio, abertos para manutenção durante o atendimento.",
@@ -2367,7 +2376,8 @@
   "galleryLead": "Equipamentos de clientes no Rio e Grande Rio, fotografados depois do conserto.",
   "galleryAlt": "Conserto de geladeira comercial pela Santos Refrigeração",
   "galleryCols": 2,
-  "galleryFit": "cover"
+  "galleryFit": "cover",
+  "galleryAspect": "4 / 3"
  },
  "refrigeracao-cascadura": {
   "slug": "refrigeracao-cascadura",
