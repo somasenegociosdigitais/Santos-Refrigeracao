@@ -129,7 +129,6 @@
    "/assets/trab-cf-2.webp",
    "/assets/trab-cf-3.webp",
    "/assets/trab-cf-4.webp",
-   "/assets/trab-cf-5.webp",
    "/assets/trab-cf-6.webp"
   ],
   "galleryCols": 2,
@@ -507,9 +506,7 @@
   ],
   "gallery": [
    "/assets/trab-ac-1.webp",
-   "/assets/trab-ac-2.webp",
-   "/assets/trab-ac-3.webp",
-   "/assets/trab-ac-4.webp"
+   "/assets/trab-ac-2.webp"
   ],
   "galleryTitle": "Ar condicionado: serviços que já executamos",
   "galleryLead": "Aparelhos de clientes no Rio e Grande Rio, durante a manutenção e a instalação.",
@@ -643,10 +640,9 @@
   "gallery": [
    "/assets/trab-gcom-1.webp",
    "/assets/trab-gcom-2.webp",
-   "/assets/trab-gcom-3.webp",
-   "/assets/trab-gcom-4.webp"
+   "/assets/trab-gcom-3.webp"
   ],
-  "galleryCols": 2,
+  "galleryCols": 3,
   "galleryFit": "cover",
   "galleryTitle": "Geladeiras comerciais que já atendemos",
   "galleryLead": "Equipamentos de clientes no Rio e Grande Rio, fotografados no ponto de venda depois do serviço.",
@@ -884,6 +880,16 @@
     "Lâmpadas queimadas prejudicam a exposição e a venda."
    ]
   ],
+  "gallery": [
+   "/assets/trab-balcao-1.webp",
+   "/assets/trab-balcao-2.webp"
+  ],
+  "galleryCols": 2,
+  "galleryFit": "cover",
+  "galleryAspect": "4 / 3",
+  "galleryTitle": "Balcões refrigerados que já atendemos",
+  "galleryLead": "Balcões de saladas e de apoio de clientes no Rio e Grande Rio, fotografados em operação depois do serviço.",
+  "galleryAlt": "Balcão refrigerado atendido pela Santos Refrigeração",
   "ctaTitle": "Balcão refrigerado com problema? Fale conosco.",
   "waMessage": "Olá! Preciso de atendimento para BALCÃO REFRIGERADO. Vou descrever o que está acontecendo com o equipamento e gostaria de agendar o diagnóstico.",
   "faqTitle": "Dúvidas sobre balcão refrigerado",
@@ -1579,12 +1585,7 @@
     "É a retirada do ar e da umidade de dentro da tubulação com bomba, antes da carga de gás. Sem isso, a umidade reage com o óleo do compressor e forma ácido, que corrói o sistema por dentro ao longo de meses. É a etapa mais pulada do mercado e uma das principais causas de compressor queimado em aparelho novo."
    ]
   ],
-  "gallery": [
-   "/assets/trab-ac-1.webp",
-   "/assets/trab-ac-2.webp",
-   "/assets/trab-ac-3.webp",
-   "/assets/trab-ac-4.webp"
-  ],
+  "gallery": [],
   "galleryCols": 2,
   "galleryFit": "cover",
   "galleryTitle": "Ar condicionado que atendemos",
@@ -1714,12 +1715,7 @@
     "Sim. Atendemos parque de equipamentos com visita programada e relatório por unidade, e trabalhamos com contrato de higienização periódica para comércio, escritório, clínica e condomínio."
    ]
   ],
-  "gallery": [
-   "/assets/trab-ac-1.webp",
-   "/assets/trab-ac-2.webp",
-   "/assets/trab-ac-3.webp",
-   "/assets/trab-ac-4.webp"
-  ],
+  "gallery": [],
   "galleryCols": 2,
   "galleryFit": "cover",
   "galleryTitle": "Ar condicionado que atendemos",
@@ -2064,12 +2060,7 @@
     "Sim, e é o mais comum em obra. Executamos tubulação de cobre, dreno, ponto elétrico e base da condensadora na fase de alvenaria, e o equipamento é instalado quando a obra termina. Veja também a nossa página de <a href=\"/tubulacao-ar-condicionado.html\">tubulação de ar condicionado</a>."
    ]
   ],
-  "gallery": [
-   "/assets/trab-ac-1.webp",
-   "/assets/trab-ac-2.webp",
-   "/assets/trab-ac-3.webp",
-   "/assets/trab-ac-4.webp"
-  ],
+  "gallery": [],
   "galleryCols": 2,
   "galleryFit": "cover",
   "galleryTitle": "Instalações de ar condicionado que já fizemos",
@@ -2211,12 +2202,7 @@
     "Sim, com visitas programadas, escopo definido por equipamento e relatório por atendimento. É a modalidade indicada para comércio, escritório, clínica e condomínio, e sai mais barato que chamados avulsos."
    ]
   ],
-  "gallery": [
-   "/assets/trab-ac-1.webp",
-   "/assets/trab-ac-2.webp",
-   "/assets/trab-ac-3.webp",
-   "/assets/trab-ac-4.webp"
-  ],
+  "gallery": [],
   "galleryCols": 2,
   "galleryAspect": "4 / 3",
   "galleryFit": "cover",
@@ -2366,12 +2352,7 @@
     "Sim. Freezer vertical e horizontal de uso comercial, além de ultra freezer e equipamentos de baixa temperatura — veja a página de <a href=\"/ultra-freezer.html\">ultra freezer</a> para operações que trabalham abaixo de -40 °C."
    ]
   ],
-  "gallery": [
-   "/assets/trab-gcom-1.webp",
-   "/assets/trab-gcom-2.webp",
-   "/assets/trab-gcom-3.webp",
-   "/assets/trab-gcom-4.webp"
-  ],
+  "gallery": [],
   "galleryTitle": "Geladeiras que já consertamos",
   "galleryLead": "Equipamentos de clientes no Rio e Grande Rio, fotografados depois do conserto.",
   "galleryAlt": "Conserto de geladeira comercial pela Santos Refrigeração",
