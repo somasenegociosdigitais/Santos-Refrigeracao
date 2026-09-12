@@ -119,7 +119,18 @@
     "Vocês fazem reforma e contrato de manutenção regular?",
     "Sim. Atendemos instalação do zero, reforma de câmaras existentes (substituição de painéis, readequação de vedação, modernização do sistema) e contratos de manutenção regular com visitas programadas — ideal para quem não pode ter parada no estoque."
    ]
-  ]
+  ],
+  "gallery": [
+   "/assets/trab-cf-1.webp",
+   "/assets/trab-cf-2.webp",
+   "/assets/trab-cf-3.webp",
+   "/assets/trab-cf-4.webp"
+  ],
+  "galleryCols": 2,
+  "galleryFit": "cover",
+  "galleryTitle": "Câmaras frias que já atendemos",
+  "galleryLead": "Instalações e manutenções de clientes no Rio e Grande Rio, fotografadas depois do serviço.",
+  "galleryAlt": "Câmara fria instalada e mantida pela Santos Refrigeração"
  },
  "chopeiras": {
   "slug": "chopeiras",
