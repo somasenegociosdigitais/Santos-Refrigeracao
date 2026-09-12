@@ -124,7 +124,9 @@
    "/assets/trab-cf-1.webp",
    "/assets/trab-cf-2.webp",
    "/assets/trab-cf-3.webp",
-   "/assets/trab-cf-4.webp"
+   "/assets/trab-cf-4.webp",
+   "/assets/trab-cf-5.webp",
+   "/assets/trab-cf-6.webp"
   ],
   "galleryCols": 2,
   "galleryFit": "cover",
@@ -145,8 +147,8 @@
   "heroImageLabel": "Chopeira torre — serviço Santos Refrigeração",
   "gallery": [
    "/assets/trab-ch-assepsia-1.webp",
-   "/assets/trab-ch-assepsia-3.webp",
    "/assets/trab-ch-assepsia-2.webp",
+   "/assets/trab-ch-assepsia-3.webp",
    "/assets/opt-d0.webp",
    "/assets/opt-d1.webp",
    "/assets/opt-d2.webp"
@@ -495,7 +497,18 @@
     "Qual é a área de atendimento?",
     "Rio de Janeiro capital e Grande Rio — Zona Norte, Zona Oeste, Zona Sul, Centro, Baixada Fluminense e Niterói. A oficina fica em Cascadura e o atendimento é feito no seu endereço."
    ]
-  ]
+  ],
+  "gallery": [
+   "/assets/trab-ac-1.webp",
+   "/assets/trab-ac-2.webp",
+   "/assets/trab-ac-3.webp",
+   "/assets/trab-ac-4.webp"
+  ],
+  "galleryTitle": "Ar condicionado: serviços que já executamos",
+  "galleryLead": "Aparelhos de clientes no Rio e Grande Rio, durante a manutenção e a instalação.",
+  "galleryAlt": "Serviço de ar condicionado em comércio pela Santos Refrigeração",
+  "galleryCols": 2,
+  "galleryFit": "cover"
  },
  "geladeira-comercial": {
   "slug": "geladeira-comercial",
@@ -620,13 +633,16 @@
    ]
   ],
   "gallery": [
-   "/assets/trab-gcom-1.webp"
+   "/assets/trab-gcom-1.webp",
+   "/assets/trab-gcom-2.webp",
+   "/assets/trab-gcom-3.webp",
+   "/assets/trab-gcom-4.webp"
   ],
   "galleryCols": 2,
   "galleryFit": "cover",
   "galleryTitle": "Geladeiras comerciais que já atendemos",
   "galleryLead": "Equipamentos de clientes no Rio e Grande Rio, fotografados no ponto de venda depois do serviço.",
-  "galleryAlt": "Geladeira comercial expositora de frios e laticínios atendida pela Santos Refrigeração"
+  "galleryAlt": "Geladeira comercial atendida pela Santos Refrigeração"
  },
  "expositor-de-bebidas": {
   "slug": "expositor-de-bebidas",
@@ -1541,7 +1557,18 @@
     "O que é o vácuo e por que ele importa?",
     "É a retirada do ar e da umidade de dentro da tubulação com bomba, antes da carga de gás. Sem isso, a umidade reage com o óleo do compressor e forma ácido, que corrói o sistema por dentro ao longo de meses. É a etapa mais pulada do mercado e uma das principais causas de compressor queimado em aparelho novo."
    ]
-  ]
+  ],
+  "gallery": [
+   "/assets/trab-ac-1.webp",
+   "/assets/trab-ac-2.webp",
+   "/assets/trab-ac-3.webp",
+   "/assets/trab-ac-4.webp"
+  ],
+  "galleryCols": 2,
+  "galleryFit": "cover",
+  "galleryTitle": "Ar condicionado que atendemos",
+  "galleryLead": "Aparelhos piso-teto e split instalados e mantidos por nós, com tubulação embutida e drenagem conferida.",
+  "galleryAlt": "Ar condicionado atendido pela Santos Refrigeração"
  },
  "higienizacao-ar-condicionado": {
   "slug": "higienizacao-ar-condicionado",
@@ -1664,7 +1691,18 @@
     "Vocês atendem vários aparelhos de uma vez?",
     "Sim. Atendemos parque de equipamentos com visita programada e relatório por unidade, e trabalhamos com contrato de higienização periódica para comércio, escritório, clínica e condomínio."
    ]
-  ]
+  ],
+  "gallery": [
+   "/assets/trab-ac-1.webp",
+   "/assets/trab-ac-2.webp",
+   "/assets/trab-ac-3.webp",
+   "/assets/trab-ac-4.webp"
+  ],
+  "galleryCols": 2,
+  "galleryFit": "cover",
+  "galleryTitle": "Ar condicionado que atendemos",
+  "galleryLead": "Aparelhos de comércio atendidos por nós: higienização, limpeza de serpentina e manutenção.",
+  "galleryAlt": "Ar condicionado atendido pela Santos Refrigeração"
  },
  "tecnico-refrigeracao-comercial": {
   "slug": "tecnico-refrigeracao-comercial",
@@ -1866,7 +1904,20 @@
     "Vocês oferecem curso ou vaga de técnico de refrigeração?",
     "Não. Somos empresa de serviço e atendemos clientes com equipamento a instalar ou reparar. Não ministramos curso de refrigeração nem estamos com processo seletivo aberto por esta página."
    ]
-  ]
+  ],
+  "gallery": [
+   "/assets/trab-cf-1.webp",
+   "/assets/trab-ch-assepsia-1.webp",
+   "/assets/trab-gcom-2.webp",
+   "/assets/trab-mg-1.webp",
+   "/assets/trab-uf-1.webp",
+   "/assets/trab-gex-1.webp"
+  ],
+  "galleryTitle": "Serviços de refrigeração comercial que já executamos",
+  "galleryLead": "Câmara fria, chopeira, geladeira, máquina de gelo, ultra freezer e expositor de clientes no Rio e Grande Rio.",
+  "galleryAlt": "Serviço de refrigeração comercial pela Santos Refrigeração",
+  "galleryCols": 2,
+  "galleryFit": "cover"
  },
  "instalacao-ar-condicionado": {
   "slug": "instalacao-ar-condicionado",
@@ -1989,7 +2040,18 @@
     "Vocês fazem só a infraestrutura, para instalar o aparelho depois?",
     "Sim, e é o mais comum em obra. Executamos tubulação de cobre, dreno, ponto elétrico e base da condensadora na fase de alvenaria, e o equipamento é instalado quando a obra termina. Veja também a nossa página de <a href=\"/tubulacao-ar-condicionado.html\">tubulação de ar condicionado</a>."
    ]
-  ]
+  ],
+  "gallery": [
+   "/assets/trab-ac-1.webp",
+   "/assets/trab-ac-2.webp",
+   "/assets/trab-ac-3.webp",
+   "/assets/trab-ac-4.webp"
+  ],
+  "galleryCols": 2,
+  "galleryFit": "cover",
+  "galleryTitle": "Instalações de ar condicionado que já fizemos",
+  "galleryLead": "Aparelhos piso-teto e split instalados e mantidos por nós em comércios no Rio e Grande Rio.",
+  "galleryAlt": "Ar condicionado atendido pela Santos Refrigeração"
  },
  "manutencao-ar-condicionado": {
   "slug": "manutencao-ar-condicionado",
@@ -2127,7 +2189,9 @@
   ],
   "gallery": [
    "/assets/trab-ac-1.webp",
-   "/assets/trab-ac-2.webp"
+   "/assets/trab-ac-2.webp",
+   "/assets/trab-ac-3.webp",
+   "/assets/trab-ac-4.webp"
   ],
   "galleryCols": 2,
   "galleryAspect": "16 / 9",
@@ -2277,7 +2341,18 @@
     "Vocês consertam freezer também?",
     "Sim. Freezer vertical e horizontal de uso comercial, além de ultra freezer e equipamentos de baixa temperatura — veja a página de <a href=\"/ultra-freezer.html\">ultra freezer</a> para operações que trabalham abaixo de -40 °C."
    ]
-  ]
+  ],
+  "gallery": [
+   "/assets/trab-gcom-1.webp",
+   "/assets/trab-gcom-2.webp",
+   "/assets/trab-gcom-3.webp",
+   "/assets/trab-gcom-4.webp"
+  ],
+  "galleryTitle": "Geladeiras que já consertamos",
+  "galleryLead": "Equipamentos de clientes no Rio e Grande Rio, fotografados depois do conserto.",
+  "galleryAlt": "Conserto de geladeira comercial pela Santos Refrigeração",
+  "galleryCols": 2,
+  "galleryFit": "cover"
  },
  "refrigeracao-cascadura": {
   "slug": "refrigeracao-cascadura",
@@ -2425,6 +2500,19 @@
     "Vocês atendem geladeira residencial?",
     "Sim, embora o foco seja comercial e industrial. Em residencial o atendimento começa por uma visita de diagnóstico de R$ 100, abatida do valor se você aprovar o serviço."
    ]
-  ]
+  ],
+  "gallery": [
+   "/assets/trab-cf-1.webp",
+   "/assets/trab-ch-assepsia-1.webp",
+   "/assets/trab-gcom-2.webp",
+   "/assets/trab-mg-1.webp",
+   "/assets/trab-uf-1.webp",
+   "/assets/trab-gex-1.webp"
+  ],
+  "galleryTitle": "Atendimentos que já fizemos na região",
+  "galleryLead": "Equipamentos de comércios atendidos a partir da nossa oficina em Cascadura.",
+  "galleryAlt": "Refrigeração comercial em Cascadura pela Santos Refrigeração",
+  "galleryCols": 2,
+  "galleryFit": "cover"
  }
 }
