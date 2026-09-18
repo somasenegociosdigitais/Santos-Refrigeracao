@@ -882,15 +882,21 @@
    ]
   ],
   "gallery": [
+   "/assets/trab-balcao-8.webp",
    "/assets/trab-balcao-3.webp",
+   "/assets/trab-balcao-9.webp",
+   "/assets/trab-balcao-5.webp",
    "/assets/trab-balcao-1.webp",
-   "/assets/trab-balcao-4.webp"
+   "/assets/trab-balcao-10.webp",
+   "/assets/trab-balcao-6.webp",
+   "/assets/trab-balcao-4.webp",
+   "/assets/trab-balcao-7.webp"
   ],
   "galleryCols": 3,
   "galleryFit": "cover",
   "galleryAspect": "4 / 3",
-  "galleryTitle": "Balcões refrigerados que já atendemos",
-  "galleryLead": "Balcões de saladas e de apoio de clientes no Rio e Grande Rio, fotografados em operação depois do serviço.",
+  "galleryTitle": "Balcões e vitrines refrigeradas que já atendemos",
+  "galleryLead": "Balcões vitrine, balcões de saladas e balcões de apoio de clientes no Rio e Grande Rio, fotografados depois do serviço.",
   "galleryAlt": "Balcão e vitrine refrigerada atendidos pela Santos Refrigeração",
   "ctaTitle": "Balcão refrigerado com problema? Fale conosco.",
   "waMessage": "Olá! Preciso de atendimento para BALCÃO REFRIGERADO. Vou descrever o que está acontecendo com o equipamento e gostaria de agendar o diagnóstico.",
