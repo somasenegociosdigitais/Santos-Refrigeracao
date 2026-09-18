@@ -520,9 +520,9 @@
   "title": "Geladeira comercial",
   "icon": "refrigerator",
   "eyebrow": "Geladeira comercial",
-  "metaTitle": "Conserto de geladeira comercial e industrial no Rio",
-  "metaDescription": "Conserto e manutenção preventiva de geladeira e refrigerador comercial e industrial no Rio e Grande Rio. Diagnóstico com medição e preço fechado.",
-  "heroTitle": "Conserto e manutenção de geladeira comercial no Rio e Grande Rio",
+  "metaTitle": "Geladeira comercial: manutenção e diagnóstico no Rio",
+  "metaDescription": "Manutenção preventiva e corretiva de geladeira e refrigerador comercial e industrial no Rio e Grande Rio. Diagnóstico com medição e preço fechado.",
+  "heroTitle": "Manutenção de geladeira comercial no Rio e Grande Rio",
   "highlight": "geladeira comercial",
   "heroLead": "Geladeira parada é produto estragado e prejuízo. Fazemos conserto, manutenção preventiva e corretiva e instalação de geladeiras e refrigeradores comerciais e industriais — verticais de quatro e seis portas, de encosto, de padaria e açougue e câmaras compactas — mantendo a temperatura estável e a conta de luz sob controle em todo o Rio e Grande Rio.",
   "heroImageLabel": "Foto da geladeira comercial / serviço",
@@ -639,10 +639,9 @@
   ],
   "gallery": [
    "/assets/trab-gcom-1.webp",
-   "/assets/trab-gcom-2.webp",
    "/assets/trab-gcom-3.webp"
   ],
-  "galleryCols": 3,
+  "galleryCols": 2,
   "galleryFit": "cover",
   "galleryTitle": "Geladeiras comerciais que já atendemos",
   "galleryLead": "Equipamentos de clientes no Rio e Grande Rio, fotografados no ponto de venda depois do serviço.",
@@ -881,10 +880,9 @@
    ]
   ],
   "gallery": [
-   "/assets/trab-balcao-1.webp",
-   "/assets/trab-balcao-2.webp"
+   "/assets/trab-balcao-1.webp"
   ],
-  "galleryCols": 2,
+  "galleryCols": 1,
   "galleryFit": "cover",
   "galleryAspect": "4 / 3",
   "galleryTitle": "Balcões refrigerados que já atendemos",
@@ -1927,7 +1925,6 @@
   "gallery": [
    "/assets/trab-cf-1.webp",
    "/assets/trab-ch-assepsia-1.webp",
-   "/assets/trab-gcom-2.webp",
    "/assets/trab-mg-1.webp",
    "/assets/trab-uf-1.webp",
    "/assets/trab-gex-1.webp"
@@ -2510,7 +2507,6 @@
   "gallery": [
    "/assets/trab-cf-1.webp",
    "/assets/trab-ch-assepsia-1.webp",
-   "/assets/trab-gcom-2.webp",
    "/assets/trab-mg-1.webp",
    "/assets/trab-uf-1.webp",
    "/assets/trab-gex-1.webp"

@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Icone from '../components/Icone.astro';
-import { NEGOCIO, AREAS, GRADE_HOME, wa } from '../data/site.js';
+import { NEGOCIO, AREAS, GRADE_HOME, EMPRESA_SCHEMA, wa } from '../data/site.js';
 import conteudo from '../data/conteudo.json';
 
 const zap = wa('Olá! Vim pelo site e preciso de atendimento em refrigeração comercial.');
@@ -9,28 +9,8 @@ const zapOutro = wa('Olá! Não encontrei meu equipamento no site. Vocês atende
 
 const jsonld = [{
   '@context': 'https://schema.org',
-  '@type': 'HVACBusiness',
-  '@id': NEGOCIO.site + '/#business',
-  name: NEGOCIO.nome,
+  ...EMPRESA_SCHEMA,
   description: 'Refrigeração comercial no Rio de Janeiro e Grande Rio. Instalação, manutenção preventiva e corretiva de câmara fria, chopeira, ar condicionado, geladeira comercial e demais equipamentos.',
-  url: NEGOCIO.site + '/',
-  telephone: '+55-21-96782-6279',
-  priceRange: '$$',
-  image: NEGOCIO.site + '/assets/gelinho-grande.png',
-  logo: NEGOCIO.site + '/assets/favicon-512.png',
-  address: {
-    '@type': 'PostalAddress',
-    streetAddress: NEGOCIO.endereco.rua,
-    addressLocality: NEGOCIO.endereco.cidade,
-    addressRegion: NEGOCIO.endereco.estado,
-    postalCode: NEGOCIO.endereco.cep,
-    addressCountry: NEGOCIO.endereco.pais,
-  },
-  geo: { '@type': 'GeoCoordinates', latitude: NEGOCIO.geo.lat, longitude: NEGOCIO.geo.lng },
-  areaServed: [{ '@type': 'City', name: 'Rio de Janeiro' }, { '@type': 'AdministrativeArea', name: 'Grande Rio' }],
-  openingHoursSpecification: [{ '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'], opens: '08:00', closes: '18:00' }],
-  taxID: NEGOCIO.cnpj,
-  sameAs: [NEGOCIO.google.perfil],
   hasOfferCatalog: {
     '@type': 'OfferCatalog',
     name: 'Serviços de refrigeração comercial',
