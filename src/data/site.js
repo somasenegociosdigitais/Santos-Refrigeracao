@@ -20,6 +20,37 @@ export const NEGOCIO = {
   },
 };
 
+// Nó schema.org do negócio. UMA definição só, com @id fixo, usada pela home e
+// por toda página de serviço. Antes cada página de serviço declarava um
+// LocalBusiness anônimo e incompleto como provider: 20 entidades soltas
+// disputando com a da home, sem geo, horário nem sameAs. Agora todas as
+// páginas repetem este mesmo @id e o Google consolida num negócio só.
+// Não adicione '@context' aqui — quem usa é que declara.
+export const EMPRESA_SCHEMA = {
+  '@type': 'HVACBusiness',
+  '@id': NEGOCIO.site + '/#business',
+  name: NEGOCIO.nome,
+  url: NEGOCIO.site + '/',
+  telephone: NEGOCIO.telefoneE164,
+  priceRange: '$$',
+  image: NEGOCIO.site + '/assets/gelinho-grande.png',
+  logo: NEGOCIO.site + '/assets/favicon-512.png',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: NEGOCIO.endereco.rua,
+    addressLocality: NEGOCIO.endereco.cidade,
+    addressRegion: NEGOCIO.endereco.estado,
+    postalCode: NEGOCIO.endereco.cep,
+    addressCountry: NEGOCIO.endereco.pais,
+  },
+  geo: { '@type': 'GeoCoordinates', latitude: NEGOCIO.geo.lat, longitude: NEGOCIO.geo.lng },
+  areaServed: [{ '@type': 'City', name: 'Rio de Janeiro' }, { '@type': 'AdministrativeArea', name: 'Grande Rio' }],
+  openingHoursSpecification: [{ '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'], opens: '08:00', closes: '18:00' }],
+  taxID: NEGOCIO.cnpj,
+  sameAs: [NEGOCIO.google.perfil, NEGOCIO.google.maps],
+  hasMap: NEGOCIO.google.maps,
+};
+
 export const MENU = [
   { label: 'Início', href: '/' },
   { label: 'Serviços', href: '/#servicos' },
@@ -46,7 +77,6 @@ export const GRADE_HOME = [
   ]],
   ['/assets/icon-p-geladeira.webp', 'Geladeira', 'Conserto e manutenção de expositor de bebidas, geladeira e refrigerador comercial.', '/geladeira-comercial.html', [
     ['Expositor de bebidas e cervejeira', '/expositor-de-bebidas.html'],
-    ['Geladeira comercial', '/geladeira-comercial.html'],
     ['Conserto de geladeira', '/conserto-de-geladeira.html'],
   ]],
   ['/assets/icon-balcao-foto.webp', 'Balcão refrigerado', 'Conserto e manutenção de balcão refrigerado e expositor.', '/balcao-refrigerado.html'],
