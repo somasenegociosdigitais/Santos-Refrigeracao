@@ -11,7 +11,7 @@ export const NEGOCIO = {
     rua: 'Av. Dom Hélder Câmara, 10229 - Cascadura',
     cidade: 'Rio de Janeiro', estado: 'RJ', cep: '21380-002', pais: 'BR',
   },
-  geo: { lat: -22.8869, lng: -43.3349 },
+  geo: { lat: -22.880818, lng: -43.325838 },
   horario: 'Seg–Sáb · 8h às 18h',
   google: {
     perfil: 'https://g.page/r/CeLzyrBgWaOwEBM',
