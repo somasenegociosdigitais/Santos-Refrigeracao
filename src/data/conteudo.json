@@ -841,6 +841,8 @@
    "Ajuste e calibração de temperatura",
    "Desentupimento e reparo de dreno",
    "Contrato de manutenção regular",
+   "Balcão vitrine refrigerado",
+   "Vitrine refrigerada para açougue",
    "Balcão de saladas e buffet self-service",
    "Condimentadora (balcão de condimentados)",
    "Conservador de proteínas",
@@ -880,14 +882,16 @@
    ]
   ],
   "gallery": [
-   "/assets/trab-balcao-1.webp"
+   "/assets/trab-balcao-3.webp",
+   "/assets/trab-balcao-1.webp",
+   "/assets/trab-balcao-4.webp"
   ],
-  "galleryCols": 1,
+  "galleryCols": 3,
   "galleryFit": "cover",
   "galleryAspect": "4 / 3",
   "galleryTitle": "Balcões refrigerados que já atendemos",
   "galleryLead": "Balcões de saladas e de apoio de clientes no Rio e Grande Rio, fotografados em operação depois do serviço.",
-  "galleryAlt": "Balcão refrigerado atendido pela Santos Refrigeração",
+  "galleryAlt": "Balcão e vitrine refrigerada atendidos pela Santos Refrigeração",
   "ctaTitle": "Balcão refrigerado com problema? Fale conosco.",
   "waMessage": "Olá! Preciso de atendimento para BALCÃO REFRIGERADO. Vou descrever o que está acontecendo com o equipamento e gostaria de agendar o diagnóstico.",
   "faqTitle": "Dúvidas sobre balcão refrigerado",
