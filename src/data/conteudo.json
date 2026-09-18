@@ -1243,7 +1243,21 @@
     "Vocês atendem eventos?",
     "Sim. Atendemos lanchonetes, padarias, comércios e eventos. Fazemos instalação, manutenção e conserto para o equipamento não falhar justamente no dia de maior movimento."
    ]
-  ]
+  ],
+  "gallery": [
+   "/assets/trab-refr-3.webp",
+   "/assets/trab-refr-5.webp",
+   "/assets/trab-refr-2.webp",
+   "/assets/trab-refr-1.webp",
+   "/assets/trab-refr-6.webp",
+   "/assets/trab-refr-4.webp"
+  ],
+  "galleryCols": 3,
+  "galleryFit": "cover",
+  "galleryAspect": "3 / 4",
+  "galleryTitle": "Refresqueiras que já atendemos",
+  "galleryLead": "Equipamentos de clientes no Rio e Grande Rio, fotografados depois do serviço.",
+  "galleryAlt": "Refresqueira atendida pela Santos Refrigeração"
  },
  "adega-vinhos": {
   "slug": "adega-vinhos",
