@@ -1,0 +1,14 @@
+---
+/** FAQ em <details> nativo. A resposta existe sempre no HTML — indexável,
+ *  sem JavaScript, e o schema FAQPage do Base.astro bate com o que está visível. */
+import Icone from './Icone.astro';
+const { itens = [] } = Astro.props;
+---
+<div class="faq">
+{itens.map(([q, a]) => (
+  <details>
+  <summary>{q}<span><Icone nome="chevron-down" tam={22} /></span></summary>
+  <p set:html={a}></p>
+  </details>
+))}
+</div>
