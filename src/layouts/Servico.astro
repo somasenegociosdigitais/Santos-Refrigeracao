@@ -98,6 +98,17 @@ const paragrafoElos = (elos.length === 1 ? elos[0] : elos.slice(0, -1).join(', '
   <div style="display:flex;flex-direction:column;gap:14px">
   <h2 style="font-size:var(--fs-h3);margin:0;text-wrap:balance"><Destaque texto={sec.title} termo={d.highlight} cor={accent} /></h2>
   {sec.body.map((p) => (<p style="font-size:var(--fs-base);color:var(--text-muted);margin:0;line-height:var(--lh-relaxed)" set:html={p}></p>))}
+  {sec.steps && sec.steps.length > 0 && (
+  <ol style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px">
+  {sec.steps.map((st, i) => (
+    <li style="display:flex;gap:14px;align-items:flex-start;background:var(--white);border:1px solid var(--border-subtle);border-radius:var(--radius-md);padding:14px 18px">
+    <span style="flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:var(--radius-pill);background:var(--color-primary);color:var(--white);font-family:var(--font-display);font-weight:700;font-size:var(--fs-sm)">{i + 1}</span>
+    <span style="font-size:var(--fs-base);color:var(--text-body);line-height:var(--lh-normal);padding-top:3px">{st}</span>
+    </li>
+  ))}
+  </ol>
+  )}
+  {sec.after && sec.after.map((p) => (<p style="font-size:var(--fs-base);color:var(--text-muted);margin:0;line-height:var(--lh-relaxed)" set:html={p}></p>))}
   </div>
 ))}
 </div>
@@ -153,6 +164,7 @@ const paragrafoElos = (elos.length === 1 ? elos[0] : elos.slice(0, -1).join(', '
   </div>
 ))}
 
+{d.signs && d.signs.length > 0 && (
 <section style="background:var(--surface-subtle);padding-block:clamp(56px,8.5vw,92px)">
 <div class="ds-container">
 <div style="display:flex;flex-direction:column;gap:12px;align-items:center;text-align:center;max-width:680px;margin-inline:auto;margin-bottom:clamp(32px,5vw,48px)">
@@ -172,6 +184,7 @@ const paragrafoElos = (elos.length === 1 ? elos[0] : elos.slice(0, -1).join(', '
 </div>
 </div>
 </section>
+)}
 
 {d.emergency && (
 <section style="background:var(--surface-page);padding-block:clamp(56px,8.5vw,92px)">

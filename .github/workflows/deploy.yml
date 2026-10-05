@@ -24,6 +24,8 @@ jobs:
           node-version: 22
       - run: npm install
       - run: npm run build
+      # O Jekyll do Pages ignora tudo que começa com _ e o Astro gera _astro/.
+      # Sem este arquivo o site sobe sem CSS.
       - run: touch dist/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:

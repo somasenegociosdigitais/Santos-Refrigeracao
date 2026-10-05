@@ -22,7 +22,8 @@
         "title": "Câmara frigorífica: projeto, montagem e manutenção",
         "body": [
           "Câmara fria e câmara frigorífica são o mesmo equipamento — o segundo termo é mais usado em contexto industrial e em açougue, frigorífico, restaurante e distribuidora. Atendemos os dois casos: montagem de câmara frigorífica nova a partir do cálculo de carga térmica, e manutenção de câmara já instalada.",
-          "O projeto define tudo o que vem depois: tipo de produto (resfriado ou congelado), volume interno, espessura e material do painel isotérmico, capacidade do motor e posição das unidades. Câmara com motor subdimensionado nunca atinge a temperatura de projeto, e o erro só aparece com a câmara carregada."
+          "O projeto define tudo o que vem depois: tipo de produto (resfriado ou congelado), volume interno, espessura e material do painel isotérmico, capacidade do motor e posição das unidades. Câmara com motor subdimensionado nunca atinge a temperatura de projeto, e o erro só aparece com a câmara carregada.",
+          "Para quem vai montar uma câmara nova, o passo a passo está em <a href=\"/instalacao-de-camara-fria.html\">projeto e instalação de câmara fria</a>: cálculo de carga térmica, piso, rede elétrica e estrutura, do zero à entrega."
         ]
       },
       {
@@ -137,6 +138,116 @@
     "galleryLead": "Instalações e manutenções de clientes no Rio e Grande Rio, fotografadas depois do serviço.",
     "galleryAlt": "Câmara fria instalada e mantida pela Santos Refrigeração",
     "galleryAspect": "4 / 3"
+  },
+  "instalacao-de-camara-fria": {
+    "slug": "instalacao-de-camara-fria",
+    "title": "Instalação de câmara fria",
+    "icon": "warehouse",
+    "eyebrow": "Projeto e instalação",
+    "metaTitle": "Projeto e instalação de câmara fria no Rio | Santos Refrigeração",
+    "metaDescription": "Projeto e instalação de câmara fria no Rio e Grande Rio, do cálculo de carga térmica à entrega: piso, elétrica e montagem. Peça seu orçamento no WhatsApp.",
+    "heroTitle": "Projeto e instalação de câmara fria no Rio de Janeiro",
+    "highlight": "câmara fria",
+    "heroLead": "Do cálculo de carga térmica à câmara funcionando: fazemos o projeto completo, avaliamos piso, rede elétrica e estrutura, e montamos a sua câmara fria no Rio de Janeiro e Grande Rio.",
+    "servicesTitle": "Câmara fria começa com projeto, não com tamanho",
+    "intro": [
+      "Quem decide montar uma câmara fria costuma começar pelo tamanho: 2x2, 2x3, 3x3. Mas a dimensão é só uma parte da conta. Duas câmaras de 2x3, uma para bebida e outra para carne, não levam o mesmo equipamento: temperatura de trabalho, motor, isolamento e piso mudam conforme o que vai dentro. Quem escolhe pelo tamanho antes do cálculo compra errado.",
+      "A Santos Refrigeração faz o projeto completo, do zero à entrega. Nem toda empresa de refrigeração faz projeto; a Santos faz, e também faz a montagem de câmara fria e de câmara frigorífica no Rio de Janeiro e Grande Rio.",
+      "Se você quer uma câmara fria e não sabe por onde começar, o ponto de partida é o contato. Avaliamos o espaço, calculamos a carga térmica e dimensionamos o equipamento antes de qualquer compra."
+    ],
+    "servicesListTitle": "O que fazemos no projeto",
+    "services": [
+      "Levantamento do que vai ser armazenado e da rotina de uso",
+      "Visita técnica e avaliação do espaço",
+      "Cálculo de carga térmica",
+      "Dimensionamento da unidade condensadora e da evaporadora",
+      "Avaliação de piso e isolamento térmico",
+      "Dimensionamento da rede elétrica",
+      "Projeto e orçamento fechado",
+      "Montagem dos painéis isotérmicos",
+      "Instalação de condensadora, evaporadora e controle",
+      "Testes, entrega e orientação de uso",
+      "Montagem de câmara fria já adquirida"
+    ],
+    "sections": [
+      {
+        "title": "Cálculo de carga térmica: o que você vai armazenar muda tudo",
+        "body": [
+          "Carga térmica é o calor que o equipamento precisa retirar da câmara para manter a temperatura. Ela depende do produto, do volume que entra por dia, da temperatura em que ele chega, de quantas vezes a porta abre e do calor do ambiente em volta. É esse cálculo que define a capacidade de refrigeração, e cada necessidade é um cálculo diferente.",
+          "Gelo, carne e bebida pedem câmaras diferentes. A câmara para bebida e refrigerante trabalha em temperatura positiva. A de carne congelada e a de gelo trabalham abaixo de zero, com motor mais robusto, painel mais espesso e resistência no dreno. Uma câmara fria para bebidas de 3x3 e uma câmara fria para gelo do mesmo 3x3 têm o mesmo tamanho e quase nada mais em comum.",
+          "Equipamento subdimensionado não chega à temperatura de projeto, e o erro só aparece com a câmara carregada. Superdimensionado, gasta energia sem necessidade e liga e desliga demais. O cálculo evita os dois."
+        ]
+      },
+      {
+        "title": "O que entra no projeto: piso, isolamento, elétrica e estrutura",
+        "body": [
+          "<strong>Piso e isolamento térmico.</strong> O piso precisa ser adequado ao uso. Em câmara de congelados, piso sem isolamento perde frio para o chão e obriga o equipamento a trabalhar mais. O tipo de painel isotérmico (EPS, PUR ou PIR) e a espessura dele são escolhidos pela temperatura de trabalho.",
+          "<strong>Rede elétrica dimensionada.</strong> Câmara fria não é ligar na tomada. Compressor, ventiladores, resistências e quadro de comando precisam de circuito próprio, com cabo e disjuntor calculados para a carga. Rede subdimensionada derruba disjuntor e encurta a vida do compressor.",
+          "<strong>Estrutura.</strong> O projeto olha o conjunto, não o painel isolado: onde fica a porta, por onde passa a tubulação, onde a condensadora vai trocar calor e como a câmara se encaixa no espaço e na rotina de quem vai usar."
+        ]
+      },
+      {
+        "title": "Do projeto à entrega: como funciona",
+        "body": [
+          "São seis etapas, nesta ordem:"
+        ],
+        "steps": [
+          "Conversa inicial: o que vai ser armazenado, volume e rotina de uso",
+          "Visita e avaliação do espaço: piso, estrutura e rede elétrica",
+          "Cálculo de carga térmica e dimensionamento do equipamento",
+          "Projeto e orçamento fechado",
+          "Montagem: painéis, unidade condensadora, evaporadora e controle",
+          "Testes, entrega e orientação de uso"
+        ],
+        "after": [
+          "Se a câmara já foi comprada, entramos na montagem, e a avaliação do local continua valendo. Se você já tem câmara fria funcionando e precisa de conserto ou manutenção, o atendimento é outro: veja a página de <a href=\"/camara-fria.html\">conserto e manutenção de câmara fria</a>."
+        ]
+      },
+      {
+        "title": "Quanto custa uma câmara fria e como fazemos o orçamento",
+        "body": [
+          "Não trabalhamos com tabela de preço, porque o custo de uma câmara fria sai do projeto: volume interno, o que vai ser armazenado, temperatura de trabalho, tipo e espessura do painel, capacidade do equipamento, distância da tubulação e as adequações que o local precisa no piso e na rede elétrica. Câmara fria e câmara frigorífica são o mesmo equipamento, e a resposta para quanto custa uma câmara frigorífica é a mesma.",
+          "Depois da visita e do cálculo de carga térmica, enviamos o orçamento fechado, com cada item discriminado. O prazo também entra no orçamento, porque varia com o porte da câmara e com as adequações do local. Você aprova antes de começarmos."
+        ]
+      }
+    ],
+    "ctaTitle": "Vai montar uma câmara fria? Comece pelo projeto.",
+    "waMessage": "Olá! Quero fazer o PROJETO E INSTALAÇÃO DE CÂMARA FRIA. Vou contar o que pretendo armazenar e o espaço disponível.",
+    "faqTitle": "Dúvidas sobre projeto e instalação de câmara fria",
+    "emergency": "Câmara fria parada gera prejuízo por hora — mercadoria em risco e operação travada. Para câmara fria e sistemas que não podem parar, atendemos fora do horário comercial. Ligue e avaliamos na hora.",
+    "faq": [
+      [
+        "Vocês fazem o projeto ou só a montagem?",
+        "Fazemos os dois. Do cálculo de carga térmica ao equipamento funcionando."
+      ],
+      [
+        "Já sei o tamanho que quero. Preciso de projeto mesmo assim?",
+        "O tamanho é só uma parte. Duas câmaras do mesmo tamanho podem precisar de equipamentos diferentes dependendo do que vai dentro — gelo, carne e bebida têm necessidades de refrigeração distintas."
+      ],
+      [
+        "Quanto custa uma câmara fria?",
+        "Depende do volume, do que vai ser armazenado e das condições do local. Fazemos a avaliação e fechamos o preço antes de começar."
+      ],
+      [
+        "E se eu já comprei a câmara fria?",
+        "Fazemos a instalação e a montagem do equipamento que você adquiriu."
+      ],
+      [
+        "Quanto tempo demora?",
+        "Varia com o porte e com as adequações necessárias no local. O prazo entra no orçamento."
+      ]
+    ],
+    "gallery": [
+      "/assets/trab-cf-1.webp",
+      "/assets/trab-cf-3.webp",
+      "/assets/trab-cfi-3.webp"
+    ],
+    "galleryCols": 3,
+    "galleryFit": "cover",
+    "galleryAspect": "4 / 3",
+    "galleryTitle": "Câmara fria: trabalhos da nossa equipe",
+    "galleryLead": "Câmara fria em operação numa loja no Rio e equipamentos instalados pela nossa equipe: evaporador e quadro de comando com degelo.",
+    "galleryAlt": "Câmara fria atendida pela Santos Refrigeração no Rio de Janeiro"
   },
   "chopeiras": {
     "slug": "chopeiras",
@@ -927,7 +1038,7 @@
       ],
       [
         "A cervejeira é de comodato da cervejaria. Posso consertar com vocês?",
-        "A parte técnica sim: consertamos e fazemos a manutenção do sistema de refrigeração normalmente. O que recomendamos é verificar antes as condições do seu contrato de comodato com a cervejaria, porque algumas exigem que a manutenção passe por elas. A decisão é sua; o serviço técnico a gente faz."
+        "A parte técnica sim: consertamos e fazemos a manutenção do sistema de refrigeração normalmente. O que recomendamos é verificar antes as condições do seu contrato de comodato com a cervejaria, porque algumas exigem que a manutenção passe por elas. A decisão é sua; o serviço técnico fica com a Santos."
       ],
       [
         "Vale a pena consertar ou trocar a cervejeira?",
