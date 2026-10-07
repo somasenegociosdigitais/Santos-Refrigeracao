@@ -13,6 +13,10 @@ const url = NEGOCIO.site + caminho;
 const zap = wa(d.waMessage);
 const MESES = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'];
 const dataBr = (iso) => { const [a, m, dia] = iso.split('-').map(Number); return dia + ' de ' + MESES[m - 1] + ' de ' + a; };
+// Mesmo fechamento das páginas de serviço (Servico.astro): todo artigo alimenta
+// as duas páginas-hub com âncora de palavra-chave.
+const estiloElo = 'color:var(--color-primary);font-weight:700';
+const paragrafoElos = 'A Santos Refrigeração atende o Rio e o Grande Rio a partir da <a href="/refrigeracao-cascadura.html" style="' + estiloElo + '">oficina de refrigeração em Cascadura</a>, com <a href="/tecnico-refrigeracao-comercial.html" style="' + estiloElo + '">assistência técnica em refrigeração comercial</a> para bares, restaurantes e comércio. Veja também os <a href="/" style="' + estiloElo + '">outros serviços de refrigeração comercial</a>.';
 const causas = d.sections.map((s) => [s.id, s.title.replace(/^\d+\.\s*/, '')]);
 
 const jsonld = [
@@ -121,6 +125,8 @@ if (d.faq && d.faq.length) {
   </div>
   </section>
 )}
+
+<p style="font-size:var(--fs-base);color:var(--text-muted);margin:0;line-height:var(--lh-relaxed);text-wrap:pretty" set:html={paragrafoElos}></p>
 
 </article>
 </div>
