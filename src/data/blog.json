@@ -43,16 +43,24 @@
       {
         "id": "linha-suja",
         "title": "4. Linha e serpentina sujas",
-        "image": { "src": "/assets/trab-ch-assepsia-3.webp", "alt": "Linha de chope conectada à torre durante a assepsia", "caption": "Assepsia em andamento: a solução de limpeza circula pela linha até a torre." },
+        "image": {
+          "src": "/assets/trab-ch-assepsia-3.webp",
+          "alt": "Linha de chope conectada à torre durante a assepsia",
+          "caption": "Assepsia em andamento: a solução de limpeza circula pela linha até a torre."
+        },
         "body": [
           "Levedura, proteína da cerveja e biofilme se acumulam na parede interna da linha. Essa película cria pontos onde o gás se solta, e o chope chega ao copo com espuma grossa que não se sustenta, além de sabor alterado. É uma das causas mais comuns em bar que espaçou a limpeza.",
-          "A solução é a assepsia da linha completa, com desmontagem das torneiras. Assepsia que só empurra solução pela linha não alcança o corpo da torneira nem a vedação, e o problema volta em poucos dias. O processo está descrito na página de <a href=\"/chopeiras.html\">manutenção de chopeira</a>."
+          "A solução é a <a href=\"/assepsia-de-chopeira.html\">assepsia de chopeira</a> na linha completa, com desmontagem das torneiras. Assepsia que só empurra solução pela linha não alcança o corpo da torneira nem a vedação, e o problema volta em poucos dias. Para os outros defeitos desta lista, o serviço é a <a href=\"/chopeiras.html\">manutenção de chopeira</a>."
         ]
       },
       {
         "id": "torneira",
         "title": "5. Torneira gasta ou aberta pela metade",
-        "image": { "src": "/assets/trab-ch-assepsia-1.webp", "alt": "Torneira de chope sobre pingadeira em inox no balcão", "caption": "A torneira é onde o resíduo mais se fixa, porque fica exposta ao ar entre um chope e outro." },
+        "image": {
+          "src": "/assets/trab-ch-assepsia-1.webp",
+          "alt": "Torneira de chope sobre pingadeira em inox no balcão",
+          "caption": "A torneira é onde o resíduo mais se fixa, porque fica exposta ao ar entre um chope e outro."
+        },
         "body": [
           "Torneira aberta pela metade cria turbulência na saída e espuma o chope. A torneira deve ser aberta de uma vez, até o fim, com o copo inclinado no começo da tiragem.",
           "Se, mesmo aberta corretamente, o chope sai em jato irregular ou a torneira pinga fechada, a vedação ou a mola estão gastas. É peça de troca simples, mas precisa ser feita com a linha despressurizada."
@@ -61,7 +69,11 @@
       {
         "id": "ar-na-linha",
         "title": "6. Ar entrando na linha",
-        "image": { "src": "/assets/trab-ch-assepsia-2.webp", "alt": "Barril de chope e linha passando por baixo do balcão até a torre", "caption": "Do barril à torre: qualquer conexão frouxa nesse trajeto deixa entrar ar ou escapar gás." },
+        "image": {
+          "src": "/assets/trab-ch-assepsia-2.webp",
+          "alt": "Barril de chope e linha passando por baixo do balcão até a torre",
+          "caption": "Do barril à torre: qualquer conexão frouxa nesse trajeto deixa entrar ar ou escapar gás."
+        },
         "body": [
           "Conexão frouxa, anel de vedação ressecado na válvula extratora ou mangueira rachada deixam entrar ar ou escapar gás. O sinal é bolha contínua na mangueira entre o barril e a torre, mesmo com pressão e temperatura certas.",
           "<strong>Como conferir:</strong> com a chopeira parada, observe a mangueira por alguns minutos. Bolha que aparece sem ninguém tirar chope indica vazamento ou gás saindo do líquido."
@@ -94,14 +106,42 @@
       "body": "Chame quando a temperatura não baixa mesmo com gelo reposto ou termostato ajustado, quando há bolha na linha sem causa visível, quando a assepsia está atrasada ou quando a espuma voltou depois de alguém mexer na pressão. O técnico da Santos mede temperatura e pressão, confere vedações e linha e faz a assepsia completa quando necessário. Você recebe o diagnóstico e o preço fechado antes do serviço."
     },
     "faq": [
-      ["Chope com muita espuma é problema do barril?", "Raramente. Barril recém-chegado ou quente espuma até estabilizar, mas na maioria dos casos a causa está na temperatura, na pressão de CO₂, na limpeza da linha ou na torneira."],
-      ["Aumentar ou diminuir a pressão do CO₂ resolve a espuma?", "Só se a pressão for a causa. Mexer no regulador sem medir a temperatura costuma trocar um problema por outro: pressão baixa demais deixa o chope choco e com bolha na linha, e pressão alta demais faz o chope sair com turbulência."],
-      ["Por que só o primeiro chope sai com espuma?", "Com a chopeira parada, o trecho da linha que passa pela torre esquenta. O primeiro chope passa por esse trecho e espuma. Se os seguintes saem normais, não é defeito."],
-      ["De quanto em quanto tempo limpar a linha da chopeira?", "Em operação de alto movimento, a cada troca de barril. Com movimento moderado, a cada 15 dias. Bar que passa do intervalo sente primeiro no sabor e depois na espuma."]
+      [
+        "Chope com muita espuma é problema do barril?",
+        "Raramente. Barril recém-chegado ou quente espuma até estabilizar, mas na maioria dos casos a causa está na temperatura, na pressão de CO₂, na limpeza da linha ou na torneira."
+      ],
+      [
+        "Aumentar ou diminuir a pressão do CO₂ resolve a espuma?",
+        "Só se a pressão for a causa. Mexer no regulador sem medir a temperatura costuma trocar um problema por outro: pressão baixa demais deixa o chope choco e com bolha na linha, e pressão alta demais faz o chope sair com turbulência."
+      ],
+      [
+        "Por que só o primeiro chope sai com espuma?",
+        "Com a chopeira parada, o trecho da linha que passa pela torre esquenta. O primeiro chope passa por esse trecho e espuma. Se os seguintes saem normais, não é defeito."
+      ],
+      [
+        "De quanto em quanto tempo limpar a linha da chopeira?",
+        "Depende do giro. Os contratos de assepsia da Santos têm visita a cada 15 dias, todo mês ou a cada 45 dias, e bar de movimento alto fica no intervalo mais curto. Bar que passa do intervalo sente primeiro no sabor e depois na espuma."
+      ]
     ],
     "related": [
-      ["Manutenção de chopeira", "/chopeiras.html", "beer", "Conserto, instalação e assepsia de linha completa com desmontagem das torneiras."],
-      ["Gela caneca", "/gela-caneca.html", "snowflake", "Manutenção e conserto de gela caneca para o seu bar."]
+      [
+        "Manutenção de chopeira",
+        "/chopeiras.html",
+        "beer",
+        "Conserto, instalação e assepsia de linha completa com desmontagem das torneiras."
+      ],
+      [
+        "Assepsia de chopeira",
+        "/assepsia-de-chopeira.html",
+        "spray-can",
+        "Limpeza da linha completa, avulsa ou por contrato a cada 15, 30 ou 45 dias."
+      ],
+      [
+        "Gela caneca",
+        "/gela-caneca.html",
+        "snowflake",
+        "Manutenção e conserto de gela caneca para o seu bar."
+      ]
     ],
     "waMessage": "Olá! Li o artigo sobre chope com muita espuma no site e preciso de atendimento para CHOPEIRA. Vou descrever o que está acontecendo."
   }
