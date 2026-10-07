@@ -1,0 +1,62 @@
+---
+/** Índice do blog. Lista os artigos de src/data/blog.json, mais novo primeiro. */
+import Base from '../layouts/Base.astro';
+import Icone from '../components/Icone.astro';
+import { NEGOCIO, EMPRESA_SCHEMA } from '../data/site.js';
+import blog from '../data/blog.json';
+
+const posts = Object.values(blog).sort((a, b) => b.published.localeCompare(a.published));
+const MESES = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'];
+const dataBr = (iso) => { const [a, m, dia] = iso.split('-').map(Number); return dia + ' de ' + MESES[m - 1] + ' de ' + a; };
+const url = NEGOCIO.site + '/blog.html';
+const jsonld = [
+  { '@context': 'https://schema.org', ...EMPRESA_SCHEMA },
+  { '@context': 'https://schema.org', '@type': 'Blog', '@id': url + '#blog', name: 'Blog da Santos Refrigeração', url, inLanguage: 'pt-BR', publisher: { '@id': EMPRESA_SCHEMA['@id'] }, blogPost: posts.map((p) => ({ '@id': NEGOCIO.site + '/blog/' + p.slug + '.html#artigo' })) },
+  { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Início', item: NEGOCIO.site + '/' },
+    { '@type': 'ListItem', position: 2, name: 'Blog' },
+  ] },
+];
+---
+<Base titulo="Blog de refrigeração comercial: guias e diagnósticos" descricao="Guias práticos da Santos Refrigeração para identificar problemas em chopeira, câmara fria, balcão refrigerado e outros equipamentos comerciais antes de chamar o técnico." caminho="/blog.html" jsonld={jsonld}>
+
+<section style="background:linear-gradient(135deg,var(--blue-900) 0%,var(--blue-700) 60%,var(--blue-600) 100%);color:var(--white)">
+<div class="ds-container" style="padding-block:clamp(40px,6vw,72px);display:flex;flex-direction:column;gap:16px">
+<div style="display:flex;align-items:center;gap:8px;font-size:var(--fs-sm);color:rgba(255,255,255,0.7)">
+<a href="/" style="color:rgba(255,255,255,0.7)">Início</a>
+<Icone nome="chevron-right" tam={14} />
+<span style="color:var(--cyan-300)">Blog</span>
+</div>
+<h1 style="font-size:var(--fs-h1);line-height:1.08;color:var(--white);margin:0;max-width:760px;text-wrap:balance">Blog de refrigeração comercial</h1>
+<p style="font-size:var(--fs-lg);color:rgba(255,255,255,0.86);margin:0;max-width:640px;line-height:var(--lh-normal);text-wrap:pretty">Guias para identificar o problema do equipamento, entender a causa e saber quando chamar o técnico.</p>
+</div>
+</section>
+
+<section style="background:var(--surface-page);padding-block:clamp(48px,7vw,80px)">
+<div class="ds-container">
+<div class="blog-grid">
+{posts.map((p) => (
+  <a class="blog-card" href={'/blog/' + p.slug + '.html'}>
+  <img src={p.cover} alt={p.coverAlt} width="720" height="540" loading="lazy" decoding="async">
+  <div style="padding:20px 22px 24px;display:flex;flex-direction:column;gap:10px">
+  <span class="ds-eyebrow">{p.category}</span>
+  <h2 style="font-size:var(--fs-h4);margin:0;color:var(--text-strong);text-wrap:balance">{p.title}</h2>
+  <p style="font-size:var(--fs-sm);color:var(--text-muted);margin:0;line-height:var(--lh-normal)">{p.excerpt}</p>
+  <span style="font-size:var(--fs-xs);color:var(--text-muted)"><time datetime={p.published}>{dataBr(p.published)}</time> · {p.readMin} min de leitura</span>
+  </div>
+  </a>
+))}
+</div>
+</div>
+</section>
+
+<style>
+.blog-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.blog-card{display:flex;flex-direction:column;background:var(--white);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);overflow:hidden;text-decoration:none;transition:transform var(--dur-base) var(--ease-out),box-shadow var(--dur-base) var(--ease-out)}
+.blog-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-md);text-decoration:none}
+.blog-card img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block}
+@media (max-width:960px){.blog-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.blog-grid{grid-template-columns:1fr}}
+</style>
+
+</Base>

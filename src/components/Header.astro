@@ -5,6 +5,9 @@
 import Icone from './Icone.astro';
 import Logo from './Logo.astro';
 import { NEGOCIO, MENU } from '../data/site.js';
+// Blog entra antes de Contato. Fica aqui, e não no site.js, para a entrega não
+// precisar mexer no site.js.
+const ITENS = [...MENU.slice(0, -1), { label: 'Blog', href: '/blog.html' }, MENU[MENU.length - 1]];
 ---
 <header id="top" style="position:sticky;top:0;z-index:50">
 <div style="background:var(--blue-950);color:rgba(255,255,255,0.88);font-size:var(--fs-sm)">
@@ -24,7 +27,7 @@ import { NEGOCIO, MENU } from '../data/site.js';
 <div class="ds-container" style="display:flex;align-items:center;justify-content:space-between;height:74px;gap:16px">
 <a href="/" aria-label="Santos Refrigeração — início"><Logo tam={36} /></a>
 <nav class="nav-links" style="display:flex;align-items:center;gap:26px">
-{MENU.map((l) => (
+{ITENS.map((l) => (
   <a href={l.href} style="font-family:var(--font-body);font-weight:600;font-size:var(--fs-sm);color:var(--text-body);white-space:nowrap;text-decoration:none">{l.label}</a>
 ))}
 </nav>
@@ -40,7 +43,7 @@ import { NEGOCIO, MENU } from '../data/site.js';
 </div>
 <div class="mobile-menu">
 <div class="ds-container" style="display:flex;flex-direction:column;gap:4px">
-{MENU.map((l) => (
+{ITENS.map((l) => (
   <a href={l.href} style="font-family:var(--font-body);font-weight:600;color:var(--text-body);padding:10px 4px;text-decoration:none">{l.label}</a>
 ))}
 </div>
