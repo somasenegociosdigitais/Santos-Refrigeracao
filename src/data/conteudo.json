@@ -2200,10 +2200,22 @@
         "Instalação, manutenção e conserto de câmara frigorífica."
       ],
       [
+        "Instalação de câmara fria",
+        "/instalacao-de-camara-fria.html",
+        "warehouse",
+        "Projeto e montagem: cálculo térmico, piso, elétrica e estrutura."
+      ],
+      [
         "Chopeiras",
         "/chopeiras.html",
         "beer",
         "Instalação, manutenção e higienização do sistema de tiragem."
+      ],
+      [
+        "Assepsia de chopeira",
+        "/assepsia-de-chopeira.html",
+        "spray-can",
+        "Limpeza da linha completa com desmontagem das torneiras, avulsa ou por contrato."
       ],
       [
         "Ar condicionado",
