@@ -1,0 +1,66 @@
+---
+/**
+ * Modal do WhatsApp. Todo link wa.me do site abre este modal (nome + telefone)
+ * em vez de ir direto. Ao enviar: gera o código S-XXXX, manda o evento
+ * whatsapp_lead pro dataLayer (GTM → GA4 + conversão Ads), grava a linha na
+ * planilha e abre o WhatsApp com o código na mensagem.
+ * Origem do botão: data-origem no link; senão cabecalho / rodape / conteudo.
+ */
+import { NEGOCIO } from '../data/site.js';
+const PLANILHA_URL = ''; // URL /exec do Apps Script. Vazio = não grava.
+---
+<dialog id="modal-zap" aria-labelledby="modal-zap-titulo" style="border:none;padding:0;border-radius:var(--radius-xl);box-shadow:var(--shadow-lg);width:min(92vw,420px);background:var(--white);color:var(--text-body)">
+<form id="form-zap" style="display:flex;flex-direction:column;gap:16px;padding:28px">
+<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px">
+<div style="display:flex;flex-direction:column;gap:6px">
+<p id="modal-zap-titulo" style="font-family:var(--font-display);font-weight:700;font-size:1.25rem;color:var(--text-strong);margin:0">Falar no WhatsApp</p>
+<p style="margin:0;font-size:var(--fs-sm);color:var(--text-muted)">Informe seu nome e telefone para a atendente já saber quem é.</p>
+</div>
+<button type="button" id="modal-zap-fechar" aria-label="Fechar" style="flex:0 0 auto;width:44px;height:44px;margin:-10px -10px 0 0;border:none;background:none;font-size:26px;line-height:1;color:var(--text-muted);cursor:pointer">×</button>
+</div>
+<label style="display:flex;flex-direction:column;gap:0.4rem"><span style="font-weight:600;font-size:var(--fs-sm);color:var(--text-strong)">Seu nome</span>
+<input name="nome" type="text" required autocomplete="name" placeholder="Nome" style="font-family:var(--font-body);font-size:var(--fs-base);padding:0.75rem 0.9rem;border-radius:var(--radius-md);border:1px solid var(--border-default);width:100%;box-sizing:border-box"></label>
+<label style="display:flex;flex-direction:column;gap:0.4rem"><span style="font-weight:600;font-size:var(--fs-sm);color:var(--text-strong)">Telefone / WhatsApp</span>
+<input name="tel" type="tel" required inputmode="tel" autocomplete="tel" placeholder="(21) 9XXXX-XXXX" style="font-family:var(--font-body);font-size:var(--fs-base);padding:0.75rem 0.9rem;border-radius:var(--radius-md);border:1px solid var(--border-default);width:100%;box-sizing:border-box"></label>
+<span id="modal-zap-erro" role="alert" style="display:none;font-size:var(--fs-sm);color:#B42318">Confira o telefone com DDD.</span>
+<label style="display:flex;gap:10px;align-items:flex-start;font-size:var(--fs-sm);color:var(--text-muted);cursor:pointer"><input name="aceite" type="checkbox" required style="margin-top:3px;width:18px;height:18px;flex:0 0 auto"> Concordo em ser contatado pela {NEGOCIO.marca} para este atendimento.</label>
+<button type="submit" style="display:inline-flex;align-items:center;justify-content:center;gap:10px;width:100%;min-height:48px;background:var(--color-whatsapp);color:var(--white);font-family:var(--font-body);font-weight:700;font-size:var(--fs-base);padding:14px 24px;border:none;border-radius:var(--radius-md);cursor:pointer">Abrir WhatsApp</button>
+</form>
+</dialog>
+<style is:global>#modal-zap::backdrop{background:rgba(23,31,46,0.6)}</style>
+<script is:inline define:vars={{ whatsapp: NEGOCIO.whatsapp, planilhaUrl: PLANILHA_URL }}>
+(function () {
+  window.dataLayer = window.dataLayer || [];
+  var sr = window.sr = {
+    codigo: function () { var c = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789', r = 'S-'; for (var i = 0; i < 4; i++) r += c[Math.floor(Math.random() * c.length)]; return r; },
+    tel: function (v) { var d = String(v || '').replace(/\D/g, '').replace(/^55(?=\d{10,11}$)/, '').replace(/^0(?=\d{10,11}$)/, ''); if (d.length === 8 || d.length === 9) d = '21' + d; if (d.length < 10 || d.length > 11) return ''; return '(' + d.slice(0, 2) + ') ' + (d.length === 11 ? d.slice(2, 7) + '-' + d.slice(7) : d.slice(2, 6) + '-' + d.slice(6)); },
+    evento: function (nome, p) { p = p || {}; p.event = nome; window.dataLayer.push(p); },
+    planilha: function (d) { if (!planilhaUrl) return; d.k = 'sr'; d.pagina = location.pathname; try { fetch(planilhaUrl, { method: 'POST', mode: 'no-cors', keepalive: true, headers: { 'Content-Type': 'text/plain' }, body: JSON.stringify(d) }); } catch (x) {} },
+    origem: function (a) { return a.getAttribute('data-origem') || (a.closest('header') ? 'cabecalho' : a.closest('footer') ? 'rodape' : 'conteudo'); },
+    abrir: function (texto) { var a = document.createElement('a'); a.href = 'https://wa.me/' + whatsapp + '?text=' + encodeURIComponent(texto); a.target = '_blank'; a.rel = 'noopener'; a.setAttribute('data-sr-direto', ''); document.body.appendChild(a); a.click(); a.remove(); }
+  };
+  var dlg = document.getElementById('modal-zap'), form = document.getElementById('form-zap'), erro = document.getElementById('modal-zap-erro'), origemAtual = '';
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href]');
+    if (!a || a.hasAttribute('data-sr-direto') || !/wa\.me|api\.whatsapp\.com/.test(a.getAttribute('href'))) return;
+    e.preventDefault();
+    origemAtual = sr.origem(a);
+    sr.evento('whatsapp_click', { cta_source: origemAtual });
+    erro.style.display = 'none';
+    if (dlg.showModal) dlg.showModal(); else sr.abrir('Olá, vim pelo site e gostaria de um orçamento.');
+    setTimeout(function () { form.nome.focus(); }, 50);
+  }, true);
+  document.getElementById('modal-zap-fechar').addEventListener('click', function () { dlg.close(); });
+  dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var nome = form.nome.value.trim(), tel = sr.tel(form.tel.value);
+    if (!tel) { erro.style.display = 'block'; form.tel.focus(); return; }
+    var codigo = sr.codigo();
+    sr.evento('whatsapp_lead', { lead_code: codigo, cta_source: origemAtual });
+    sr.planilha({ tipo: 'WhatsApp', codigo: codigo, nome: nome, telefone: tel, origem: origemAtual });
+    sr.abrir('Olá, vim pelo site e gostaria de um orçamento. Nome: ' + nome + '. Telefone: ' + tel + '.\n\nCódigo do site: ' + codigo);
+    form.reset(); dlg.close();
+  });
+})();
+</script>

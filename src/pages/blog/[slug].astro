@@ -1,0 +1,10 @@
+---
+import Artigo from '../../layouts/Artigo.astro';
+import blog from '../../data/blog.json';
+
+export function getStaticPaths() {
+  return Object.values(blog).map((post) => ({ params: { slug: post.slug }, props: { post } }));
+}
+const { post } = Astro.props;
+---
+<Artigo dados={post} />

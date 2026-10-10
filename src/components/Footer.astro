@@ -20,13 +20,13 @@ const servicos = Object.values(conteudo).filter((s) => !s.hideFromNav).map((s) =
 </div>
 </div>
 <div>
-<h2 style="color:var(--white);font-size:var(--fs-base);margin:0 0 16px">Serviços</h2>
+<p style="font-family:var(--font-display);font-weight:600;color:var(--white);font-size:var(--fs-base);margin:0 0 16px">Serviços</p>
 <ul style="list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px 20px;font-size:var(--fs-sm)">
 {servicos.map(([label, href]) => (<li><a href={href} style="color:rgba(255,255,255,0.78)">{label}</a></li>))}
 </ul>
 </div>
 <div>
-<h2 style="color:var(--white);font-size:var(--fs-base);margin:0 0 16px">Contato</h2>
+<p style="font-family:var(--font-display);font-weight:600;color:var(--white);font-size:var(--fs-base);margin:0 0 16px">Contato</p>
 <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;font-size:var(--fs-sm)">
 <li style="display:flex;gap:10px;align-items:flex-start"><Icone nome="phone" tam={17} cor="var(--cyan-300)" /> {NEGOCIO.telefone}</li>
 <li style="display:flex;gap:10px;align-items:flex-start"><Icone nome="map-pin" tam={17} cor="var(--cyan-300)" estilo="margin-top:2px" /> <span>{NEGOCIO.endereco.rua.replace(' - ', ' — ')}, {NEGOCIO.endereco.cidade} - {NEGOCIO.endereco.estado}, {NEGOCIO.endereco.cep}<br><a href={NEGOCIO.google.maps} target="_blank" rel="noopener" style="color:var(--cyan-300);font-weight:600">Ver no Google Maps</a></span></li>

@@ -331,7 +331,7 @@
     "faq": [
       [
         "De quanto em quanto tempo a chopeira precisa de higienização?",
-        "O ideal é higienizar as linhas a cada 15 dias em locais de movimento moderado e, em operação de alto giro, a cada troca de barril. No mínimo, uma vez por mês. A assepsia periódica preserva o sabor do chope, evita chuvisco e prolonga a vida da chopeira. Atendemos por contrato com visita programada, para o bar não depender de lembrar."
+        "Depende do giro. Os contratos da Santos têm visita a cada 15 dias, todo mês ou a cada 45 dias, e bar de movimento alto fica no intervalo mais curto. Também fazemos a assepsia avulsa, sem contrato. A assepsia periódica preserva o sabor do chope, evita chuvisco e prolonga a vida da chopeira."
       ],
       [
         "O que é assepsia de chopeira?",
@@ -380,13 +380,128 @@
         "body": [
           "A linha de chope acumula levedura, proteína da cerveja e biofilme na parede interna do tubo. Não é sujeira visível: forma uma película que altera o sabor, deixa o chope turvo e produz espuma que não se sustenta. O dono do bar costuma culpar o barril ou a cervejaria quando a causa está nos poucos metros entre o barril e a torneira.",
           "<strong>Fazemos a assepsia na linha completa, com desmontagem das torneiras.</strong> A torneira é onde o resíduo mais se fixa, porque fica exposta ao ar entre um chope e outro. Assepsia que só empurra solução pela linha não alcança o corpo da torneira, o anel de vedação nem a válvula — e é assim que o problema volta em poucos dias. Desmontamos peça por peça, aplicamos produto próprio para linha de bebida, circulamos pela linha inteira, enxaguamos e remontamos com a vedação conferida.",
-          "A periodicidade depende do giro: operação de alto movimento pede assepsia a cada troca de barril; movimento moderado, a cada 15 dias. Casa que passa do intervalo sente primeiro no sabor, depois na fila do balcão, porque chope com espuma errada demora mais para servir. Atendemos por contrato com visita programada, para o bar não depender de lembrar."
+          "A periodicidade depende do giro. Os contratos da Santos têm visita a cada 15 dias, todo mês ou a cada 45 dias, e operação de alto movimento fica no intervalo mais curto. Casa que passa do intervalo sente primeiro no sabor, depois na fila do balcão, porque chope com espuma errada demora mais para servir. Também fazemos a assepsia avulsa, sem contrato. Os detalhes estão em <a href=\"/assepsia-de-chopeira.html\">assepsia de chopeira</a>.",
+          "Se o problema é espuma demais, o guia <a href=\"/blog/chopeira-com-muita-espuma.html\">chopeira com muita espuma: causas e como resolver</a> mostra como identificar cada causa antes de chamar o técnico."
         ]
       }
     ],
     "galleryAlt": "Assepsia de linha de chope feita pela Santos Refrigeração",
     "galleryFit": "cover",
     "galleryCols": 3
+  },
+  "assepsia-de-chopeira": {
+    "slug": "assepsia-de-chopeira",
+    "title": "Assepsia de chopeira",
+    "icon": "spray-can",
+    "eyebrow": "Assepsia de chopeira",
+    "metaTitle": "Assepsia e higienização de chopeira no Rio de Janeiro",
+    "metaDescription": "Assepsia de chopeira com desmontagem das torneiras para bar, restaurante e evento no Rio e Grande Rio. Visita avulsa ou contrato a cada 15, 30 ou 45 dias.",
+    "heroTitle": "Assepsia e higienização de chopeira no Rio e Grande Rio",
+    "highlight": "higienização de chopeira",
+    "heroLead": "Limpeza técnica da linha completa, do engate do barril ao bico da torneira, com desmontagem das torneiras e produto próprio para linha de bebida. Atendemos bares, restaurantes, distribuidoras e eventos com visita avulsa ou contrato programado.",
+    "servicesTitle": "O que a assepsia de chopeira inclui",
+    "intro": [
+      "A linha de chope acumula levedura, proteína da cerveja e biofilme na parede interna do tubo e no corpo da torneira. Essa película não aparece por fora, mas muda o sabor, deixa o chope turvo e faz a espuma desmanchar rápido. Na maioria das vezes, quando o bar reclama do barril, a causa está na linha.",
+      "Na assepsia, a Santos desmonta as torneiras, limpa peça por peça, circula produto próprio para linha de bebida pelo trajeto inteiro entre o barril e a torre, enxágua e remonta conferindo a vedação. Assim a limpeza alcança o corpo da torneira, o anel de vedação e a válvula, onde a limpeza que só empurra solução pela linha não chega.",
+      "Fazemos a assepsia avulsa, quando o problema já apareceu, e por contrato, com visita programada a cada 15 dias, todo mês ou a cada 45 dias. No contrato, o bar não depende de lembrar: a visita já está na agenda."
+    ],
+    "sections": [
+      {
+        "title": "Contrato de assepsia: a cada 15, 30 ou 45 dias",
+        "body": [
+          "O intervalo depende do giro da casa. Bar de movimento alto, com troca frequente de barril, fica no contrato de 15 dias. Movimento moderado costuma ficar no mensal. Casa de movimento baixo ou sazonal pode ficar em 45 dias.",
+          "Casa que passa do intervalo sente primeiro no sabor e depois na espuma: chope com espuma errada demora mais para servir e aumenta o desperdício. Com o contrato, a visita está marcada antes de o problema aparecer.",
+          "Para limpeza pontual, como depois de um evento, antes de reabrir a casa ou quando o sabor mudou, fazemos a <strong>assepsia avulsa, sem contrato</strong>."
+        ]
+      },
+      {
+        "title": "Assepsia ou conserto: como saber o que a chopeira precisa",
+        "body": [
+          "Se o chope mudou de sabor, ficou turvo ou a espuma desmancha rápido, mas a chopeira continua gelando, o serviço indicado é assepsia. Se o chope sai quente, a pressão não se mantém ou há vazamento, o problema é mecânico e o caminho é a <a href=\"/chopeiras.html\">manutenção de chopeira</a>.",
+          "Para espuma demais, o guia <a href=\"/blog/chopeira-com-muita-espuma.html\">chopeira com muita espuma: causas e como resolver</a> ajuda a separar uma causa da outra antes de chamar o técnico."
+        ]
+      }
+    ],
+    "servicesListTitle": "Nossos serviços",
+    "services": [
+      "Assepsia de linha completa, do barril à torneira",
+      "Desmontagem e limpeza das torneiras peça por peça",
+      "Sanitização da linha e da serpentina",
+      "Limpeza do engate e da válvula extratora",
+      "Troca de vedações gastas",
+      "Conferência de pressão de CO₂ e temperatura",
+      "Assepsia avulsa, sem contrato",
+      "Contrato a cada 15 dias, mensal ou a cada 45 dias",
+      "Bares, restaurantes, distribuidoras e eventos"
+    ],
+    "signsTitle": "Sinais de que a chopeira precisa de assepsia",
+    "signs": [
+      [
+        "droplets",
+        "Gosto alterado",
+        "O chope perdeu o sabor de costume ou ficou amargo demais."
+      ],
+      [
+        "filter",
+        "Chope turvo",
+        "Chope que deveria sair limpo chega ao copo opaco."
+      ],
+      [
+        "wind",
+        "Espuma que desmancha",
+        "A espuma some rápido ou sai grossa e irregular."
+      ],
+      [
+        "rotate-cw",
+        "Trocou o barril e não resolveu",
+        "Barril novo com o mesmo problema: a causa está na linha."
+      ],
+      [
+        "alert-triangle",
+        "Resíduo na torneira",
+        "Cheiro azedo ou sujeira visível no bico e na pingadeira."
+      ],
+      [
+        "clock",
+        "Limpeza atrasada",
+        "Passou do intervalo da última assepsia."
+      ]
+    ],
+    "gallery": [
+      "/assets/trab-ch-assepsia-1.webp",
+      "/assets/trab-ch-assepsia-2.webp",
+      "/assets/trab-ch-assepsia-3.webp"
+    ],
+    "galleryTitle": "Assepsias de chopeira que já fizemos",
+    "galleryLead": "Fotos de atendimentos da equipe da Santos.",
+    "galleryAlt": "Assepsia de chopeira feita pela Santos Refrigeração",
+    "galleryFit": "cover",
+    "galleryCols": 3,
+    "ctaTitle": "Chope com gosto estranho? Agende a assepsia.",
+    "waMessage": "Olá! Quero agendar ASSEPSIA DE CHOPEIRA. Vou informar quantas torneiras tenho e o endereço.",
+    "faqTitle": "Dúvidas sobre assepsia de chopeira",
+    "faq": [
+      [
+        "De quanto em quanto tempo fazer a assepsia da chopeira?",
+        "Depende do giro. Os contratos da Santos têm visita a cada 15 dias, todo mês ou a cada 45 dias. Bar de movimento alto fica no intervalo mais curto. Para limpeza pontual, fazemos a assepsia avulsa."
+      ],
+      [
+        "Vocês fazem assepsia sem contrato?",
+        "Sim. Fazemos a assepsia avulsa, quando o bar precisa de uma limpeza pontual, e por contrato, com visita programada."
+      ],
+      [
+        "Qual a diferença entre assepsia e higienização de chopeira?",
+        "No dia a dia, os dois termos são usados para o mesmo serviço: a limpeza técnica da linha e das torneiras com produto próprio para linha de bebida. O que muda o resultado é se a limpeza é feita na linha completa, com desmontagem das torneiras, ou só empurrando solução pela linha."
+      ],
+      [
+        "A assepsia resolve chope com espuma demais?",
+        "Resolve quando a causa é linha suja. Se a espuma vem de temperatura ou pressão de CO₂ erradas, a assepsia sozinha não resolve, e o técnico confere esses pontos na mesma visita."
+      ],
+      [
+        "Vocês fazem assepsia em chopeira de comodato da cervejaria?",
+        "Sim. Fazemos a assepsia no equipamento que está no bar, inclusive quando a chopeira veio da cervejaria em comodato."
+      ]
+    ]
   },
   "gela-caneca": {
     "slug": "gela-caneca",
@@ -2085,10 +2200,22 @@
         "Instalação, manutenção e conserto de câmara frigorífica."
       ],
       [
+        "Instalação de câmara fria",
+        "/instalacao-de-camara-fria.html",
+        "warehouse",
+        "Projeto e montagem: cálculo térmico, piso, elétrica e estrutura."
+      ],
+      [
         "Chopeiras",
         "/chopeiras.html",
         "beer",
         "Instalação, manutenção e higienização do sistema de tiragem."
+      ],
+      [
+        "Assepsia de chopeira",
+        "/assepsia-de-chopeira.html",
+        "spray-can",
+        "Limpeza da linha completa com desmontagem das torneiras, avulsa ou por contrato."
       ],
       [
         "Ar condicionado",

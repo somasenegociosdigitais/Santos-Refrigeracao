@@ -1,0 +1,164 @@
+{
+  "chopeira-com-muita-espuma": {
+    "slug": "chopeira-com-muita-espuma",
+    "title": "Chopeira com muita espuma: causas e como resolver",
+    "metaTitle": "Chopeira com muita espuma: 7 causas e como resolver",
+    "metaDescription": "Chopeira espumando? Veja as 7 causas mais comuns, de temperatura e pressão de CO₂ a linha suja, como identificar cada uma e quando chamar o técnico.",
+    "category": "Chopeira",
+    "published": "2026-10-07",
+    "updated": "2026-10-10",
+    "readMin": 7,
+    "cover": "/assets/opt-d0.webp",
+    "coverAlt": "Torre de chopeira em inox com quatro torneiras, ponto onde o chope com muita espuma aparece",
+    "excerpt": "Espuma demais quase nunca é defeito do barril. Veja as sete causas mais comuns, como conferir cada uma e quando o problema pede técnico.",
+    "lead": "Chopeira espumando, com o chope saindo com espuma demais, quase nunca é defeito do barril. Na maioria dos casos, a causa está em algum ponto entre o cilindro de CO₂ e o copo, e boa parte desses pontos o próprio bar consegue conferir antes de chamar o técnico. Este guia lista as sete causas mais comuns e explica como identificar cada uma.",
+    "summaryTitle": "As 7 causas mais comuns de chope com muita espuma",
+    "sections": [
+      {
+        "id": "chope-quente",
+        "title": "1. Chope saindo quente",
+        "body": [
+          "Temperatura é a primeira coisa a conferir. O CO₂ fica dissolvido no chope enquanto ele está gelado. Quando a temperatura sobe, o gás se solta e vira espuma no copo, e poucos graus a mais já fazem diferença.",
+          "Na chopeira a gelo, a causa costuma ser gelo insuficiente ou serpentina descoberta: no movimento forte, o gelo derrete mais rápido do que é reposto. Na chopeira elétrica, o sintoma aponta para a refrigeração: termostato desregulado, condensador sujo, gás baixo ou compressor fraco. Se o chope sai mais quente à noite do que de manhã, a chopeira não está dando conta da carga.",
+          "<strong>Como conferir:</strong> tire um chope e meça com termômetro de espeto no copo. Compare com a temperatura recomendada pela cervejaria do barril."
+        ]
+      },
+      {
+        "id": "pressao-co2",
+        "title": "2. Pressão de CO₂ desregulada",
+        "body": [
+          "A pressão do regulador empurra o chope até a torneira e mantém o gás dissolvido no líquido. Pressão alta demais faz o chope sair rápido e com turbulência, e ainda carbonata o barril além da conta. Pressão baixa demais deixa o gás escapar do líquido dentro da linha: aparecem bolhas na mangueira e o chope sai com espuma e, depois, choco.",
+          "Não existe um número único de pressão. O valor certo depende da temperatura do barril, do comprimento e do diâmetro da linha e da altura da torre. Quem mexe no regulador para tirar a espuma, sem medir a temperatura, costuma trocar um problema pelo outro.",
+          "<strong>Como conferir:</strong> veja se o ponteiro do manômetro fica estável durante a tiragem e se o cilindro não está no fim. Cilindro acabando derruba a pressão."
+        ]
+      },
+      {
+        "id": "barril",
+        "title": "3. Barril quente ou recém-chegado",
+        "body": [
+          "Barril que acabou de chegar foi transportado, chacoalhado e muitas vezes ficou fora da refrigeração. Engatado direto, ele espuma até estabilizar. O ideal é deixar o barril descansar refrigerado antes de engatar, pelo tempo que a distribuidora orientar.",
+          "Na chopeira a gelo, o barril fica fora do equipamento. Em dia quente, barril exposto ao sol ou perto de fonte de calor esquenta, e a serpentina não consegue compensar a diferença."
+        ]
+      },
+      {
+        "id": "linha-suja",
+        "title": "4. Linha e serpentina sujas",
+        "image": {
+          "src": "/assets/trab-ch-assepsia-3.webp",
+          "alt": "Assepsia da linha de chopeira: solução de limpeza circulando até a torre para tirar o excesso de espuma",
+          "caption": "Assepsia em andamento: a solução de limpeza circula pela linha até a torre."
+        },
+        "body": [
+          "Levedura, proteína da cerveja e biofilme se acumulam na parede interna da linha. Essa película cria pontos onde o gás se solta, e o chope chega ao copo com espuma grossa que não se sustenta, além de sabor alterado. É uma das causas mais comuns em bar que espaçou a limpeza.",
+          "A solução é a <a href=\"/assepsia-de-chopeira.html\">assepsia de chopeira</a> na linha completa, com desmontagem das torneiras. Assepsia que só empurra solução pela linha não alcança o corpo da torneira nem a vedação, e o problema volta em poucos dias. Para os outros defeitos desta lista, o serviço é a <a href=\"/chopeiras.html\">manutenção de chopeira</a>."
+        ]
+      },
+      {
+        "id": "torneira",
+        "title": "5. Torneira gasta ou aberta pela metade",
+        "image": {
+          "src": "/assets/trab-ch-assepsia-1.webp",
+          "alt": "Torneira de chopeira sobre pingadeira em inox, peça que causa espuma quando gasta",
+          "caption": "A torneira é onde o resíduo mais se fixa, porque fica exposta ao ar entre um chope e outro."
+        },
+        "body": [
+          "Torneira aberta pela metade cria turbulência na saída e espuma o chope. A torneira deve ser aberta de uma vez, até o fim, com o copo inclinado no começo da tiragem.",
+          "Se, mesmo aberta corretamente, o chope sai em jato irregular ou a torneira pinga fechada, a vedação ou a mola estão gastas. É peça de troca simples, mas precisa ser feita com a linha despressurizada."
+        ]
+      },
+      {
+        "id": "ar-na-linha",
+        "title": "6. Ar entrando na linha",
+        "image": {
+          "src": "/assets/trab-ch-assepsia-2.webp",
+          "alt": "Barril de chope e linha da chopeira passando por baixo do balcão até a torre",
+          "caption": "Do barril à torre: qualquer conexão frouxa nesse trajeto deixa entrar ar ou escapar gás."
+        },
+        "body": [
+          "Conexão frouxa, anel de vedação ressecado na válvula extratora ou mangueira rachada deixam entrar ar ou escapar gás. O sinal é bolha contínua na mangueira entre o barril e a torre, mesmo com pressão e temperatura certas.",
+          "<strong>Como conferir:</strong> com a chopeira parada, observe a mangueira por alguns minutos. Bolha que aparece sem ninguém tirar chope indica vazamento ou gás saindo do líquido."
+        ]
+      },
+      {
+        "id": "copo",
+        "title": "7. Copo quente ou mal lavado",
+        "body": [
+          "Copo quente esquenta o chope no contato. Gordura, resto de detergente ou fiapo de pano deixam a espuma instável e formam bolhas presas na parede do copo.",
+          "O copo deve ser lavado com detergente neutro, bem enxaguado e secar escorrendo, sem pano. Para quem serve em caneca gelada, o <a href=\"/gela-caneca.html\">gela caneca</a> precisa estar funcionando na temperatura certa: caneca que sai morna ou molhada demais também espuma o chope."
+        ]
+      }
+    ],
+    "diagnosis": {
+      "title": "Como descobrir qual é a causa",
+      "intro": "Siga esta ordem. Cada passo elimina uma causa sem precisar de ferramenta.",
+      "steps": [
+        "Veja se a espuma aparece só no primeiro chope ou em todos. Só no primeiro costuma ser o trecho da linha dentro da torre, que esquenta com a chopeira parada. Descarte o primeiro e observe os seguintes.",
+        "Meça a temperatura do chope no copo.",
+        "Olhe o manômetro durante a tiragem e confira o nível do cilindro de CO₂.",
+        "Procure bolhas na mangueira entre o barril e a torre.",
+        "Confirme a data da última assepsia da linha.",
+        "Tire um chope em copo lavado e enxaguado na hora."
+      ],
+      "after": "Se tudo isso estiver certo e a espuma continuar, o problema está na refrigeração da chopeira ou no dimensionamento da linha, e o diagnóstico precisa de instrumento."
+    },
+    "cta": {
+      "title": "Quando chamar o técnico",
+      "body": "Chame quando a temperatura não baixa mesmo com gelo reposto ou termostato ajustado, quando há bolha na linha sem causa visível, quando a assepsia está atrasada ou quando a espuma voltou depois de alguém mexer na pressão. O técnico da Santos mede temperatura e pressão, confere vedações e linha e faz a assepsia completa quando necessário. Você recebe o diagnóstico e o preço fechado antes do serviço."
+    },
+    "faq": [
+      [
+        "Chope com muita espuma é problema do barril?",
+        "Raramente. Barril recém-chegado ou quente espuma até estabilizar, mas na maioria dos casos a causa está na temperatura, na pressão de CO₂, na limpeza da linha ou na torneira."
+      ],
+      [
+        "Chope saindo só espuma: o que fazer primeiro?",
+        "Pare de mexer na pressão e meça a temperatura do chope no copo. Se estiver alta, reponha o gelo ou confira a refrigeração da chopeira. Se a temperatura estiver certa, veja o manômetro e procure bolhas na mangueira."
+      ],
+      [
+        "Aumentar ou diminuir a pressão do CO₂ resolve a espuma?",
+        "Só se a pressão for a causa. Mexer no regulador sem medir a temperatura costuma trocar um problema por outro: pressão baixa demais deixa o chope choco e com bolha na linha, e pressão alta demais faz o chope sair com turbulência."
+      ],
+      [
+        "Por que só o primeiro chope sai com espuma?",
+        "Com a chopeira parada, o trecho da linha que passa pela torre esquenta. O primeiro chope passa por esse trecho e espuma. Se os seguintes saem normais, não é defeito."
+      ],
+      [
+        "De quanto em quanto tempo limpar a linha da chopeira?",
+        "Depende do giro. Os contratos de assepsia da Santos têm visita a cada 15 dias, todo mês ou a cada 45 dias, e bar de movimento alto fica no intervalo mais curto. Bar que passa do intervalo sente primeiro no sabor e depois na espuma."
+      ]
+    ],
+    "related": [
+      [
+        "Manutenção de chopeira",
+        "/chopeiras.html",
+        "beer",
+        "Conserto, instalação e assepsia de linha completa com desmontagem das torneiras."
+      ],
+      [
+        "Assepsia de chopeira",
+        "/assepsia-de-chopeira.html",
+        "spray-can",
+        "Limpeza da linha completa, avulsa ou por contrato a cada 15, 30 ou 45 dias."
+      ],
+      [
+        "Gela caneca",
+        "/gela-caneca.html",
+        "snowflake",
+        "Manutenção e conserto de gela caneca para o seu bar."
+      ]
+    ],
+    "waMessage": "Olá! Li o artigo sobre chope com muita espuma no site e preciso de atendimento para CHOPEIRA. Vou descrever o que está acontecendo.",
+    "midCta": {
+      "after": "linha-suja",
+      "text": "Linha sem assepsia há mais de um mês? A Santos faz a limpeza completa da chopeira, com desmontagem das torneiras.",
+      "button": "Agendar assepsia"
+    },
+    "conclusion": {
+      "title": "Resumo",
+      "body": [
+        "Chope com muita espuma quase sempre vem de temperatura alta, pressão de CO₂ fora do ponto, linha suja, torneira gasta, ar na linha ou copo inadequado. Barril com defeito é exceção.",
+        "Comece pela temperatura e pelo manômetro, que resolvem a maior parte dos casos sem ferramenta. Se a espuma continuar depois do passo a passo acima, a chopeira precisa de diagnóstico com instrumento."
+      ]
+    }
+  }
+}
