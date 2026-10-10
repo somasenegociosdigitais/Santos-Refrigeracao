@@ -70,6 +70,7 @@ if (d.faq && d.faq.length) {
 </nav>
 
 {d.sections.map((s) => (
+  <Fragment>
   <section id={s.id} class="art-sec">
   <h2>{s.title}</h2>
   {s.body.map((p) => (<p set:html={p}></p>))}
@@ -86,6 +87,7 @@ if (d.faq && d.faq.length) {
     <a href={zap} target="_blank" rel="noopener nofollow" data-origem="artigo-meio"><Icone nome="message-circle" tam={18} />{d.midCta.button}</a>
     </aside>
   )}
+  </Fragment>
 ))}
 
 {d.diagnosis && (
