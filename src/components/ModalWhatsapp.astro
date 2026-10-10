@@ -31,11 +31,26 @@ const PLANILHA_URL = ''; // URL /exec do Apps Script. Vazio = não grava.
 <script is:inline define:vars={{ whatsapp: NEGOCIO.whatsapp, planilhaUrl: PLANILHA_URL }}>
 (function () {
   window.dataLayer = window.dataLayer || [];
+  // Canal do visitante: Google Ads (gclid/cpc), Google orgânico, GMN (utm), outro site ou Direto.
+  // Guarda 30 dias; visita direta não apaga o canal anterior (mesma regra do GA4).
+  var canal = (function () {
+    var q = new URLSearchParams(location.search), r = document.referrer, c = '';
+    var med = (q.get('utm_medium') || '').toLowerCase(), src = (q.get('utm_source') || '').toLowerCase();
+    if (q.get('gclid') || q.get('gbraid') || q.get('wbraid') || /cpc|ppc|paid/.test(med)) c = 'Google Ads';
+    else if (src) c = src === 'gmn' ? 'Perfil da Empresa (GMN)' : 'utm: ' + src + (med ? ' / ' + med : '');
+    else if (r && r.indexOf(location.host) < 0) c = /\.google\./.test(r) ? 'Google orgânico' : /bing\.|duckduckgo|yahoo/.test(r) ? 'Busca orgânica (outros)' : 'Site: ' + r.split('/')[2];
+    try {
+      if (c) localStorage.setItem('sr_canal', JSON.stringify({ c: c, t: Date.now() }));
+      else { var s = JSON.parse(localStorage.getItem('sr_canal') || 'null'); if (s && Date.now() - s.t < 2592e6) c = s.c; }
+    } catch (x) {}
+    return c || 'Direto';
+  })();
   var sr = window.sr = {
+    canal: canal,
     codigo: function () { var c = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789', r = 'S-'; for (var i = 0; i < 4; i++) r += c[Math.floor(Math.random() * c.length)]; return r; },
     tel: function (v) { var d = String(v || '').replace(/\D/g, '').replace(/^55(?=\d{10,11}$)/, '').replace(/^0(?=\d{10,11}$)/, ''); if (d.length === 8 || d.length === 9) d = '21' + d; if (d.length < 10 || d.length > 11) return ''; return '(' + d.slice(0, 2) + ') ' + (d.length === 11 ? d.slice(2, 7) + '-' + d.slice(7) : d.slice(2, 6) + '-' + d.slice(6)); },
-    evento: function (nome, p) { p = p || {}; p.event = nome; window.dataLayer.push(p); },
-    planilha: function (d) { if (!planilhaUrl) return; d.k = 'sr'; d.pagina = location.pathname; try { fetch(planilhaUrl, { method: 'POST', mode: 'no-cors', keepalive: true, headers: { 'Content-Type': 'text/plain' }, body: JSON.stringify(d) }); } catch (x) {} },
+    evento: function (nome, p) { p = p || {}; p.event = nome; p.canal = canal; window.dataLayer.push(p); },
+    planilha: function (d) { if (!planilhaUrl) return; d.k = 'sr'; d.pagina = location.pathname; d.canal = canal; try { fetch(planilhaUrl, { method: 'POST', mode: 'no-cors', keepalive: true, headers: { 'Content-Type': 'text/plain' }, body: JSON.stringify(d) }); } catch (x) {} },
     origem: function (a) { return a.getAttribute('data-origem') || (a.closest('header') ? 'cabecalho' : a.closest('footer') ? 'rodape' : 'conteudo'); },
     abrir: function (texto) { var a = document.createElement('a'); a.href = 'https://wa.me/' + whatsapp + '?text=' + encodeURIComponent(texto); a.target = '_blank'; a.rel = 'noopener'; a.setAttribute('data-sr-direto', ''); document.body.appendChild(a); a.click(); a.remove(); }
   };
