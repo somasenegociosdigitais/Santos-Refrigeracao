@@ -16,6 +16,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import ZapFlutuante from '../components/ZapFlutuante.astro';
 import ModalWhatsapp from '../components/ModalWhatsapp.astro';
+import Rastreio from '../components/Rastreio.astro';
 import { NEGOCIO } from '../data/site.js';
 
 const { titulo, descricao, caminho, jsonld = [], imagem = '/assets/gelinho-grande.png', ogTitulo, ogDescricao, zapHref } = Astro.props;
@@ -34,6 +35,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-PQFJGP3Z');</script>
 <!-- End Google Tag Manager -->
+<Rastreio />
 <title>{titulo}</title>
 <meta name="description" content={desc}>
 <link rel="canonical" href={url}>
@@ -74,20 +76,5 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <Footer />
 <ZapFlutuante href={zapHref} />
 <ModalWhatsapp />
-<script is:inline>
-/* Ligar e mapa. WhatsApp fica no ModalWhatsapp. ligacao_click manda o número
-   em cta_source (botões só com ícone não têm texto). */
-document.addEventListener('click', function (e) {
-  var a = e.target.closest && e.target.closest('a[href]'); if (!a || !window.sr) return;
-  var h = a.getAttribute('href');
-  if (h.indexOf('tel:') === 0) {
-    var num = h.replace('tel:', '');
-    sr.evento('ligacao_click', { cta_source: num });
-    sr.planilha({ tipo: 'Ligação (clique)', telefone: 'Número clicado: ' + num, origem: sr.origem(a) });
-  } else if (/google\.[^/]+\/maps|maps\.app\.goo\.gl|g\.page/.test(h)) {
-    sr.evento('mapa_click', { cta_source: sr.origem(a) });
-  }
-}, true);
-</script>
 </body>
 </html>

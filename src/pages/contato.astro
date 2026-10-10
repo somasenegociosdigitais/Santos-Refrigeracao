@@ -1,9 +1,9 @@
 ---
 import Base from '../layouts/Base.astro';
 import Icone from '../components/Icone.astro';
+import FormContato from '../components/FormContato.astro';
 import { NEGOCIO, wa } from '../data/site.js';
 
-const equipamentos = ['Câmara fria','Chopeira','Ar-condicionado','Geladeira comercial','Balcão refrigerado','Ilha de congelados','Ultra freezer','Expositor de bebidas','Refresqueira','Gela Caneca','Outro equipamento'];
 const info = [
   ['phone', 'Telefone / WhatsApp', NEGOCIO.telefone, 'tel:' + NEGOCIO.telefoneE164],
   ['map-pin', 'Endereço', 'Av. Dom Hélder Câmara, 10229 — Cascadura, RJ', NEGOCIO.google.maps],
@@ -41,25 +41,8 @@ const zap = wa('Olá! Vim pelo site e gostaria de um orçamento.');
 
 <div style="background:var(--white);border-radius:var(--radius-xl);box-shadow:var(--shadow-md);border:1px solid var(--border-subtle);padding:32px">
 <h2 style="font-size:var(--fs-h3);margin:0 0 6px">Solicite seu orçamento</h2>
-<p style="color:var(--text-muted);margin:0 0 22px;font-size:var(--fs-sm)">Ao enviar, abrimos o WhatsApp com a sua mensagem pronta.</p>
-<form id="form-orcamento" style="display:flex;flex-direction:column;gap:16px">
-<div class="form-row" style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
-<label style="display:flex;flex-direction:column;gap:0.4rem"><span style="font-family:var(--font-body);font-weight:600;font-size:var(--fs-sm);color:var(--text-strong)">Seu nome</span>
-<input name="nome" type="text" placeholder="Nome completo" required autocomplete="name" style="font-family:var(--font-body);font-size:var(--fs-base);padding:0.75rem 0.9rem;border-radius:var(--radius-md);border:1px solid var(--border-default);background:var(--white);outline:none;width:100%"></label>
-<label style="display:flex;flex-direction:column;gap:0.4rem"><span style="font-family:var(--font-body);font-weight:600;font-size:var(--fs-sm);color:var(--text-strong)">WhatsApp</span>
-<input name="zap" type="tel" placeholder="(21) 9XXXX-XXXX" inputmode="tel" autocomplete="tel" required style="font-family:var(--font-body);font-size:var(--fs-base);padding:0.75rem 0.9rem;border-radius:var(--radius-md);border:1px solid var(--border-default);background:var(--white);outline:none;width:100%"></label>
-</div>
-<label style="display:flex;flex-direction:column;gap:0.4rem"><span style="font-family:var(--font-body);font-weight:600;font-size:var(--fs-sm);color:var(--text-strong)">Qual equipamento?</span>
-<select name="equip" required style="font-family:var(--font-body);font-size:var(--fs-base);padding:0.75rem 0.9rem;border-radius:var(--radius-md);border:1px solid var(--border-default);background:var(--white);outline:none;width:100%;cursor:pointer">
-<option value="" disabled selected>Selecione o equipamento</option>
-{equipamentos.map((eq) => (<option value={eq}>{eq}</option>))}
-</select></label>
-<label style="display:flex;flex-direction:column;gap:0.4rem"><span style="font-family:var(--font-body);font-weight:600;font-size:var(--fs-sm);color:var(--text-strong)">Descreva o problema ou serviço</span>
-<textarea name="msg" rows="4" placeholder="Ex.: câmara fria não está gelando; instalação de chopeira nova..." style="font-family:var(--font-body);font-size:var(--fs-base);padding:0.75rem 0.9rem;border-radius:var(--radius-md);border:1px solid var(--border-default);background:var(--white);outline:none;width:100%;resize:vertical"></textarea></label>
-<span id="form-erro" role="alert" style="display:none;font-size:var(--fs-sm);color:#B42318">Confira o telefone com DDD.</span>
-<button type="submit" style="display:inline-flex;align-items:center;justify-content:center;gap:10px;width:100%;background:var(--color-whatsapp);color:var(--white);font-family:var(--font-body);font-weight:700;font-size:var(--fs-base);padding:14px 24px;border:none;border-radius:var(--radius-md);cursor:pointer"><Icone nome="send" tam={18} />Enviar pelo WhatsApp</button>
-<span style="display:inline-flex;align-items:center;gap:7px;justify-content:center;font-size:var(--fs-xs);color:var(--text-muted)"><Icone nome="lock" tam={13} /> Seus dados só são usados para o atendimento</span>
-</form>
+<p style="color:var(--text-muted);margin:0 0 22px;font-size:var(--fs-sm)">Preencha os dados e retornamos com o orçamento.</p>
+<FormContato origem="formulario-contato" />
 </div>
 </div>
 
@@ -69,22 +52,4 @@ const zap = wa('Olá! Vim pelo site e gostaria de um orçamento.');
 </div>
 </section>
 
-<script is:inline>
-/* Formulário: código S-XXXX, evento form_lead, linha na planilha, abre o WhatsApp.
-   Helpers (window.sr) vêm do ModalWhatsapp, carregado no Base. */
-document.getElementById('form-orcamento').addEventListener('submit', function (e) {
-  e.preventDefault();
-  var d = new FormData(e.target), erro = document.getElementById('form-erro');
-  var nome = (d.get('nome') || '').trim();
-  var tel = sr.tel(d.get('zap'));
-  if (!tel) { erro.style.display = 'block'; e.target.zap.focus(); return; }
-  erro.style.display = 'none';
-  var equip = d.get('equip') || 'equipamento de refrigeração';
-  var msg = (d.get('msg') || '').trim();
-  var codigo = sr.codigo();
-  sr.evento('form_lead', { lead_code: codigo, cta_source: 'formulario' });
-  sr.planilha({ tipo: 'Formulário', codigo: codigo, nome: nome, telefone: tel, servico: equip, origem: 'formulario' });
-  sr.abrir('Olá, vim pelo site e gostaria de um orçamento. Nome: ' + nome + '. Telefone: ' + tel + '.\nEquipamento: ' + equip + '.' + (msg ? '\nDetalhes: ' + msg : '') + '\n\nCódigo do site: ' + codigo);
-});
-</script>
 </Base>

@@ -13,7 +13,7 @@ const ITENS = [...MENU.slice(0, -1), { label: 'Blog', href: '/blog.html' }, MENU
 <div style="background:var(--blue-950);color:rgba(255,255,255,0.88);font-size:var(--fs-sm)">
 <div class="ds-container" style="display:flex;align-items:center;justify-content:space-between;height:40px;gap:16px">
 <div style="display:flex;align-items:center;gap:20px">
-<span style="display:inline-flex;align-items:center;gap:7px"><Icone nome="phone" tam={15} cor="var(--cyan-300)" /> {NEGOCIO.telefone}</span>
+<a href={'tel:' + NEGOCIO.telefoneE164} data-origem="cabecalho-telefone" style="display:inline-flex;align-items:center;gap:7px;color:inherit;text-decoration:none"><Icone nome="phone" tam={15} cor="var(--cyan-300)" /> {NEGOCIO.telefone}</a>
 <span class="hide-sm" style="display:inline-flex;align-items:center;gap:7px"><Icone nome="clock" tam={15} cor="var(--cyan-300)" /> {NEGOCIO.horario}</span>
 </div>
 <div style="display:flex;align-items:center;gap:14px">

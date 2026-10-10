@@ -1,0 +1,79 @@
+---
+/**
+ * Formulário de orçamento (padrão Configás). Validação própria, antispam (campo "site"),
+ * código S-XXXX, form_lead no dataLayer, linha na planilha e WhatsApp com a mensagem.
+ * Depois do envio troca o formulário por uma confirmação.
+ * props: origem (cta_source), id (para mais de um formulário por página)
+ */
+import Icone from './Icone.astro';
+const { origem = 'formulario-contato', id = 'form-orcamento' } = Astro.props;
+const equipamentos = ['Câmara fria','Chopeira','Cervejeira','Expositor de bebidas','Balcão refrigerado','Geladeira comercial','Ilha de congelados','Ultra freezer','Máquina de gelo','Refresqueira','Gela Caneca','Adega de vinhos','Ar-condicionado','Outro equipamento'];
+const estabelecimentos = ['Bar ou restaurante','Padaria ou confeitaria','Mercado ou açougue','Lanchonete','Hotel ou evento','Residência','Outro'];
+const rot = 'font-family:var(--font-body);font-weight:600;font-size:var(--fs-sm);color:var(--text-strong)';
+const campo = 'font-family:var(--font-body);font-size:var(--fs-base);padding:0.75rem 0.9rem;border-radius:var(--radius-md);border:1px solid var(--border-default);background:var(--white);outline:none;width:100%;box-sizing:border-box';
+const err = 'display:none;font-size:var(--fs-xs);color:#B42318';
+const bloco = 'font-family:var(--font-display);font-weight:600;font-size:var(--fs-xs);letter-spacing:0.08em;text-transform:uppercase;color:var(--color-primary);margin:4px 0 0';
+---
+<div id={id} data-form-orcamento data-origem={origem}>
+<form novalidate style="display:flex;flex-direction:column;gap:16px">
+<p style={bloco + ';margin-top:0'}>Seus dados</p>
+<label style="display:flex;flex-direction:column;gap:0.4rem"><span style={rot}>Nome completo *</span>
+<input name="nome" type="text" autocomplete="name" placeholder="Seu nome" style={campo}><span data-erro="nome" style={err}>Informe seu nome.</span></label>
+<div class="form-row" style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+<label style="display:flex;flex-direction:column;gap:0.4rem"><span style={rot}>Telefone ou WhatsApp *</span>
+<input name="tel" type="tel" inputmode="tel" autocomplete="tel" placeholder="(21) 9XXXX-XXXX" style={campo}><span data-erro="tel" style={err}>Confira o telefone com DDD.</span></label>
+<label style="display:flex;flex-direction:column;gap:0.4rem"><span style={rot}>E-mail</span>
+<input name="email" type="email" autocomplete="email" placeholder="opcional" style={campo}><span data-erro="email" style={err}>Confira o e-mail.</span></label>
+</div>
+<div class="form-row" style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+<label style="display:flex;flex-direction:column;gap:0.4rem"><span style={rot}>Bairro *</span>
+<input name="bairro" type="text" autocomplete="address-level3" placeholder="Ex.: Madureira" style={campo}><span data-erro="bairro" style={err}>Informe o bairro.</span></label>
+<label style="display:flex;flex-direction:column;gap:0.4rem"><span style={rot}>Tipo de estabelecimento</span>
+<select name="local" style={campo + ';cursor:pointer'}><option value="">Selecione</option>{estabelecimentos.map((x) => (<option value={x}>{x}</option>))}</select></label>
+</div>
+<p style={bloco}>Seu pedido</p>
+<div class="form-row" style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+<label style="display:flex;flex-direction:column;gap:0.4rem"><span style={rot}>Equipamento *</span>
+<select name="equip" style={campo + ';cursor:pointer'}><option value="">Selecione</option>{equipamentos.map((x) => (<option value={x}>{x}</option>))}</select><span data-erro="equip" style={err}>Escolha o equipamento.</span></label>
+<label style="display:flex;flex-direction:column;gap:0.4rem"><span style={rot}>Marca do equipamento</span>
+<input name="marca" type="text" placeholder="Ex.: Gelopar, Metalfrio" style={campo}></label>
+</div>
+<label style="display:flex;flex-direction:column;gap:0.4rem"><span style={rot}>O que está acontecendo?</span>
+<textarea name="msg" rows="4" maxlength="600" placeholder="Ex.: a câmara fria não está gelando; preciso instalar uma chopeira nova..." style={campo + ';resize:vertical'}></textarea></label>
+<input name="site" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
+<label style="display:flex;gap:10px;align-items:flex-start;font-size:var(--fs-sm);color:var(--text-muted);cursor:pointer"><input name="aceite" type="checkbox" style="margin-top:3px;width:18px;height:18px;flex:0 0 auto"> Concordo em ser contatado pela Santos Refrigeração sobre este orçamento.</label>
+<span data-erro="aceite" style={err + ';margin-top:-8px'}>Marque a concordância para enviar.</span>
+<button type="submit" style="display:inline-flex;align-items:center;justify-content:center;gap:10px;width:100%;min-height:48px;background:var(--color-primary);color:var(--white);font-family:var(--font-body);font-weight:700;font-size:var(--fs-base);padding:14px 24px;border:none;border-radius:var(--radius-md);cursor:pointer"><Icone nome="send" tam={18} />Solicitar orçamento</button>
+<span style="display:inline-flex;align-items:center;gap:7px;justify-content:center;font-size:var(--fs-xs);color:var(--text-muted)"><Icone nome="lock" tam={13} /> Seus dados só são usados para o atendimento</span>
+</form>
+<div data-ok style="display:none;flex-direction:column;gap:12px;padding:8px 0">
+<p style="font-family:var(--font-display);font-weight:700;font-size:var(--fs-h4, 1.25rem);color:var(--text-strong);margin:0" data-ok-titulo></p>
+<p style="margin:0;color:var(--text-body);line-height:var(--lh-relaxed)" data-ok-texto></p>
+<p style="margin:0;font-size:var(--fs-sm);color:var(--text-muted)">Abrimos uma conversa no WhatsApp com o seu pedido. Se ela não apareceu, <a href="#" data-ok-zap style="color:var(--color-primary);font-weight:700">toque aqui</a>.</p>
+</div>
+</div>
+<script is:inline>
+(function () {
+  var raiz = document.currentScript.previousElementSibling, form = raiz.querySelector('form'), origem = raiz.getAttribute('data-origem'), texto = '';
+  var mostra = function (k, on) { var el = raiz.querySelector('[data-erro="' + k + '"]'); if (el) el.style.display = on ? 'block' : 'none'; var f = form[k]; if (f && f.style) f.style.borderColor = on ? '#B42318' : ''; return on; };
+  form.tel.addEventListener('input', function () { this.value = sr.mascara(this.value); });
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    if (form.site.value) return;
+    var v = function (k) { return (form[k].value || '').trim(); };
+    var nome = v('nome'), tel = sr.tel(v('tel')), email = v('email'), bairro = v('bairro'), equip = v('equip');
+    var ruim = [mostra('nome', nome.length < 2), mostra('tel', !tel), mostra('email', !!email && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)), mostra('bairro', !bairro), mostra('equip', !equip), mostra('aceite', !form.aceite.checked)];
+    var primeiro = ['nome', 'tel', 'email', 'bairro', 'equip', 'aceite'][ruim.indexOf(true)];
+    if (primeiro) { form[primeiro].focus(); return; }
+    var codigo = sr.codigo(), local = v('local'), marca = v('marca'), msg = v('msg');
+    texto = '*SOLICITAÇÃO DE ORÇAMENTO — SITE SANTOS REFRIGERAÇÃO*\n\nNome: ' + nome + '\nTelefone: ' + tel + (email ? '\nE-mail: ' + email : '') + '\nBairro: ' + bairro + (local ? '\nEstabelecimento: ' + local : '') + '\nEquipamento: ' + equip + (marca ? '\nMarca: ' + marca : '') + (msg ? '\nDescrição: ' + msg : '') + '\n\nCódigo do site: ' + codigo;
+    sr.evento('form_lead', { lead_code: codigo, lead_service: equip, cta_source: origem });
+    sr.planilha({ tipo: 'Formulário', codigo: codigo, nome: nome, telefone: tel, servico: equip + (marca ? ' (' + marca + ')' : ''), bairro: bairro, origem: origem });
+    sr.abrir(texto);
+    raiz.querySelector('[data-ok-titulo]').textContent = 'Pedido recebido, ' + nome.split(' ')[0] + '!';
+    raiz.querySelector('[data-ok-texto]').textContent = 'Vamos falar com você no ' + tel + '. Seu código de atendimento é ' + codigo + '.';
+    form.style.display = 'none'; raiz.querySelector('[data-ok]').style.display = 'flex';
+  });
+  raiz.querySelector('[data-ok-zap]').addEventListener('click', function (e) { e.preventDefault(); sr.abrir(texto); });
+})();
+</script>
