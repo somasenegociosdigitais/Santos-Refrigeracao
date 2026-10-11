@@ -160,5 +160,168 @@
         "Comece pela temperatura e pelo manômetro, que resolvem a maior parte dos casos sem ferramenta. Se a espuma continuar depois do passo a passo acima, a chopeira precisa de diagnóstico com instrumento."
       ]
     }
+  },
+  "camara-fria-nao-gela": {
+    "slug": "camara-fria-nao-gela",
+    "title": "Câmara fria não gela: causas e o que fazer",
+    "metaTitle": "Câmara fria não gela: 7 causas e o que fazer",
+    "metaDescription": "Câmara fria não gela ou está congelando o evaporador? Veja as 7 causas mais comuns, como funciona o degelo e quando chamar o técnico.",
+    "category": "Câmara fria",
+    "published": "2026-10-10",
+    "updated": "2026-10-10",
+    "readMin": 7,
+    "cover": "/assets/trab-cf-3.webp",
+    "coverAlt": "Evaporador de câmara fria com quatro ventiladores instalado no teto",
+    "excerpt": "Câmara fria que não gela quase sempre dá sinal antes de parar. Veja as sete causas mais comuns, do evaporador congelado ao degelo que não funciona.",
+    "lead": "Câmara fria que não gela raramente para de uma vez. Antes, a temperatura demora mais para baixar, o compressor fica ligado direto ou aparece gelo no evaporador. Este guia lista as sete causas mais comuns, explica como o degelo funciona e mostra o que o próprio estabelecimento consegue conferir antes de chamar o técnico.",
+    "summaryTitle": "As 7 causas mais comuns de câmara fria que não gela",
+    "sections": [
+      {
+        "id": "evaporador-congelado",
+        "title": "1. Evaporador congelado",
+        "image": {
+          "src": "/assets/trab-cf-3.webp",
+          "alt": "Evaporador de câmara fria com quatro ventiladores, peça que congela quando o degelo falha",
+          "caption": "O evaporador fica dentro da câmara. Quando ele congela, o ar frio para de circular.",
+          "wide": true
+        },
+        "body": [
+          "A câmara fria congelando o evaporador é a causa mais comum de câmara que não gela. O evaporador é a serpentina com ventiladores que fica dentro da câmara. Ele resfria o ar que passa pelas aletas, e a umidade desse ar vira gelo na superfície.",
+          "Um pouco de gelo é normal e sai no degelo. Quando o gelo se acumula até formar um bloco, o ar não passa mais pelas aletas. O compressor continua ligado, mas o frio não chega à mercadoria, e a temperatura sobe mesmo com o equipamento funcionando.",
+          "<strong>Como conferir:</strong> abra a câmara e olhe o evaporador. Aletas cobertas por gelo branco e grosso, ou gelo envolvendo os ventiladores, indicam que o degelo não está dando conta."
+        ]
+      },
+      {
+        "id": "degelo",
+        "title": "2. Degelo que não funciona",
+        "image": {
+          "src": "/assets/trab-cfi-3.webp",
+          "alt": "Quadro de comando de câmara fria com controlador de temperatura e degelo",
+          "caption": "O controlador no quadro de comando programa os ciclos de degelo da câmara.",
+          "wide": true
+        },
+        "body": [
+          "O degelo câmara fria é o ciclo em que a refrigeração para por alguns minutos para derreter o gelo do evaporador. Em câmara de resfriados, o degelo costuma ser feito só com a parada do compressor. Em câmara de congelados, uma resistência elétrica aquece o evaporador, porque o ar interno está frio demais para derreter o gelo sozinho.",
+          "O degelo falha quando a resistência queima, quando o controlador está com intervalo ou duração errados ou quando o sensor de fim de degelo dá leitura errada. A água do degelo também precisa escoar: dreno entupido ou congelado devolve a água para a bandeja, e ela congela de novo.",
+          "<strong>Como conferir:</strong> observe se, de tempos em tempos, a câmara para e o gelo do evaporador diminui. Se o gelo só aumenta, o degelo não está acontecendo ou está curto demais."
+        ]
+      },
+      {
+        "id": "porta-vedacao",
+        "title": "3. Porta mal vedada ou aberta demais",
+        "body": [
+          "Cada abertura de porta troca o ar frio e seco da câmara por ar quente e úmido. Essa umidade é a mesma que vira gelo no evaporador. Borracha de vedação ressecada, porta que não fecha sozinha ou dobradiça caída deixam a troca acontecer o tempo todo.",
+          "Em câmara de congelados, a resistência do batente evita que a borracha grude congelada. Se ela queima, a porta passa a ser forçada e a vedação estraga mais rápido.",
+          "<strong>Como conferir:</strong> feche a porta com uma folha de papel no meio. Se o papel sai sem resistência, a vedação está falhando naquele ponto. Procure também gelo ou água escorrendo na moldura."
+        ]
+      },
+      {
+        "id": "condensadora",
+        "title": "4. Condensadora suja ou sem ventilação",
+        "body": [
+          "A unidade condensadora fica do lado de fora e joga para o ambiente o calor retirado da câmara. Com o condensador coberto de poeira e gordura, ou instalado em local abafado, ela não consegue dissipar o calor. A pressão sobe, o compressor esquenta e a câmara perde rendimento, principalmente nos dias mais quentes.",
+          "Ventilador da condensadora parado tem o mesmo efeito, e mais rápido. Se a câmara gela de manhã e esquenta à tarde, a condensadora é uma das primeiras suspeitas.",
+          "<strong>Como conferir:</strong> veja se o ventilador da condensadora está girando e se as aletas estão limpas. A unidade precisa de espaço livre na frente e atrás para o ar circular."
+        ]
+      },
+      {
+        "id": "gas",
+        "title": "5. Falta de gás por vazamento",
+        "body": [
+          "O fluido refrigerante circula em circuito fechado e não se gasta com o uso. Se está faltando, há vazamento. Com pouco gás, a câmara demora cada vez mais para baixar a temperatura, o compressor não desliga e pode aparecer gelo só em parte do evaporador ou na tubulação de retorno.",
+          "Completar o gás sem achar o vazamento resolve por pouco tempo. O certo é localizar o ponto, corrigir a solda ou a conexão, fazer vácuo e recarregar na quantidade correta."
+        ]
+      },
+      {
+        "id": "controlador",
+        "title": "6. Controlador ou sensor com defeito",
+        "body": [
+          "O controlador lê a temperatura por um sensor dentro da câmara e decide quando ligar e desligar o compressor e quando fazer o degelo. Sensor fora do lugar, mal fixado ou com defeito faz o controlador trabalhar com uma temperatura que não é a real.",
+          "O sintoma típico é o visor mostrar uma temperatura e o termômetro dentro da câmara mostrar outra. Também acontece de alguém mudar a programação para resolver um problema e criar outro, como encurtar o degelo para a câmara gelar mais rápido."
+        ]
+      },
+      {
+        "id": "carga",
+        "title": "7. Câmara sobrecarregada ou ar bloqueado",
+        "image": {
+          "src": "/assets/trab-cf-1.webp",
+          "alt": "Câmara fria branca instalada em loja comercial",
+          "caption": "Câmara dimensionada para o volume da loja: mercadoria quente em excesso passa da capacidade do equipamento.",
+          "wide": true
+        },
+        "body": [
+          "Toda câmara é dimensionada para uma carga de mercadoria por dia. Encher a câmara com produto quente, acima do previsto, faz a temperatura subir e demorar horas para voltar. Caixas empilhadas encostadas no evaporador bloqueiam a saída de ar, e o frio fica concentrado em um canto.",
+          "Quando o movimento da loja cresceu e a câmara é a mesma, pode ser que ela tenha ficado pequena para a operação. Nesse caso, o problema não é defeito, e a solução passa por <a href=\"/instalacao-de-camara-fria.html\">projeto e instalação de câmara fria</a> no tamanho certo."
+        ]
+      }
+    ],
+    "diagnosis": {
+      "title": "Como descobrir qual é a causa",
+      "intro": "Siga esta ordem. Os primeiros passos não precisam de ferramenta.",
+      "steps": [
+        "Meça a temperatura dentro da câmara com um termômetro e compare com o visor do controlador.",
+        "Olhe o evaporador: gelo grosso nas aletas aponta para degelo, porta ou umidade.",
+        "Confira a vedação da porta com o teste do papel.",
+        "Veja se os ventiladores do evaporador e da condensadora estão girando.",
+        "Olhe se a condensadora está limpa e com espaço livre para ventilar.",
+        "Repare se o compressor fica ligado sem parar e se a câmara esquenta mais à tarde."
+      ],
+      "after": "Se tudo isso estiver certo e a câmara continuar sem gelar, a causa provável é gás, compressor ou programação do controlador, e o diagnóstico precisa de manômetro e medição elétrica."
+    },
+    "cta": {
+      "title": "Quando chamar o técnico",
+      "body": "Chame quando o evaporador forma bloco de gelo mesmo depois do degelo, quando o compressor não desliga, quando há diferença entre o visor e o termômetro ou quando a câmara não volta à temperatura depois de abastecida. O técnico da Santos mede pressão e temperatura, testa resistência, sensor e controlador e localiza vazamento quando há falta de gás. Você recebe o diagnóstico e o preço fechado antes do serviço."
+    },
+    "conclusion": {
+      "title": "Resumo",
+      "body": [
+        "Câmara fria que não gela quase sempre tem uma destas causas: evaporador congelado, degelo falhando, porta mal vedada, condensadora sem ventilação, falta de gás, controlador desregulado ou carga acima da capacidade.",
+        "Comece olhando o evaporador e a porta, que respondem pela maioria dos casos. Gelo acumulado é sinal de alerta: quanto antes ele for resolvido, menor o risco de perder mercadoria e de forçar o compressor."
+      ]
+    },
+    "midCta": {
+      "after": "degelo",
+      "text": "Evaporador com bloco de gelo? A Santos testa o degelo, a resistência e o controlador e deixa a câmara no ponto.",
+      "button": "Chamar técnico de câmara fria"
+    },
+    "faq": [
+      [
+        "Câmara fria congelando o evaporador é normal?",
+        "Uma camada fina de gelo é normal e some no degelo. Bloco de gelo cobrindo as aletas ou os ventiladores não é: indica falha no degelo, porta mal vedada ou excesso de abertura."
+      ],
+      [
+        "De quanto em quanto tempo a câmara fria faz degelo?",
+        "Depende do tipo de câmara, da temperatura de trabalho e do movimento de porta. A programação é feita no controlador e deve ser ajustada pelo técnico para cada câmara."
+      ],
+      [
+        "Posso tirar o gelo do evaporador com faca ou espátula?",
+        "Não. As aletas e os tubos do evaporador são finos e furam com facilidade, e um furo causa vazamento de gás. Desligue a câmara e deixe o gelo derreter, ou chame o técnico."
+      ],
+      [
+        "Câmara fria não gela, mas o motor está ligando. O que pode ser?",
+        "O compressor ligado só mostra que há energia. Se o ar não esfria, a causa costuma ser evaporador congelado, ventilador parado, condensadora suja ou falta de gás."
+      ]
+    ],
+    "related": [
+      [
+        "Manutenção de câmara fria",
+        "/camara-fria.html",
+        "warehouse",
+        "Conserto, manutenção preventiva e corretiva de câmaras de resfriados e congelados."
+      ],
+      [
+        "Instalação de câmara fria",
+        "/instalacao-de-camara-fria.html",
+        "wrench",
+        "Projeto, montagem e instalação de câmara fria no tamanho da operação."
+      ],
+      [
+        "Técnico de refrigeração comercial",
+        "/tecnico-refrigeracao-comercial.html",
+        "thermometer-snowflake",
+        "Assistência técnica para os equipamentos de refrigeração do seu negócio."
+      ]
+    ],
+    "waMessage": "Olá! Li o artigo sobre câmara fria que não gela no site e preciso de atendimento para CÂMARA FRIA."
   }
 }

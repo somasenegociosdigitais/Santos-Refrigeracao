@@ -148,7 +148,7 @@ const paragrafoElos = (elos.length === 1 ? elos[0] : elos.slice(0, -1).join(', '
 <div class="gallery-grid" style={'display:grid;gap:16px;grid-template-columns:repeat(' + (d.galleryCols || 4) + ',1fr)'}>
 {d.gallery.map((src, i) => (
   <a href={'#foto-' + d.slug + '-' + i} style={'display:block;padding:0;border:1px solid var(--border-subtle);border-radius:var(--radius-lg);overflow:hidden;background:var(--white);box-shadow:var(--shadow-sm);aspect-ratio:' + (d.galleryAspect || '3 / 4')}>
-  <img src={src} alt={(d.galleryAlt || 'Serviço de chopeira realizado pela Santos Refrigeração') + ' ' + (i + 1)} loading="lazy" decoding="async" style={'width:100%;display:block;height:' + (d.galleryTrim ? (100 + d.galleryTrim) + '%' : '100%') + ';object-fit:' + (d.galleryFit || 'contain') + ';object-position:' + ((d.galleryPos && d.galleryPos[i]) || (d.galleryTrim ? 'center top' : 'center'))}>
+  <img src={src} alt={(d.galleryAlts && d.galleryAlts[i]) || ((d.galleryAlt || 'Serviço de chopeira realizado pela Santos Refrigeração') + ' ' + (i + 1))} loading="lazy" decoding="async" style={'width:100%;display:block;height:' + (d.galleryTrim ? (100 + d.galleryTrim) + '%' : '100%') + ';object-fit:' + (d.galleryFit || 'contain') + ';object-position:' + ((d.galleryPos && d.galleryPos[i]) || (d.galleryTrim ? 'center top' : 'center'))}>
   </a>
 ))}
 </div>
@@ -159,7 +159,7 @@ const paragrafoElos = (elos.length === 1 ? elos[0] : elos.slice(0, -1).join(', '
 {d.gallery && d.gallery.length > 0 && d.gallery.map((src, i) => (
   <div id={'foto-' + d.slug + '-' + i} class="lightbox">
   <a href="#" class="lightbox__fundo" aria-label="Fechar"></a>
-  <img src={src} alt={(d.galleryAlt || 'Serviço realizado pela Santos Refrigeração') + ' — foto ampliada'}>
+  <img src={src} alt={((d.galleryAlts && d.galleryAlts[i]) || d.galleryAlt || 'Serviço realizado pela Santos Refrigeração') + ' — foto ampliada'}>
   <a href="#" class="lightbox__x" aria-label="Fechar"><Icone nome="x" tam={24} /></a>
   </div>
 ))}
@@ -191,7 +191,7 @@ const paragrafoElos = (elos.length === 1 ? elos[0] : elos.slice(0, -1).join(', '
 <div class="ds-container">
 <div style="max-width:900px;margin-inline:auto;background:var(--blue-100);border:1px solid var(--blue-200);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);padding:clamp(28px,4vw,40px);display:flex;flex-direction:column;gap:16px">
 <span style="font-family:var(--font-body);font-size:var(--fs-sm);font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--color-primary)">Atendimento de emergência</span>
-<h2 style="font-family:var(--font-display);font-size:var(--fs-h2);margin:0;text-wrap:balance">Equipamento parado não espera horário comercial</h2>
+<h2 style="font-family:var(--font-display);font-size:var(--fs-h2);margin:0;text-wrap:balance">{d.emergencyTitle || 'Equipamento parado não espera horário comercial'}</h2>
 <p style="font-family:var(--font-body);font-size:var(--fs-lg);color:var(--text-muted);margin:0;line-height:var(--lh-normal);text-wrap:pretty">{d.emergency}</p>
 <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:4px">
 <a href={zap} target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:var(--color-whatsapp);color:var(--white);font-family:var(--font-body);font-weight:700;padding:14px 24px;border-radius:var(--radius-md);text-decoration:none"><Icone nome="message-circle" tam={20} />Chamar no WhatsApp</a>
