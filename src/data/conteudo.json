@@ -126,24 +126,20 @@
       ]
     ],
     "gallery": [
-      "/assets/trab-cf-1.webp",
       "/assets/trab-cf-2.webp",
-      "/assets/trab-cf-3.webp",
-      "/assets/trab-cf-4.webp",
-      "/assets/trab-cf-6.webp"
+      "/assets/trab-cf-7.webp",
+      "/assets/trab-cfi-3.webp"
     ],
-    "galleryCols": 2,
+    "galleryCols": 3,
     "galleryFit": "cover",
     "galleryTitle": "Câmaras frias que já atendemos",
     "galleryLead": "Instalações e manutenções de clientes no Rio e Grande Rio, fotografadas depois do serviço.",
     "galleryAlt": "Câmara fria instalada e mantida pela Santos Refrigeração",
     "galleryAspect": "4 / 3",
     "galleryAlts": [
-      "Câmara fria branca em operação numa loja no Rio de Janeiro",
       "Evaporador de quatro ventiladores no teto de câmara fria com mercadoria estocada",
-      "Evaporador de quatro ventiladores e dreno instalados em câmara fria",
-      "Evaporador de câmara fria com caixa elétrica, visto de baixo",
-      "Câmara fria com portas de vidro e prateleiras aramadas, vista por dentro"
+      "Evaporador de dois ventiladores no teto de câmara fria",
+      "Quadro de comando de câmara fria com controle de degelo"
     ]
   },
   "instalacao-de-camara-fria": {
@@ -247,19 +243,19 @@
     ],
     "gallery": [
       "/assets/trab-cf-1.webp",
-      "/assets/trab-cf-3.webp",
-      "/assets/trab-cfi-3.webp"
+      "/assets/trab-cfi-1.webp",
+      "/assets/trab-cfi-2.webp"
     ],
     "galleryCols": 3,
     "galleryFit": "cover",
     "galleryAspect": "4 / 3",
     "galleryTitle": "Câmara fria: trabalhos da nossa equipe",
-    "galleryLead": "Câmara fria em operação numa loja no Rio e equipamentos instalados pela nossa equipe: evaporador e quadro de comando com degelo.",
+    "galleryLead": "Câmaras frias montadas pela nossa equipe no Rio, vistas por fora e por dentro.",
     "galleryAlt": "Câmara fria atendida pela Santos Refrigeração no Rio de Janeiro",
     "galleryAlts": [
       "Câmara fria branca em operação numa loja no Rio de Janeiro",
-      "Evaporador de quatro ventiladores instalado em câmara fria",
-      "Quadro de comando de câmara fria com controle de degelo"
+      "Porta de câmara fria fechada, vista de fora",
+      "Câmara fria vazia vista por dentro, com o evaporador ao fundo"
     ]
   },
   "chopeiras": {
@@ -400,7 +396,8 @@
       "Torre de chope de três vias em inox com bandeja de escoamento",
       "Torre de chope de duas vias tipo coluna em inox",
       "Chopeira elétrica de duas torneiras em gabinete de inox"
-    ]
+    ],
+    "galleryAspect": "4 / 3"
   },
   "assepsia-de-chopeira": {
     "slug": "assepsia-de-chopeira",
@@ -514,6 +511,12 @@
         "Vocês fazem assepsia em chopeira de comodato da cervejaria?",
         "Sim. Fazemos a assepsia no equipamento que está no bar, inclusive quando a chopeira veio da cervejaria em comodato."
       ]
+    ],
+    "galleryAspect": "4 / 3",
+    "galleryAlts": [
+      "Torre de chopeira com bandeja de inox depois da assepsia",
+      "Equipamento de assepsia ligado à chopeira com mangueira",
+      "Chopeira em processo de assepsia no balcão do bar"
     ]
   },
   "gela-caneca": {
@@ -530,15 +533,9 @@
     "gallery": [
       "/assets/trab-gc-1.webp",
       "/assets/trab-gc-2.webp",
-      "/assets/trab-gc-3.webp",
       "/assets/trab-gc-4.webp"
     ],
     "galleryFit": "cover",
-    "galleryTrim": 9,
-    "galleryPos": {
-      "2": "center 45%",
-      "3": "91% top"
-    },
     "galleryTitle": "Aparelhos de gela caneca que já atendemos",
     "galleryLead": "Equipamentos de clientes no Rio e Grande Rio, com a temperatura conferida no painel depois do serviço.",
     "galleryAlt": "Gela caneca atendido pela Santos Refrigeração",
@@ -617,6 +614,14 @@
         "Vocês instalam gela caneca novo?",
         "Sim. Fazemos a instalação com nivelamento correto, avaliação do ponto elétrico e regulagem inicial da temperatura, deixando o equipamento pronto para operar com a camada de gelo no ponto."
       ]
+    ],
+    "galleryCols": 3,
+    "galleryAspect": "4 / 3",
+    "galleryTrim": 9,
+    "galleryAlts": [
+      "Gela caneca de inox com display digital",
+      "Gela caneca marcando 15 graus negativos no display",
+      "Gela caneca marcando 18 graus negativos, instalado em bar"
     ]
   },
   "ar-condicionado": {
@@ -750,15 +755,19 @@
     "gallery": [
       "/assets/trab-ac-1.webp",
       "/assets/trab-ac-2.webp",
-      "/assets/trab-ac-13.webp",
-      "/assets/trab-ac-6.webp"
+      "/assets/trab-ac-13.webp"
     ],
     "galleryTitle": "Ar condicionado: serviços que já executamos",
     "galleryLead": "Aparelhos piso-teto e cassete de clientes no Rio e Grande Rio, durante manutenção, higienização e instalação.",
     "galleryAlt": "Serviço de ar condicionado em comércio pela Santos Refrigeração",
-    "galleryCols": 2,
+    "galleryCols": 3,
     "galleryFit": "cover",
-    "galleryAspect": "4 / 3"
+    "galleryAspect": "4 / 3",
+    "galleryAlts": [
+      "Ar condicionado piso teto instalado em hortifruti",
+      "Ar condicionado piso teto acima da seção de legumes",
+      "Ar condicionado cassete montado no teto"
+    ]
   },
   "geladeira-comercial": {
     "slug": "geladeira-comercial",
@@ -891,7 +900,11 @@
     "galleryTitle": "Geladeiras comerciais que já atendemos",
     "galleryLead": "Equipamentos de clientes no Rio e Grande Rio, fotografados no ponto de venda depois do serviço.",
     "galleryAlt": "Geladeira comercial atendida pela Santos Refrigeração",
-    "galleryAspect": "4 / 3"
+    "galleryAspect": "4 / 3",
+    "galleryAlts": [
+      "Geladeira comercial de cinco portas de vidro na seção de frios e laticínios",
+      "Geladeira comercial de portas de vidro vista por dentro, com prateleiras aramadas"
+    ]
   },
   "expositor-de-bebidas": {
     "slug": "expositor-de-bebidas",
@@ -907,8 +920,7 @@
     "gallery": [
       "/assets/trab-gex-1.webp",
       "/assets/trab-gex-2.webp",
-      "/assets/trab-gex-3.webp",
-      "/assets/trab-gex-4.webp"
+      "/assets/trab-gex-3.webp"
     ],
     "galleryFit": "cover",
     "galleryTitle": "Expositores de bebidas que já atendemos",
@@ -1024,6 +1036,13 @@
         "Vocês vendem expositor de bebidas ou peças?",
         "Não. Somos assistência técnica: instalamos, consertamos e fazemos manutenção. Não vendemos peças nem equipamentos."
       ]
+    ],
+    "galleryCols": 3,
+    "galleryAspect": "4 / 3",
+    "galleryAlts": [
+      "Expositor de bebidas de várias portas em mercado",
+      "Dois expositores verticais de bebidas de porta de vidro",
+      "Expositor vertical de bebidas de porta de vidro"
     ]
   },
   "cervejeira": {
@@ -1043,8 +1062,6 @@
       "/assets/trab-cerv-3.webp",
       "/assets/trab-cerv-4.webp",
       "/assets/trab-cerv-5.webp",
-      "/assets/trab-cerv-6.webp",
-      "/assets/trab-cerv-7.webp",
       "/assets/trab-cerv-8.webp"
     ],
     "galleryFit": "cover",
@@ -1167,6 +1184,16 @@
         "Vale a pena consertar ou trocar a cervejeira?",
         "Depende do estado do compressor, do gabinete e do vidro. Na maioria dos casos a troca de compressor, a recarga de gás ou o reparo de degelo devolvem anos de uso por um custo bem menor que o de um equipamento novo. Você decide com o diagnóstico e o preço em mãos."
       ]
+    ],
+    "galleryCols": 3,
+    "galleryAspect": "4 / 3",
+    "galleryAlts": [
+      "Cervejeira preta de porta de vidro com adesivo de marca",
+      "Cervejeira azul de porta de vidro",
+      "Cervejeira verde de porta de vidro",
+      "Cervejeira vermelha de porta de vidro",
+      "Cervejeiras de porta de vidro lado a lado",
+      "Display de cervejeira marcando 7,9 graus negativos"
     ]
   },
   "balcao-refrigerado": {
@@ -1268,12 +1295,9 @@
       "/assets/trab-balcao-8.webp",
       "/assets/trab-balcao-3.webp",
       "/assets/trab-balcao-9.webp",
-      "/assets/trab-balcao-5.webp",
       "/assets/trab-balcao-1.webp",
       "/assets/trab-balcao-10.webp",
-      "/assets/trab-balcao-6.webp",
-      "/assets/trab-balcao-4.webp",
-      "/assets/trab-balcao-7.webp"
+      "/assets/trab-balcao-2.webp"
     ],
     "galleryCols": 3,
     "galleryFit": "cover",
@@ -1301,6 +1325,14 @@
         "Fazem contrato de manutenção para o balcão?",
         "Sim. O contrato de manutenção regular com visitas programadas é ideal para padarias e mercados que não podem ter parada, mantendo o balcão sempre no ponto e reduzindo emergências."
       ]
+    ],
+    "galleryAlts": [
+      "Balcão refrigerado expositor com vidro curvo e iluminação",
+      "Balcão refrigerado de açougue com carnes expostas",
+      "Balcão refrigerado vertical com base de madeira",
+      "Balcão refrigerado de saladas com cubas",
+      "Vitrine refrigerada de lanchonete com produtos",
+      "Balcão refrigerado de inox com três portas e estufa, em lanchonete"
     ]
   },
   "ilha-de-congelados": {
@@ -1418,15 +1450,19 @@
     "gallery": [
       "/assets/trab-ilha-1.webp",
       "/assets/trab-ilha-2.webp",
-      "/assets/trab-ilha-3.webp",
       "/assets/trab-ilha-4.webp"
     ],
-    "galleryCols": 2,
+    "galleryCols": 3,
     "galleryFit": "cover",
     "galleryTitle": "Ilhas de congelados que já atendemos",
     "galleryLead": "Ilhas de mercado e loja de conveniência atendidas por nós no Rio e Grande Rio.",
     "galleryAlt": "Ilha de congelados atendida pela Santos Refrigeração",
-    "galleryAspect": "4 / 3"
+    "galleryAspect": "4 / 3",
+    "galleryAlts": [
+      "Ilha de congelados com tampas de vidro em mercado",
+      "Ilha de congelados no corredor do mercado",
+      "Ilha de congelados com produtos e placas de preço"
+    ]
   },
   "ultra-freezer": {
     "slug": "ultra-freezer",
@@ -1442,11 +1478,9 @@
     "gallery": [
       "/assets/trab-uf-1.webp",
       "/assets/trab-uf-2.webp",
-      "/assets/trab-uf-3.webp",
-      "/assets/trab-uf-4.webp"
+      "/assets/trab-uf-3.webp"
     ],
     "galleryFit": "cover",
-    "galleryTrim": 9,
     "galleryTitle": "Equipamentos de ultra freezer que já atendemos",
     "galleryLead": "Equipamentos de clientes no Rio e Grande Rio, com a temperatura conferida no painel depois do serviço.",
     "galleryAlt": "Ultra freezer atendido pela Santos Refrigeração",
@@ -1530,6 +1564,14 @@
         "O alarme do equipamento disparou. É grave?",
         "O alarme sinaliza oscilação fora da faixa segura e deve ser tratado imediatamente. Atendemos com prioridade para identificar a causa — gás, compressão, controle ou vedação — e estabilizar a temperatura."
       ]
+    ],
+    "galleryCols": 3,
+    "galleryAspect": "4 / 3",
+    "galleryTrim": 9,
+    "galleryAlts": [
+      "Ultra freezer de inox em cozinha comercial",
+      "Display de ultra freezer marcando 30 graus negativos",
+      "Ultra freezer de inox com display digital"
     ]
   },
   "refresqueira": {
@@ -1647,10 +1689,18 @@
     ],
     "galleryCols": 3,
     "galleryFit": "cover",
-    "galleryAspect": "3 / 4",
+    "galleryAspect": "4 / 3",
     "galleryTitle": "Refresqueiras que já atendemos",
     "galleryLead": "Equipamentos de clientes no Rio e Grande Rio, fotografados depois do serviço.",
-    "galleryAlt": "Refresqueira atendida pela Santos Refrigeração"
+    "galleryAlt": "Refresqueira atendida pela Santos Refrigeração",
+    "galleryAlts": [
+      "Refresqueira de dois reservatórios",
+      "Refresqueira com suco de guaraná e açaí",
+      "Refresqueira com suco nos dois reservatórios",
+      "Refresqueira com torneiras verdes no balcão",
+      "Refresqueira de dois reservatórios vazia, depois do serviço",
+      "Refresqueira vista de lado, com os reservatórios vazios"
+    ]
   },
   "adega-vinhos": {
     "slug": "adega-vinhos",
@@ -1764,7 +1814,6 @@
     "gallery": [
       "/assets/trab-mg-1.webp",
       "/assets/trab-mg-2.webp",
-      "/assets/trab-mg-3.webp",
       "/assets/trab-mg-4.webp"
     ],
     "galleryTitle": "Serviços de máquina de gelo que já executamos",
@@ -1772,7 +1821,6 @@
     "galleryAlt": "Manutenção de máquina de gelo pela Santos Refrigeração",
     "galleryAspect": "4 / 3",
     "galleryFit": "cover",
-    "galleryTrim": 9,
     "servicesTitle": "Conserto de máquina de gelo: refrigeração, água e ciclo de produção",
     "intro": [
       "A máquina de gelo depende de três sistemas em harmonia: refrigeração, água e ciclo de produção/colheita. A qualidade da água e a limpeza interna afetam diretamente o formato e a transparência do gelo. Fazemos a instalação com avaliação do ponto de água e energia e a regulagem do ciclo de produção.",
@@ -1866,6 +1914,13 @@
         "O gelo está com gosto ou turvo. O que fazer?",
         "Normalmente é a qualidade da água ou o filtro saturado. Fazemos a higienização do sistema e a troca do filtro, deixando o gelo transparente e sem sabor."
       ]
+    ],
+    "galleryCols": 3,
+    "galleryTrim": 9,
+    "galleryAlts": [
+      "Máquina de gelo de inox em funcionamento",
+      "Máquina de gelo aberta durante o conserto",
+      "Depósito de gelo de máquina de gelo com gelo pronto"
     ]
   },
   "tubulacao-ar-condicionado": {
@@ -1991,7 +2046,7 @@
       ]
     ],
     "gallery": [],
-    "galleryCols": 2,
+    "galleryCols": 3,
     "galleryFit": "cover",
     "galleryTitle": "Ar condicionado que atendemos",
     "galleryLead": "Aparelhos piso-teto e split instalados e mantidos por nós, com tubulação embutida e drenagem conferida.",
@@ -2128,12 +2183,20 @@
       "/assets/trab-ac-9.webp",
       "/assets/trab-ac-10.webp"
     ],
-    "galleryCols": 2,
+    "galleryCols": 3,
     "galleryFit": "cover",
     "galleryTitle": "Higienização de ar condicionado que já fizemos",
     "galleryLead": "Cassete de comércio no Rio: turbina e bandeja antes e depois da limpeza, serpentina lavada e 3,8 °C medidos na saída de ar ao final.",
     "galleryAlt": "Higienização de ar condicionado cassete em comércio pela Santos Refrigeração",
-    "galleryAspect": "4 / 3"
+    "galleryAspect": "4 / 3",
+    "galleryAlts": [
+      "Turbina de ar condicionado cassete vista por baixo, com sujeira acumulada",
+      "Turbina de ar condicionado cassete removida para lavagem",
+      "Moldura de ar condicionado cassete com sujeira escura antes da higienização",
+      "Moldura de ar condicionado cassete depois da limpeza",
+      "Ar condicionado cassete aberto no teto, sem a turbina, durante a higienização",
+      "Termômetro medindo a temperatura do ar na saída do ar condicionado"
+    ]
   },
   "tecnico-refrigeracao-comercial": {
     "slug": "tecnico-refrigeracao-comercial",
@@ -2351,15 +2414,19 @@
     "gallery": [
       "/assets/trab-cf-1.webp",
       "/assets/trab-ch-assepsia-1.webp",
-      "/assets/trab-mg-1.webp",
-      "/assets/trab-uf-1.webp",
       "/assets/trab-gex-1.webp"
     ],
     "galleryTitle": "Serviços de refrigeração comercial que já executamos",
     "galleryLead": "Câmara fria, chopeira, geladeira, máquina de gelo, ultra freezer e expositor de clientes no Rio e Grande Rio.",
     "galleryAlt": "Serviço de refrigeração comercial pela Santos Refrigeração",
-    "galleryCols": 2,
-    "galleryFit": "cover"
+    "galleryCols": 3,
+    "galleryFit": "cover",
+    "galleryAspect": "4 / 3",
+    "galleryAlts": [
+      "Câmara fria em operação numa loja no Rio de Janeiro",
+      "Torre de chopeira com bandeja de inox",
+      "Expositor de bebidas de várias portas em mercado"
+    ]
   },
   "instalacao-ar-condicionado": {
     "slug": "instalacao-ar-condicionado",
@@ -2484,7 +2551,7 @@
       ]
     ],
     "gallery": [],
-    "galleryCols": 2,
+    "galleryCols": 3,
     "galleryFit": "cover",
     "galleryTitle": "Instalações de ar condicionado que já fizemos",
     "galleryLead": "Aparelhos piso-teto e split instalados e mantidos por nós em comércios no Rio e Grande Rio.",
@@ -2627,16 +2694,20 @@
     ],
     "gallery": [
       "/assets/trab-ac-11.webp",
-      "/assets/trab-ac-12.webp",
-      "/assets/trab-ac-10.webp",
-      "/assets/trab-ac-13.webp"
+      "/assets/trab-ac-13.webp",
+      "/assets/trab-ac-4.webp"
     ],
-    "galleryCols": 2,
+    "galleryCols": 3,
     "galleryAspect": "4 / 3",
     "galleryFit": "cover",
     "galleryTitle": "Manutenções de ar condicionado que já executamos",
     "galleryLead": "Aparelhos cassete e piso-teto de clientes no Rio e Grande Rio, abertos para manutenção durante o atendimento e remontados com teste de temperatura.",
-    "galleryAlt": "Manutenção de ar condicionado cassete e piso-teto em comércio pela Santos Refrigeração"
+    "galleryAlt": "Manutenção de ar condicionado cassete e piso-teto em comércio pela Santos Refrigeração",
+    "galleryAlts": [
+      "Ar condicionado cassete aberto, com placa eletrônica e ventilador à mostra",
+      "Ar condicionado cassete montado no teto depois da manutenção",
+      "Unidade de ar condicionado com a grade de ventilação à mostra"
+    ]
   },
   "conserto-de-geladeira": {
     "slug": "conserto-de-geladeira",
@@ -2783,7 +2854,7 @@
     "galleryTitle": "Geladeiras que já consertamos",
     "galleryLead": "Equipamentos de clientes no Rio e Grande Rio, fotografados depois do conserto.",
     "galleryAlt": "Conserto de geladeira comercial pela Santos Refrigeração",
-    "galleryCols": 2,
+    "galleryCols": 3,
     "galleryFit": "cover",
     "galleryAspect": "4 / 3"
   },
@@ -2942,14 +3013,18 @@
     "gallery": [
       "/assets/trab-cf-1.webp",
       "/assets/trab-ch-assepsia-1.webp",
-      "/assets/trab-mg-1.webp",
-      "/assets/trab-uf-1.webp",
       "/assets/trab-gex-1.webp"
     ],
     "galleryTitle": "Atendimentos que já fizemos na região",
     "galleryLead": "Equipamentos de comércios atendidos a partir da nossa oficina em Cascadura.",
     "galleryAlt": "Refrigeração comercial em Cascadura pela Santos Refrigeração",
-    "galleryCols": 2,
-    "galleryFit": "cover"
+    "galleryCols": 3,
+    "galleryFit": "cover",
+    "galleryAspect": "4 / 3",
+    "galleryAlts": [
+      "Câmara fria em operação numa loja no Rio de Janeiro",
+      "Torre de chopeira com bandeja de inox",
+      "Expositor de bebidas de várias portas em mercado"
+    ]
   }
 }
