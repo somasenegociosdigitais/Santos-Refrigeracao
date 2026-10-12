@@ -861,7 +861,7 @@
         "Gaxeta ressecada deixa o frio escapar e força o motor."
       ]
     ],
-    "ctaTitle": "Geladeira comercial parada? Fale conosco agora.",
+    "ctaTitle": "Mais de uma geladeira no negócio? Agende a preventiva.",
     "waMessage": "Olá! Preciso de atendimento para GELADEIRA COMERCIAL. Vou descrever o que está acontecendo com o equipamento e gostaria de agendar o diagnóstico.",
     "faqTitle": "Dúvidas sobre geladeira comercial",
     "emergency": "Geladeira comercial parada gera prejuízo por hora — mercadoria em risco e operação travada. Para geladeira comercial e sistemas que não podem parar, atendemos fora do horário comercial. Ligue e avaliamos na hora.",
@@ -891,20 +891,13 @@
         "Sim, é a linha que atendemos em maior volume. O serviço tem página própria, com as marcas e as fotos dos equipamentos: <a href=\"/expositor-de-bebidas.html\">conserto de expositor de bebidas e cervejeira</a>."
       ]
     ],
-    "gallery": [
-      "/assets/trab-gcom-1.webp",
-      "/assets/trab-gcom-3.webp"
-    ],
+    "gallery": [],
     "galleryCols": 2,
     "galleryFit": "cover",
     "galleryTitle": "Geladeiras comerciais que já atendemos",
     "galleryLead": "Equipamentos de clientes no Rio e Grande Rio, fotografados no ponto de venda depois do serviço.",
     "galleryAlt": "Geladeira comercial atendida pela Santos Refrigeração",
-    "galleryAspect": "4 / 3",
-    "galleryAlts": [
-      "Geladeira comercial de cinco portas de vidro na seção de frios e laticínios",
-      "Geladeira comercial de portas de vidro vista por dentro, com prateleiras aramadas"
-    ]
+    "galleryAspect": "4 / 3"
   },
   "expositor-de-bebidas": {
     "slug": "expositor-de-bebidas",
@@ -2058,7 +2051,7 @@
     "title": "Higienização de ar condicionado",
     "icon": "spray-can",
     "eyebrow": "Higienização de ar condicionado",
-    "metaTitle": "Limpeza e higienização de ar condicionado no Rio",
+    "metaTitle": "Higienização de ar condicionado no Rio de Janeiro",
     "metaDescription": "Limpeza e higienização de ar condicionado no Rio e Grande Rio: filtro, serpentina e turbina. Comércio, escritório e residência. Sem automotivo.",
     "heroTitle": "Higienização de ar condicionado no Rio de Janeiro e Grande Rio",
     "highlight": "higienização",
@@ -2715,7 +2708,7 @@
     "icon": "refrigerator",
     "eyebrow": "Conserto de geladeira",
     "metaTitle": "Conserto de geladeira no Rio de Janeiro",
-    "metaDescription": "Conserto de geladeira, refrigerador e frigobar no Rio e Grande Rio, com foco em comercial e industrial. Residencial com visita de diagnóstico de R$ 100.",
+    "metaDescription": "Conserto de geladeira, refrigerador e frigobar no Rio e Grande Rio. Técnico no local, diagnóstico com medição e preço fechado antes de aprovar.",
     "heroTitle": "Conserto de geladeira no Rio de Janeiro e Grande Rio",
     "highlight": "geladeira",
     "heroLead": "Geladeira que não gela, gela demais, faz ruído ou junta água embaixo da gaveta. Fazemos o conserto e a manutenção de geladeira, refrigerador e frigobar em todo o Rio de Janeiro e Grande Rio, sempre no local e com diagnóstico antes de qualquer troca de peça. Em equipamento comercial e industrial o orçamento é sem compromisso; em geladeira residencial a visita de diagnóstico é de R$ 100, cobrados apenas se você não aprovar o reparo.",
@@ -2749,7 +2742,7 @@
     ],
     "sections": [
       {
-        "title": "Como funciona a visita, no comercial e no residencial",
+        "title": "Visita de diagnóstico: quando é cobrada",
         "body": [
           "Em equipamento comercial e industrial a visita é sem compromisso: o técnico vai até o local, faz o diagnóstico com medição e apresenta o preço fechado, e você decide sem pagar nada por isso. É o nosso foco de trabalho e o atendimento é organizado em torno dele.",
           "Em geladeira residencial a visita de diagnóstico é de R$ 100, informados antes do agendamento — e cobrados apenas se você não fizer o serviço. Aprovando o reparo, a visita não é cobrada. O motivo de existir é simples: o deslocamento e a hora do técnico têm o mesmo custo nos dois casos, e sem isso o atendimento doméstico não se sustenta.",
@@ -2757,7 +2750,7 @@
         ]
       },
       {
-        "title": "Geladeira comercial: página própria",
+        "title": "Manutenção programada e contrato: página própria",
         "body": [
           "Expositor, refrigerador de quatro e seis portas, geladeira de padaria e de açougue têm atendimento próprio, com manutenção preventiva e contrato para vários equipamentos. Os detalhes estão na página de <a href=\"/geladeira-comercial.html\">geladeira comercial</a>."
         ]
@@ -2817,8 +2810,8 @@
         "Perda de eficiência: condensador sujo, vedação ou carga de gás."
       ]
     ],
-    "ctaTitle": "Geladeira com defeito? Fale conosco agora.",
-    "waMessage": "Olá! Preciso de CONSERTO DE GELADEIRA COMERCIAL. Vou descrever o que está acontecendo com o equipamento e gostaria de agendar o diagnóstico.",
+    "ctaTitle": "Geladeira sem gelar? Chame o técnico agora.",
+    "waMessage": "Olá! Preciso de CONSERTO DE GELADEIRA. Vou descrever o que está acontecendo com o equipamento e gostaria de agendar o diagnóstico.",
     "faqTitle": "Dúvidas sobre conserto de geladeira",
     "faq": [
       [
@@ -2850,13 +2843,22 @@
         "Sim. Freezer vertical e horizontal de uso comercial, além de ultra freezer e equipamentos de baixa temperatura — veja a página de <a href=\"/ultra-freezer.html\">ultra freezer</a> para operações que trabalham abaixo de -40 °C."
       ]
     ],
-    "gallery": [],
+    "gallery": [
+      "/assets/trab-gcom-1.webp",
+      "/assets/trab-gcom-2.webp",
+      "/assets/trab-gcom-3.webp"
+    ],
     "galleryTitle": "Geladeiras que já consertamos",
     "galleryLead": "Equipamentos de clientes no Rio e Grande Rio, fotografados depois do conserto.",
-    "galleryAlt": "Conserto de geladeira comercial pela Santos Refrigeração",
+    "galleryAlt": "Geladeira consertada pela Santos Refrigeração",
     "galleryCols": 3,
     "galleryFit": "cover",
-    "galleryAspect": "4 / 3"
+    "galleryAspect": "4 / 3",
+    "galleryAlts": [
+      "Geladeira de cinco portas de vidro na seção de frios e laticínios, depois do conserto",
+      "Refrigerador inox de duas portas em restaurante, depois do conserto",
+      "Geladeira de portas de vidro vista por dentro, com prateleiras aramadas"
+    ]
   },
   "refrigeracao-cascadura": {
     "slug": "refrigeracao-cascadura",
