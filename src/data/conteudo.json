@@ -123,6 +123,10 @@
       [
         "Vocês fazem conserto de câmara frigorífica?",
         "Sim. Câmara fria e câmara frigorífica são o mesmo equipamento, e atendemos os dois termos: conserto, manutenção preventiva e montagem nova. Trabalhamos com câmara de resfriados e de congelados em açougue, mercado, restaurante, padaria, frigorífico e distribuidora, no Rio e Grande Rio. O diagnóstico é feito com medição e o preço é informado antes da aprovação."
+      ],
+      [
+        "Vocês cobram pela visita?",
+        "Em equipamento comercial e industrial, não. O técnico vai até o local, avalia e passa o preço fechado antes de executar."
       ]
     ],
     "gallery": [
@@ -140,7 +144,8 @@
       "Evaporador de quatro ventiladores no teto de câmara fria com mercadoria estocada",
       "Evaporador de dois ventiladores no teto de câmara fria",
       "Quadro de comando de câmara fria com controle de degelo"
-    ]
+    ],
+    "visitaSemCusto": true
   },
   "instalacao-de-camara-fria": {
     "slug": "instalacao-de-camara-fria",
@@ -239,6 +244,10 @@
       [
         "Quanto tempo demora?",
         "Varia com o porte e com as adequações necessárias no local. O prazo entra no orçamento."
+      ],
+      [
+        "Vocês cobram pela visita?",
+        "Em equipamento comercial e industrial, não. O técnico vai até o local, avalia e passa o preço fechado antes de executar."
       ]
     ],
     "gallery": [
@@ -256,7 +265,8 @@
       "Câmara fria branca em operação numa loja no Rio de Janeiro",
       "Porta de câmara fria fechada, vista de fora",
       "Câmara fria vazia vista por dentro, com o evaporador ao fundo"
-    ]
+    ],
+    "visitaSemCusto": true
   },
   "chopeiras": {
     "slug": "chopeiras",
@@ -370,6 +380,10 @@
       [
         "Quanto custa consertar uma chopeira?",
         "Depende do defeito. Regulagem de pressão, troca de torneira ou de vedação custa pouco e costuma sair na primeira visita. Troca de compressor ou de serpentina é o conserto mais caro, e aí vale comparar com o valor do equipamento. Em todos os casos o técnico faz o diagnóstico no local e passa o preço fechado antes de começar — se o conserto não compensar, dizemos isso também."
+      ],
+      [
+        "Vocês cobram pela visita?",
+        "Em equipamento comercial e industrial, não. O técnico vai até o local, avalia e passa o preço fechado antes de executar."
       ]
     ],
     "sections": [
@@ -397,7 +411,8 @@
       "Torre de chope de duas vias tipo coluna em inox",
       "Chopeira elétrica de duas torneiras em gabinete de inox"
     ],
-    "galleryAspect": "4 / 3"
+    "galleryAspect": "4 / 3",
+    "visitaSemCusto": true
   },
   "assepsia-de-chopeira": {
     "slug": "assepsia-de-chopeira",
@@ -510,6 +525,10 @@
       [
         "Vocês fazem assepsia em chopeira de comodato da cervejaria?",
         "Sim. Fazemos a assepsia no equipamento que está no bar, inclusive quando a chopeira veio da cervejaria em comodato."
+      ],
+      [
+        "Vocês cobram pela visita?",
+        "Em equipamento comercial e industrial, não. O técnico vai até o local, avalia e passa o preço fechado antes de executar."
       ]
     ],
     "galleryAspect": "4 / 3",
@@ -517,7 +536,8 @@
       "Torre de chopeira com bandeja de inox depois da assepsia",
       "Equipamento de assepsia ligado à chopeira com mangueira",
       "Chopeira em processo de assepsia no balcão do bar"
-    ]
+    ],
+    "visitaSemCusto": true
   },
   "gela-caneca": {
     "slug": "gela-caneca",
@@ -613,6 +633,10 @@
       [
         "Vocês instalam gela caneca novo?",
         "Sim. Fazemos a instalação com nivelamento correto, avaliação do ponto elétrico e regulagem inicial da temperatura, deixando o equipamento pronto para operar com a camada de gelo no ponto."
+      ],
+      [
+        "Vocês cobram pela visita?",
+        "Em equipamento comercial e industrial, não. O técnico vai até o local, avalia e passa o preço fechado antes de executar."
       ]
     ],
     "galleryCols": 3,
@@ -622,7 +646,8 @@
       "Gela caneca de inox com display digital",
       "Gela caneca marcando 15 graus negativos no display",
       "Gela caneca marcando 18 graus negativos, instalado em bar"
-    ]
+    ],
+    "visitaSemCusto": true
   },
   "ar-condicionado": {
     "slug": "ar-condicionado",
@@ -889,6 +914,10 @@
       [
         "Vocês consertam expositor de bebidas e cervejeira?",
         "Sim, é a linha que atendemos em maior volume. O serviço tem página própria, com as marcas e as fotos dos equipamentos: <a href=\"/expositor-de-bebidas.html\">conserto de expositor de bebidas e cervejeira</a>."
+      ],
+      [
+        "Vocês cobram pela visita?",
+        "Em equipamento comercial e industrial, não. O técnico vai até o local, avalia e passa o preço fechado antes de executar."
       ]
     ],
     "gallery": [],
@@ -897,7 +926,8 @@
     "galleryTitle": "Geladeiras comerciais que já atendemos",
     "galleryLead": "Equipamentos de clientes no Rio e Grande Rio, fotografados no ponto de venda depois do serviço.",
     "galleryAlt": "Geladeira comercial atendida pela Santos Refrigeração",
-    "galleryAspect": "4 / 3"
+    "galleryAspect": "4 / 3",
+    "visitaSemCusto": true
   },
   "expositor-de-bebidas": {
     "slug": "expositor-de-bebidas",
@@ -1028,6 +1058,10 @@
       [
         "Vocês vendem expositor de bebidas ou peças?",
         "Não. Somos assistência técnica: instalamos, consertamos e fazemos manutenção. Não vendemos peças nem equipamentos."
+      ],
+      [
+        "Vocês cobram pela visita?",
+        "Em equipamento comercial e industrial, não. O técnico vai até o local, avalia e passa o preço fechado antes de executar."
       ]
     ],
     "galleryCols": 3,
@@ -1036,7 +1070,8 @@
       "Expositor de bebidas de várias portas em mercado",
       "Dois expositores verticais de bebidas de porta de vidro",
       "Expositor vertical de bebidas de porta de vidro"
-    ]
+    ],
+    "visitaSemCusto": true
   },
   "cervejeira": {
     "slug": "cervejeira",
@@ -1176,6 +1211,10 @@
       [
         "Vale a pena consertar ou trocar a cervejeira?",
         "Depende do estado do compressor, do gabinete e do vidro. Na maioria dos casos a troca de compressor, a recarga de gás ou o reparo de degelo devolvem anos de uso por um custo bem menor que o de um equipamento novo. Você decide com o diagnóstico e o preço em mãos."
+      ],
+      [
+        "Vocês cobram pela visita?",
+        "Em equipamento comercial e industrial, não. O técnico vai até o local, avalia e passa o preço fechado antes de executar."
       ]
     ],
     "galleryCols": 3,
@@ -1187,7 +1226,8 @@
       "Cervejeira vermelha de porta de vidro",
       "Cervejeiras de porta de vidro lado a lado",
       "Display de cervejeira marcando 7,9 graus negativos"
-    ]
+    ],
+    "visitaSemCusto": true
   },
   "balcao-refrigerado": {
     "slug": "balcao-refrigerado",
@@ -1317,6 +1357,10 @@
       [
         "Fazem contrato de manutenção para o balcão?",
         "Sim. O contrato de manutenção regular com visitas programadas é ideal para padarias e mercados que não podem ter parada, mantendo o balcão sempre no ponto e reduzindo emergências."
+      ],
+      [
+        "Vocês cobram pela visita?",
+        "Em equipamento comercial e industrial, não. O técnico vai até o local, avalia e passa o preço fechado antes de executar."
       ]
     ],
     "galleryAlts": [
@@ -1326,7 +1370,8 @@
       "Balcão refrigerado de saladas com cubas",
       "Vitrine refrigerada de lanchonete com produtos",
       "Balcão refrigerado de inox com três portas e estufa, em lanchonete"
-    ]
+    ],
+    "visitaSemCusto": true
   },
   "ilha-de-congelados": {
     "slug": "ilha-de-congelados",
@@ -1421,6 +1466,10 @@
       [
         "Vocês instalam ilha nova?",
         "Sim. Fazemos a instalação com nivelamento, avaliação do ponto elétrico e regulagem inicial, deixando o equipamento pronto para conservar os congelados."
+      ],
+      [
+        "Vocês cobram pela visita?",
+        "Em equipamento comercial e industrial, não. O técnico vai até o local, avalia e passa o preço fechado antes de executar."
       ]
     ],
     "sections": [
@@ -1455,7 +1504,8 @@
       "Ilha de congelados com tampas de vidro em mercado",
       "Ilha de congelados no corredor do mercado",
       "Ilha de congelados com produtos e placas de preço"
-    ]
+    ],
+    "visitaSemCusto": true
   },
   "ultra-freezer": {
     "slug": "ultra-freezer",
@@ -1556,6 +1606,10 @@
       [
         "O alarme do equipamento disparou. É grave?",
         "O alarme sinaliza oscilação fora da faixa segura e deve ser tratado imediatamente. Atendemos com prioridade para identificar a causa — gás, compressão, controle ou vedação — e estabilizar a temperatura."
+      ],
+      [
+        "Vocês cobram pela visita?",
+        "Em equipamento comercial e industrial, não. O técnico vai até o local, avalia e passa o preço fechado antes de executar."
       ]
     ],
     "galleryCols": 3,
@@ -1565,7 +1619,8 @@
       "Ultra freezer de inox em cozinha comercial",
       "Display de ultra freezer marcando 30 graus negativos",
       "Ultra freezer de inox com display digital"
-    ]
+    ],
+    "visitaSemCusto": true
   },
   "refresqueira": {
     "slug": "refresqueira",
@@ -1670,6 +1725,10 @@
       [
         "Vocês atendem eventos?",
         "Sim. Atendemos lanchonetes, padarias, comércios e eventos. Fazemos instalação, manutenção e conserto para o equipamento não falhar justamente no dia de maior movimento."
+      ],
+      [
+        "Vocês cobram pela visita?",
+        "Em equipamento comercial e industrial, não. O técnico vai até o local, avalia e passa o preço fechado antes de executar."
       ]
     ],
     "gallery": [
@@ -1693,7 +1752,8 @@
       "Refresqueira com torneiras verdes no balcão",
       "Refresqueira de dois reservatórios vazia, depois do serviço",
       "Refresqueira vista de lado, com os reservatórios vazios"
-    ]
+    ],
+    "visitaSemCusto": true
   },
   "adega-vinhos": {
     "slug": "adega-vinhos",
@@ -1780,6 +1840,10 @@
       [
         "Vocês instalam e atendem adega residencial também?",
         "Sim. Atendemos adegas comerciais (restaurantes, bares, adegas) e residenciais, de garrafeiras a expositores de grande capacidade, com instalação nivelada, regulagem e garantia no serviço."
+      ],
+      [
+        "Vocês cobram pela visita?",
+        "Em equipamento comercial e industrial, não. O técnico vai até o local, avalia e passa o preço fechado antes de executar."
       ]
     ],
     "sections": [
@@ -1791,7 +1855,8 @@
           "<strong>Não vendemos adega.</strong> Instalamos, fazemos manutenção e consertamos os dois tipos — inclusive a troca de módulo termoelétrico, que muita assistência recusa."
         ]
       }
-    ]
+    ],
+    "visitaSemCusto": true
   },
   "maquina-de-gelo": {
     "slug": "maquina-de-gelo",
@@ -1906,6 +1971,10 @@
       [
         "O gelo está com gosto ou turvo. O que fazer?",
         "Normalmente é a qualidade da água ou o filtro saturado. Fazemos a higienização do sistema e a troca do filtro, deixando o gelo transparente e sem sabor."
+      ],
+      [
+        "Vocês cobram pela visita?",
+        "Em equipamento comercial e industrial, não. O técnico vai até o local, avalia e passa o preço fechado antes de executar."
       ]
     ],
     "galleryCols": 3,
@@ -1914,7 +1983,8 @@
       "Máquina de gelo de inox em funcionamento",
       "Máquina de gelo aberta durante o conserto",
       "Depósito de gelo de máquina de gelo com gelo pronto"
-    ]
+    ],
+    "visitaSemCusto": true
   },
   "tubulacao-ar-condicionado": {
     "slug": "tubulacao-ar-condicionado",
@@ -2384,8 +2454,8 @@
         "Sim. Atendemos equipamentos comerciais e industriais de refrigeração de diversas marcas e modelos, inclusive os fora de linha e sem assistência autorizada na região, conforme a viabilidade técnica e a disponibilidade de peça. O que define o reparo é o sistema — compressor, condensador, evaporador, gás e controle — não o fabricante."
       ],
       [
-        "Quanto custa a visita técnica?",
-        "Cobramos a visita de diagnóstico, e o valor é abatido do serviço caso o reparo seja aprovado. Passamos o valor no primeiro contato, antes de agendar. Parte dos casos se resolve na própria triagem por WhatsApp, sem visita."
+        "Vocês cobram pela visita?",
+        "Em equipamento comercial e industrial, não. O técnico vai até o local, avalia e passa o preço fechado antes de executar."
       ],
       [
         "Em quanto tempo vocês atendem?",
@@ -2419,7 +2489,8 @@
       "Câmara fria em operação numa loja no Rio de Janeiro",
       "Torre de chopeira com bandeja de inox",
       "Expositor de bebidas de várias portas em mercado"
-    ]
+    ],
+    "visitaSemCusto": true
   },
   "instalacao-ar-condicionado": {
     "slug": "instalacao-ar-condicionado",
@@ -2711,14 +2782,14 @@
     "metaDescription": "Conserto de geladeira, refrigerador e frigobar no Rio e Grande Rio. Técnico no local, diagnóstico com medição e preço fechado antes de aprovar.",
     "heroTitle": "Conserto de geladeira no Rio de Janeiro e Grande Rio",
     "highlight": "geladeira",
-    "heroLead": "Geladeira que não gela, gela demais, faz ruído ou junta água embaixo da gaveta. Fazemos o conserto e a manutenção de geladeira, refrigerador e frigobar em todo o Rio de Janeiro e Grande Rio, sempre no local e com diagnóstico antes de qualquer troca de peça. Em equipamento comercial e industrial o orçamento é sem compromisso; em geladeira residencial a visita de diagnóstico é de R$ 100, cobrados apenas se você não aprovar o reparo.",
+    "heroLead": "Geladeira que não gela, gela demais, faz ruído ou junta água embaixo da gaveta. Fazemos o conserto e a manutenção de geladeira, refrigerador e frigobar em todo o Rio de Janeiro e Grande Rio, sempre no local e com diagnóstico antes de qualquer troca de peça. Em equipamento comercial e industrial a visita é sem custo. Nas geladeiras residenciais, a taxa de visita para diagnóstico não é cobrada quando o reparo é aprovado. Caso opte por não realizar o serviço, o valor da visita será de R$ 100.",
     "heroImageLabel": "Conserto de geladeira — Santos Refrigeração",
     "servicesTitle": "Conserto de geladeira com diagnóstico e preço fechado",
     "intro": [
       "Geladeira parada em comércio é estoque em risco por hora. Por isso o atendimento é organizado para resolver na primeira visita: o técnico chega com instrumento de medição e as peças de reposição mais comuns, faz o diagnóstico no local e executa o reparo na mesma ida, quando não depende de componente específico.",
       "Nosso foco é geladeira, refrigerador e frigobar de uso comercial e industrial — expositor de bebidas, refrigerador de quatro e seis portas, geladeira de padaria e de açougue, freezer de operação contínua e frigobar de hotel e pousada. Também atendemos geladeira residencial, com a mesma visita de diagnóstico paga. Os defeitos mais frequentes são compressor sem partida, gás baixo por vazamento, degelo travado, termostato ou sensor com defeito, placa eletrônica queimada e dreno obstruído — cada um com sintoma parecido e causa distinta.",
       "Trabalhamos com medição de pressão e corrente para separar uma causa da outra, em vez de trocar peça por tentativa. Você recebe o diagnóstico e o preço fechado antes de autorizar, e todo serviço tem garantia. Quando o reparo não compensa diante da idade do equipamento, dizemos isso.",
-      "Também atendemos quem busca técnico de geladeira ou assistência técnica de refrigerador. No comercial, o diagnóstico é grátis com o serviço; no residencial, a visita de diagnóstico custa R$ 100, abatidos do reparo."
+      "Também atendemos quem busca técnico de geladeira ou assistência técnica de refrigerador. No comercial e no industrial, a visita é sem custo. Nas geladeiras residenciais, a taxa de visita para diagnóstico não é cobrada quando o reparo é aprovado. Caso opte por não realizar o serviço, o valor da visita será de R$ 100."
     ],
     "servicesListTitle": "Nossos serviços",
     "services": [
@@ -2745,14 +2816,15 @@
         "title": "Visita de diagnóstico: quando é cobrada",
         "body": [
           "Em equipamento comercial e industrial a visita é sem compromisso: o técnico vai até o local, faz o diagnóstico com medição e apresenta o preço fechado, e você decide sem pagar nada por isso. É o nosso foco de trabalho e o atendimento é organizado em torno dele.",
-          "Em geladeira residencial a visita de diagnóstico é de R$ 100, informados antes do agendamento — e cobrados apenas se você não fizer o serviço. Aprovando o reparo, a visita não é cobrada. O motivo de existir é simples: o deslocamento e a hora do técnico têm o mesmo custo nos dois casos, e sem isso o atendimento doméstico não se sustenta.",
+          "Nas geladeiras residenciais, a taxa de visita para diagnóstico não é cobrada quando o reparo é aprovado. Caso opte por não realizar o serviço, o valor da visita será de R$ 100. O valor é informado antes do agendamento.",
           "Nos dois casos o diagnóstico é feito com instrumento: pressão de alta e baixa, superaquecimento e corrente do compressor. É o que separa gás baixo de condensador sujo, e termostato de compressor com desgaste. Não damos preço por telefone sem ver o equipamento — o mesmo sintoma tem causas de custo muito diferente."
         ]
       },
       {
-        "title": "Manutenção programada e contrato: página própria",
+        "title": "Conserto de geladeira residencial",
         "body": [
-          "Expositor, refrigerador de quatro e seis portas, geladeira de padaria e de açougue têm atendimento próprio, com manutenção preventiva e contrato para vários equipamentos. Os detalhes estão na página de <a href=\"/geladeira-comercial.html\">geladeira comercial</a>."
+          "Geladeira, refrigerador e frigobar residencial recebem o mesmo diagnóstico com medição usado no comercial. Nas geladeiras residenciais, a taxa de visita para diagnóstico não é cobrada quando o reparo é aprovado. Caso opte por não realizar o serviço, o valor da visita será de R$ 100.",
+          "Para geladeira e refrigerador de uso comercial, veja a página de <a href=\"/geladeira-comercial.html\">conserto de geladeira comercial</a>."
         ]
       },
       {
@@ -2816,11 +2888,11 @@
     "faq": [
       [
         "Vocês consertam geladeira residencial e frigobar?",
-        "Sim. O nosso foco é equipamento comercial e industrial — mercado, padaria, açougue, restaurante, bar, distribuidora, hotel e pousada —, e nesses casos o orçamento é sem compromisso. Geladeira residencial e frigobar também atendemos: a visita de diagnóstico é de R$ 100, cobrados apenas se você não aprovar o reparo. Fazendo o serviço, a visita não é cobrada. Se você está pedindo orçamento a várias empresas só para comparar preço, vale saber disso antes — aqui o diagnóstico é feito com medição, não por estimativa."
+        "Sim. O foco da Santos é equipamento comercial e industrial — mercado, padaria, açougue, restaurante, bar, distribuidora, hotel e pousada —, e nesses casos a visita é sem custo. Também atendemos geladeira residencial e frigobar. Nas geladeiras residenciais, a taxa de visita para diagnóstico não é cobrada quando o reparo é aprovado. Caso opte por não realizar o serviço, o valor da visita será de R$ 100. O diagnóstico é sempre feito com medição, não por estimativa."
       ],
       [
         "A visita é cobrada?",
-        "Em equipamento comercial e industrial, não: orçamento sem compromisso. Em geladeira residencial, a visita é de R$ 100, e só é cobrada se você não fizer o serviço — aprovando o reparo, ela não entra na conta. Chame no WhatsApp descrevendo o equipamento e o sintoma que já agendamos."
+        "Em equipamento comercial e industrial, não. Nas geladeiras residenciais, a taxa de visita para diagnóstico não é cobrada quando o reparo é aprovado. Caso opte por não realizar o serviço, o valor da visita será de R$ 100. Chame no WhatsApp descrevendo o equipamento e o sintoma, e agendamos."
       ],
       [
         "A geladeira não está gelando. O que pode ser?",
@@ -3009,7 +3081,11 @@
       ],
       [
         "Vocês atendem geladeira residencial?",
-        "Sim, embora o foco seja comercial e industrial. Em residencial o atendimento começa por uma visita de diagnóstico de R$ 100, abatida do valor se você aprovar o serviço."
+        "Sim, embora o foco seja comercial e industrial. Nas geladeiras residenciais, a taxa de visita para diagnóstico não é cobrada quando o reparo é aprovado. Caso opte por não realizar o serviço, o valor da visita será de R$ 100."
+      ],
+      [
+        "Vocês cobram pela visita?",
+        "Em equipamento comercial e industrial, não. O técnico vai até o local, avalia e passa o preço fechado antes de executar."
       ]
     ],
     "gallery": [
@@ -3027,6 +3103,7 @@
       "Câmara fria em operação numa loja no Rio de Janeiro",
       "Torre de chopeira com bandeja de inox",
       "Expositor de bebidas de várias portas em mercado"
-    ]
+    ],
+    "visitaSemCusto": true
   }
 }

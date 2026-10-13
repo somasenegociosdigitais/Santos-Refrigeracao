@@ -62,6 +62,7 @@ const paragrafoElos = (elos.length === 1 ? elos[0] : elos.slice(0, -1).join(', '
 <a href={zap} target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:var(--color-whatsapp);color:var(--white);font-family:var(--font-body);font-weight:700;font-size:var(--fs-base);padding:14px 24px;border-radius:var(--radius-md);text-decoration:none"><Icone nome="message-circle" tam={20} />Peça seu orçamento</a>
 <a href={'tel:' + NEGOCIO.telefoneE164} style="display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,0.12);border:1px solid rgba(255,255,255,0.3);color:var(--white);font-family:var(--font-body);font-weight:700;font-size:var(--fs-base);padding:14px 24px;border-radius:var(--radius-md);text-decoration:none"><Icone nome="phone" tam={18} />{NEGOCIO.telefone}</a>
 </div>
+{d.visitaSemCusto && (<p style="display:inline-flex;align-items:center;gap:8px;font-size:var(--fs-sm);font-weight:600;color:rgba(255,255,255,0.9);margin:0"><Icone nome="shield-check" tam={18} cor="var(--cyan-300)" />Visita sem custo em equipamento comercial e industrial. Orçamento fechado antes da execução.</p>)}
 </div>
 </div>
 </section>
@@ -218,7 +219,7 @@ const paragrafoElos = (elos.length === 1 ? elos[0] : elos.slice(0, -1).join(', '
 <div class="ds-container" style="display:flex;align-items:center;justify-content:space-between;gap:28px;flex-wrap:wrap">
 <div style="max-width:640px">
 <h2 style="font-size:var(--fs-h2);color:var(--white);margin:0 0 8px;text-wrap:balance"><Destaque texto={d.ctaTitle} termo={d.highlight} /></h2>
-<p style="font-size:var(--fs-lg);color:rgba(255,255,255,0.82);margin:0">Orçamento sem compromisso. Atendimento rápido no Rio e Grande Rio.</p>
+<p style="font-size:var(--fs-lg);color:rgba(255,255,255,0.82);margin:0">{d.visitaSemCusto ? 'Visita sem custo em equipamento comercial e industrial. Orçamento fechado antes da execução. Atendimento no Rio e Grande Rio.' : 'Orçamento sem compromisso. Atendimento rápido no Rio e Grande Rio.'}</p>
 </div>
 <div style="display:flex;gap:12px;flex-wrap:wrap">
 <a href={zap} target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:var(--color-whatsapp);color:var(--white);font-family:var(--font-body);font-weight:700;padding:14px 24px;border-radius:var(--radius-md);text-decoration:none"><Icone nome="message-circle" tam={20} />Falar no WhatsApp</a>
