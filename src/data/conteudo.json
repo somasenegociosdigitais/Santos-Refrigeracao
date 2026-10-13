@@ -139,7 +139,7 @@
     "galleryTitle": "Câmaras frias que já atendemos",
     "galleryLead": "Instalações e manutenções de clientes no Rio e Grande Rio, fotografadas depois do serviço.",
     "galleryAlt": "Câmara fria instalada e mantida pela Santos Refrigeração",
-    "galleryAspect": "1 / 1",
+    "galleryAspect": "4 / 3",
     "galleryAlts": [
       "Evaporador de quatro ventiladores no teto de câmara fria com mercadoria estocada",
       "Evaporador de dois ventiladores no teto de câmara fria",
@@ -257,7 +257,7 @@
     ],
     "galleryCols": 3,
     "galleryFit": "cover",
-    "galleryAspect": "1 / 1",
+    "galleryAspect": "4 / 3",
     "galleryTitle": "Câmara fria: trabalhos da nossa equipe",
     "galleryLead": "Câmaras frias montadas pela nossa equipe no Rio, vistas por fora e por dentro.",
     "galleryAlt": "Câmara fria atendida pela Santos Refrigeração no Rio de Janeiro",
@@ -417,8 +417,16 @@
       "Chopeira embutida em bancada, com cuba de inox e torre",
       "Painel da chopeira com entrada de água, entrada de chope e controlador de temperatura"
     ],
-    "galleryAspect": "3 / 4",
-    "visitaSemCusto": true
+    "galleryAspect": "4 / 3",
+    "visitaSemCusto": true,
+    "galleryPos": [
+      "center 25%",
+      "center 25%",
+      "center 25%",
+      "center 25%",
+      "center 25%",
+      "center 25%"
+    ]
   },
   "assepsia-de-chopeira": {
     "slug": "assepsia-de-chopeira",
@@ -537,7 +545,7 @@
         "Em equipamento comercial e industrial, não. O técnico vai até o local, avalia e passa o preço fechado antes de executar."
       ]
     ],
-    "galleryAspect": "3 / 4",
+    "galleryAspect": "4 / 3",
     "galleryAlts": [
       "Torre de chopeira com bandeja de inox depois da assepsia",
       "Equipamento de assepsia ligado à chopeira com mangueira",
@@ -646,7 +654,7 @@
       ]
     ],
     "galleryCols": 3,
-    "galleryAspect": "1 / 1",
+    "galleryAspect": "4 / 3",
     "galleryTrim": 9,
     "galleryAlts": [
       "Gela caneca de inox com display digital",
@@ -1071,7 +1079,7 @@
       ]
     ],
     "galleryCols": 3,
-    "galleryAspect": "3 / 4",
+    "galleryAspect": "4 / 3",
     "galleryAlts": [
       "Expositor de bebidas de várias portas em mercado",
       "Dois expositores verticais de bebidas de porta de vidro",
@@ -1224,7 +1232,7 @@
       ]
     ],
     "galleryCols": 3,
-    "galleryAspect": "3 / 4",
+    "galleryAspect": "4 / 3",
     "galleryAlts": [
       "Cervejeira preta de porta de vidro com adesivo de marca",
       "Cervejeira azul de porta de vidro",
@@ -1619,7 +1627,7 @@
       ]
     ],
     "galleryCols": 3,
-    "galleryAspect": "3 / 4",
+    "galleryAspect": "4 / 3",
     "galleryTrim": 9,
     "galleryAlts": [
       "Ultra freezer de inox em cozinha comercial",
@@ -1747,7 +1755,7 @@
     ],
     "galleryCols": 3,
     "galleryFit": "cover",
-    "galleryAspect": "3 / 4",
+    "galleryAspect": "4 / 3",
     "galleryTitle": "Refresqueiras que já atendemos",
     "galleryLead": "Equipamentos de clientes no Rio e Grande Rio, fotografados depois do serviço.",
     "galleryAlt": "Refresqueira atendida pela Santos Refrigeração",
@@ -1886,7 +1894,7 @@
     "galleryTitle": "Serviços de máquina de gelo que já executamos",
     "galleryLead": "Manutenções e consertos reais feitos pela nossa equipe no Rio e Grande Rio.",
     "galleryAlt": "Manutenção de máquina de gelo pela Santos Refrigeração",
-    "galleryAspect": "1 / 1",
+    "galleryAspect": "4 / 3",
     "galleryFit": "cover",
     "servicesTitle": "Conserto de máquina de gelo: refrigeração, água e ciclo de produção",
     "intro": [
@@ -2496,7 +2504,7 @@
     "galleryAlt": "Serviço de refrigeração comercial pela Santos Refrigeração",
     "galleryCols": 3,
     "galleryFit": "cover",
-    "galleryAspect": "1 / 1",
+    "galleryAspect": "4 / 3",
     "galleryAlts": [
       "Câmara fria em operação numa loja no Rio de Janeiro",
       "Torre de chopeira com bandeja de inox",
@@ -2937,7 +2945,7 @@
     "galleryAlt": "Geladeira consertada pela Santos Refrigeração",
     "galleryCols": 3,
     "galleryFit": "cover",
-    "galleryAspect": "1 / 1",
+    "galleryAspect": "4 / 3",
     "galleryAlts": [
       "Geladeira de cinco portas de vidro na seção de frios e laticínios, depois do conserto",
       "Refrigerador inox de duas portas em restaurante, depois do conserto",
@@ -3110,7 +3118,7 @@
     "galleryAlt": "Refrigeração comercial em Cascadura pela Santos Refrigeração",
     "galleryCols": 3,
     "galleryFit": "cover",
-    "galleryAspect": "1 / 1",
+    "galleryAspect": "4 / 3",
     "galleryAlts": [
       "Câmara fria em operação numa loja no Rio de Janeiro",
       "Torre de chopeira com bandeja de inox",
