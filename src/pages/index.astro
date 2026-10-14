@@ -3,19 +3,45 @@ import Base from '../layouts/Base.astro';
 import Icone from '../components/Icone.astro';
 import { NEGOCIO, AREAS, GRADE_HOME, EMPRESA_SCHEMA, wa } from '../data/site.js';
 import conteudo from '../data/conteudo.json';
+import fs from 'node:fs';
 
 const zap = wa('Olá! Vim pelo site e preciso de atendimento em refrigeração comercial.');
 const zapOutro = wa('Olá! Não encontrei meu equipamento no site. Vocês atendem?');
 
+const descricao = 'Câmara fria, chopeira, geladeira e ar condicionado no Rio. Doze anos no comércio, diagnóstico com medição e preço fechado antes de você aprovar.';
+// dateModified da home = lastmod da home no public/sitemap.xml. Atualizar o
+// sitemap quando a home mudar; sem lastmod, o campo não sai.
+const sitemap = fs.readFileSync('public/sitemap.xml', 'utf8');
+const lastmodHome = (sitemap.match(/<loc>https:\/\/www\.santosrefricomercial\.com\.br\/<\/loc><lastmod>([\d-]+)<\/lastmod>/) || [])[1];
 const jsonld = [{
   '@context': 'https://schema.org',
   ...EMPRESA_SCHEMA,
-  description: 'Refrigeração comercial no Rio de Janeiro e Grande Rio. Instalação, manutenção preventiva e corretiva de câmara fria, chopeira, ar condicionado, geladeira comercial e demais equipamentos.',
+  description: descricao,
   hasOfferCatalog: {
     '@type': 'OfferCatalog',
     name: 'Serviços de refrigeração comercial',
     itemListElement: Object.values(conteudo).map((s) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: s.title } })),
   },
+}, {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  '@id': NEGOCIO.site + '/#website',
+  url: NEGOCIO.site + '/',
+  name: NEGOCIO.nome,
+  inLanguage: 'pt-BR',
+  publisher: { '@id': EMPRESA_SCHEMA['@id'] },
+}, {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': NEGOCIO.site + '/#webpage',
+  url: NEGOCIO.site + '/',
+  name: NEGOCIO.nome,
+  description: descricao,
+  inLanguage: 'pt-BR',
+  isPartOf: { '@id': NEGOCIO.site + '/#website' },
+  about: { '@id': EMPRESA_SCHEMA['@id'] },
+  author: { '@id': EMPRESA_SCHEMA['@id'] },
+  ...(lastmodHome ? { dateModified: lastmodHome } : {}),
 }];
 
 const confia = [
@@ -26,7 +52,8 @@ const confia = [
 ---
 <Base
   titulo="Conserto e manutenção de refrigeração comercial no Rio"
-  descricao="Câmara fria, chopeira, geladeira e ar condicionado no Rio. Doze anos no comércio, diagnóstico com medição e preço fechado antes de você aprovar."
+  descricao={descricao}
+  ogTitulo="Santos Refrigeração Comercial | Refrigeração comercial no Rio e Grande Rio"
   caminho="/"
   jsonld={jsonld}
 >
@@ -95,6 +122,7 @@ const confia = [
 </section>
 
 <section id="sobre" style="background:var(--surface-page);padding-block:clamp(56px,8.5vw,92px)">
+<span id="about"></span>
 <div class="ds-container">
 <div class="split-grid" style="display:grid;grid-template-columns:0.95fr 1.05fr;gap:56px;align-items:center">
 <div class="about-head-mobile" style="display:none;flex-direction:column;gap:12px">

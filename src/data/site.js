@@ -55,7 +55,7 @@ export const EMPRESA_SCHEMA = {
 export const MENU = [
   { label: 'Início', href: '/' },
   { label: 'Serviços', href: '/#servicos' },
-  { label: 'Quem somos', href: '/#sobre' },
+  { label: 'Quem somos', href: '/#about' },
   { label: 'Área de atendimento', href: '/#area' },
   { label: 'Contato', href: '/contato.html' },
 ];

@@ -6,7 +6,7 @@
     "metaDescription": "Chopeira espumando? Veja as 7 causas mais comuns, de temperatura e pressão de CO₂ a linha suja, como identificar cada uma e quando chamar o técnico.",
     "category": "Chopeira",
     "published": "2026-10-07",
-    "updated": "2026-10-10",
+    "updated": "2026-10-14",
     "readMin": 7,
     "cover": "/assets/opt-d0.webp",
     "coverAlt": "Torre de chopeira em inox com quatro torneiras, ponto onde o chope com muita espuma aparece",
@@ -155,10 +155,51 @@
     },
     "conclusion": {
       "title": "Resumo",
-      "body": [
-        "Chope com muita espuma quase sempre vem de temperatura alta, pressão de CO₂ fora do ponto, linha suja, torneira gasta, ar na linha ou copo inadequado. Barril com defeito é exceção.",
-        "Comece pela temperatura e pelo manômetro, que resolvem a maior parte dos casos sem ferramenta. Se a espuma continuar depois do passo a passo acima, a chopeira precisa de diagnóstico com instrumento."
-      ]
+      "table": {
+        "intro": "Espuma demais quase nunca é defeito do barril. Nesta tabela estão as sete causas, o sinal que identifica cada uma e o que fazer em cada caso.",
+        "head": [
+          "Causa",
+          "Como identificar",
+          "O que fazer"
+        ],
+        "rows": [
+          [
+            "Chope saindo quente",
+            "Chope sai quente no copo e o gás se solta",
+            "Medir com termômetro de espeto e comparar com o que a cervejaria recomenda. Na chopeira a gelo, repor o gelo; na elétrica, verificar termostato, condensador, gás e compressor"
+          ],
+          [
+            "Pressão de CO₂ desregulada",
+            "Ponteiro do manômetro instável na tiragem, bolhas na mangueira ou cilindro quase vazio",
+            "Ajustar conforme temperatura, comprimento de linha e altura da torre — não mexer no regulador só para tirar espuma"
+          ],
+          [
+            "Barril quente ou recém-chegado",
+            "Barril recém-transportado ou que ficou exposto ao calor",
+            "Deixar descansar refrigerado pelo tempo que a distribuidora indicar"
+          ],
+          [
+            "Linha e serpentina sujas",
+            "Espuma grossa que não se sustenta e sabor alterado, com assepsia feita há mais de um mês",
+            "Assepsia completa da linha, com desmontagem das torneiras"
+          ],
+          [
+            "Torneira gasta ou aberta pela metade",
+            "Jato irregular, torneira que pinga fechada ou que não abre por completo",
+            "Abrir de uma vez, até o fim. Trocar vedação ou mola gastas com a linha despressurizada"
+          ],
+          [
+            "Ar entrando na linha",
+            "Bolha contínua na mangueira entre barril e torre, mesmo com pressão e temperatura corretas",
+            "Verificar conexões, anel de vedação da válvula extratora e a mangueira"
+          ],
+          [
+            "Copo quente ou mal lavado",
+            "Espuma instável e bolhas presas na parede do copo",
+            "Lavar com detergente neutro, enxaguar bem e secar escorrendo, sem pano. Conferir se o gela caneca funciona"
+          ]
+        ]
+      }
     }
   },
   "camara-fria-nao-gela": {
@@ -168,7 +209,7 @@
     "metaDescription": "Câmara fria não gela ou está congelando o evaporador? Veja as 7 causas mais comuns, como funciona o degelo e quando chamar o técnico.",
     "category": "Câmara fria",
     "published": "2026-10-10",
-    "updated": "2026-10-10",
+    "updated": "2026-10-14",
     "readMin": 7,
     "cover": "/assets/trab-cf-3.webp",
     "coverAlt": "Evaporador de câmara fria com quatro ventiladores instalado no teto",
@@ -274,10 +315,51 @@
     },
     "conclusion": {
       "title": "Resumo",
-      "body": [
-        "Câmara fria que não gela quase sempre tem uma destas causas: evaporador congelado, degelo falhando, porta mal vedada, condensadora sem ventilação, falta de gás, controlador desregulado ou carga acima da capacidade.",
-        "Comece olhando o evaporador e a porta, que respondem pela maioria dos casos. Gelo acumulado é sinal de alerta: quanto antes ele for resolvido, menor o risco de perder mercadoria e de forçar o compressor."
-      ]
+      "table": {
+        "intro": "Na maioria das vezes a causa está no evaporador ou na porta. Nesta tabela estão as sete causas, o sinal que identifica cada uma e o que fazer.",
+        "head": [
+          "Causa",
+          "Como identificar",
+          "O que fazer"
+        ],
+        "rows": [
+          [
+            "Evaporador congelado",
+            "Gelo branco e grosso nas aletas ou envolvendo os ventiladores, com o compressor ligado e sem frio na mercadoria",
+            "Abrir a câmara e observar o evaporador. Gelo em bloco indica que o degelo não está dando conta"
+          ],
+          [
+            "Degelo que não funciona",
+            "O gelo só aumenta e a câmara não para periodicamente para derreter",
+            "Verificar resistência, controlador, sensor de fim de degelo e dreno, que pode estar entupido ou congelado"
+          ],
+          [
+            "Porta mal vedada ou aberta demais",
+            "Borracha ressecada, porta que não fecha sozinha, dobradiça caída, gelo ou água na moldura",
+            "Fazer o teste do papel na vedação: se o papel sai sem resistência, a vedação falhou. Corrigir vedação ou porta"
+          ],
+          [
+            "Condensadora suja ou sem ventilação",
+            "Ventilador parado, poeira e gordura nas aletas, ou câmara que gela de manhã e esquenta à tarde",
+            "Confirmar que o ventilador gira e que as aletas estão limpas. Deixar espaço livre na frente e atrás da unidade"
+          ],
+          [
+            "Falta de gás por vazamento",
+            "Demora cada vez maior para baixar a temperatura, compressor que não desliga, gelo em parte do evaporador ou na tubulação de retorno",
+            "Localizar o vazamento, corrigir a solda ou a conexão, fazer vácuo e recarregar na quantidade correta. Só completar o gás resolve por pouco tempo"
+          ],
+          [
+            "Controlador ou sensor com defeito",
+            "O visor mostra uma temperatura e o termômetro interno mostra outra",
+            "Medir com termômetro e comparar com o visor. Conferir se o sensor está no lugar e bem fixado"
+          ],
+          [
+            "Câmara sobrecarregada ou ar bloqueado",
+            "Excesso de produto quente, temperatura que demora horas para voltar, caixas encostadas no evaporador",
+            "Afastar as caixas do evaporador e respeitar a carga prevista. Se a operação cresceu, avaliar projeto de câmara maior"
+          ]
+        ]
+      }
     },
     "midCta": {
       "after": "degelo",
