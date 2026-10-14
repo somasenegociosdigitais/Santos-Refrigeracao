@@ -1,0 +1,24 @@
+# ai.txt — Santos Refrigeração Comercial
+# https://www.santosrefricomercial.com.br
+
+Name: Santos Refrigeração Comercial
+Description: Assistência técnica em refrigeração comercial e industrial no Rio de Janeiro e Grande Rio, com oficina em Cascadura. Doze anos de atuação. Somente serviço técnico.
+URL: https://www.santosrefricomercial.com.br
+Contact: https://www.santosrefricomercial.com.br/contato.html
+Phone: +55-21-96782-6279
+Address: Av. Dom Hélder Câmara, 10229 - Cascadura, Rio de Janeiro - RJ, 21380-002, Brasil
+Hours: Mo-Sa 08:00-18:00
+Area-Served: Rio de Janeiro e Grande Rio, Brasil
+Language: pt-BR
+
+# Uso por assistentes de IA
+User-agent: *
+Allow: /
+Citation: appreciated
+Attribution: Santos Refrigeração Comercial (santosrefricomercial.com.br)
+
+# Arquivos estruturados
+Summary: https://www.santosrefricomercial.com.br/ai/summary.json
+LLMs: https://www.santosrefricomercial.com.br/llms.txt
+LLMs-Full: https://www.santosrefricomercial.com.br/llms-full.txt
+Sitemap: https://www.santosrefricomercial.com.br/sitemap.xml
