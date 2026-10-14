@@ -1,0 +1,54 @@
+{
+  "name": "Santos Refrigeração Comercial",
+  "description": "Assistência técnica em refrigeração comercial e industrial no Rio de Janeiro e Grande Rio. Instalação, manutenção preventiva e conserto de câmara fria, chopeira, geladeira comercial, balcão refrigerado, expositor, cervejeira, ilha de congelados, ultra freezer, refresqueira, máquina de gelo, adega climatizada e ar condicionado. Oficina própria em Cascadura. Somente serviço técnico: não vende peças nem equipamentos.",
+  "url": "https://www.santosrefricomercial.com.br",
+  "logo": "https://www.santosrefricomercial.com.br/assets/gelinho-grande.png",
+  "language": "pt-BR",
+  "foundingYear": 2014,
+  "legalId": {
+    "type": "CNPJ",
+    "value": "62.899.580/0001-58"
+  },
+  "contact": {
+    "telephone": "+55-21-96782-6279",
+    "whatsapp": "https://wa.me/5521967826279",
+    "contactPage": "https://www.santosrefricomercial.com.br/contato.html"
+  },
+  "address": {
+    "streetAddress": "Av. Dom Hélder Câmara, 10229",
+    "addressLocality": "Cascadura",
+    "addressRegion": "RJ",
+    "addressCountry": "BR",
+    "postalCode": "21380-002"
+  },
+  "openingHours": "Mo-Sa 08:00-18:00",
+  "areaServed": [
+    "Rio de Janeiro",
+    "Grande Rio"
+  ],
+  "services": [
+    "Conserto, manutenção e instalação de câmara fria e câmara frigorífica",
+    "Projeto e instalação de câmara fria",
+    "Manutenção e conserto de chopeira",
+    "Assepsia de chopeira",
+    "Conserto de geladeira residencial, comercial e industrial",
+    "Manutenção de balcão refrigerado e expositor de bebidas",
+    "Manutenção de cervejeira e gela caneca",
+    "Manutenção de ilha de congelados e ultra freezer",
+    "Manutenção de refresqueira e máquina de gelo",
+    "Manutenção de adega climatizada de vinhos",
+    "Instalação, manutenção, higienização e tubulação de ar condicionado"
+  ],
+  "doesNotServe": [
+    "Ar condicionado automotivo",
+    "Venda de peças ou equipamentos avulsos"
+  ],
+  "policies": {
+    "siteVisit": "Visita sem custo em equipamento comercial e industrial. Geladeira residencial tem visita de diagnóstico de R$ 100.",
+    "pricing": "Diagnóstico com medição e preço fechado antes da execução.",
+    "afterHours": "Para câmara fria e sistemas que não podem parar, atendimento fora do horário comercial."
+  },
+  "sameAs": [
+    "https://maps.google.com/maps?cid=12728115243696976866"
+  ]
+}
