@@ -1,5 +1,5 @@
 export const NEGOCIO = {
-  nome: 'Santos Refrigeração',
+  nome: 'Santos Refrigeração Comercial',
   marca: 'Santos Refrigeração',
   site: 'https://www.santosrefricomercial.com.br',
   telefone: '(21) 96782-6279',
@@ -30,6 +30,7 @@ export const EMPRESA_SCHEMA = {
   '@type': 'HVACBusiness',
   '@id': NEGOCIO.site + '/#business',
   name: NEGOCIO.nome,
+  alternateName: NEGOCIO.marca,
   url: NEGOCIO.site + '/',
   telephone: NEGOCIO.telefoneE164,
   priceRange: '$$',
@@ -54,7 +55,7 @@ export const EMPRESA_SCHEMA = {
 export const MENU = [
   { label: 'Início', href: '/' },
   { label: 'Serviços', href: '/#servicos' },
-  { label: 'Quem somos', href: '/#sobre' },
+  { label: 'Quem somos', href: '/#about' },
   { label: 'Área de atendimento', href: '/#area' },
   { label: 'Contato', href: '/contato.html' },
 ];

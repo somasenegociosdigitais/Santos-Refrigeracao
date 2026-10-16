@@ -104,7 +104,18 @@ if (d.faq && d.faq.length) {
 {d.conclusion && (
   <section id="resumo-final" class="art-sec">
   <h2>{d.conclusion.title}</h2>
-  {d.conclusion.body.map((p) => (<p set:html={p}></p>))}
+  {d.conclusion.body && d.conclusion.body.map((p) => (<p set:html={p}></p>))}
+  {d.conclusion.table && (
+    <Fragment>
+    <p>{d.conclusion.table.intro}</p>
+    <div class="art-tab">
+    <table>
+    <thead><tr>{d.conclusion.table.head.map((h) => (<th scope="col">{h}</th>))}</tr></thead>
+    <tbody>{d.conclusion.table.rows.map((r) => (<tr>{r.map((c, i) => (i === 0 ? <th scope="row">{c}</th> : <td>{c}</td>))}</tr>))}</tbody>
+    </table>
+    </div>
+    </Fragment>
+  )}
   </section>
 )}
 
@@ -122,7 +133,7 @@ if (d.faq && d.faq.length) {
 {d.faq && d.faq.length > 0 && (
   <section class="art-sec">
   <h2>Perguntas frequentes</h2>
-  <Faq itens={d.faq} />
+  <Faq itens={d.faq} h3 />
   </section>
 )}
 
@@ -171,6 +182,13 @@ if (d.faq && d.faq.length) {
 .art-filete{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;background:var(--blue-900);border-radius:var(--radius-lg);padding:18px 22px}
 .art-filete p{margin:0;flex:1 1 280px;color:var(--white);font-size:var(--fs-base);line-height:var(--lh-normal);font-weight:600}
 .art-filete a{display:inline-flex;align-items:center;gap:8px;background:var(--color-whatsapp);color:var(--white);font-weight:700;padding:12px 20px;border-radius:var(--radius-md);text-decoration:none;white-space:nowrap}
+.art-tab{overflow-x:auto;border:1px solid var(--border-subtle);border-radius:var(--radius-lg);background:var(--white)}
+.art-tab table{width:100%;min-width:620px;border-collapse:collapse;font-size:var(--fs-sm);line-height:var(--lh-normal)}
+.art-tab th,.art-tab td{padding:12px 14px;text-align:left;vertical-align:top;border-bottom:1px solid var(--border-subtle)}
+.art-tab thead th{background:var(--blue-100);color:var(--text-strong);font-family:var(--font-display);font-weight:700}
+.art-tab tbody th{color:var(--text-strong);font-weight:700;width:24%}
+.art-tab td{color:var(--text-body)}
+.art-tab tbody tr:last-child>*{border-bottom:0}
 .art-cta{background:var(--blue-100);border:1px solid var(--blue-200);border-radius:var(--radius-lg);padding:clamp(24px,4vw,36px);display:flex;flex-direction:column;gap:16px}
 .art-cta h2{font-size:var(--fs-h3);margin:0}
 .art-cta p{font-size:var(--fs-base);color:var(--text-body);margin:0;line-height:var(--lh-relaxed)}

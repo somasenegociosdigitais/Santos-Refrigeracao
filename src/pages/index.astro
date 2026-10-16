@@ -3,19 +3,45 @@ import Base from '../layouts/Base.astro';
 import Icone from '../components/Icone.astro';
 import { NEGOCIO, AREAS, GRADE_HOME, EMPRESA_SCHEMA, wa } from '../data/site.js';
 import conteudo from '../data/conteudo.json';
+import fs from 'node:fs';
 
 const zap = wa('Olá! Vim pelo site e preciso de atendimento em refrigeração comercial.');
 const zapOutro = wa('Olá! Não encontrei meu equipamento no site. Vocês atendem?');
 
+const descricao = 'Câmara fria, chopeira, geladeira e ar condicionado no Rio. Doze anos no comércio, diagnóstico com medição e preço fechado antes de você aprovar.';
+// dateModified da home = lastmod da home no public/sitemap.xml. Atualizar o
+// sitemap quando a home mudar; sem lastmod, o campo não sai.
+const sitemap = fs.readFileSync('public/sitemap.xml', 'utf8');
+const lastmodHome = (sitemap.match(/<loc>https:\/\/www\.santosrefricomercial\.com\.br\/<\/loc><lastmod>([\d-]+)<\/lastmod>/) || [])[1];
 const jsonld = [{
   '@context': 'https://schema.org',
   ...EMPRESA_SCHEMA,
-  description: 'Refrigeração comercial no Rio de Janeiro e Grande Rio. Instalação, manutenção preventiva e corretiva de câmara fria, chopeira, ar condicionado, geladeira comercial e demais equipamentos.',
+  description: descricao,
   hasOfferCatalog: {
     '@type': 'OfferCatalog',
     name: 'Serviços de refrigeração comercial',
     itemListElement: Object.values(conteudo).map((s) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: s.title } })),
   },
+}, {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  '@id': NEGOCIO.site + '/#website',
+  url: NEGOCIO.site + '/',
+  name: NEGOCIO.nome,
+  inLanguage: 'pt-BR',
+  publisher: { '@id': EMPRESA_SCHEMA['@id'] },
+}, {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  '@id': NEGOCIO.site + '/#webpage',
+  url: NEGOCIO.site + '/',
+  name: NEGOCIO.nome,
+  description: descricao,
+  inLanguage: 'pt-BR',
+  isPartOf: { '@id': NEGOCIO.site + '/#website' },
+  about: { '@id': EMPRESA_SCHEMA['@id'] },
+  author: { '@id': EMPRESA_SCHEMA['@id'] },
+  ...(lastmodHome ? { dateModified: lastmodHome } : {}),
 }];
 
 const confia = [
@@ -26,7 +52,8 @@ const confia = [
 ---
 <Base
   titulo="Conserto e manutenção de refrigeração comercial no Rio"
-  descricao="Câmara fria, chopeira, geladeira e ar condicionado no Rio. Doze anos no comércio, diagnóstico com medição e preço fechado antes de você aprovar."
+  descricao={descricao}
+  ogTitulo="Santos Refrigeração Comercial | Refrigeração comercial no Rio e Grande Rio"
   caminho="/"
   jsonld={jsonld}
 >
@@ -68,26 +95,26 @@ const confia = [
 <div class="ds-container">
 <div style="display:flex;flex-direction:column;gap:12px;align-items:center;text-align:center;max-width:680px;margin-inline:auto;margin-bottom:clamp(32px,5vw,48px)">
 <span class="ds-eyebrow">Nossos serviços</span>
-<h2 style="font-size:var(--fs-h2);margin:0;text-wrap:balance">Cuidamos de <span style="color:var(--color-primary)">todo o seu equipamento</span> de refrigeração</h2>
+<h2 style="font-size:var(--fs-h2);margin:0;text-wrap:balance">Câmara fria, chopeira, <span style="color:var(--color-primary)">geladeira comercial e ar condicionado</span></h2>
 <p style="font-size:var(--fs-lg);color:var(--text-muted);margin:0;line-height:var(--lh-normal)">Atendemos clientes comerciais em toda a área de refrigeração — do bar ao restaurante, do mercado à indústria.</p>
 </div>
-<div class="cards-grid" style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px">
+<ul class="cards-grid" style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px;list-style:none;margin:0;padding:0">
 {GRADE_HOME.map(([icone, titulo, txt, href, subs]) => (
-  <div class="card-equip">
+  <li class="card-equip">
   <span style="display:inline-flex;align-items:center;justify-content:center;width:60px;height:60px;border-radius:var(--radius-md);background:var(--blue-100)"><img src={icone} alt={titulo} loading="lazy" decoding="async" width="48" height="48" style="width:48px;height:48px;object-fit:contain;display:block"></span>
   <h3 style="font-family:var(--font-display);font-weight:700;font-size:var(--fs-h4);margin:0"><a class="card-cobre" href={href} style="color:var(--text-strong)">{titulo}</a></h3>
   <p style="font-family:var(--font-body);font-size:var(--fs-base);color:var(--text-muted);margin:0;line-height:var(--lh-normal)">{txt}</p>
   {subs && (
-    <div class="card-subs" style="display:flex;flex-wrap:wrap;gap:6px;margin-top:4px">
+    <ul class="card-subs" style="display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 0;padding:0;list-style:none">
     {subs.map(([label, sh]) => (
-      <a href={sh} style="display:inline-flex;background:var(--blue-100);color:var(--color-primary);font-family:var(--font-body);font-weight:600;font-size:var(--fs-sm);padding:5px 11px;border-radius:var(--radius-pill);white-space:nowrap;text-decoration:none">{label}</a>
+      <li style="display:flex"><a href={sh} style="display:inline-flex;background:var(--blue-100);color:var(--color-primary);font-family:var(--font-body);font-weight:600;font-size:var(--fs-sm);padding:5px 11px;border-radius:var(--radius-pill);white-space:nowrap;text-decoration:none">{label}</a></li>
     ))}
-    </div>
+    </ul>
   )}
   <a class="card-saiba" href={href} style="display:inline-flex;align-items:center;gap:6px;margin-top:auto;padding-top:10px;font-family:var(--font-body);font-weight:700;font-size:var(--fs-sm);color:var(--color-primary)">Saiba mais <Icone nome="arrow-right" tam={15} /></a>
-  </div>
+  </li>
 ))}
-</div>
+</ul>
 <div style="display:flex;justify-content:center;margin-top:40px">
 <a href={zapOutro} target="_blank" rel="noopener nofollow" style="display:inline-flex;align-items:center;gap:10px;background:var(--color-whatsapp);color:var(--white);font-family:var(--font-body);font-weight:700;font-size:var(--fs-base);padding:14px 24px;border-radius:var(--radius-md);text-decoration:none"><Icone nome="message-circle" tam={20} />Não achou seu equipamento? Fale conosco</a>
 </div>
@@ -95,11 +122,12 @@ const confia = [
 </section>
 
 <section id="sobre" style="background:var(--surface-page);padding-block:clamp(56px,8.5vw,92px)">
+<span id="about"></span>
 <div class="ds-container">
 <div class="split-grid" style="display:grid;grid-template-columns:0.95fr 1.05fr;gap:56px;align-items:center">
 <div class="about-head-mobile" style="display:none;flex-direction:column;gap:12px">
 <span class="ds-eyebrow">Quem somos</span>
-<p style="font-family:var(--font-display);font-weight:700;color:var(--text-strong);font-size:var(--fs-h2);line-height:1.15;margin:0;text-wrap:balance">Qualidade que gera confiança, <span style="color:var(--color-accent-strong)">confiança que gera parcerias</span></p>
+<p style="font-family:var(--font-display);font-weight:700;color:var(--text-strong);font-size:var(--fs-h2);line-height:1.15;margin:0;text-wrap:balance">Doze anos atendendo <span style="color:var(--color-accent-strong)">bar, mercado, restaurante e padaria no Rio</span></p>
 </div>
 <div>
 <div style="border-radius:var(--radius-xl);overflow:hidden;box-shadow:var(--shadow-md)">
@@ -113,9 +141,9 @@ const confia = [
 <div style="display:flex;flex-direction:column;gap:22px">
 <div class="about-head-desktop" style="display:flex;flex-direction:column;gap:12px">
 <span class="ds-eyebrow">Quem somos</span>
-<h2 style="font-size:var(--fs-h2);margin:0;text-wrap:balance">Qualidade que gera confiança, <span style="color:var(--color-accent-strong)">confiança que gera parcerias</span></h2>
+<h2 style="font-size:var(--fs-h2);margin:0;text-wrap:balance">Doze anos atendendo <span style="color:var(--color-accent-strong)">bar, mercado, restaurante e padaria no Rio</span></h2>
 </div>
-<p style="font-size:var(--fs-base);color:var(--text-muted);margin:0;line-height:var(--lh-relaxed)">Confiança não se conquista com promessas, mas com trabalho bem feito. Há 12 anos, a Santos Refrigeração constrói sua história com seriedade, transparência e compromisso em cada atendimento. É por isso que empresas de todo o Rio de Janeiro e Grande Rio depositam em nossa equipe a confiança de quem busca qualidade, responsabilidade e soluções executadas com excelência.</p>
+<p style="font-size:var(--fs-base);color:var(--text-muted);margin:0;line-height:var(--lh-relaxed)">Confiança não se conquista com promessas, mas com trabalho bem feito. Há 12 anos, a Santos Refrigeração Comercial constrói sua história com seriedade, transparência e compromisso em cada atendimento. É por isso que empresas de todo o Rio de Janeiro e Grande Rio depositam em nossa equipe a confiança de quem busca qualidade, responsabilidade e soluções executadas com excelência.</p>
 <p style="font-size:var(--fs-base);color:var(--text-muted);margin:0;line-height:var(--lh-relaxed)">Cada serviço é realizado com atenção aos detalhes, diagnóstico preciso e total clareza em todas as etapas. Trabalhamos com honestidade, preço definido antes da execução e garantia em tudo o que fazemos, porque acreditamos que respeito ao cliente e qualidade não são diferenciais, mas princípios.</p>
 <p style="font-size:var(--fs-base);color:var(--text-muted);margin:0;line-height:var(--lh-relaxed)">Mais do que prestar <a href="/tecnico-refrigeracao-comercial.html" style="color:inherit;text-decoration:underline;text-underline-offset:3px">assistência técnica em refrigeração comercial</a>, entregamos segurança, tranquilidade e a certeza de que existe uma equipe comprometida em fazer o trabalho da maneira certa. É assim que, ao longo dos anos, transformamos a confiança de nossos clientes em relacionamentos duradouros e construímos uma reputação que levamos com orgulho em cada serviço realizado.</p>
 <div style="margin-top:10px">
