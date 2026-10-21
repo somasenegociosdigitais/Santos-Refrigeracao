@@ -1,0 +1,327 @@
+{
+ "/assets/trab-cf-2.webp": {
+  "w": 1200,
+  "h": 900,
+  "p": "/assets/trab-cf-2-480.webp"
+ },
+ "/assets/trab-cf-7.webp": {
+  "w": 900,
+  "h": 1200,
+  "p": "/assets/trab-cf-7-480.webp"
+ },
+ "/assets/trab-cfi-3.webp": {
+  "w": 1200,
+  "h": 900,
+  "p": "/assets/trab-cfi-3-480.webp"
+ },
+ "/assets/trab-cf-1.webp": {
+  "w": 1200,
+  "h": 900,
+  "p": "/assets/trab-cf-1-480.webp"
+ },
+ "/assets/trab-cfi-1.webp": {
+  "w": 720,
+  "h": 943,
+  "p": "/assets/trab-cfi-1-480.webp"
+ },
+ "/assets/trab-cfi-2.webp": {
+  "w": 684,
+  "h": 1200,
+  "p": "/assets/trab-cfi-2-480.webp"
+ },
+ "/assets/opt-d0.webp": {
+  "w": 720,
+  "h": 955,
+  "p": "/assets/opt-d0-480.webp"
+ },
+ "/assets/opt-d1.webp": {
+  "w": 648,
+  "h": 1100,
+  "p": "/assets/opt-d1-480.webp"
+ },
+ "/assets/opt-d2.webp": {
+  "w": 720,
+  "h": 942,
+  "p": "/assets/opt-d2-480.webp"
+ },
+ "/assets/trab-ch-4.webp": {
+  "w": 900,
+  "h": 1200,
+  "p": "/assets/trab-ch-4-480.webp"
+ },
+ "/assets/trab-ch-5.webp": {
+  "w": 720,
+  "h": 1280,
+  "p": "/assets/trab-ch-5-480.webp"
+ },
+ "/assets/trab-ch-6.webp": {
+  "w": 900,
+  "h": 1600,
+  "p": "/assets/trab-ch-6-480.webp"
+ },
+ "/assets/trab-ch-assepsia-1.webp": {
+  "w": 900,
+  "h": 1200,
+  "p": "/assets/trab-ch-assepsia-1-480.webp"
+ },
+ "/assets/trab-ch-assepsia-2.webp": {
+  "w": 900,
+  "h": 1200,
+  "p": "/assets/trab-ch-assepsia-2-480.webp"
+ },
+ "/assets/trab-ch-assepsia-3.webp": {
+  "w": 900,
+  "h": 1200,
+  "p": "/assets/trab-ch-assepsia-3-480.webp"
+ },
+ "/assets/trab-gc-1.webp": {
+  "w": 903,
+  "h": 1200,
+  "p": "/assets/trab-gc-1-480.webp"
+ },
+ "/assets/trab-gc-2.webp": {
+  "w": 903,
+  "h": 1200,
+  "p": "/assets/trab-gc-2-480.webp"
+ },
+ "/assets/trab-gc-4.webp": {
+  "w": 1200,
+  "h": 903,
+  "p": "/assets/trab-gc-4-480.webp"
+ },
+ "/assets/trab-ac-1.webp": {
+  "w": 1200,
+  "h": 675,
+  "p": "/assets/trab-ac-1-480.webp"
+ },
+ "/assets/trab-ac-2.webp": {
+  "w": 1200,
+  "h": 675,
+  "p": "/assets/trab-ac-2-480.webp"
+ },
+ "/assets/trab-ac-13.webp": {
+  "w": 1200,
+  "h": 781,
+  "p": "/assets/trab-ac-13-480.webp"
+ },
+ "/assets/trab-gex-1.webp": {
+  "w": 900,
+  "h": 1200,
+  "p": "/assets/trab-gex-1-480.webp"
+ },
+ "/assets/trab-gex-2.webp": {
+  "w": 900,
+  "h": 1200,
+  "p": "/assets/trab-gex-2-480.webp"
+ },
+ "/assets/trab-gex-3.webp": {
+  "w": 900,
+  "h": 1200,
+  "p": "/assets/trab-gex-3-480.webp"
+ },
+ "/assets/trab-cerv-1.webp": {
+  "w": 578,
+  "h": 1200,
+  "p": "/assets/trab-cerv-1-480.webp"
+ },
+ "/assets/trab-cerv-2.webp": {
+  "w": 661,
+  "h": 1200,
+  "p": "/assets/trab-cerv-2-480.webp"
+ },
+ "/assets/trab-cerv-3.webp": {
+  "w": 570,
+  "h": 1200,
+  "p": "/assets/trab-cerv-3-480.webp"
+ },
+ "/assets/trab-cerv-4.webp": {
+  "w": 675,
+  "h": 1200,
+  "p": "/assets/trab-cerv-4-480.webp"
+ },
+ "/assets/trab-cerv-5.webp": {
+  "w": 900,
+  "h": 1200,
+  "p": "/assets/trab-cerv-5-480.webp"
+ },
+ "/assets/trab-cerv-8.webp": {
+  "w": 1200,
+  "h": 900,
+  "p": "/assets/trab-cerv-8-480.webp"
+ },
+ "/assets/trab-balcao-8.webp": {
+  "w": 1200,
+  "h": 675,
+  "p": "/assets/trab-balcao-8-480.webp"
+ },
+ "/assets/trab-balcao-3.webp": {
+  "w": 1200,
+  "h": 900,
+  "p": "/assets/trab-balcao-3-480.webp"
+ },
+ "/assets/trab-balcao-9.webp": {
+  "w": 922,
+  "h": 1200,
+  "p": "/assets/trab-balcao-9-480.webp"
+ },
+ "/assets/trab-balcao-1.webp": {
+  "w": 1200,
+  "h": 900,
+  "p": "/assets/trab-balcao-1-480.webp"
+ },
+ "/assets/trab-balcao-10.webp": {
+  "w": 1200,
+  "h": 675,
+  "p": "/assets/trab-balcao-10-480.webp"
+ },
+ "/assets/trab-balcao-2.webp": {
+  "w": 1200,
+  "h": 900,
+  "p": "/assets/trab-balcao-2-480.webp"
+ },
+ "/assets/trab-ilha-1.webp": {
+  "w": 1200,
+  "h": 900,
+  "p": "/assets/trab-ilha-1-480.webp"
+ },
+ "/assets/trab-ilha-2.webp": {
+  "w": 1200,
+  "h": 900,
+  "p": "/assets/trab-ilha-2-480.webp"
+ },
+ "/assets/trab-ilha-4.webp": {
+  "w": 1200,
+  "h": 900,
+  "p": "/assets/trab-ilha-4-480.webp"
+ },
+ "/assets/trab-uf-1.webp": {
+  "w": 903,
+  "h": 1200,
+  "p": "/assets/trab-uf-1-480.webp"
+ },
+ "/assets/trab-uf-2.webp": {
+  "w": 903,
+  "h": 1200,
+  "p": "/assets/trab-uf-2-480.webp"
+ },
+ "/assets/trab-uf-3.webp": {
+  "w": 903,
+  "h": 1200,
+  "p": "/assets/trab-uf-3-480.webp"
+ },
+ "/assets/trab-refr-3.webp": {
+  "w": 900,
+  "h": 1200,
+  "p": "/assets/trab-refr-3-480.webp"
+ },
+ "/assets/trab-refr-5.webp": {
+  "w": 900,
+  "h": 1200,
+  "p": "/assets/trab-refr-5-480.webp"
+ },
+ "/assets/trab-refr-2.webp": {
+  "w": 900,
+  "h": 1200,
+  "p": "/assets/trab-refr-2-480.webp"
+ },
+ "/assets/trab-refr-1.webp": {
+  "w": 900,
+  "h": 1200,
+  "p": "/assets/trab-refr-1-480.webp"
+ },
+ "/assets/trab-refr-6.webp": {
+  "w": 900,
+  "h": 1200,
+  "p": "/assets/trab-refr-6-480.webp"
+ },
+ "/assets/trab-refr-4.webp": {
+  "w": 900,
+  "h": 1200,
+  "p": "/assets/trab-refr-4-480.webp"
+ },
+ "/assets/trab-mg-1.webp": {
+  "w": 903,
+  "h": 1200,
+  "p": "/assets/trab-mg-1-480.webp"
+ },
+ "/assets/trab-mg-2.webp": {
+  "w": 1200,
+  "h": 903,
+  "p": "/assets/trab-mg-2-480.webp"
+ },
+ "/assets/trab-mg-4.webp": {
+  "w": 1200,
+  "h": 903,
+  "p": "/assets/trab-mg-4-480.webp"
+ },
+ "/assets/trab-mg-5.webp": {
+  "w": 900,
+  "h": 1200,
+  "p": "/assets/trab-mg-5-480.webp"
+ },
+ "/assets/trab-mg-6.webp": {
+  "w": 900,
+  "h": 1200,
+  "p": "/assets/trab-mg-6-480.webp"
+ },
+ "/assets/trab-mg-7.webp": {
+  "w": 900,
+  "h": 1200,
+  "p": "/assets/trab-mg-7-480.webp"
+ },
+ "/assets/trab-ac-5.webp": {
+  "w": 1200,
+  "h": 827,
+  "p": "/assets/trab-ac-5-480.webp"
+ },
+ "/assets/trab-ac-6.webp": {
+  "w": 1200,
+  "h": 1044,
+  "p": "/assets/trab-ac-6-480.webp"
+ },
+ "/assets/trab-ac-7.webp": {
+  "w": 1200,
+  "h": 877,
+  "p": "/assets/trab-ac-7-480.webp"
+ },
+ "/assets/trab-ac-8.webp": {
+  "w": 1200,
+  "h": 867,
+  "p": "/assets/trab-ac-8-480.webp"
+ },
+ "/assets/trab-ac-9.webp": {
+  "w": 1200,
+  "h": 850,
+  "p": "/assets/trab-ac-9-480.webp"
+ },
+ "/assets/trab-ac-10.webp": {
+  "w": 1200,
+  "h": 815,
+  "p": "/assets/trab-ac-10-480.webp"
+ },
+ "/assets/trab-ac-11.webp": {
+  "w": 1200,
+  "h": 874,
+  "p": "/assets/trab-ac-11-480.webp"
+ },
+ "/assets/trab-ac-4.webp": {
+  "w": 1200,
+  "h": 900,
+  "p": "/assets/trab-ac-4-480.webp"
+ },
+ "/assets/trab-gcom-1.webp": {
+  "w": 900,
+  "h": 1200,
+  "p": "/assets/trab-gcom-1-480.webp"
+ },
+ "/assets/trab-gcom-2.webp": {
+  "w": 1200,
+  "h": 900,
+  "p": "/assets/trab-gcom-2-480.webp"
+ },
+ "/assets/trab-gcom-3.webp": {
+  "w": 1200,
+  "h": 900,
+  "p": "/assets/trab-gcom-3-480.webp"
+ }
+}

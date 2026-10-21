@@ -70,7 +70,7 @@ export const GRADE_HOME = [
   ['/assets/icon-p-camara.webp', 'Câmara fria', 'Instalação e manutenção de câmara fria e frigorífico comercial.', '/camara-fria.html', [
     ['Projeto e instalação', '/instalacao-de-camara-fria.html'],
   ]],
-  ['/assets/icon-p-chopeira.webp', 'Chopeiras', 'Manutenção e instalação de chopeira, com higienização do sistema de tiragem.', '/chopeiras.html', [
+  ['/assets/icon-p-chopeira.webp', 'Chopeiras', 'Conserto, manutenção e instalação de chopeira, com higienização do sistema de tiragem.', '/chopeiras.html', [
     ['Assepsia', '/assepsia-de-chopeira.html'],
   ]],
   ['/assets/icon-p-gela-caneca.webp', 'Gela Caneca', 'Manutenção e conserto de gela caneca para o seu bar.', '/gela-caneca.html'],

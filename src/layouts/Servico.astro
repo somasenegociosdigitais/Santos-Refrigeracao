@@ -8,6 +8,7 @@ import Icone from '../components/Icone.astro';
 import Destaque from '../components/Destaque.astro';
 import Faq from '../components/Faq.astro';
 import { NEGOCIO, EMPRESA_SCHEMA, wa } from '../data/site.js';
+import IMG from '../data/imagens.json';
 
 const { dados: d } = Astro.props;
 const caminho = '/' + d.slug + '.html';
@@ -73,7 +74,7 @@ const paragrafoElos = (elos.length === 1 ? elos[0] : elos.slice(0, -1).join(', '
 <div style="display:flex;flex-direction:column;gap:18px">
 <span class="ds-eyebrow">O que fazemos</span>
 <h2 style="font-size:var(--fs-h2);margin:0;text-wrap:balance"><Destaque texto={d.servicesTitle} termo={d.highlight} cor={accent} /></h2>
-{d.intro.map((p) => (<p style="font-size:var(--fs-base);color:var(--text-muted);margin:0;line-height:var(--lh-relaxed)">{p}</p>))}
+{d.intro.map((p) => (<p style="font-size:var(--fs-base);color:var(--text-muted);margin:0;line-height:var(--lh-relaxed)" set:html={p}></p>))}
 <p style="font-size:var(--fs-base);color:var(--text-muted);margin:0;line-height:var(--lh-relaxed)" set:html={paragrafoElos}></p>
 </div>
 <div style="background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);padding:clamp(22px,3vw,32px);display:flex;flex-direction:column;gap:16px">
@@ -149,7 +150,7 @@ const paragrafoElos = (elos.length === 1 ? elos[0] : elos.slice(0, -1).join(', '
 <div class="gallery-grid" style={'display:grid;gap:16px;grid-template-columns:repeat(' + (d.galleryCols || 4) + ',1fr)'}>
 {d.gallery.map((src, i) => (
   <a href={'#foto-' + d.slug + '-' + i} style={'display:block;padding:0;border:1px solid var(--border-subtle);border-radius:var(--radius-lg);overflow:hidden;background:var(--white);box-shadow:var(--shadow-sm);aspect-ratio:' + (d.galleryAspect || '3 / 4')}>
-  <img src={src} alt={(d.galleryAlts && d.galleryAlts[i]) || ((d.galleryAlt || 'Serviço de chopeira realizado pela Santos Refrigeração') + ' ' + (i + 1))} loading="lazy" decoding="async" style={'width:100%;display:block;height:' + (d.galleryTrim ? (100 + d.galleryTrim) + '%' : '100%') + ';object-fit:' + (d.galleryFit || 'contain') + ';object-position:' + ((d.galleryPos && d.galleryPos[i]) || (d.galleryTrim ? 'center top' : 'center'))}>
+  <img src={src} srcset={IMG[src] && IMG[src].p ? IMG[src].p + ' 480w, ' + src + ' ' + IMG[src].w + 'w' : undefined} sizes={IMG[src] && IMG[src].p ? '(max-width: 960px) 50vw, 400px' : undefined} width={IMG[src] ? IMG[src].w : 720} height={IMG[src] ? IMG[src].h : 540} alt={(d.galleryAlts && d.galleryAlts[i]) || ((d.galleryAlt || 'Serviço de chopeira realizado pela Santos Refrigeração') + ' ' + (i + 1))} loading="lazy" decoding="async" style={'width:100%;display:block;height:' + (d.galleryTrim ? (100 + d.galleryTrim) + '%' : '100%') + ';object-fit:' + (d.galleryFit || 'contain') + ';object-position:' + ((d.galleryPos && d.galleryPos[i]) || (d.galleryTrim ? 'center top' : 'center'))}>
   </a>
 ))}
 </div>
