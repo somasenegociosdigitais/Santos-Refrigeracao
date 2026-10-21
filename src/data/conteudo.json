@@ -5,19 +5,28 @@
     "icon": "warehouse",
     "eyebrow": "Câmara fria",
     "metaTitle": "Conserto e manutenção de câmara fria no Rio de Janeiro",
-    "metaDescription": "Conserto, manutenção e instalação de câmara fria e câmara frigorífica no Rio e Grande Rio. Diagnóstico com medição e preço fechado antes de aprovar.",
+    "metaDescription": "Conserto de câmara fria que não gela, com gelo ou compressor desarmando. Manutenção e instalação no Rio e Grande Rio, com medição e preço fechado.",
     "heroTitle": "Conserto e instalação de câmara fria e câmara frigorífica no Rio",
     "highlight": "câmara fria",
     "heroLead": "Conserto, manutenção e instalação de câmara fria no Rio e Grande Rio. A instalação e a manutenção de câmaras frias exigem alta especialização técnica para assegurar a conservação ideal das mercadorias, a eficiência energética e a integridade do sistema. Seja em novos projetos ou em equipamentos em funcionamento, cada detalhe impacta diretamente o consumo elétrico e a durabilidade da sua câmara.",
     "heroImageLabel": "Foto da câmara fria / serviço",
     "servicesTitle": "Conserto e manutenção de câmara fria: do projeto ao degelo",
     "intro": [
-      "A montagem de uma câmara frigorífica de alto desempenho segue etapas estruturadas: começamos pelo estudo da carga térmica — tipo de produto (resfriado ou congelado), espaço disponível e dimensionamento exato do motor —, seguido do esquadrejamento e nivelamento da base, do isolamento térmico com painéis modulares isotérmicos de alta densidade (EPS, PUR ou PIR) e da fixação técnica das unidades evaporadora e condensadora.",
-      "Na sequência, executamos a parte elétrica e hidráulica: tubulações em cobre, resistência de dreno (essencial em câmaras de congelados), válvula de expansão e quadro de comando. O fechamento é feito com vedação de silicone nas juntas, cantoneiras e perfis, mitigando infiltrações de umidade e ar quente.",
+      "O conserto de câmara fria começa pela medição: temperatura interna, pressão do gás, corrente do compressor e funcionamento do degelo. Com esses números o técnico separa o defeito real do sintoma e passa o preço fechado antes de trocar qualquer peça. Atendemos câmara de resfriados e de congelados em açougue, mercado, restaurante, padaria, distribuidora e indústria.",
+      "Para montar uma câmara nova, do cálculo de carga térmica ao isolamento com painel EPS, PUR ou PIR, o passo a passo está em <a href=\"/instalacao-de-camara-fria.html\">projeto e instalação de câmara fria</a>.",
       "Na manutenção preventiva programada, limpamos o condensador (sujeira na unidade externa eleva a pressão e faz o motor desarmar ou queimar), inspecionamos as gaxetas de vedação das portas, monitoramos o fluido refrigerante em busca de microvazamentos e testamos drenos e resistências. Na corretiva, resolvemos emergências: ajuste de parâmetros do controlador digital, substituição de compressores, ventiladores e contatores, e reparo de painéis ou vedação avariados — sempre com diagnóstico e preço fechado antes de começar.",
       "Se você procurou por técnico de câmara fria ou assistência técnica de câmara frigorífica, o serviço é este: o mesmo técnico que faz a montagem também atende manutenção e emergência, sempre com instrumento de medição."
     ],
     "sections": [
+      {
+        "title": "Conserto de câmara fria: os defeitos que mais atendemos",
+        "body": [
+          "<strong>Câmara que não atinge a temperatura</strong> costuma ter evaporador congelado, degelo que não funciona, condensadora suja ou falta de gás por vazamento. O guia <a href=\"/blog/camara-fria-nao-gela.html\">câmara fria não gela: causas e o que fazer</a> explica cada causa.",
+          "<strong>Compressor que desarma ou não parte</strong> pode ser capacitor, contator, pressostato ou sobrecarga por condensação ruim. Trocar o compressor sem medir é o erro mais caro: se a causa continua, o novo queima igual.",
+          "<strong>Gelo no piso, na porta ou água pingando</strong> aponta para resistência de porta ou de dreno queimada, gaxeta de vedação gasta ou dreno entupido. São reparos rápidos que evitam perda de mercadoria e acidente no piso.",
+          "<strong>Controlador mostrando temperatura errada ou alarme</strong> pode ser sensor descalibrado ou parâmetro alterado. O técnico confere com termômetro de referência antes de mexer no ajuste."
+        ]
+      },
       {
         "title": "Câmara frigorífica: projeto, montagem e manutenção",
         "body": [
