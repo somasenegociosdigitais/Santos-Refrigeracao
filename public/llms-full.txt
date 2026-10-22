@@ -122,6 +122,43 @@ evaporador congelado, ventilador parado, condensadora suja ou falta de gás.
 
 ---
 
+## Máquina de gelo não faz gelo: 7 causas e o que fazer
+
+Fonte: https://www.santosrefricomercial.com.br/blog/maquina-de-gelo-nao-faz-gelo.html
+Publicado em 22 de outubro de 2026.
+
+**1. Falta de água ou pressão baixa.** A máquina liga, refrigera e não entra
+água na placa. Abrir todo o registro, desdobrar a mangueira, trocar filtro
+entupido. Se a água chega e não entra, testar a válvula solenoide de entrada.
+
+**2. Filtro saturado e incrustação na placa.** Crosta branca na placa, gelo
+turvo, pedras menores e produção em queda. Higienizar com desincrustante
+próprio para contato com alimento e trocar o filtro. Não raspar a placa.
+
+**3. Condensador sujo ou ambiente quente.** Grade com poeira, ventilador parado
+ou produção que cai à tarde. Limpar o condensador e garantir ventilação, longe
+de forno ou chapa.
+
+**4. Sensor do reservatório desregulado.** Máquina ligada e parada com o
+reservatório pela metade. Liberar a cortina ou o sensor e retirar gelo preso.
+
+**5. Falha no ciclo de colheita.** Gelo em bloco, preso na placa, ou máquina
+que trava no meio do ciclo. Testar válvula de gás quente e sensor de colheita.
+
+**6. Bomba de água ou distribuidor entupido.** Gelo oco, pela metade ou só em
+parte das cápsulas. Limpar o distribuidor e trocar a bomba se estiver fraca.
+
+**7. Falta de gás ou compressor com defeito.** A água circula, a placa não
+esfria e o gelo não forma. Localizar e corrigir o vazamento, fazer vácuo e
+recarregar; testar a parte elétrica antes de trocar o compressor.
+
+**Dúvidas frequentes:** gelo turvo vem de água com muitos sais minerais, filtro
+vencido ou incrustação. Não usar vinagre ou água sanitária na placa: usar o
+desincrustante e o sanitizante indicados pelo fabricante. A frequência de
+higienização depende do uso, da dureza da água e do fabricante.
+
+---
+
 ## Equipamentos atendidos
 
 Câmara fria e câmara frigorífica — conserto, manutenção preventiva e corretiva,

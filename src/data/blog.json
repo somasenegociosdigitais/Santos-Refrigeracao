@@ -405,5 +405,208 @@
       ]
     ],
     "waMessage": "Olá! Li o artigo sobre câmara fria que não gela no site e preciso de atendimento para CÂMARA FRIA."
+  },
+  "maquina-de-gelo-nao-faz-gelo": {
+    "slug": "maquina-de-gelo-nao-faz-gelo",
+    "title": "Máquina de gelo não faz gelo: causas e o que fazer",
+    "metaTitle": "Máquina de gelo não faz gelo: 7 causas e o que fazer",
+    "metaDescription": "Máquina de gelo parou de fazer gelo, produz pouco ou faz gelo mole? Veja as 7 causas mais comuns, o que conferir antes e quando chamar o técnico.",
+    "category": "Máquina de gelo",
+    "published": "2026-10-22",
+    "updated": "2026-10-22",
+    "readMin": 7,
+    "cover": "/assets/trab-mg-4.webp",
+    "coverAlt": "Reservatório de máquina de gelo em cubo aberto, com pouco gelo no fundo",
+    "excerpt": "Máquina de gelo que não faz gelo quase sempre avisa antes: a produção cai, o gelo sai mole ou turvo. Veja as sete causas mais comuns e o que conferir.",
+    "lead": "Máquina de gelo que não faz gelo raramente para de uma vez. Antes, a produção cai, o gelo sai mole, oco ou turvo, ou a máquina fica ligada sem encher o reservatório. Como ela depende de água, de refrigeração e do ciclo de colheita, a causa pode estar em qualquer um dos três. Este guia lista as sete causas mais comuns e mostra o que o próprio estabelecimento consegue conferir antes de chamar o técnico.",
+    "summaryTitle": "As 7 causas mais comuns de máquina de gelo que não faz gelo",
+    "sections": [
+      {
+        "id": "falta-agua",
+        "title": "1. Falta de água ou pressão baixa",
+        "body": [
+          "Sem água chegando, a máquina liga, refrigera e não forma gelo. Registro fechado ou parcialmente aberto, mangueira dobrada atrás do equipamento, filtro entupido ou falta de pressão na rede são as causas mais simples e as primeiras a descartar.",
+          "Quando a água chega à torneira mas não entra na máquina, a suspeita passa para a válvula solenoide de entrada, que pode estar com a tela entupida ou com a bobina queimada.",
+          "<strong>Como conferir:</strong> veja se o registro está todo aberto e se a mangueira não está dobrada. Com a máquina no início do ciclo, observe se a água entra no reservatório interno."
+        ]
+      },
+      {
+        "id": "filtro-incrustacao",
+        "title": "2. Filtro saturado e incrustação na placa",
+        "body": [
+          "A água do Rio tem sais minerais que se depositam na placa ou nas cápsulas de formação. Essa crosta branca atrapalha a troca de calor e a soltura do gelo. O resultado é produção menor, gelo turvo, pedras menores ou mal formadas e, com o tempo, máquina que para de colher.",
+          "Filtro vencido deixa passar mais calcário e, quando satura, reduz a vazão de água. É a causa mais comum de queda de produção em máquina que funciona há meses sem manutenção.",
+          "A solução é a higienização com desincrustante próprio para superfície em contato com alimento e a troca do filtro na mesma visita. Raspar a placa com objeto duro risca a superfície e faz o gelo grudar ainda mais."
+        ]
+      },
+      {
+        "id": "condensador",
+        "title": "3. Condensador sujo ou ambiente quente",
+        "image": {
+          "src": "/assets/trab-mg-1.webp",
+          "alt": "Máquina de gelo com condensador coberto de poeira na lateral, causa de queda de produção",
+          "caption": "Condensador com poeira acumulada: a máquina perde rendimento e produz menos gelo."
+        },
+        "body": [
+          "O condensador joga para fora o calor retirado da água. Coberto de poeira e gordura, ou com a máquina encostada na parede e sem ventilação, ele não consegue dissipar o calor. O ciclo fica mais longo e a produção diária cai, principalmente no verão e em cozinha quente.",
+          "Máquina instalada ao lado de forno, chapa ou da saída de ar de outro equipamento sofre o mesmo efeito. Se a produção é normal de manhã e cai à tarde, o ambiente e o condensador são as primeiras suspeitas.",
+          "<strong>Como conferir:</strong> olhe a grade do condensador e veja se o ventilador está girando. A máquina precisa de espaço livre para o ar entrar e sair."
+        ]
+      },
+      {
+        "id": "sensor-reservatorio",
+        "title": "4. Sensor do reservatório desregulado",
+        "body": [
+          "A máquina para de produzir quando o reservatório de armazenamento enche. Quem avisa é um sensor: termostato com bulbo, sensor de nível ou uma cortina que se move quando o gelo encosta. Se esse sensor está desregulado, sujo ou travado, a máquina entende que o reservatório está cheio e não volta a produzir.",
+          "O sintoma é a máquina ligada, sem defeito aparente e com o reservatório pela metade ou vazio. Gelo grudado no sensor ou cortina presa por gelo derretido e recongelado também causam a parada.",
+          "<strong>Como conferir:</strong> veja se a cortina ou a portinhola de descarga se move livremente e se não há gelo preso no sensor."
+        ]
+      },
+      {
+        "id": "colheita",
+        "title": "5. Falha no ciclo de colheita",
+        "body": [
+          "No fim de cada ciclo, a máquina aquece rapidamente a placa para soltar o gelo, normalmente com gás quente. Se a colheita falha, o gelo não se solta: forma uma placa só, em bloco, ou fica preso e impede o ciclo seguinte. Às vezes a máquina trava no meio do ciclo e desliga.",
+          "As causas mais comuns são válvula de gás quente com defeito, sensor ou termostato de colheita desregulado e placa com incrustação, que faz o gelo grudar. Ajuste de ciclo pede instrumento e conhecimento do modelo."
+        ]
+      },
+      {
+        "id": "bomba-distribuidor",
+        "title": "6. Bomba de água ou distribuidor entupido",
+        "body": [
+          "Nas máquinas de cubo, uma bomba faz a água circular sobre a placa de formação por um distribuidor com furos pequenos. Se a bomba enfraquece ou os furos entopem com calcário, a água não cobre toda a placa. O gelo sai pela metade, oco, com formato irregular, e só em parte das cápsulas.",
+          "Esse defeito costuma aparecer junto com a incrustação. A higienização completa desmonta o distribuidor e limpa os furos. Bomba fraca ou com ruído é trocada."
+        ]
+      },
+      {
+        "id": "gas-compressor",
+        "title": "7. Falta de gás ou compressor com defeito",
+        "image": {
+          "src": "/assets/trab-mg-2.webp",
+          "alt": "Máquina de gelo aberta em balcão de bar, com compressor e tubulação expostos durante o conserto",
+          "caption": "Máquina aberta para teste de compressor e carga de gás.",
+          "wide": true
+        },
+        "body": [
+          "O fluido refrigerante circula em circuito fechado e não se gasta com o uso. Se está faltando, há vazamento. Com pouco gás, a placa não esfria o suficiente: a máquina fica ligada, a água circula e o gelo não forma, ou forma só em parte da placa.",
+          "Compressor que não parte, desarma ou faz ruído também para a produção. Antes de trocar, o técnico mede pressão e corrente e testa capacitor, relé e parte elétrica, porque nem toda parada de compressor é defeito do compressor.",
+          "Completar o gás sem achar o vazamento resolve por pouco tempo. O certo é localizar o ponto, corrigir, fazer vácuo e recarregar na quantidade correta."
+        ]
+      }
+    ],
+    "diagnosis": {
+      "title": "Como descobrir qual é a causa",
+      "intro": "Siga esta ordem. Os primeiros passos não precisam de ferramenta.",
+      "steps": [
+        "Confira se a máquina está ligada na tomada certa e se o disjuntor não desarmou.",
+        "Veja se o registro de água está todo aberto e se a mangueira não está dobrada.",
+        "Observe se a água entra e circula sobre a placa no início do ciclo.",
+        "Olhe a placa de formação: crosta branca indica incrustação e higienização atrasada.",
+        "Confira se a grade do condensador está limpa e se o ventilador gira.",
+        "Veja se a cortina ou o sensor do reservatório se move livremente.",
+        "Repare no gelo: mole, oco ou pela metade aponta para água, bomba ou gás; gelo em bloco aponta para a colheita."
+      ],
+      "after": "Se tudo isso estiver certo e a máquina continuar sem fazer gelo, a causa provável é gás, compressor, válvula de gás quente ou controle do ciclo, e o diagnóstico precisa de manômetro e medição elétrica."
+    },
+    "cta": {
+      "title": "Quando chamar o técnico",
+      "body": "Chame quando a máquina liga e não forma gelo, quando o gelo sai em bloco ou trava na placa, quando a produção caiu mesmo com condensador limpo e água chegando, ou quando a higienização e a troca de filtro estão atrasadas. O técnico da Santos mede pressão e corrente, testa bomba, válvulas e sensores, faz a higienização com desincrustante e localiza vazamento quando falta gás. Você recebe o diagnóstico e o preço fechado antes do serviço."
+    },
+    "conclusion": {
+      "title": "Resumo",
+      "table": {
+        "intro": "Na maioria das vezes a causa está na água ou na limpeza da placa. Nesta tabela estão as sete causas, o sinal que identifica cada uma e o que fazer.",
+        "head": [
+          "Causa",
+          "Como identificar",
+          "O que fazer"
+        ],
+        "rows": [
+          [
+            "Falta de água ou pressão baixa",
+            "Máquina liga, refrigera e não entra água na placa",
+            "Abrir todo o registro, desdobrar a mangueira, trocar filtro entupido. Se a água não entra, testar a válvula solenoide"
+          ],
+          [
+            "Filtro saturado e incrustação na placa",
+            "Crosta branca na placa, gelo turvo, pedras menores e produção em queda",
+            "Higienizar com desincrustante próprio e trocar o filtro. Não raspar a placa"
+          ],
+          [
+            "Condensador sujo ou ambiente quente",
+            "Grade com poeira, ventilador parado ou produção que cai à tarde",
+            "Limpar o condensador e garantir espaço livre para ventilar, longe de fonte de calor"
+          ],
+          [
+            "Sensor do reservatório desregulado",
+            "Máquina ligada e parada com o reservatório pela metade",
+            "Liberar a cortina ou o sensor e retirar gelo preso. Ajuste fino com o técnico"
+          ],
+          [
+            "Falha no ciclo de colheita",
+            "Gelo em bloco, preso na placa ou máquina que trava no meio do ciclo",
+            "Testar válvula de gás quente e sensor de colheita e tirar a incrustação da placa"
+          ],
+          [
+            "Bomba de água ou distribuidor entupido",
+            "Gelo oco, pela metade ou só em parte das cápsulas",
+            "Limpar o distribuidor na higienização e trocar a bomba se estiver fraca"
+          ],
+          [
+            "Falta de gás ou compressor com defeito",
+            "Água circula, placa não esfria e o gelo não forma",
+            "Localizar e corrigir o vazamento, fazer vácuo e recarregar. Testar a parte elétrica antes de trocar o compressor"
+          ]
+        ]
+      }
+    },
+    "midCta": {
+      "after": "filtro-incrustacao",
+      "text": "Gelo turvo ou produção caindo? A Santos faz a higienização completa da máquina de gelo com troca de filtro.",
+      "button": "Agendar higienização"
+    },
+    "faq": [
+      [
+        "Máquina de gelo ligada e não faz gelo: o que conferir primeiro?",
+        "Confira se a água está chegando: registro todo aberto, mangueira sem dobra e filtro dentro da validade. Depois veja se o condensador está limpo e se o ventilador gira."
+      ],
+      [
+        "Por que a máquina de gelo faz gelo mole ou oco?",
+        "Gelo mole ou oco costuma indicar água insuficiente sobre a placa, distribuidor entupido, bomba fraca ou falta de gás. Incrustação na placa também atrapalha a formação."
+      ],
+      [
+        "Por que o gelo sai turvo?",
+        "Gelo turvo vem de água com muitos sais minerais, filtro vencido ou placa com incrustação. A higienização com troca de filtro costuma resolver."
+      ],
+      [
+        "Posso limpar a máquina de gelo com vinagre ou água sanitária?",
+        "Não é o indicado. A máquina produz alimento e a placa tem revestimento que pode ser danificado. Use o desincrustante e o sanitizante recomendados pelo fabricante, ou chame a higienização técnica."
+      ],
+      [
+        "De quanto em quanto tempo higienizar a máquina de gelo?",
+        "Depende do volume de uso, da dureza da água e da orientação do fabricante. Em bar e restaurante de alto giro no Rio, o intervalo costuma ser menor do que o manual sugere. A Santos define o calendário na primeira visita."
+      ]
+    ],
+    "related": [
+      [
+        "Máquina de gelo",
+        "/maquina-de-gelo.html",
+        "cuboid",
+        "Conserto, manutenção e higienização de máquinas de gelo em cubo e escama."
+      ],
+      [
+        "Cervejeira",
+        "/cervejeira.html",
+        "beer",
+        "Conserto e manutenção de cervejeira para bar e distribuidora."
+      ],
+      [
+        "Técnico de refrigeração comercial",
+        "/tecnico-refrigeracao-comercial.html",
+        "thermometer-snowflake",
+        "Assistência técnica para os equipamentos de refrigeração do seu negócio."
+      ]
+    ],
+    "waMessage": "Olá! Li o artigo sobre máquina de gelo que não faz gelo no site e preciso de atendimento para MÁQUINA DE GELO."
   }
 }
