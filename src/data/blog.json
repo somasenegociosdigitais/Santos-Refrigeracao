@@ -242,7 +242,7 @@
           "wide": true
         },
         "body": [
-          "O degelo câmara fria é o ciclo em que a refrigeração para por alguns minutos para derreter o gelo do evaporador. Em câmara de resfriados, o degelo costuma ser feito só com a parada do compressor. Em câmara de congelados, uma resistência elétrica aquece o evaporador, porque o ar interno está frio demais para derreter o gelo sozinho.",
+          "O degelo câmara fria é o ciclo em que a refrigeração para por alguns minutos para derreter o gelo do evaporador. Em câmara de resfriados, o degelo costuma ser feito só com a parada do compressor. Em câmara de congelados, uma resistência elétrica aquece o evaporador, porque o ar interno está frio demais para derreter o gelo sozinho. As outras diferenças entre os dois tipos estão em <a href=\"/blog/camara-fria-resfriados-ou-congelados.html\">câmara fria de resfriados ou de congelados</a>.",
           "O degelo falha quando a resistência queima, quando o controlador está com intervalo ou duração errados ou quando o sensor de fim de degelo dá leitura errada. A água do degelo também precisa escoar: dreno entupido ou congelado devolve a água para a bandeja, e ela congela de novo.",
           "<strong>Como conferir:</strong> observe se, de tempos em tempos, a câmara para e o gelo do evaporador diminui. Se o gelo só aumenta, o degelo não está acontecendo ou está curto demais."
         ]
@@ -253,7 +253,7 @@
         "body": [
           "Cada abertura de porta troca o ar frio e seco da câmara por ar quente e úmido. Essa umidade é a mesma que vira gelo no evaporador. Borracha de vedação ressecada, porta que não fecha sozinha ou dobradiça caída deixam a troca acontecer o tempo todo.",
           "Em câmara de congelados, a resistência do batente evita que a borracha grude congelada. Se ela queima, a porta passa a ser forçada e a vedação estraga mais rápido.",
-          "<strong>Como conferir:</strong> feche a porta com uma folha de papel no meio. Se o papel sai sem resistência, a vedação está falhando naquele ponto. Procure também gelo ou água escorrendo na moldura."
+          "<strong>Como conferir:</strong> feche a porta com uma folha de papel no meio. Se o papel sai sem resistência, a vedação está falhando naquele ponto. Procure também gelo ou água escorrendo na moldura. Esse teste faz parte do <a href=\"/blog/manutencao-preventiva-camara-fria.html\">checklist de manutenção preventiva de câmara fria</a>."
         ]
       },
       {
@@ -261,7 +261,7 @@
         "title": "4. Condensadora suja ou sem ventilação",
         "body": [
           "A unidade condensadora fica do lado de fora e joga para o ambiente o calor retirado da câmara. Com o condensador coberto de poeira e gordura, ou instalado em local abafado, ela não consegue dissipar o calor. A pressão sobe, o compressor esquenta e a câmara perde rendimento, principalmente nos dias mais quentes.",
-          "Ventilador da condensadora parado tem o mesmo efeito, e mais rápido. Se a câmara gela de manhã e esquenta à tarde, a condensadora é uma das primeiras suspeitas.",
+          "Ventilador da condensadora parado tem o mesmo efeito, e mais rápido. Se a câmara gela de manhã e esquenta à tarde, a condensadora é uma das primeiras suspeitas. Quando o calor faz o compressor desarmar, veja <a href=\"/blog/camara-fria-desligando-sozinha.html\">câmara fria desligando sozinha</a>.",
           "<strong>Como conferir:</strong> veja se o ventilador da condensadora está girando e se as aletas estão limpas. A unidade precisa de espaço livre na frente e atrás para o ar circular."
         ]
       },
@@ -635,7 +635,7 @@
         },
         "body": [
           "O degelo é o ciclo programado em que a câmara para de refrigerar para derreter o gelo do evaporador. O compressor desliga, os ventiladores do evaporador costumam parar e, em câmara de congelados, uma resistência aquece a serpentina. Depois de alguns minutos, a refrigeração volta sozinha.",
-          "Quem não conhece o ciclo vê a câmara parada e acha que desarmou. A diferença é a regularidade: o degelo acontece em horários previstos pela programação do controlador e termina sozinho.",
+          "Quem não conhece o ciclo vê a câmara parada e acha que desarmou. A diferença é a regularidade: o degelo acontece em horários previstos pela programação do controlador e termina sozinho. Como o degelo muda entre os dois tipos de câmara está em <a href=\"/blog/camara-fria-resfriados-ou-congelados.html\">câmara fria de resfriados ou de congelados</a>.",
           "<strong>Como conferir:</strong> veja se o visor do controlador mostra um símbolo ou mensagem de degelo e se a câmara volta a funcionar em seguida. Se ela parou e não volta, não é degelo."
         ]
       },
@@ -662,7 +662,7 @@
         "title": "4. Condensadora suja ou sem ventilação",
         "body": [
           "A unidade condensadora joga para fora o calor retirado da câmara. Com as aletas cobertas de poeira e gordura, ventilador parado ou instalação em local abafado, a pressão de alta sobe e o compressor superaquece. O pressostato de alta ou o protetor térmico desliga o compressor para protegê-lo.",
-          "O sintoma típico é a câmara desligar à tarde e nos dias mais quentes, voltar depois que esfria e desligar de novo. Com o tempo, o superaquecimento repetido encurta a vida do compressor.",
+          "O sintoma típico é a câmara desligar à tarde e nos dias mais quentes, voltar depois que esfria e desligar de novo. Com o tempo, o superaquecimento repetido encurta a vida do compressor. A limpeza programada da condensadora é o primeiro item do <a href=\"/blog/manutencao-preventiva-camara-fria.html\">checklist de manutenção preventiva</a>.",
           "<strong>Como conferir:</strong> veja se o ventilador da condensadora gira, se as aletas estão limpas e se há espaço livre na frente e atrás da unidade."
         ]
       },
@@ -864,7 +864,7 @@
         "title": "4. Dreno e piso (toda semana)",
         "body": [
           "A água do degelo sai pela bandeja do evaporador e pelo dreno. Dreno entupido devolve a água para a bandeja, ela congela de novo e o evaporador forma bloco de gelo. Água pingando no piso ou gelo embaixo do evaporador são os sinais.",
-          "Em câmara de congelados, o dreno tem uma resistência que impede a água de congelar no caminho. Se o cano de dreno aparece com gelo por dentro, a resistência pode estar queimada.",
+          "Em câmara de congelados, o dreno tem uma resistência que impede a água de congelar no caminho. Se o cano de dreno aparece com gelo por dentro, a resistência pode estar queimada. A diferença de degelo e dreno entre os dois tipos está em <a href=\"/blog/camara-fria-resfriados-ou-congelados.html\">câmara fria de resfriados ou de congelados</a>.",
           "Piso com gelo ou água é risco de queda para quem trabalha na câmara. Seque e procure a origem no mesmo dia."
         ]
       },
@@ -1066,7 +1066,7 @@
         "id": "porta",
         "title": "4. Porta e resistências",
         "body": [
-          "A porta da câmara de congelados é mais espessa e tem resistência elétrica no batente. Sem ela, a umidade congela na borracha, a porta gruda e a vedação rasga ao ser forçada. A válvula de equalização de pressão também é comum, porque o ar que entra quente e esfria cria vácuo e dificulta abrir a porta.",
+          "A porta da câmara de congelados é mais espessa e tem resistência elétrica no batente. Sem ela, a umidade congela na borracha, a porta gruda e a vedação rasga ao ser forçada. A válvula de equalização de pressão também é comum, porque o ar que entra quente e esfria cria vácuo e dificulta abrir a porta. Quando a câmara desliga por alarme de porta, veja <a href=\"/blog/camara-fria-desligando-sozinha.html\">câmara fria desligando sozinha</a>.",
           "Na câmara de resfriados, a porta é mais simples e normalmente dispensa resistência. Nos dois casos, cortina de PVC reduz a troca de ar quando a porta fica aberta."
         ]
       },
@@ -1075,14 +1075,14 @@
         "title": "5. Degelo",
         "body": [
           "Na câmara de resfriados, o ar interno está acima de zero, e o degelo costuma ser feito só com a parada do compressor: os ventiladores continuam girando e o gelo derrete com o próprio ar da câmara.",
-          "Na câmara de congelados, o ar está frio demais para derreter o gelo. O degelo é feito com resistência elétrica no evaporador ou com gás quente, e o dreno também precisa de resistência para a água não congelar no caminho. Por isso degelo é uma das falhas mais comuns em câmara de congelados."
+          "Na câmara de congelados, o ar está frio demais para derreter o gelo. O degelo é feito com resistência elétrica no evaporador ou com gás quente, e o dreno também precisa de resistência para a água não congelar no caminho. Por isso degelo é uma das falhas mais comuns em câmara de congelados. Os sinais de degelo com defeito estão em <a href=\"/blog/camara-fria-nao-gela.html\">câmara fria não gela</a>."
         ]
       },
       {
         "id": "equipamento",
         "title": "6. Equipamento e consumo",
         "body": [
-          "Para o mesmo volume, a câmara de congelados precisa de um equipamento maior, com compressor e evaporador escolhidos para temperatura negativa. O consumo de energia também é maior.",
+          "Para o mesmo volume, a câmara de congelados precisa de um equipamento maior, com compressor e evaporador escolhidos para temperatura negativa. O consumo de energia também é maior. Nos dois casos, a <a href=\"/blog/manutencao-preventiva-camara-fria.html\">manutenção preventiva</a> segue o mesmo checklist.",
           "O dimensionamento é feito pelo cálculo de carga térmica: volume da câmara, temperatura de trabalho, quanta mercadoria entra por dia e a que temperatura, frequência de abertura de porta e temperatura do local onde fica a condensadora."
         ]
       },

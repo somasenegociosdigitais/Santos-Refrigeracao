@@ -6,6 +6,7 @@ import Base from './Base.astro';
 import Icone from '../components/Icone.astro';
 import Faq from '../components/Faq.astro';
 import { NEGOCIO, EMPRESA_SCHEMA, wa } from '../data/site.js';
+import BLOG from '../data/blog.json';
 
 const { dados: d } = Astro.props;
 const caminho = '/blog/' + d.slug + '.html';
@@ -17,6 +18,8 @@ const dataBr = (iso) => { const [a, m, dia] = iso.split('-').map(Number); return
 // as duas páginas-hub com âncora de palavra-chave.
 const estiloElo = 'color:var(--color-primary);font-weight:700';
 const paragrafoElos = 'A Santos Refrigeração atende o Rio e o Grande Rio a partir da <a href="/refrigeracao-cascadura.html" style="' + estiloElo + '">oficina de refrigeração em Cascadura</a>, com <a href="/tecnico-refrigeracao-comercial.html" style="' + estiloElo + '">assistência técnica em refrigeração comercial</a> para bares, restaurantes e comércio. Veja também os <a href="/" style="' + estiloElo + '">outros serviços de refrigeração comercial</a>.';
+// Outros artigos da mesma categoria (cluster): novos entram sozinhos.
+const mesmoTema = Object.values(BLOG).filter((p) => p.category === d.category && p.slug !== d.slug).sort((a, b) => b.published.localeCompare(a.published));
 const causas = d.sections.map((s) => [s.id, s.title.replace(/^\d+\.\s*/, '')]);
 
 const jsonld = [
@@ -134,6 +137,21 @@ if (d.faq && d.faq.length) {
   <section class="art-sec">
   <h2>Perguntas frequentes</h2>
   <Faq itens={d.faq} h3 />
+  </section>
+)}
+
+{mesmoTema.length > 0 && (
+  <section class="art-sec">
+  <h2>Mais sobre {d.category.toLowerCase()}</h2>
+  <div class="art-rel">
+  {mesmoTema.map((p) => (
+    <a href={'/blog/' + p.slug + '.html'}>
+    <span class="art-rel__ic"><Icone nome="book-open" tam={22} /></span>
+    <span style="display:flex;flex-direction:column;gap:4px"><strong>{p.title}</strong><span>{p.excerpt}</span></span>
+    <Icone nome="arrow-right" tam={18} />
+    </a>
+  ))}
+  </div>
   </section>
 )}
 
