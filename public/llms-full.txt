@@ -159,6 +159,81 @@ higienização depende do uso, da dureza da água e do fabricante.
 
 ---
 
+## Câmara fria desligando sozinha: 7 causas e o que fazer
+
+Fonte: https://www.santosrefricomercial.com.br/blog/camara-fria-desligando-sozinha.html
+Publicado em 27 de outubro de 2026.
+
+**1. Câmara em degelo.** Parada normal: em horários programados a refrigeração
+para alguns minutos para derreter o gelo do evaporador e volta sozinha. O visor
+do controlador indica degelo.
+
+**2. Tensão baixa ou oscilando.** O compressor puxa mais corrente, esquenta e o
+protetor térmico desliga. Desliga junto com outros equipamentos ou nos horários
+de maior consumo. Medir a tensão na partida e separar o circuito.
+
+**3. Disjuntor, contator ou ligação elétrica.** Disjuntor desarmado, borne
+escurecido ou cheiro de queimado. Refazer a ligação, trocar contator gasto e
+dimensionar o disjuntor. Não religar repetidas vezes.
+
+**4. Condensadora suja ou sem ventilação.** A pressão de alta sobe e o
+pressostato de alta ou o protetor térmico desliga o compressor. Desliga à tarde
+e nos dias quentes. Limpar a condensadora e liberar a ventilação.
+
+**5. Falta de gás por vazamento.** A pressão de baixa cai e o pressostato de
+baixa desliga. A câmara liga, funciona pouco e desliga. Localizar e corrigir o
+vazamento, fazer vácuo e recarregar.
+
+**6. Capacitor, relé de partida ou compressor no fim da vida.** O compressor
+estala ou zumbe, não parte e desarma. Testar capacitor, relé e contator e medir
+corrente antes de trocar o compressor.
+
+**7. Controlador, sensor ou parâmetro errado.** Sensor solto, diferencial
+pequeno, degelo frequente demais ou alarme de porta. Ler o código no visor e
+conferir com termômetro de referência.
+
+**Dúvidas frequentes:** desligar durante o degelo é normal. Se o disjuntor
+desarmar de novo depois de religado uma vez, desligar e chamar o técnico:
+religar seguidas vezes pode queimar o compressor.
+
+---
+
+## Checklist de manutenção preventiva de câmara fria
+
+Fonte: https://www.santosrefricomercial.com.br/blog/manutencao-preventiva-camara-fria.html
+Publicado em 27 de outubro de 2026.
+
+Equipe da loja: anotar a temperatura todo dia, na abertura e no fechamento;
+toda semana testar a vedação da porta com uma folha de papel, olhar o
+evaporador (sem bloco de gelo, ventiladores girando), conferir dreno e piso e
+afastar caixas do evaporador; todo mês comparar o visor com um termômetro de
+referência.
+
+Técnico, em visitas programadas: limpeza da condensadora, medição de tensão e
+corrente, reaperto do quadro elétrico e contatores, pressões do gás e busca de
+microvazamentos, parâmetros do controlador, teste da resistência e do sensor de
+degelo, com relatório da visita. A frequência depende do tipo de câmara, do
+ambiente da condensadora e do movimento de porta.
+
+---
+
+## Câmara fria de resfriados ou de congelados: 7 diferenças
+
+Fonte: https://www.santosrefricomercial.com.br/blog/camara-fria-resfriados-ou-congelados.html
+Publicado em 27 de outubro de 2026.
+
+**Temperatura:** resfriados trabalha poucos graus acima de zero; congelados,
+com referência de −18 °C ou menos. **Painel:** congelados usa painel mais
+espesso, em geral PUR ou PIR. **Piso:** congelados precisa de piso isolado com
+barreira de vapor. **Porta:** congelados tem resistência no batente e válvula de
+equalização. **Degelo:** resfriados por parada do compressor; congelados por
+resistência ou gás quente, com dreno aquecido. **Equipamento:** congelados usa
+equipamento maior e consome mais. **Conversão:** câmara de resfriados não vira
+congelados sem refazer painel, piso, porta e equipamento; o contrário é possível
+com ajuste.
+
+---
+
 ## Equipamentos atendidos
 
 Câmara fria e câmara frigorífica — conserto, manutenção preventiva e corretiva,

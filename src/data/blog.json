@@ -608,5 +608,605 @@
       ]
     ],
     "waMessage": "Olá! Li o artigo sobre máquina de gelo que não faz gelo no site e preciso de atendimento para MÁQUINA DE GELO."
+  },
+  "camara-fria-desligando-sozinha": {
+    "slug": "camara-fria-desligando-sozinha",
+    "title": "Câmara fria desligando sozinha: causas e o que fazer",
+    "metaTitle": "Câmara fria desligando sozinha: 7 causas e o que fazer",
+    "metaDescription": "Câmara fria desliga sozinha ou o compressor desarma? Veja as 7 causas mais comuns, quando a parada é normal e quando chamar o técnico.",
+    "category": "Câmara fria",
+    "published": "2026-10-27",
+    "updated": "2026-10-27",
+    "readMin": 7,
+    "cover": "/assets/trab-cfi-3.webp",
+    "coverAlt": "Quadro de comando de câmara fria com controlador, disjuntores e contatores",
+    "excerpt": "Câmara fria que desliga sozinha pode estar só em degelo, ou pode ser tensão baixa, condensadora suja, falta de gás ou peça elétrica. Veja as sete causas e o que conferir.",
+    "lead": "Câmara fria que desliga sozinha nem sempre está com defeito: durante o degelo, a refrigeração para por alguns minutos e volta. Quando a parada acontece fora do degelo, a causa mais comum é uma proteção desarmando o compressor por tensão baixa, superaquecimento, pressão errada ou peça elétrica gasta. Este guia lista as sete causas mais comuns, explica o que cada proteção indica e mostra o que o próprio estabelecimento consegue conferir antes de chamar o técnico.",
+    "summaryTitle": "As 7 causas mais comuns de câmara fria que desliga sozinha",
+    "sections": [
+      {
+        "id": "degelo",
+        "title": "1. Câmara em degelo (parada normal)",
+        "image": {
+          "src": "/assets/trab-cf-7.webp",
+          "alt": "Evaporador de câmara fria com dois ventiladores, que param durante o degelo",
+          "caption": "No degelo, o compressor e os ventiladores do evaporador param por alguns minutos.",
+          "wide": true
+        },
+        "body": [
+          "O degelo é o ciclo programado em que a câmara para de refrigerar para derreter o gelo do evaporador. O compressor desliga, os ventiladores do evaporador costumam parar e, em câmara de congelados, uma resistência aquece a serpentina. Depois de alguns minutos, a refrigeração volta sozinha.",
+          "Quem não conhece o ciclo vê a câmara parada e acha que desarmou. A diferença é a regularidade: o degelo acontece em horários previstos pela programação do controlador e termina sozinho.",
+          "<strong>Como conferir:</strong> veja se o visor do controlador mostra um símbolo ou mensagem de degelo e se a câmara volta a funcionar em seguida. Se ela parou e não volta, não é degelo."
+        ]
+      },
+      {
+        "id": "tensao",
+        "title": "2. Tensão baixa ou oscilando",
+        "body": [
+          "O compressor precisa de tensão estável para partir. Com a tensão abaixo do normal, ele puxa mais corrente, esquenta e o protetor térmico desliga. Quando a tensão oscila, a câmara liga e desliga várias vezes ao dia, quase sempre nos horários de maior consumo do bairro ou da própria loja.",
+          "Equipamentos grandes ligados no mesmo circuito, como forno elétrico, outra câmara ou ar condicionado, derrubam a tensão na partida. Cabo fino demais para a distância até o quadro tem o mesmo efeito.",
+          "<strong>Como conferir:</strong> repare se a câmara desliga junto com outros equipamentos ou quando a luz da loja oscila. A medição da tensão na partida é feita pelo técnico com multímetro."
+        ]
+      },
+      {
+        "id": "eletrica",
+        "title": "3. Disjuntor, contator ou ligação elétrica",
+        "body": [
+          "O disjuntor desarma quando a corrente passa do limite. Isso acontece com compressor forçando, disjuntor subdimensionado ou já cansado, e com ligação frouxa que esquenta. O contator, peça que liga e desliga o compressor, desgasta os contatos com o uso e passa a falhar.",
+          "Borne escurecido, cheiro de queimado no quadro ou disjuntor quente ao toque indicam mau contato. Religar o disjuntor várias vezes sem achar a causa pode queimar o compressor.",
+          "<strong>Como conferir:</strong> veja se o disjuntor da câmara está desarmado e se há marcas de aquecimento no quadro. Se desarmar de novo logo depois de religado, desligue e chame o técnico."
+        ]
+      },
+      {
+        "id": "condensadora",
+        "title": "4. Condensadora suja ou sem ventilação",
+        "body": [
+          "A unidade condensadora joga para fora o calor retirado da câmara. Com as aletas cobertas de poeira e gordura, ventilador parado ou instalação em local abafado, a pressão de alta sobe e o compressor superaquece. O pressostato de alta ou o protetor térmico desliga o compressor para protegê-lo.",
+          "O sintoma típico é a câmara desligar à tarde e nos dias mais quentes, voltar depois que esfria e desligar de novo. Com o tempo, o superaquecimento repetido encurta a vida do compressor.",
+          "<strong>Como conferir:</strong> veja se o ventilador da condensadora gira, se as aletas estão limpas e se há espaço livre na frente e atrás da unidade."
+        ]
+      },
+      {
+        "id": "gas",
+        "title": "5. Falta de gás por vazamento",
+        "body": [
+          "O fluido refrigerante circula em circuito fechado e não se gasta com o uso. Se falta gás, há vazamento. Com pouco gás, a pressão de baixa cai e o pressostato de baixa desliga o compressor. A câmara liga, funciona pouco tempo e desliga, e a temperatura não chega ao ponto.",
+          "Completar o gás sem achar o vazamento resolve por pouco tempo. O certo é localizar o ponto, corrigir a solda ou a conexão, fazer vácuo e recarregar na quantidade correta. Para os outros sinais de falta de gás, veja o guia <a href=\"/blog/camara-fria-nao-gela.html\">câmara fria não gela</a>."
+        ]
+      },
+      {
+        "id": "partida",
+        "title": "6. Capacitor, relé de partida ou compressor no fim da vida",
+        "body": [
+          "O compressor parte com a ajuda do capacitor e do relé de partida. Com uma dessas peças fraca, ele tenta partir, faz um estalo ou zumbido e desarma pelo protetor térmico. Muitas vezes o compressor está bom e só a peça de partida precisa ser trocada.",
+          "Compressor com desgaste interno puxa corrente acima do normal o tempo todo e desarma mesmo com tensão e condensadora em ordem. Antes de condenar o compressor, o técnico mede corrente e resistência dos enrolamentos e testa capacitor, relé e contator."
+        ]
+      },
+      {
+        "id": "controlador",
+        "title": "7. Controlador, sensor ou parâmetro errado",
+        "image": {
+          "src": "/assets/trab-cfi-1.webp",
+          "alt": "Porta de câmara fria de congelados com o controlador de temperatura instalado acima",
+          "caption": "O controlador fica do lado de fora, acima da porta, e mostra temperatura, degelo e alarmes."
+        },
+        "body": [
+          "O controlador decide quando ligar e desligar o compressor a partir da temperatura lida pelo sensor. Sensor solto, encostado na parede ou com defeito faz o controlador desligar antes da hora. Parâmetro alterado, como diferencial muito pequeno ou degelo frequente demais, faz a câmara parar mais do que deveria.",
+          "Alguns controladores também desligam a câmara por alarme, como porta aberta por muito tempo ou temperatura fora da faixa. O código aparece no visor e indica o motivo da parada.",
+          "<strong>Como conferir:</strong> anote o código ou a mensagem que aparece no visor quando a câmara para. Essa informação adianta o diagnóstico."
+        ]
+      }
+    ],
+    "diagnosis": {
+      "title": "Como descobrir qual é a causa",
+      "intro": "Siga esta ordem. Os primeiros passos não precisam de ferramenta.",
+      "steps": [
+        "Veja se o visor mostra degelo. Se a câmara volta sozinha em alguns minutos, a parada é normal.",
+        "Anote o horário de cada parada e se coincide com a hora mais quente do dia ou com outros equipamentos ligando.",
+        "Confira se o disjuntor da câmara está desarmado e se há sinal de aquecimento no quadro.",
+        "Olhe se o ventilador da condensadora gira e se as aletas estão limpas.",
+        "Repare se o compressor tenta partir, estala e desliga, ou se funciona por pouco tempo e para.",
+        "Anote o código ou a mensagem que aparece no controlador."
+      ],
+      "after": "Se tudo isso estiver certo e a câmara continuar desligando, a causa provável é tensão, gás, peça de partida ou compressor, e o diagnóstico precisa de multímetro, alicate amperímetro e manômetro."
+    },
+    "cta": {
+      "title": "Quando chamar o técnico",
+      "body": "Chame quando a câmara desliga fora do degelo, quando o disjuntor desarma de novo depois de religado, quando o compressor estala e não parte ou quando a câmara liga e desliga várias vezes por hora. Religar seguidas vezes pode queimar o compressor. O técnico da Santos mede tensão, corrente e pressão, testa capacitor, relé, contator e pressostatos e confere a programação do controlador. Você recebe o diagnóstico e o preço fechado antes do serviço."
+    },
+    "conclusion": {
+      "title": "Resumo",
+      "table": {
+        "intro": "Antes de suspeitar de defeito, confirme se a câmara não está em degelo. Nesta tabela estão as sete causas, o sinal que identifica cada uma e o que fazer.",
+        "head": [
+          "Causa",
+          "Como identificar",
+          "O que fazer"
+        ],
+        "rows": [
+          [
+            "Câmara em degelo",
+            "Parada em horário previsto, visor indicando degelo e retorno sozinho em alguns minutos",
+            "Nada. É o funcionamento normal. Se o degelo é frequente demais, o técnico ajusta a programação"
+          ],
+          [
+            "Tensão baixa ou oscilando",
+            "Desliga junto com outros equipamentos ou nos horários de maior consumo",
+            "Medir a tensão na partida, separar o circuito da câmara e conferir a bitola do cabo"
+          ],
+          [
+            "Disjuntor, contator ou ligação elétrica",
+            "Disjuntor desarmado, borne escurecido, cheiro de queimado ou disjuntor quente",
+            "Reapertar ou refazer a ligação, trocar contator gasto e dimensionar o disjuntor. Não religar repetidas vezes"
+          ],
+          [
+            "Condensadora suja ou sem ventilação",
+            "Desliga à tarde e nos dias quentes, ventilador parado ou aletas sujas",
+            "Limpar a condensadora, consertar o ventilador e liberar espaço para ventilar"
+          ],
+          [
+            "Falta de gás por vazamento",
+            "Liga, funciona pouco tempo e desliga sem chegar à temperatura",
+            "Localizar e corrigir o vazamento, fazer vácuo e recarregar na quantidade correta"
+          ],
+          [
+            "Capacitor, relé de partida ou compressor",
+            "Compressor estala ou zumbe, não parte e desarma",
+            "Testar capacitor, relé e contator e medir corrente antes de trocar o compressor"
+          ],
+          [
+            "Controlador, sensor ou parâmetro errado",
+            "Para antes de chegar à temperatura ou mostra código de alarme no visor",
+            "Conferir o sensor e a programação com termômetro de referência e ler o código de alarme"
+          ]
+        ]
+      }
+    },
+    "midCta": {
+      "after": "eletrica",
+      "text": "Disjuntor desarmando ou compressor que não parte? A Santos mede a parte elétrica e acha a causa antes de trocar peça.",
+      "button": "Chamar técnico de câmara fria"
+    },
+    "faq": [
+      [
+        "É normal a câmara fria desligar sozinha?",
+        "Sim, durante o degelo. A refrigeração para por alguns minutos em horários programados e volta sozinha. Parada fora do degelo, ou que não volta, indica defeito."
+      ],
+      [
+        "Por que o compressor da câmara fria desarma?",
+        "As causas mais comuns são tensão baixa, condensadora suja, falta de gás, capacitor ou relé de partida com defeito e contator gasto. Cada uma aciona uma proteção diferente."
+      ],
+      [
+        "Posso religar o disjuntor quando a câmara desarma?",
+        "Uma vez, para ver se volta. Se desarmar de novo, desligue e chame o técnico. Religar seguidas vezes com a causa ativa pode queimar o compressor."
+      ],
+      [
+        "Câmara fria desligando à tarde: o que pode ser?",
+        "Parada nas horas mais quentes costuma ser superaquecimento por condensadora suja, ventilador parado ou falta de ventilação no local da unidade."
+      ],
+      [
+        "Câmara fria liga e desliga toda hora. O que é?",
+        "Ciclos curtos podem vir de falta de gás, sensor mal posicionado, parâmetro do controlador alterado ou tensão oscilando. O diagnóstico começa pela leitura do controlador e pela medição de pressão."
+      ]
+    ],
+    "related": [
+      [
+        "Manutenção de câmara fria",
+        "/camara-fria.html",
+        "warehouse",
+        "Conserto, manutenção preventiva e corretiva de câmaras de resfriados e congelados."
+      ],
+      [
+        "Instalação de câmara fria",
+        "/instalacao-de-camara-fria.html",
+        "wrench",
+        "Projeto, montagem e instalação de câmara fria no tamanho da operação."
+      ],
+      [
+        "Técnico de refrigeração comercial",
+        "/tecnico-refrigeracao-comercial.html",
+        "thermometer-snowflake",
+        "Assistência técnica para os equipamentos de refrigeração do seu negócio."
+      ]
+    ],
+    "waMessage": "Olá! Li o artigo sobre câmara fria desligando sozinha no site e preciso de atendimento para CÂMARA FRIA."
+  },
+  "manutencao-preventiva-camara-fria": {
+    "slug": "manutencao-preventiva-camara-fria",
+    "title": "Checklist de manutenção preventiva de câmara fria",
+    "metaTitle": "Checklist de manutenção preventiva de câmara fria",
+    "metaDescription": "O que conferir na câmara fria todo dia, toda semana e na visita técnica: temperatura, porta, evaporador, dreno, condensadora, elétrica, gás e degelo.",
+    "category": "Câmara fria",
+    "published": "2026-10-27",
+    "updated": "2026-10-27",
+    "readMin": 7,
+    "cover": "/assets/trab-cf-4.webp",
+    "coverAlt": "Evaporador de câmara fria com quatro ventiladores sobre prateleiras de mercadoria",
+    "excerpt": "A manutenção preventiva de câmara fria tem uma parte que a equipe da loja faz todo dia e outra que só o técnico faz. Veja o checklist completo e a frequência de cada item.",
+    "lead": "A manutenção preventiva de câmara fria é a rotina de inspeção e limpeza que evita a parada do equipamento e a perda de mercadoria. Uma parte é feita pela própria equipe, todo dia e toda semana: conferir a temperatura, a porta e o gelo no evaporador. A outra parte é do técnico, em visitas programadas: limpeza da condensadora, medição elétrica, pressões do gás e teste do degelo. Este checklist mostra o que conferir em cada item, com que frequência e o que cada sinal indica.",
+    "summaryTitle": "Os 7 itens da manutenção preventiva de câmara fria",
+    "sections": [
+      {
+        "id": "temperatura",
+        "title": "1. Temperatura (todo dia)",
+        "body": [
+          "Anote a temperatura da câmara pelo menos duas vezes por dia, na abertura e no fechamento da loja. O registro mostra se a câmara está no ponto e revela tendências: uma câmara que leva cada dia mais tempo para voltar à temperatura depois do abastecimento está avisando que algo vai falhar.",
+          "Uma vez por mês, compare o visor do controlador com um termômetro de referência colocado no meio da mercadoria. Diferença grande indica sensor fora do lugar ou descalibrado.",
+          "A planilha de temperatura também é a prova pedida pela fiscalização sanitária de que o alimento foi mantido na faixa certa."
+        ]
+      },
+      {
+        "id": "porta",
+        "title": "2. Porta e vedação (toda semana)",
+        "body": [
+          "A borracha de vedação, também chamada de gaxeta, impede a entrada de ar quente. Confira se ela está inteira, sem rasgos, sem partes ressecadas e sem gelo acumulado. Teste com uma folha de papel fechada na porta: se sai sem resistência, a vedação falha naquele ponto.",
+          "Veja também se a porta fecha sozinha, se a dobradiça não caiu e se a cortina de PVC, quando existe, está completa. Em câmara de congelados, gelo na moldura indica resistência do batente queimada.",
+          "Limpe a borracha com pano úmido e detergente neutro. Gordura e resto de alimento ressecam o material."
+        ]
+      },
+      {
+        "id": "evaporador",
+        "title": "3. Evaporador e degelo (toda semana)",
+        "image": {
+          "src": "/assets/trab-cf-7.webp",
+          "alt": "Evaporador de câmara fria com dois ventiladores e dreno, item do checklist semanal",
+          "caption": "Evaporador: aletas sem bloco de gelo e ventiladores girando livres.",
+          "wide": true
+        },
+        "body": [
+          "Olhe o evaporador, a serpentina com ventiladores dentro da câmara. Uma camada fina de gelo é normal. Bloco de gelo cobrindo as aletas indica que o degelo não está dando conta, por falha de resistência, programação ou excesso de abertura de porta.",
+          "Confira se todos os ventiladores giram e se a mercadoria não está encostada no evaporador. Caixas a menos de um palmo bloqueiam a saída de ar.",
+          "Não raspe gelo com faca ou espátula: as aletas furam com facilidade e o furo causa vazamento de gás. Quando o gelo não sai no degelo, veja o guia <a href=\"/blog/camara-fria-nao-gela.html\">câmara fria não gela</a>."
+        ]
+      },
+      {
+        "id": "dreno",
+        "title": "4. Dreno e piso (toda semana)",
+        "body": [
+          "A água do degelo sai pela bandeja do evaporador e pelo dreno. Dreno entupido devolve a água para a bandeja, ela congela de novo e o evaporador forma bloco de gelo. Água pingando no piso ou gelo embaixo do evaporador são os sinais.",
+          "Em câmara de congelados, o dreno tem uma resistência que impede a água de congelar no caminho. Se o cano de dreno aparece com gelo por dentro, a resistência pode estar queimada.",
+          "Piso com gelo ou água é risco de queda para quem trabalha na câmara. Seque e procure a origem no mesmo dia."
+        ]
+      },
+      {
+        "id": "condensadora",
+        "title": "5. Condensadora (visita técnica)",
+        "body": [
+          "A unidade condensadora fica do lado de fora e joga para o ambiente o calor retirado da câmara. Poeira e gordura nas aletas fazem a pressão subir, o compressor esquentar e desarmar nos dias quentes. É a causa mais comum de parada que a preventiva evita.",
+          "A limpeza é feita pelo técnico, com a unidade desligada, produto próprio e jato de baixa pressão para não amassar as aletas. A frequência depende do ambiente: unidade perto de cozinha, de rua com movimento ou em local abafado suja mais rápido e precisa de limpeza mais frequente.",
+          "Entre as visitas, a equipe pode conferir se o ventilador gira e se não há caixas, lixo ou entulho encostados na unidade."
+        ]
+      },
+      {
+        "id": "eletrica",
+        "title": "6. Parte elétrica (visita técnica)",
+        "image": {
+          "src": "/assets/trab-cfi-3.webp",
+          "alt": "Quadro de comando de câmara fria com contatores e controlador, conferido na manutenção preventiva",
+          "caption": "No quadro de comando, o técnico reaperta bornes e confere contatores e disjuntores.",
+          "wide": true
+        },
+        "body": [
+          "O técnico mede a tensão e a corrente do compressor e dos ventiladores, reaperta os bornes do quadro de comando e confere o estado dos contatores. Contato gasto e borne frouxo esquentam e causam desarme antes de queimar alguma peça.",
+          "Corrente do compressor acima do normal é o aviso mais precoce de problema: pode ser condensadora suja, falta de gás, capacitor fraco ou desgaste interno. Comparar com a medição da visita anterior mostra se o valor está subindo. Para entender cada causa de desarme, veja o guia <a href=\"/blog/camara-fria-desligando-sozinha.html\">câmara fria desligando sozinha</a>."
+        ]
+      },
+      {
+        "id": "gas-controlador",
+        "title": "7. Gás, controlador e degelo (visita técnica)",
+        "body": [
+          "Com manômetro, o técnico confere as pressões de trabalho do sistema. Pressão fora do esperado indica falta de gás, excesso de carga ou problema de troca de calor. Pontos de óleo nas conexões e soldas costumam marcar microvazamentos.",
+          "No controlador, confere os parâmetros de temperatura, diferencial e degelo e testa a resistência de degelo, o sensor de fim de degelo e os alarmes. Programação alterada por alguém da equipe para resolver um problema é comum e costuma criar outro.",
+          "Cada visita deve terminar com um relatório: medições, itens limpos, peças com desgaste e o que precisa ser trocado antes de parar."
+        ]
+      }
+    ],
+    "diagnosis": {
+      "title": "Checklist rápido da equipe",
+      "intro": "Itens que a própria loja confere, sem ferramenta. Imprima e deixe perto da câmara.",
+      "steps": [
+        "Todo dia: anotar a temperatura na abertura e no fechamento.",
+        "Todo dia: confirmar que a porta fecha sozinha e não fica encostada.",
+        "Toda semana: testar a vedação da porta com uma folha de papel.",
+        "Toda semana: olhar o evaporador e confirmar que não há bloco de gelo e que os ventiladores giram.",
+        "Toda semana: conferir se não há água ou gelo no piso nem embaixo do evaporador.",
+        "Toda semana: afastar caixas do evaporador e conferir se a condensadora tem espaço livre.",
+        "Todo mês: comparar o visor com um termômetro de referência."
+      ],
+      "after": "Qualquer item fora do normal vale um registro com data e foto. Esse histórico adianta o diagnóstico quando o técnico chega."
+    },
+    "cta": {
+      "title": "Contrato de manutenção preventiva",
+      "body": "A Santos faz a manutenção preventiva de câmara fria em visitas programadas, com limpeza da condensadora, medição elétrica e de pressões, teste de degelo, resistências e controlador e relatório de cada visita. A frequência é definida na primeira visita, pelo tipo de câmara, pelo ambiente da unidade condensadora e pelo movimento de porta."
+    },
+    "conclusion": {
+      "title": "Resumo",
+      "table": {
+        "intro": "A equipe cuida do que se vê; o técnico cuida do que precisa de instrumento. Nesta tabela estão os sete itens, quem faz e com que frequência.",
+        "head": [
+          "Item",
+          "Quem faz e quando",
+          "O que indica problema"
+        ],
+        "rows": [
+          [
+            "Temperatura",
+            "Equipe, todo dia; comparação com termômetro uma vez por mês",
+            "Demora para voltar ao ponto ou diferença entre visor e termômetro"
+          ],
+          [
+            "Porta e vedação",
+            "Equipe, toda semana",
+            "Papel sai sem resistência, porta que não fecha sozinha, gelo na moldura"
+          ],
+          [
+            "Evaporador e degelo",
+            "Equipe, toda semana",
+            "Bloco de gelo nas aletas ou ventilador parado"
+          ],
+          [
+            "Dreno e piso",
+            "Equipe, toda semana",
+            "Água pingando, gelo no piso ou no cano de dreno"
+          ],
+          [
+            "Condensadora",
+            "Técnico, em visita programada",
+            "Aletas sujas, ventilador parado, desarme nos dias quentes"
+          ],
+          [
+            "Parte elétrica",
+            "Técnico, em visita programada",
+            "Corrente acima do normal, borne escurecido, contator gasto"
+          ],
+          [
+            "Gás, controlador e degelo",
+            "Técnico, em visita programada",
+            "Pressão fora do esperado, óleo em conexões, parâmetros alterados"
+          ]
+        ]
+      }
+    },
+    "midCta": {
+      "after": "evaporador",
+      "text": "Quer a preventiva com relatório a cada visita? A Santos monta o calendário para a sua câmara.",
+      "button": "Agendar manutenção preventiva"
+    },
+    "faq": [
+      [
+        "De quanto em quanto tempo fazer manutenção preventiva na câmara fria?",
+        "Depende do tipo de câmara, do ambiente da condensadora e do movimento de porta. A equipe confere temperatura todo dia e porta, evaporador e dreno toda semana. A frequência das visitas técnicas é definida pelo técnico na primeira avaliação."
+      ],
+      [
+        "O que é feito na manutenção preventiva de câmara fria?",
+        "Limpeza da condensadora, medição de tensão, corrente e pressões, reaperto do quadro elétrico, inspeção da vedação, teste de degelo, resistências, dreno, sensor e controlador, com relatório da visita."
+      ],
+      [
+        "A equipe da loja pode limpar a condensadora?",
+        "A parte externa e o entorno, sim: tirar caixas e lixo encostados. A limpeza das aletas deve ser feita com a unidade desligada e com cuidado para não amassá-las, e é melhor deixar com o técnico."
+      ],
+      [
+        "Manutenção preventiva reduz a conta de luz?",
+        "Sim. Condensadora suja, vedação ruim e evaporador com gelo fazem o compressor trabalhar mais tempo para manter a mesma temperatura."
+      ],
+      [
+        "Preciso registrar a temperatura da câmara fria?",
+        "Sim. O registro diário mostra se o alimento foi mantido na faixa certa, é pedido pela fiscalização sanitária e revela defeitos antes da parada."
+      ]
+    ],
+    "related": [
+      [
+        "Manutenção de câmara fria",
+        "/camara-fria.html",
+        "warehouse",
+        "Conserto, manutenção preventiva e corretiva de câmaras de resfriados e congelados."
+      ],
+      [
+        "Instalação de câmara fria",
+        "/instalacao-de-camara-fria.html",
+        "wrench",
+        "Projeto, montagem e instalação de câmara fria no tamanho da operação."
+      ],
+      [
+        "Técnico de refrigeração comercial",
+        "/tecnico-refrigeracao-comercial.html",
+        "thermometer-snowflake",
+        "Assistência técnica para os equipamentos de refrigeração do seu negócio."
+      ]
+    ],
+    "waMessage": "Olá! Li o checklist de manutenção preventiva de câmara fria no site e quero um orçamento de MANUTENÇÃO PREVENTIVA."
+  },
+  "camara-fria-resfriados-ou-congelados": {
+    "slug": "camara-fria-resfriados-ou-congelados",
+    "title": "Câmara fria de resfriados ou de congelados: qual a diferença",
+    "metaTitle": "Câmara fria de resfriados ou congelados: 7 diferenças",
+    "metaDescription": "Câmara de resfriados ou de congelados? Veja as diferenças de temperatura, painel, piso, porta, degelo e equipamento e qual escolher para o seu produto.",
+    "category": "Câmara fria",
+    "published": "2026-10-27",
+    "updated": "2026-10-27",
+    "readMin": 7,
+    "cover": "/assets/trab-cfi-2.webp",
+    "coverAlt": "Interior de câmara fria vazia com evaporador de três ventiladores e piso protegido",
+    "excerpt": "Câmara de resfriados trabalha acima de zero; a de congelados, bem abaixo. Essa diferença muda o painel, o piso, a porta, o degelo e o equipamento. Veja as sete diferenças.",
+    "lead": "A diferença entre câmara fria de resfriados e de congelados é a temperatura de trabalho: a de resfriados mantém o produto acima de zero, sem congelar; a de congelados mantém o produto congelado, bem abaixo de zero. Essa diferença define todo o projeto: espessura do painel, piso, porta, tipo de degelo e tamanho do equipamento. Por isso uma câmara de resfriados não vira câmara de congelados só mudando o ajuste do controlador. Este guia mostra as sete diferenças e como escolher.",
+    "summaryTitle": "As 7 diferenças entre câmara de resfriados e de congelados",
+    "sections": [
+      {
+        "id": "temperatura",
+        "title": "1. Temperatura de trabalho",
+        "body": [
+          "A câmara de resfriados trabalha com temperatura positiva, na faixa de poucos graus acima de zero. É usada para hortifruti, laticínios, bebidas, carnes e pescados resfriados e alimentos prontos. Cada produto tem a sua faixa: hortifruti costuma pedir temperatura mais alta que carne resfriada.",
+          "A câmara de congelados trabalha com temperatura negativa. A referência usual para produto congelado é −18 °C ou menos. É usada para carnes, pescados, polpas, sorvetes e pratos congelados.",
+          "A faixa exigida para cada alimento está na legislação sanitária e na orientação do fabricante do produto. Ela é o ponto de partida do projeto."
+        ]
+      },
+      {
+        "id": "painel",
+        "title": "2. Painel isotérmico e espessura",
+        "body": [
+          "As paredes e o teto da câmara são painéis isotérmicos com núcleo de EPS, PUR ou PIR entre chapas de aço. Quanto mais fria a câmara, maior a diferença de temperatura com o ambiente e mais espesso precisa ser o painel.",
+          "Câmara de congelados usa painel bem mais espesso e, em geral, núcleo de PUR ou PIR, que isola mais na mesma espessura. Painel fino demais numa câmara de congelados faz o equipamento trabalhar sem parar e pode formar condensação do lado de fora."
+        ]
+      },
+      {
+        "id": "piso",
+        "title": "3. Piso",
+        "image": {
+          "src": "/assets/trab-cfi-2.webp",
+          "alt": "Piso de câmara fria com proteção nas paredes e evaporador ao fundo",
+          "caption": "Câmara de congelados pede piso isolado; a de resfriados pode usar o piso existente em muitos casos.",
+          "wide": true
+        },
+        "body": [
+          "Na câmara de resfriados, muitas vezes o piso existente serve, com acabamento lavável e resistente ao tráfego. Na câmara de congelados, o piso precisa de isolamento. Sem ele, a câmara perde frio para o chão e, com o tempo, o solo embaixo pode congelar e levantar o piso.",
+          "O piso de câmara de congelados é projetado junto com a câmara: isolamento, barreira de vapor e camada de acabamento que aguente carrinho e palete."
+        ]
+      },
+      {
+        "id": "porta",
+        "title": "4. Porta e resistências",
+        "body": [
+          "A porta da câmara de congelados é mais espessa e tem resistência elétrica no batente. Sem ela, a umidade congela na borracha, a porta gruda e a vedação rasga ao ser forçada. A válvula de equalização de pressão também é comum, porque o ar que entra quente e esfria cria vácuo e dificulta abrir a porta.",
+          "Na câmara de resfriados, a porta é mais simples e normalmente dispensa resistência. Nos dois casos, cortina de PVC reduz a troca de ar quando a porta fica aberta."
+        ]
+      },
+      {
+        "id": "degelo",
+        "title": "5. Degelo",
+        "body": [
+          "Na câmara de resfriados, o ar interno está acima de zero, e o degelo costuma ser feito só com a parada do compressor: os ventiladores continuam girando e o gelo derrete com o próprio ar da câmara.",
+          "Na câmara de congelados, o ar está frio demais para derreter o gelo. O degelo é feito com resistência elétrica no evaporador ou com gás quente, e o dreno também precisa de resistência para a água não congelar no caminho. Por isso degelo é uma das falhas mais comuns em câmara de congelados."
+        ]
+      },
+      {
+        "id": "equipamento",
+        "title": "6. Equipamento e consumo",
+        "body": [
+          "Para o mesmo volume, a câmara de congelados precisa de um equipamento maior, com compressor e evaporador escolhidos para temperatura negativa. O consumo de energia também é maior.",
+          "O dimensionamento é feito pelo cálculo de carga térmica: volume da câmara, temperatura de trabalho, quanta mercadoria entra por dia e a que temperatura, frequência de abertura de porta e temperatura do local onde fica a condensadora."
+        ]
+      },
+      {
+        "id": "conversao",
+        "title": "7. Dá para converter uma câmara na outra?",
+        "body": [
+          "Câmara de congelados pode trabalhar como resfriados com ajuste de equipamento e programação, porque o isolamento sobra. O contrário quase nunca funciona: transformar câmara de resfriados em congelados exige painel mais espesso, piso isolado, porta com resistência e equipamento para temperatura negativa. Na prática, é uma câmara nova.",
+          "Quem precisa das duas temperaturas pode fazer duas câmaras lado a lado, com antecâmara de resfriados na frente da de congelados. A antecâmara reduz a entrada de ar quente na câmara mais fria. Esse tipo de solução é definido no <a href=\"/instalacao-de-camara-fria.html\">projeto e instalação de câmara fria</a>."
+        ]
+      }
+    ],
+    "diagnosis": {
+      "title": "Como escolher",
+      "intro": "Responda estas perguntas antes de pedir o orçamento.",
+      "steps": [
+        "Quais produtos vão para a câmara e qual a temperatura exigida para cada um?",
+        "O produto chega resfriado, congelado ou em temperatura ambiente?",
+        "Quantos quilos entram por dia e em quantas entregas?",
+        "Quantas vezes por dia a porta é aberta?",
+        "Há espaço e piso para uma câmara de congelados, ou será preciso fazer piso isolado?",
+        "Onde vai ficar a unidade condensadora e quanto calor faz nesse local?"
+      ],
+      "after": "Com essas respostas, o técnico faz o cálculo de carga térmica e define tipo de painel, espessura, piso, porta e equipamento."
+    },
+    "cta": {
+      "title": "Projeto de câmara fria",
+      "body": "A Santos faz a visita técnica, o cálculo de carga térmica e o projeto da câmara de resfriados, de congelados ou das duas, com montagem dos painéis, porta, piso, equipamento e quadro elétrico. Você recebe o orçamento com material e mão de obra discriminados."
+    },
+    "conclusion": {
+      "title": "Resumo",
+      "table": {
+        "intro": "A temperatura define tudo o que vem depois. Nesta tabela estão as sete diferenças lado a lado.",
+        "head": [
+          "Item",
+          "Resfriados",
+          "Congelados"
+        ],
+        "rows": [
+          [
+            "Temperatura",
+            "Positiva, poucos graus acima de zero",
+            "Negativa, referência de −18 °C ou menos"
+          ],
+          [
+            "Painel",
+            "Mais fino; EPS, PUR ou PIR",
+            "Mais espesso; em geral PUR ou PIR"
+          ],
+          [
+            "Piso",
+            "Muitas vezes o piso existente, com acabamento lavável",
+            "Piso isolado, com barreira de vapor"
+          ],
+          [
+            "Porta",
+            "Mais simples, normalmente sem resistência",
+            "Mais espessa, com resistência no batente e equalização de pressão"
+          ],
+          [
+            "Degelo",
+            "Por parada do compressor",
+            "Por resistência ou gás quente, com dreno aquecido"
+          ],
+          [
+            "Equipamento",
+            "Menor para o mesmo volume",
+            "Maior, para temperatura negativa, e consumo maior"
+          ],
+          [
+            "Conversão",
+            "Não vira congelados sem refazer a câmara",
+            "Pode trabalhar como resfriados com ajuste"
+          ]
+        ]
+      }
+    },
+    "midCta": {
+      "after": "porta",
+      "text": "Vai montar câmara nova? A Santos faz o cálculo de carga térmica e o projeto no tamanho da sua operação.",
+      "button": "Pedir projeto de câmara fria"
+    },
+    "faq": [
+      [
+        "Qual a temperatura de uma câmara de congelados?",
+        "A referência usual para produto congelado é −18 °C ou menos. A faixa exata depende do produto e da legislação sanitária aplicável."
+      ],
+      [
+        "Qual a temperatura de uma câmara de resfriados?",
+        "Temperatura positiva, poucos graus acima de zero. Cada produto tem a sua faixa: carne e pescado resfriados pedem temperatura mais baixa que hortifruti."
+      ],
+      [
+        "Posso transformar minha câmara de resfriados em congelados?",
+        "Quase nunca. A câmara de congelados precisa de painel mais espesso, piso isolado, porta com resistência e equipamento para temperatura negativa. Só mudar o ajuste do controlador sobrecarrega o equipamento e não segura a temperatura."
+      ],
+      [
+        "Câmara de congelados gasta mais energia?",
+        "Sim. Para o mesmo volume, ela retira mais calor e usa equipamento maior, além das resistências de porta, degelo e dreno."
+      ],
+      [
+        "Dá para ter resfriados e congelados no mesmo espaço?",
+        "Sim, com duas câmaras separadas. Uma solução comum é a antecâmara de resfriados na frente da câmara de congelados, que reduz a entrada de ar quente."
+      ]
+    ],
+    "related": [
+      [
+        "Instalação de câmara fria",
+        "/instalacao-de-camara-fria.html",
+        "wrench",
+        "Projeto, montagem e instalação de câmara fria no tamanho da operação."
+      ],
+      [
+        "Manutenção de câmara fria",
+        "/camara-fria.html",
+        "warehouse",
+        "Conserto, manutenção preventiva e corretiva de câmaras de resfriados e congelados."
+      ],
+      [
+        "Técnico de refrigeração comercial",
+        "/tecnico-refrigeracao-comercial.html",
+        "thermometer-snowflake",
+        "Assistência técnica para os equipamentos de refrigeração do seu negócio."
+      ]
+    ],
+    "waMessage": "Olá! Li o artigo sobre câmara de resfriados ou congelados no site e quero um orçamento de INSTALAÇÃO DE CÂMARA FRIA."
   }
 }

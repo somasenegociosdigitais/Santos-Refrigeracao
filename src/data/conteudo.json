@@ -14,7 +14,7 @@
     "intro": [
       "O conserto de câmara fria começa pela medição: temperatura interna, pressão do gás, corrente do compressor e funcionamento do degelo. Com esses números o técnico separa o defeito real do sintoma e passa o preço fechado antes de trocar qualquer peça. Atendemos câmara de resfriados e de congelados em açougue, mercado, restaurante, padaria, distribuidora e indústria.",
       "Para montar uma câmara nova, do cálculo de carga térmica ao isolamento com painel EPS, PUR ou PIR, o passo a passo está em <a href=\"/instalacao-de-camara-fria.html\">projeto e instalação de câmara fria</a>.",
-      "Na manutenção preventiva programada, limpamos o condensador (sujeira na unidade externa eleva a pressão e faz o motor desarmar ou queimar), inspecionamos as gaxetas de vedação das portas, monitoramos o fluido refrigerante em busca de microvazamentos e testamos drenos e resistências. Na corretiva, resolvemos emergências: ajuste de parâmetros do controlador digital, substituição de compressores, ventiladores e contatores, e reparo de painéis ou vedação avariados — sempre com diagnóstico e preço fechado antes de começar.",
+      "Na manutenção preventiva programada, limpamos o condensador (sujeira na unidade externa eleva a pressão e faz o motor desarmar ou queimar), inspecionamos as gaxetas de vedação das portas, monitoramos o fluido refrigerante em busca de microvazamentos e testamos drenos e resistências. Na corretiva, resolvemos emergências: ajuste de parâmetros do controlador digital, substituição de compressores, ventiladores e contatores, e reparo de painéis ou vedação avariados — sempre com diagnóstico e preço fechado antes de começar. O que conferir em cada visita está no <a href=\"/blog/manutencao-preventiva-camara-fria.html\">checklist de manutenção preventiva de câmara fria</a>.",
       "Se você procurou por técnico de câmara fria ou assistência técnica de câmara frigorífica, o serviço é este: o mesmo técnico que faz a montagem também atende manutenção e emergência, sempre com instrumento de medição."
     ],
     "sections": [
@@ -22,7 +22,7 @@
         "title": "Conserto de câmara fria: os defeitos que mais atendemos",
         "body": [
           "<strong>Câmara que não atinge a temperatura</strong> costuma ter evaporador congelado, degelo que não funciona, condensadora suja ou falta de gás por vazamento. O guia <a href=\"/blog/camara-fria-nao-gela.html\">câmara fria não gela: causas e o que fazer</a> explica cada causa.",
-          "<strong>Compressor que desarma ou não parte</strong> pode ser capacitor, contator, pressostato ou sobrecarga por condensação ruim. Trocar o compressor sem medir é o erro mais caro: se a causa continua, o novo queima igual.",
+          "<strong>Compressor que desarma ou não parte</strong> pode ser capacitor, contator, pressostato ou sobrecarga por condensação ruim. Trocar o compressor sem medir é o erro mais caro: se a causa continua, o novo queima igual. O guia <a href=\"/blog/camara-fria-desligando-sozinha.html\">câmara fria desligando sozinha</a> mostra cada causa.",
           "<strong>Gelo no piso, na porta ou água pingando</strong> aponta para resistência de porta ou de dreno queimada, gaxeta de vedação gasta ou dreno entupido. São reparos rápidos que evitam perda de mercadoria e acidente no piso.",
           "<strong>Controlador mostrando temperatura errada ou alarme</strong> pode ser sensor descalibrado ou parâmetro alterado. O técnico confere com termômetro de referência antes de mexer no ajuste."
         ]
@@ -198,7 +198,7 @@
       {
         "title": "O que entra no projeto: piso, isolamento, elétrica e estrutura",
         "body": [
-          "<strong>Piso e isolamento térmico.</strong> O piso precisa ser adequado ao uso. Em câmara de congelados, piso sem isolamento perde frio para o chão e obriga o equipamento a trabalhar mais. O tipo de painel isotérmico (EPS, PUR ou PIR) e a espessura dele são escolhidos pela temperatura de trabalho.",
+          "<strong>Piso e isolamento térmico.</strong> O piso precisa ser adequado ao uso. Em câmara de congelados, piso sem isolamento perde frio para o chão e obriga o equipamento a trabalhar mais. O tipo de painel isotérmico (EPS, PUR ou PIR) e a espessura dele são escolhidos pela temperatura de trabalho. As diferenças de projeto estão em <a href=\"/blog/camara-fria-resfriados-ou-congelados.html\">câmara fria de resfriados ou de congelados</a>.",
           "<strong>Rede elétrica dimensionada.</strong> Câmara fria não é ligar na tomada. Compressor, ventiladores, resistências e quadro de comando precisam de circuito próprio, com cabo e disjuntor calculados para a carga. Rede subdimensionada derruba disjuntor e encurta a vida do compressor.",
           "<strong>Estrutura.</strong> O projeto olha o conjunto, não o painel isolado: onde fica a porta, por onde passa a tubulação, onde a condensadora vai trocar calor e como a câmara se encaixa no espaço e na rotina de quem vai usar."
         ]
