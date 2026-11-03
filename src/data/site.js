@@ -12,7 +12,7 @@ export const NEGOCIO = {
     cidade: 'Rio de Janeiro', estado: 'RJ', cep: '21380-002', pais: 'BR',
   },
   geo: { lat: -22.880818, lng: -43.325838 },
-  horario: 'Seg–Sáb · 8h às 18h',
+  horario: 'Seg–Sex · 8h às 18h · Sáb · 8h às 13h',
   google: {
     perfil: 'https://g.page/r/CeLzyrBgWaOwEBM',
     review: 'https://g.page/r/CeLzyrBgWaOwEBM/review',
@@ -46,7 +46,7 @@ export const EMPRESA_SCHEMA = {
   },
   geo: { '@type': 'GeoCoordinates', latitude: NEGOCIO.geo.lat, longitude: NEGOCIO.geo.lng },
   areaServed: [{ '@type': 'City', name: 'Rio de Janeiro' }, { '@type': 'AdministrativeArea', name: 'Grande Rio' }],
-  openingHoursSpecification: [{ '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'], opens: '08:00', closes: '18:00' }],
+  openingHoursSpecification: [{ '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], opens: '08:00', closes: '18:00' }, { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Saturday'], opens: '08:00', closes: '13:00' }],
   taxID: NEGOCIO.cnpj,
   sameAs: [NEGOCIO.google.perfil, NEGOCIO.google.maps],
   hasMap: NEGOCIO.google.maps,

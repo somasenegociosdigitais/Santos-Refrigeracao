@@ -21,7 +21,7 @@
     "addressCountry": "BR",
     "postalCode": "21380-002"
   },
-  "openingHours": "Mo-Sa 08:00-18:00",
+  "openingHours": ["Mo-Fr 08:00-18:00", "Sa 08:00-13:00"],
   "areaServed": [
     "Rio de Janeiro",
     "Grande Rio"
