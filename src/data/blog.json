@@ -1208,5 +1208,209 @@
       ]
     ],
     "waMessage": "Olá! Li o artigo sobre câmara de resfriados ou congelados no site e quero um orçamento de INSTALAÇÃO DE CÂMARA FRIA."
+  },
+  "balcao-refrigerado-nao-gela": {
+    "slug": "balcao-refrigerado-nao-gela",
+    "title": "Balcão refrigerado não gela: causas e o que verificar",
+    "metaTitle": "Balcão refrigerado não gela: 7 causas e o que verificar",
+    "metaDescription": "Balcão refrigerado oscilando ou sem gelar? Veja as 7 causas mais comuns, o que dá para conferir sozinho e quando o caso exige técnico. Rio e Grande Rio.",
+    "category": "Balcão refrigerado",
+    "published": "2026-11-09",
+    "updated": "2026-11-09",
+    "readMin": 7,
+    "cover": "/assets/trab-balcao-8.webp",
+    "coverAlt": "Balcão refrigerado vitrine em ponto comercial no Rio, fotografado depois do atendimento técnico",
+    "excerpt": "Balcão que oscila de temperatura dá prejuízo antes de parar. Veja as sete causas mais comuns, três delas você mesmo confere em minutos.",
+    "lead": "Balcão refrigerado que não gela direito custa caro antes de parar de vez. Em açougue, a carne escurece na vitrine e a perda começa dias antes de alguém desconfiar do equipamento. Em padaria e mercado, o frio irregular resseca o produto e encurta a validade sem que nada pareça errado. Na maioria dos atendimentos a causa não é o compressor — é algo mais simples, e três das sete causas abaixo você confere sozinho em poucos minutos.",
+    "summaryTitle": "As 7 causas mais comuns de balcão refrigerado que não gela",
+    "sections": [
+      {
+        "id": "vedacao",
+        "title": "1. Borracha de vedação ressecada",
+        "body": [
+          "A gaxeta é a primeira peça a falhar e a mais ignorada. Com o tempo ela endurece, perde elasticidade e deixa de selar a porta. O ar quente entra o dia inteiro, o compressor trabalha sem parar e a temperatura nunca estabiliza.",
+          "Em balcão de porta de vidro de correr, o desgaste costuma aparecer primeiro nas extremidades, onde a porta bate com mais força.",
+          "<strong>Como conferir:</strong> feche a porta prendendo uma folha de papel e puxe. Se sair com facilidade, a vedação está frouxa naquele ponto. Repita em quatro ou cinco posições ao longo da porta."
+        ]
+      },
+      {
+        "id": "condensador",
+        "title": "2. Condensador sujo",
+        "image": {
+          "src": "/assets/trab-balcao-1.webp",
+          "alt": "Balcão refrigerado aberto durante manutenção, com acesso à parte de refrigeração",
+          "caption": "Em açougue e padaria, a gordura em suspensão no ar acelera o entupimento do condensador."
+        },
+        "body": [
+          "É a causa mais comum em ponto comercial. As aletas do condensador entopem de poeira, gordura e fiapos, principalmente em açougue, padaria e lanchonete, onde há gordura em suspensão no ar. Com a troca de calor bloqueada, o equipamento perde capacidade, consome mais energia e caminha para a queima do compressor.",
+          "<strong>Como conferir:</strong> localize a grade do condensador, normalmente embaixo ou atrás do balcão. Se não dá para enxergar as aletas por trás da sujeira, o problema está aí.",
+          "A limpeza é feita com escova apropriada e, quando há gordura acumulada, produto específico. Jato de água em equipamento ligado não é opção."
+        ]
+      },
+      {
+        "id": "degelo",
+        "title": "3. Degelo travado",
+        "body": [
+          "O evaporador forma gelo durante o funcionamento normal, e o sistema de degelo derrete esse gelo em ciclos programados. Quando o degelo falha — resistência queimada, timer com defeito ou sensor travado — o gelo vira um bloco sobre a serpentina e impede a passagem de ar.",
+          "<strong>Como conferir:</strong> olhe o evaporador, atrás do painel interno. Camada fina de gelo é normal. Bloco branco cobrindo a serpentina não é.",
+          "Desligar e deixar degelar resolve na hora, mas o gelo volta em um ou dois dias se a causa não for corrigida."
+        ]
+      },
+      {
+        "id": "ventilador",
+        "title": "4. Ventilador do evaporador parado",
+        "body": [
+          "O balcão pode estar produzindo frio e não distribuindo. Com o ventilador parado, o frio fica concentrado perto da serpentina e o resto do balcão fica morno. É por isso que, nesse caso, uma ponta gela e a outra não.",
+          "<strong>Como conferir:</strong> com a porta aberta e o equipamento ligado, você deve sentir o ar circulando e ouvir o ventilador. Silêncio total com o compressor funcionando é sinal.",
+          "Motor de ventilador é troca rápida, mas exige diagnóstico: às vezes o motor está bom e o problema é a placa que não o aciona."
+        ]
+      },
+      {
+        "id": "dreno",
+        "title": "5. Dreno entupido",
+        "body": [
+          "A água do degelo precisa escoar. Quando o dreno entope com resíduo e gordura, a água empoça dentro do balcão, molha o produto e, em alguns modelos, chega a congelar no fundo e bloquear a circulação de ar.",
+          "<strong>Como conferir:</strong> água parada no fundo do balcão ou poça embaixo do equipamento.",
+          "A desobstrução é simples e deve entrar na manutenção preventiva, antes de virar problema."
+        ]
+      },
+      {
+        "id": "gas",
+        "title": "6. Falta de gás ou microvazamento",
+        "image": {
+          "src": "/assets/trab-balcao-3.webp",
+          "alt": "Técnico da Santos Refrigeração durante serviço em balcão refrigerado comercial",
+          "caption": "Falta de gás é sintoma, não diagnóstico: o sistema é fechado, então vazou em algum ponto."
+        },
+        "body": [
+          "Aqui é onde muita gente erra o diagnóstico. \"Está sem gás\" não é uma explicação, é um sintoma. Sistema de refrigeração é fechado: se faltou gás, <strong>vazou em algum lugar</strong>. Recarregar sem localizar o vazamento resolve por algumas semanas e o problema volta.",
+          "<strong>Como conferir:</strong> não dá sem instrumento. O sinal indireto é o equipamento gelar um pouco menos a cada semana, de forma progressiva.",
+          "O correto é localizar o vazamento com detector, reparar o ponto, fazer vácuo e só então recarregar, com a carga na medida exata do equipamento."
+        ]
+      },
+      {
+        "id": "termostato",
+        "title": "7. Termostato ou controlador descalibrado",
+        "body": [
+          "O balcão funciona, o compressor liga e desliga, mas a temperatura real não bate com a marcada no painel. O controlador manda desligar antes da hora, ou tarde demais.",
+          "<strong>Como conferir:</strong> compare o painel com um termômetro de referência colocado dentro do balcão, no meio da carga, por algumas horas. Diferença de dois ou três graus já compromete produto perecível.",
+          "A correção é recalibrar ou trocar o controlador."
+        ]
+      }
+    ],
+    "diagnosis": {
+      "title": "Como descobrir qual é a causa",
+      "intro": "Siga esta ordem. Os primeiros passos não precisam de ferramenta.",
+      "steps": [
+        "Teste a vedação com uma folha de papel em quatro ou cinco pontos da porta.",
+        "Olhe a grade do condensador: se não enxerga as aletas, está na hora de limpar.",
+        "Veja se há água parada no fundo do balcão ou poça embaixo dele.",
+        "Com a porta aberta, confira se o ventilador está girando e se o ar circula.",
+        "Olhe o evaporador: bloco de gelo sobre a serpentina indica degelo travado.",
+        "Deixe um termômetro dentro do balcão por algumas horas e compare com o painel.",
+        "Repare se o frio é desigual: uma ponta gelada e a outra morna aponta para circulação, não para falta de gás."
+      ],
+      "after": "Se a vedação, o condensador e o dreno estiverem em ordem e o balcão continuar sem gelar, a causa provável é gás, degelo, ventilador ou controlador, e o diagnóstico precisa de manômetro e medição elétrica."
+    },
+    "midCta": {
+      "after": "condensador",
+      "text": "Condensador entupido de gordura? A Santos faz a limpeza técnica do balcão refrigerado com medição de temperatura antes e depois.",
+      "button": "Agendar manutenção"
+    },
+    "cta": {
+      "title": "Quando chamar o técnico",
+      "body": "Chame quando o balcão não recupera a temperatura com a porta fechada, quando gela de um lado só, quando forma bloco de gelo no evaporador ou quando a temperatura do painel não bate com a real. E não espere se o balcão guarda produto perecível já fora da faixa segura: a perda da mercadoria custa mais que qualquer reparo. O técnico da Santos mede pressão e corrente, testa ventilador, degelo e controlador, e localiza vazamento quando falta gás. Você recebe o diagnóstico e o preço fechado antes do serviço, e a visita em equipamento comercial é sem custo."
+    },
+    "conclusion": {
+      "title": "Resumo",
+      "table": {
+        "intro": "Três das sete causas você confere sem ferramenta: vedação, condensador e dreno. Nesta tabela estão as sete, o sinal que identifica cada uma e o que fazer.",
+        "head": [
+          "Causa",
+          "Como identificar",
+          "O que fazer"
+        ],
+        "rows": [
+          [
+            "Borracha de vedação ressecada",
+            "Folha de papel sai com facilidade da porta fechada",
+            "Limpar a gaxeta ou trocar; é peça de desgaste"
+          ],
+          [
+            "Condensador sujo",
+            "Aletas não aparecem por trás da poeira e da gordura",
+            "Limpeza técnica com escova e produto próprio, sem jato de água"
+          ],
+          [
+            "Degelo travado",
+            "Bloco de gelo cobrindo a serpentina do evaporador",
+            "Testar resistência, timer e sensor de degelo"
+          ],
+          [
+            "Ventilador do evaporador parado",
+            "Uma ponta do balcão gela e a outra fica morna",
+            "Testar o motor e a placa que o aciona antes de trocar"
+          ],
+          [
+            "Dreno entupido",
+            "Água parada no fundo ou poça embaixo do balcão",
+            "Desobstruir o canal e incluir na preventiva"
+          ],
+          [
+            "Falta de gás ou microvazamento",
+            "Perda de frio progressiva, semana após semana",
+            "Localizar o vazamento, reparar, fazer vácuo e recarregar na medida"
+          ],
+          [
+            "Controlador descalibrado",
+            "Termômetro de referência não bate com o painel",
+            "Recalibrar ou trocar o controlador"
+          ]
+        ]
+      }
+    },
+    "faq": [
+      [
+        "Por que meu balcão refrigerado gela de um lado e do outro não?",
+        "Normalmente é o ventilador do evaporador parado. O equipamento produz frio, mas não distribui: o lado próximo à serpentina gela e o restante fica morno."
+      ],
+      [
+        "Balcão refrigerado sem gás volta a gelar só com recarga?",
+        "Volta, por algumas semanas. Sistema de refrigeração é fechado, então falta de gás significa vazamento. Sem localizar e reparar o ponto, o problema retorna."
+      ],
+      [
+        "Quanto tempo o balcão leva para recuperar a temperatura depois de aberto?",
+        "Em equipamento em bom estado, poucos minutos. Se demora mais de meia hora com a porta fechada, há algo errado na vedação, no condensador ou na carga de gás."
+      ],
+      [
+        "De quanto em quanto tempo fazer manutenção preventiva no balcão refrigerado?",
+        "A cada três a seis meses em ponto comercial, dependendo do ambiente. Em açougue, padaria e lanchonete, onde há gordura no ar, o condensador suja mais rápido e o intervalo menor se justifica."
+      ],
+      [
+        "A Santos vende balcão refrigerado?",
+        "Não. A Santos é assistência técnica: faz instalação, manutenção e conserto, mas não vende equipamento nem peça avulsa."
+      ]
+    ],
+    "related": [
+      [
+        "Balcão refrigerado",
+        "/balcao-refrigerado.html",
+        "store",
+        "Conserto e manutenção de balcão refrigerado, vitrine de açougue e balcão de saladas."
+      ],
+      [
+        "Expositor de bebidas",
+        "/expositor-de-bebidas.html",
+        "refrigerator",
+        "Manutenção de expositor e geladeira expositora para mercado, bar e distribuidora."
+      ],
+      [
+        "Técnico de refrigeração comercial",
+        "/tecnico-refrigeracao-comercial.html",
+        "thermometer-snowflake",
+        "Assistência técnica para os equipamentos de refrigeração do seu negócio."
+      ]
+    ],
+    "waMessage": "Olá! Li o artigo sobre balcão refrigerado que não gela no site e preciso de atendimento para BALCÃO REFRIGERADO. Vou descrever o que está acontecendo."
   }
 }
