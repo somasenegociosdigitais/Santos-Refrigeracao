@@ -1219,7 +1219,7 @@
     "updated": "2026-11-17",
     "readMin": 7,
     "cover": "/assets/trab-balcao-8.webp",
-    "coverAlt": "Balcão refrigerado vitrine em ponto comercial no Rio, fotografado depois do atendimento técnico",
+    "coverAlt": "Balcão refrigerado tipo vitrine, com vidro curvo e prateleiras aramadas, depois do atendimento técnico",
     "excerpt": "Balcão que oscila de temperatura dá prejuízo antes de parar. Veja as sete causas mais comuns, três delas você mesmo confere em minutos.",
     "lead": "Balcão refrigerado que não gela direito custa caro antes de parar de vez. Em açougue, a carne escurece na vitrine e a perda começa dias antes de alguém desconfiar do equipamento. Em padaria e mercado, o frio irregular resseca o produto e encurta a validade sem que nada pareça errado. Na maioria dos atendimentos a causa não é o compressor — é algo mais simples, e três das sete causas abaixo você confere sozinho em poucos minutos.",
     "summaryTitle": "As 7 causas mais comuns de balcão refrigerado que não gela",
@@ -1239,8 +1239,8 @@
         "title": "2. Condensador sujo",
         "image": {
           "src": "/assets/trab-balcao-1.webp",
-          "alt": "Balcão refrigerado aberto durante manutenção, com acesso à parte de refrigeração",
-          "caption": "Em açougue e padaria, a gordura em suspensão no ar acelera o entupimento do condensador.",
+          "alt": "Balcão refrigerado de saladas em restaurante, com a grade do condensador na parte de baixo",
+          "caption": "A grade na parte de baixo do balcão é a entrada de ar do condensador. É ali que poeira e gordura se acumulam.",
           "wide": true
         },
         "body": [
@@ -1281,7 +1281,7 @@
         "title": "6. Falta de gás ou microvazamento",
         "image": {
           "src": "/assets/trab-balcao-3.webp",
-          "alt": "Técnico da Santos Refrigeração durante serviço em balcão refrigerado comercial",
+          "alt": "Vitrine refrigerada de açougue com carnes expostas",
           "caption": "Falta de gás é sintoma, não diagnóstico: o sistema é fechado, então vazou em algum ponto.",
           "wide": true
         },
@@ -1455,12 +1455,6 @@
       {
         "id": "carga",
         "title": "3. Prateleira lotada bloqueando o ar",
-        "image": {
-          "src": "/assets/trab-gcom-3.webp",
-          "alt": "Geladeira comercial de portas de vidro vista por dentro, com prateleiras aramadas que deixam o ar circular",
-          "caption": "Prateleira aramada e espaço livre no fundo: o ar frio precisa circular entre os produtos.",
-          "wide": true
-        },
         "body": [
           "Geladeira comercial gela por circulação de ar frio. Quando a mercadoria encosta no fundo, tampa a saída de ar ou forma uma parede de caixas de uma lateral à outra, o ar não passa e parte do equipamento fica mais quente, mesmo com tudo funcionando.",
           "Colocar produto ainda morno, ou abastecer a geladeira inteira de uma vez no meio do movimento, tem efeito parecido: a temperatura sobe e leva horas para voltar.",
@@ -1470,6 +1464,12 @@
       {
         "id": "ventilador",
         "title": "4. Ventilador interno parado",
+        "image": {
+          "src": "/assets/trab-gcom-3.webp",
+          "alt": "Interior de geladeira comercial de portas de vidro, com o ventilador no alto e prateleiras aramadas",
+          "caption": "Por dentro: o ventilador no alto espalha o frio e a prateleira aramada deixa o ar passar entre os produtos.",
+          "wide": true
+        },
         "body": [
           "O ventilador interno é quem espalha o frio pelo gabinete. Com ele parado, o frio fica concentrado perto do evaporador e o restante da geladeira esquenta. O sintoma típico é a diferença grande de temperatura entre uma prateleira e outra.",
           "<strong>Como conferir:</strong> com a geladeira ligada, tente ouvir o ventilador e sentir o ar saindo. Se o motor do compressor funciona e não há circulação de ar lá dentro, o ventilador ou o circuito que o aciona precisa ser testado.",
@@ -1489,10 +1489,9 @@
         "id": "controle",
         "title": "6. Termostato, sensor ou controlador com defeito",
         "image": {
-          "src": "/assets/trab-gcom-2.webp",
-          "alt": "Refrigerador comercial inox de duas portas em cozinha de restaurante",
-          "caption": "Em refrigerador de cozinha, sensor e controlador trabalham com porta abrindo o tempo todo.",
-          "wide": true
+          "src": "/assets/blog-geladeira-painel.webp",
+          "alt": "Painel digital de temperatura na porta de um refrigerador comercial de inox",
+          "caption": "O painel mostra a leitura do sensor. Ela precisa bater com um termômetro colocado no meio da carga."
         },
         "body": [
           "O controle de temperatura decide quando o compressor liga e desliga. Sensor fora de posição ou com leitura errada, termostato desgastado e placa eletrônica com defeito fazem a geladeira desligar antes da hora, não desligar nunca ou marcar no painel uma temperatura que não é a real.",
