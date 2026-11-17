@@ -1216,7 +1216,7 @@
     "metaDescription": "Balcão refrigerado oscilando ou sem gelar? Veja as 7 causas mais comuns, o que dá para conferir sozinho e quando o caso exige técnico. Rio e Grande Rio.",
     "category": "Balcão refrigerado",
     "published": "2026-11-09",
-    "updated": "2026-11-09",
+    "updated": "2026-11-17",
     "readMin": 7,
     "cover": "/assets/trab-balcao-8.webp",
     "coverAlt": "Balcão refrigerado vitrine em ponto comercial no Rio, fotografado depois do atendimento técnico",
@@ -1230,7 +1230,8 @@
         "body": [
           "A gaxeta é a primeira peça a falhar e a mais ignorada. Com o tempo ela endurece, perde elasticidade e deixa de selar a porta. O ar quente entra o dia inteiro, o compressor trabalha sem parar e a temperatura nunca estabiliza.",
           "Em balcão de porta de vidro de correr, o desgaste costuma aparecer primeiro nas extremidades, onde a porta bate com mais força.",
-          "<strong>Como conferir:</strong> feche a porta prendendo uma folha de papel e puxe. Se sair com facilidade, a vedação está frouxa naquele ponto. Repita em quatro ou cinco posições ao longo da porta."
+          "<strong>Como conferir:</strong> feche a porta prendendo uma folha de papel e puxe. Se sair com facilidade, a vedação está frouxa naquele ponto. Repita em quatro ou cinco posições ao longo da porta.",
+          "Em geladeira de várias portas o desgaste é o mesmo, como explicamos no guia de <a href=\"/blog/geladeira-comercial-nao-gela.html\">geladeira comercial que não gela</a>."
         ]
       },
       {
@@ -1239,7 +1240,8 @@
         "image": {
           "src": "/assets/trab-balcao-1.webp",
           "alt": "Balcão refrigerado aberto durante manutenção, com acesso à parte de refrigeração",
-          "caption": "Em açougue e padaria, a gordura em suspensão no ar acelera o entupimento do condensador."
+          "caption": "Em açougue e padaria, a gordura em suspensão no ar acelera o entupimento do condensador.",
+          "wide": true
         },
         "body": [
           "É a causa mais comum em ponto comercial. As aletas do condensador entopem de poeira, gordura e fiapos, principalmente em açougue, padaria e lanchonete, onde há gordura em suspensão no ar. Com a troca de calor bloqueada, o equipamento perde capacidade, consome mais energia e caminha para a queima do compressor.",
@@ -1280,7 +1282,8 @@
         "image": {
           "src": "/assets/trab-balcao-3.webp",
           "alt": "Técnico da Santos Refrigeração durante serviço em balcão refrigerado comercial",
-          "caption": "Falta de gás é sintoma, não diagnóstico: o sistema é fechado, então vazou em algum ponto."
+          "caption": "Falta de gás é sintoma, não diagnóstico: o sistema é fechado, então vazou em algum ponto.",
+          "wide": true
         },
         "body": [
           "Aqui é onde muita gente erra o diagnóstico. \"Está sem gás\" não é uma explicação, é um sintoma. Sistema de refrigeração é fechado: se faltou gás, <strong>vazou em algum lugar</strong>. Recarregar sem localizar o vazamento resolve por algumas semanas e o problema volta.",
@@ -1412,5 +1415,231 @@
       ]
     ],
     "waMessage": "Olá! Li o artigo sobre balcão refrigerado que não gela no site e preciso de atendimento para BALCÃO REFRIGERADO. Vou descrever o que está acontecendo."
+  },
+  "geladeira-comercial-nao-gela": {
+    "slug": "geladeira-comercial-nao-gela",
+    "title": "Geladeira comercial não gela: 7 causas e o que fazer",
+    "metaTitle": "Geladeira comercial não gela: 7 causas e o que fazer",
+    "metaDescription": "Geladeira comercial não gela, gela pouco ou parou de gelar? Veja as 7 causas mais comuns, o que conferir sem ferramenta e quando chamar o técnico no Rio.",
+    "category": "Geladeira comercial",
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "readMin": 8,
+    "cover": "/assets/trab-gcom-1.webp",
+    "coverAlt": "Geladeira comercial de cinco portas de vidro na seção de frios e laticínios de um mercado",
+    "excerpt": "Geladeira comercial que para de gelar quase sempre avisa antes: motor que não desliga, gelo no fundo, porta que não veda. Veja as sete causas e o que conferir.",
+    "lead": "Geladeira comercial que não gela, gela pouco ou parou de gelar raramente falha de uma vez. Antes disso o motor passa a funcionar sem desligar, aparece gelo no fundo, a porta deixa de vedar ou uma prateleira fica mais quente que as outras. Em mercado, padaria, açougue e restaurante, onde as portas abrem o dia inteiro e o ambiente é quente, esses sinais aparecem mais cedo. Este guia lista as sete causas mais comuns em geladeira e refrigerador comercial de duas a seis portas e mostra o que a própria equipe consegue conferir antes de chamar o técnico.",
+    "answer": {
+      "title": "Por que a geladeira comercial não gela?",
+      "text": "As causas mais comuns de geladeira comercial que não gela são sete: condensador sujo, porta que não veda, prateleira lotada bloqueando o ar, ventilador interno parado, degelo travado, termostato ou controlador com defeito e falta de gás ou compressor sem partida. As quatro primeiras a própria equipe confere sem ferramenta. As outras três precisam de técnico com manômetro e medição elétrica."
+    },
+    "summaryTitle": "As 7 causas mais comuns de geladeira comercial que não gela",
+    "sections": [
+      {
+        "id": "condensador",
+        "title": "1. Condensador sujo",
+        "body": [
+          "É a primeira coisa a olhar. O condensador joga para fora o calor retirado de dentro da geladeira. Quando as aletas ficam cobertas de poeira e gordura, o calor não sai, o motor superaquece e o equipamento passa a gelar menos, gastar mais energia e desarmar nos horários mais quentes.",
+          "Em padaria, açougue e cozinha de restaurante, a gordura em suspensão no ar faz o condensador sujar bem mais rápido do que em loja ou escritório.",
+          "<strong>Como conferir:</strong> localize a grade do condensador, embaixo, em cima ou atrás do equipamento, conforme o modelo. Se a poeira cobre as aletas ou o ventilador ao lado não gira, a causa provável está aí. A limpeza técnica do condensador é o primeiro item da <a href=\"/geladeira-comercial.html\">manutenção preventiva de geladeira comercial</a>."
+        ]
+      },
+      {
+        "id": "porta",
+        "title": "2. Porta que não veda",
+        "body": [
+          "Cada porta mal vedada é uma entrada de ar quente e úmido funcionando o dia inteiro. A gaxeta resseca, rasga nos cantos ou descola, a porta desalinha com o uso e deixa de encostar por igual. O resultado é motor ligado sem parar, gelo se formando perto da porta e temperatura que nunca estabiliza.",
+          "<strong>Como conferir:</strong> feche a porta prendendo uma folha de papel e puxe. Se a folha sair sem resistência, a vedação está falhando naquele ponto. Repita em vários pontos de cada porta e repare se alguma delas não fecha sozinha ou fica um dedo aberta. O mesmo teste vale para vitrine e balcão, como mostramos no guia de <a href=\"/blog/balcao-refrigerado-nao-gela.html\">balcão refrigerado que não gela</a>."
+        ]
+      },
+      {
+        "id": "carga",
+        "title": "3. Prateleira lotada bloqueando o ar",
+        "image": {
+          "src": "/assets/trab-gcom-3.webp",
+          "alt": "Geladeira comercial de portas de vidro vista por dentro, com prateleiras aramadas que deixam o ar circular",
+          "caption": "Prateleira aramada e espaço livre no fundo: o ar frio precisa circular entre os produtos.",
+          "wide": true
+        },
+        "body": [
+          "Geladeira comercial gela por circulação de ar frio. Quando a mercadoria encosta no fundo, tampa a saída de ar ou forma uma parede de caixas de uma lateral à outra, o ar não passa e parte do equipamento fica mais quente, mesmo com tudo funcionando.",
+          "Colocar produto ainda morno, ou abastecer a geladeira inteira de uma vez no meio do movimento, tem efeito parecido: a temperatura sobe e leva horas para voltar.",
+          "<strong>Como conferir:</strong> veja se há espaço entre a mercadoria e o fundo, se a saída de ar está livre e se o ar consegue circular entre as prateleiras. Se a temperatura normaliza depois de reorganizar a carga, não era defeito."
+        ]
+      },
+      {
+        "id": "ventilador",
+        "title": "4. Ventilador interno parado",
+        "body": [
+          "O ventilador interno é quem espalha o frio pelo gabinete. Com ele parado, o frio fica concentrado perto do evaporador e o restante da geladeira esquenta. O sintoma típico é a diferença grande de temperatura entre uma prateleira e outra.",
+          "<strong>Como conferir:</strong> com a geladeira ligada, tente ouvir o ventilador e sentir o ar saindo. Se o motor do compressor funciona e não há circulação de ar lá dentro, o ventilador ou o circuito que o aciona precisa ser testado.",
+          "A hélice também pode estar travada por gelo, e nesse caso a causa de origem é a próxima da lista."
+        ]
+      },
+      {
+        "id": "degelo",
+        "title": "5. Degelo travado e gelo no evaporador",
+        "body": [
+          "O evaporador forma gelo durante o funcionamento, e o sistema de degelo derrete esse gelo de tempos em tempos. Quando a resistência queima, o sensor falha ou o controlador não comanda o ciclo, o gelo se acumula até fechar a passagem de ar. A geladeira continua ligada e gela cada vez menos.",
+          "<strong>Como conferir:</strong> gelo acumulando no fundo, placa de gelo atrás do painel interno ou água aparecendo embaixo das gavetas são os sinais mais comuns. Água no fundo também pode ser dreno entupido, que faz a água do degelo transbordar.",
+          "Desligar o equipamento e deixar o gelo derreter devolve o frio por um ou dois dias. Se o gelo volta, o defeito está no sistema de degelo e precisa de reparo."
+        ]
+      },
+      {
+        "id": "controle",
+        "title": "6. Termostato, sensor ou controlador com defeito",
+        "image": {
+          "src": "/assets/trab-gcom-2.webp",
+          "alt": "Refrigerador comercial inox de duas portas em cozinha de restaurante",
+          "caption": "Em refrigerador de cozinha, sensor e controlador trabalham com porta abrindo o tempo todo.",
+          "wide": true
+        },
+        "body": [
+          "O controle de temperatura decide quando o compressor liga e desliga. Sensor fora de posição ou com leitura errada, termostato desgastado e placa eletrônica com defeito fazem a geladeira desligar antes da hora, não desligar nunca ou marcar no painel uma temperatura que não é a real.",
+          "<strong>Como conferir:</strong> deixe um termômetro confiável no meio da carga por algumas horas e compare com o painel. Confira também se ninguém alterou a regulagem durante a limpeza.",
+          "Como referência, a <a href=\"https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2004/res0216_15_09_2004.html\" target=\"_blank\" rel=\"noopener\">RDC 216/2004 da Anvisa</a>, que vale para restaurante, padaria, lanchonete e outros serviços de alimentação, determina que o alimento preparado seja conservado sob refrigeração abaixo de 5 °C. Se o termômetro no meio da carga fica acima disso, a geladeira não está cumprindo a função, mesmo que o painel mostre outra coisa.",
+          "Se a diferença persistir, o técnico testa sensor e controlador e faz a calibração ou a troca."
+        ]
+      },
+      {
+        "id": "gas-compressor",
+        "title": "7. Falta de gás ou compressor sem partida",
+        "body": [
+          "O circuito de refrigeração é fechado. Se falta gás, existe um vazamento em algum ponto, e só recarregar faz o problema voltar em pouco tempo. O sinal mais comum é a perda de rendimento aos poucos: a geladeira gela um pouco menos a cada semana e o motor passa a funcionar sem descanso.",
+          "Quando o compressor não parte, a geladeira fica ligada, com luz acesa, e não gela nada. A causa pode ser o próprio compressor ou os componentes elétricos de partida, e isso só se define com medição.",
+          "<strong>Como conferir:</strong> não há teste seguro sem instrumento. O técnico mede pressão e corrente, localiza o vazamento, corrige, faz vácuo e recarrega na quantidade correta. Esse serviço faz parte do <a href=\"/conserto-de-geladeira.html\">conserto de geladeira</a>, feito no local."
+        ]
+      }
+    ],
+    "diagnosis": {
+      "title": "Como descobrir qual é a causa",
+      "intro": "Siga esta ordem. Os primeiros passos não precisam de ferramenta.",
+      "steps": [
+        "Confira se a geladeira está ligada, se o disjuntor não desarmou e se a regulagem de temperatura não foi alterada.",
+        "Olhe a grade do condensador e veja se o ventilador ao lado dele está girando.",
+        "Teste a vedação de cada porta com uma folha de papel e veja se todas fecham sozinhas.",
+        "Veja se a mercadoria está encostada no fundo ou tampando a saída de ar.",
+        "Com a geladeira ligada, confira se há circulação de ar lá dentro.",
+        "Procure gelo acumulado no fundo ou água embaixo das gavetas.",
+        "Deixe um termômetro no meio da carga por algumas horas e compare com o painel."
+      ],
+      "after": "Se tudo isso estiver certo e a geladeira continuar sem gelar, a causa provável está no gás, no compressor, no degelo ou no controle eletrônico, e o diagnóstico precisa de manômetro e medição elétrica."
+    },
+    "midCta": {
+      "after": "condensador",
+      "text": "Motor que não desliga e conta de luz subindo? A Santos faz a limpeza técnica do condensador e mede o equipamento no local.",
+      "button": "Agendar manutenção"
+    },
+    "cta": {
+      "title": "Quando chamar o técnico",
+      "body": "Chame quando a geladeira está ligada e não gela, quando o gelo volta um ou dois dias depois de degelar, quando o motor não desliga mesmo com condensador limpo e portas vedando, ou quando o painel não bate com o termômetro. Com produto perecível dentro, não vale esperar: transfira a mercadoria, mantenha as portas fechadas e peça o atendimento. O técnico da Santos Refrigeração mede pressão e corrente, testa ventilador, degelo, sensor e controlador e localiza vazamento quando falta gás. Você recebe o diagnóstico e o preço fechado antes do serviço. Em equipamento comercial a visita é sem custo, no Rio de Janeiro e no Grande Rio."
+    },
+    "conclusion": {
+      "title": "Resumo",
+      "table": {
+        "intro": "Quatro das sete causas a própria equipe confere sem ferramenta: condensador, portas, carga e circulação de ar. Nesta tabela estão as sete, o sinal que identifica cada uma e o que fazer.",
+        "head": [
+          "Causa",
+          "Como identificar",
+          "O que fazer"
+        ],
+        "rows": [
+          [
+            "Condensador sujo",
+            "Aletas cobertas de poeira e gordura, motor quente, desarme no calor",
+            "Limpeza técnica do condensador e conferência do ventilador"
+          ],
+          [
+            "Porta que não veda",
+            "Folha de papel sai sem resistência, porta que não fecha sozinha",
+            "Limpar ou trocar a gaxeta e realinhar a porta"
+          ],
+          [
+            "Prateleira lotada bloqueando o ar",
+            "Mercadoria encostada no fundo ou tampando a saída de ar",
+            "Reorganizar a carga e deixar o ar circular"
+          ],
+          [
+            "Ventilador interno parado",
+            "Prateleiras com temperaturas muito diferentes, sem ar circulando",
+            "Testar o ventilador e o circuito que o aciona"
+          ],
+          [
+            "Degelo travado",
+            "Gelo acumulando no fundo, água embaixo das gavetas",
+            "Reparar resistência, sensor ou comando do degelo e desobstruir o dreno"
+          ],
+          [
+            "Termostato, sensor ou controlador",
+            "Painel não bate com o termômetro, liga e desliga fora de hora",
+            "Testar e calibrar ou trocar o componente"
+          ],
+          [
+            "Falta de gás ou compressor sem partida",
+            "Perda de frio aos poucos, ou geladeira ligada sem gelar nada",
+            "Localizar o vazamento, corrigir, fazer vácuo e recarregar; medir a partida antes de trocar o compressor"
+          ]
+        ]
+      }
+    },
+    "faq": [
+      [
+        "Por que a geladeira comercial liga e não gela?",
+        "Quando a geladeira comercial liga, acende a luz e não gela, as causas mais comuns são compressor sem partida, falta de gás por vazamento ou gelo no evaporador fechando a passagem de ar. Confira antes o disjuntor, a regulagem de temperatura e o condensador. Se nada mudar, é caso de técnico."
+      ],
+      [
+        "Por que a geladeira comercial gela em uma prateleira e não na outra?",
+        "Quase sempre é circulação de ar: mercadoria tampando a saída de ar, ventilador interno parado ou gelo no evaporador fechando a passagem. Reorganize a carga e confira se há ar circulando com a geladeira ligada."
+      ],
+      [
+        "O motor da geladeira comercial não desliga. É defeito?",
+        "É sinal de perda de eficiência. As causas mais comuns são condensador sujo, porta que não veda e carga de gás baixa por vazamento. Além de gelar menos, a geladeira gasta mais energia e o compressor dura menos."
+      ],
+      [
+        "Qual é a temperatura certa de uma geladeira comercial?",
+        "Depende do produto. Para alimento preparado em serviços de alimentação, a RDC 216/2004 da Anvisa determina conservação sob refrigeração abaixo de 5 °C. Para produto industrializado, vale a temperatura de conservação indicada no rótulo."
+      ],
+      [
+        "Posso só completar o gás da geladeira comercial?",
+        "Não resolve. O circuito de refrigeração é fechado: se falta gás, existe um vazamento, e só recarregar faz o problema voltar. O correto é localizar o vazamento, corrigir, fazer vácuo e recarregar na quantidade certa."
+      ],
+      [
+        "Quanto custa consertar uma geladeira comercial?",
+        "O valor depende da causa: limpar o condensador custa bem menos que trocar o compressor. Por isso a Santos Refrigeração faz o diagnóstico no local, com medição, e informa o preço fechado antes do serviço. Em equipamento comercial a visita é sem custo."
+      ],
+      [
+        "Vale consertar uma geladeira comercial antiga?",
+        "Depende do estado do gabinete e do custo do reparo. O técnico avalia no local e passa o preço fechado antes do serviço, para você comparar com a troca do equipamento. Quando o reparo não compensa, a Santos Refrigeração avisa."
+      ],
+      [
+        "A Santos Refrigeração vende geladeira comercial ou peças?",
+        "Não. A Santos Refrigeração é assistência técnica: faz instalação, manutenção e conserto de geladeira comercial, mas não vende equipamento nem peça avulsa."
+      ],
+      [
+        "Onde a Santos Refrigeração conserta geladeira comercial?",
+        "No Rio de Janeiro e no Grande Rio, com atendimento no local do cliente. A oficina fica em Cascadura, na Zona Norte do Rio."
+      ]
+    ],
+    "related": [
+      [
+        "Geladeira comercial",
+        "/geladeira-comercial.html",
+        "refrigerator",
+        "Conserto e manutenção de geladeira e refrigerador comercial de duas a seis portas."
+      ],
+      [
+        "Conserto de geladeira",
+        "/conserto-de-geladeira.html",
+        "refrigerator",
+        "Conserto no local de geladeira, refrigerador e frigobar, com diagnóstico antes do serviço."
+      ],
+      [
+        "Balcão refrigerado",
+        "/balcao-refrigerado.html",
+        "store",
+        "Conserto e manutenção de balcão refrigerado, vitrine de açougue e balcão de saladas."
+      ]
+    ],
+    "waMessage": "Olá! Li o artigo sobre geladeira comercial que não gela no site e preciso de atendimento para GELADEIRA COMERCIAL. Vou descrever o que está acontecendo."
   }
 }
