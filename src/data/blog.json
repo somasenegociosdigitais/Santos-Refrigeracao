@@ -1025,7 +1025,7 @@
     "metaDescription": "Câmara de resfriados ou de congelados? Veja as diferenças de temperatura, painel, piso, porta, degelo e equipamento e qual escolher para o seu produto.",
     "category": "Câmara fria",
     "published": "2026-10-27",
-    "updated": "2026-10-27",
+    "updated": "2026-11-19",
     "readMin": 7,
     "cover": "/assets/trab-cfi-2.webp",
     "coverAlt": "Interior de câmara fria vazia com evaporador de três ventiladores e piso protegido",
@@ -1039,7 +1039,8 @@
         "body": [
           "A câmara de resfriados trabalha com temperatura positiva, na faixa de poucos graus acima de zero. É usada para hortifruti, laticínios, bebidas, carnes e pescados resfriados e alimentos prontos. Cada produto tem a sua faixa: hortifruti costuma pedir temperatura mais alta que carne resfriada.",
           "A câmara de congelados trabalha com temperatura negativa. A referência usual para produto congelado é −18 °C ou menos. É usada para carnes, pescados, polpas, sorvetes e pratos congelados.",
-          "A faixa exigida para cada alimento está na legislação sanitária e na orientação do fabricante do produto. Ela é o ponto de partida do projeto."
+          "A faixa exigida para cada alimento está na legislação sanitária e na orientação do fabricante do produto. Ela é o ponto de partida do projeto.",
+          "Para estoque de gelo, que também é câmara de congelados, veja <a href=\"/blog/camara-fria-para-gelo.html\">câmara fria para gelo</a>."
         ]
       },
       {
@@ -1875,5 +1876,235 @@
       ]
     ],
     "waMessage": "Olá! Li o artigo sobre câmara fria pingando água no site e preciso de atendimento para CÂMARA FRIA."
+  },
+  "camara-fria-para-gelo": {
+    "slug": "camara-fria-para-gelo",
+    "title": "Câmara fria para gelo: temperatura, tamanho e preço",
+    "metaTitle": "Câmara fria para gelo: temperatura, tamanho e preço",
+    "metaDescription": "Câmara fria para gelo: temperatura de trabalho, como calcular o tamanho, diferença para a mini câmara e o que define o preço. Projeto e montagem no Rio.",
+    "category": "Câmara fria",
+    "published": "2026-11-19",
+    "updated": "2026-11-19",
+    "readMin": 8,
+    "cover": "/assets/trab-cf-1.webp",
+    "coverAlt": "Câmara fria montada dentro de uma loja, com painéis brancos, porta e controlador na parede",
+    "excerpt": "Câmara para gelo é uma câmara de congelados. Veja a temperatura de trabalho, como calcular o tamanho, quando a mini câmara resolve e o que define o preço.",
+    "lead": "Quem vende ou usa gelo em volume chega rápido ao limite do freezer: o estoque não cabe, o saco empedra e falta gelo no fim de semana. A câmara fria para gelo resolve isso, mas não se escolhe só pelo tamanho. Ela é uma câmara de congelados, e temperatura, piso, porta e equipamento mudam o projeto e o preço. Este guia mostra os sete pontos que definem uma câmara para gelo em depósito de bebidas, distribuidora, fábrica de gelo, bar e mercado.",
+    "answer": {
+      "title": "O que é uma câmara fria para gelo?",
+      "text": "Câmara fria para gelo é uma câmara de congelados, com temperatura abaixo de zero, feita para guardar gelo em saco, em cubo ou em barra sem derreter nem empedrar. As mini câmaras de linha para gelo trabalham entre −10 °C e −15 °C. O tamanho sai do estoque máximo em quilos, e o preço depende do volume, do isolamento, do piso e do equipamento."
+    },
+    "summaryTitle": "Os 7 pontos que definem uma câmara fria para gelo",
+    "sections": [
+      {
+        "id": "temperatura",
+        "title": "1. Temperatura de trabalho",
+        "body": [
+          "Gelo precisa ficar abaixo de zero com folga. Perto de 0 °C, a superfície derrete a cada abertura de porta e congela de novo: os cubos grudam e o saco vira um bloco. É o gelo empedrado, que o cliente devolve.",
+          "As mini câmaras de linha para gelo trabalham na faixa de −10 °C a −15 °C, segundo os fabricantes. Numa câmara montada sob medida, a temperatura sai do projeto e leva em conta quanto a porta abre e se o gelo entra recém-saído da máquina.",
+          "Mais frio que o necessário também custa: pede equipamento maior e gasta mais energia. A diferença entre os dois tipos de câmara está em <a href=\"/blog/camara-fria-resfriados-ou-congelados.html\">câmara fria de resfriados ou de congelados</a>."
+        ]
+      },
+      {
+        "id": "tamanho",
+        "title": "2. Tamanho e capacidade",
+        "image": {
+          "src": "/assets/blog-gelo-maquina.webp",
+          "alt": "Gelo em cubo no depósito de uma máquina de gelo comercial",
+          "caption": "Quem produz o próprio gelo dimensiona a câmara pelo que a máquina entrega por dia e pelo estoque do pico.",
+          "wide": true
+        },
+        "body": [
+          "O tamanho não começa em 2x2 ou 3x3. Começa no estoque máximo em quilos: quanto gelo precisa estar guardado no pico, que costuma ser o fim de semana de verão ou a véspera de um evento.",
+          "Duas referências de equipamento de linha ajudam a ter ordem de grandeza. Uma mini câmara para gelo de cerca de 950 litros guarda 72 pacotes de 5 kg, ou 360 kg. Um conservador de 1.800 litros guarda até 170 pacotes de 5 kg, ou 850 kg. Os números são dos fabricantes.",
+          "Numa câmara em que se entra, o volume útil é menor que o volume total. Corredor, estrado ou palete e o afastamento das paredes e do evaporador, que o ar precisa para circular, ficam fora da conta. Se o gelo vem de máquina própria, a produção diária também entra no cálculo; a Santos também faz a <a href=\"/maquina-de-gelo.html\">manutenção de máquina de gelo</a>."
+        ]
+      },
+      {
+        "id": "modular",
+        "title": "3. Mini câmara pronta ou câmara modular",
+        "body": [
+          "São duas soluções diferentes com o mesmo nome na busca. A mini câmara, ou conservador de gelo, é um equipamento de linha, comprado pronto em loja, com portas, para o ponto de venda: posto, mercado, adega, depósito pequeno. Atende até algumas centenas de quilos.",
+          "A câmara modular é montada no local com painéis isotérmicos, tem porta para entrar e equipamento dimensionado para o espaço. É a solução de fábrica de gelo, distribuidora e depósito de bebidas com giro alto.",
+          "A Santos Refrigeração não vende mini câmara nem câmara pronta. Faz o <a href=\"/instalacao-de-camara-fria.html\">projeto e a instalação de câmara fria</a> modular, monta câmara que o cliente já comprou e faz a manutenção dos dois tipos."
+        ]
+      },
+      {
+        "id": "estrutura",
+        "title": "4. Painel, piso e porta",
+        "body": [
+          "Por ser câmara de congelados, a de gelo usa painel mais espesso, em geral com núcleo de PUR ou PIR. Painel fino faz o equipamento trabalhar sem parar e forma condensação do lado de fora.",
+          "O piso precisa de isolamento e barreira de vapor. Sem isso a câmara perde frio para o chão e, com o tempo, o solo embaixo pode congelar e levantar o piso. Gelo é carga pesada: o acabamento tem que aguentar palete e carrinho.",
+          "A porta é mais espessa e tem resistência elétrica no batente, para a borracha não congelar e a porta não colar. Cortina de PVC reduz a troca de ar enquanto a porta está aberta."
+        ]
+      },
+      {
+        "id": "umidade",
+        "title": "5. Abertura de porta e umidade",
+        "body": [
+          "Depósito de gelo abre a porta o dia inteiro. Cada abertura deixa entrar ar quente e úmido, e no Rio isso pesa. A umidade vira neve no evaporador, gelo no teto e no piso da entrada, e os sacos mais perto da porta são os primeiros a empedrar.",
+          "O projeto resolve com cortina de PVC, posição do evaporador longe do fluxo de ar da porta, degelo dimensionado para essa rotina e, quando o volume justifica, antecâmara.",
+          "Quando a câmara já existe e o gelo aparece no piso ou no teto, as causas estão em <a href=\"/blog/camara-fria-pingando-agua.html\">câmara fria pingando água</a>."
+        ]
+      },
+      {
+        "id": "equipamento",
+        "title": "6. Equipamento, degelo e energia",
+        "image": {
+          "src": "/assets/trab-cf-4.webp",
+          "alt": "Evaporador de quatro ventiladores instalado no teto de uma câmara fria",
+          "caption": "O evaporador é escolhido pelo cálculo de carga térmica, não pelo tamanho da câmara.",
+          "wide": true
+        },
+        "body": [
+          "A unidade condensadora e o evaporador são escolhidos para temperatura negativa, pelo cálculo de carga térmica: volume da câmara, temperatura de trabalho, quantos quilos de gelo entram por dia e a que temperatura, quantas vezes a porta abre e onde a condensadora vai ficar.",
+          "O degelo é elétrico ou por gás quente, e o dreno tem resistência para a água não congelar no caminho. A rede elétrica do local entra no levantamento: monofásica ou trifásica, e quanto ela ainda suporta.",
+          "O consumo de energia depende mais do isolamento, da vedação e da rotina de porta do que do tamanho do motor. Economizar no painel ou no piso aparece depois, todo mês, na conta de luz."
+        ]
+      },
+      {
+        "id": "preco",
+        "title": "7. O que define o preço",
+        "body": [
+          "Não existe tabela de preço por 2x2 ou 3x3 que valha. Duas câmaras do mesmo tamanho têm custos diferentes conforme a temperatura, o piso e o equipamento. O que pesa: volume, espessura e tipo de painel, piso isolado, porta, potência do equipamento, adequação da rede elétrica, distância entre a condensadora e o evaporador e o acesso ao local.",
+          "Como referência de equipamento pronto, em novembro de 2026 uma mini câmara para gelo de cerca de 950 litros aparecia em loja online na faixa de R$ 10 mil a R$ 12 mil. Câmara modular sob medida só tem preço depois da visita: a Santos avalia o espaço, calcula e fecha o valor antes de começar.",
+          "Cuidado com câmara usada. Painel com isolamento encharcado e equipamento no fim da vida custam mais que a economia da compra, e câmara de resfriados usada não serve para gelo sem refazer painel, piso e porta."
+        ]
+      }
+    ],
+    "diagnosis": {
+      "title": "O que levantar antes de pedir o orçamento",
+      "intro": "Com estas respostas em mãos, a visita técnica rende e o orçamento sai certo na primeira vez.",
+      "steps": [
+        "Tipo de gelo: saco de 2, 3, 5 ou 10 kg, barra ou escama.",
+        "Estoque máximo em quilos, no pico: fim de semana de verão ou véspera de evento.",
+        "Quanto gelo entra e sai por dia, e se ele vem de máquina própria ou de fornecedor.",
+        "Espaço disponível: largura, comprimento, altura e por onde os painéis entram.",
+        "Tipo de piso do local e se ele pode receber obra.",
+        "Rede elétrica: monofásica ou trifásica.",
+        "Onde a unidade condensadora pode ficar: local ventilado e com acesso para manutenção."
+      ],
+      "after": "Na visita, o técnico mede o espaço, calcula a carga térmica e devolve o projeto com o preço fechado."
+    },
+    "midCta": {
+      "after": "modular",
+      "text": "Vai montar ou ampliar o estoque de gelo? A Santos faz o projeto, a montagem e a instalação da câmara fria no Rio e Grande Rio.",
+      "button": "Pedir projeto de câmara fria"
+    },
+    "cta": {
+      "title": "Quando falar com a Santos",
+      "body": "Fale quando o estoque de gelo não cabe mais em freezer ou mini câmara, quando você vai abrir ou ampliar uma fábrica ou distribuidora de gelo, quando comprou uma câmara e precisa montar, ou quando a câmara atual empedra o gelo e forma gelo no piso. A Santos Refrigeração faz o levantamento, a visita técnica, o cálculo de carga térmica, o projeto com orçamento fechado, a montagem dos painéis, a instalação do equipamento e, depois, a manutenção. Não vende câmara pronta nem usada. A visita é sem custo em equipamento comercial, no Rio de Janeiro e no Grande Rio."
+    },
+    "conclusion": {
+      "title": "Resumo",
+      "table": {
+        "intro": "Câmara para gelo é câmara de congelados com muita abertura de porta e carga pesada. Nesta tabela estão os sete pontos e o motivo de cada um.",
+        "head": [
+          "Ponto",
+          "O que vale para gelo",
+          "Por quê"
+        ],
+        "rows": [
+          [
+            "Temperatura",
+            "Abaixo de zero com folga; mini câmaras de linha trabalham de −10 °C a −15 °C",
+            "Perto de 0 °C o gelo derrete, recongela e empedra"
+          ],
+          [
+            "Tamanho",
+            "Calculado pelo estoque máximo em quilos",
+            "Volume útil é menor que o total; pico define a capacidade"
+          ],
+          [
+            "Mini câmara ou modular",
+            "Mini câmara até algumas centenas de quilos; modular acima disso",
+            "São equipamentos diferentes, com compra e instalação diferentes"
+          ],
+          [
+            "Painel, piso e porta",
+            "Painel espesso, piso isolado, porta com resistência",
+            "É câmara de congelados e recebe carga pesada"
+          ],
+          [
+            "Porta e umidade",
+            "Cortina de PVC, degelo dimensionado, antecâmara se o volume justificar",
+            "Ar úmido vira neve no evaporador e gelo no piso"
+          ],
+          [
+            "Equipamento",
+            "Dimensionado por cálculo de carga térmica",
+            "Gelo que entra por dia e aberturas de porta mudam a potência"
+          ],
+          [
+            "Preço",
+            "Fechado depois da visita técnica",
+            "Piso, painel, equipamento e rede elétrica mudam o custo"
+          ]
+        ]
+      }
+    },
+    "faq": [
+      [
+        "Qual a temperatura de uma câmara fria para gelo?",
+        "Abaixo de zero com folga. As mini câmaras de linha para gelo trabalham entre −10 °C e −15 °C, segundo os fabricantes. Numa câmara sob medida, a temperatura é definida no projeto, conforme a abertura de porta e a entrada de gelo novo."
+      ],
+      [
+        "Quanto custa uma câmara fria para gelo?",
+        "Depende do volume, do painel, do piso, do equipamento e da rede elétrica do local. Como referência, em novembro de 2026 uma mini câmara pronta de cerca de 950 litros aparecia em loja online entre R$ 10 mil e R$ 12 mil. Câmara modular sob medida tem o preço fechado depois da visita técnica."
+      ],
+      [
+        "Qual tamanho de câmara fria para gelo eu preciso?",
+        "O tamanho sai do estoque máximo em quilos, no pico de venda. Como referência dos fabricantes, uma mini câmara de cerca de 950 litros guarda 72 pacotes de 5 kg (360 kg) e um conservador de 1.800 litros guarda até 170 pacotes de 5 kg (850 kg). Acima disso, a solução é câmara modular."
+      ],
+      [
+        "Qual a diferença entre mini câmara e câmara fria para gelo?",
+        "A mini câmara é um equipamento de linha, comprado pronto, com portas, para o ponto de venda. A câmara fria modular é montada no local com painéis, tem porta para entrar e equipamento dimensionado por projeto. A primeira atende algumas centenas de quilos; a segunda, estoque de fábrica e distribuidora."
+      ],
+      [
+        "Posso guardar gelo em câmara de resfriados?",
+        "Não. Câmara de resfriados trabalha acima de zero, e o gelo derrete. Transformar uma câmara de resfriados em câmara para gelo exige painel mais espesso, piso isolado, porta com resistência e equipamento para temperatura negativa."
+      ],
+      [
+        "Posso guardar gelo junto com outros congelados?",
+        "A temperatura de uma câmara de congelados serve para o gelo. Mas gelo para consumo humano é tratado como alimento pela Anvisa, com requisitos sanitários na RDC 717/2022. Por isso o recomendável é mantê-lo embalado e separado de carne e pescado crus, para não pegar cheiro nem contaminação."
+      ],
+      [
+        "Por que o gelo empedra dentro da câmara?",
+        "Porque a temperatura está perto de zero ou oscilando. A superfície do gelo derrete e congela de novo, e os cubos grudam. As causas mais comuns são porta aberta demais, vedação ruim, degelo mal ajustado e câmara regulada acima do necessário."
+      ],
+      [
+        "Câmara fria para gelo gasta muita energia?",
+        "Gasta mais que uma câmara de resfriados do mesmo tamanho, porque trabalha em temperatura negativa. O consumo depende do isolamento, da vedação da porta e da rotina de abertura, e sobe quando falta manutenção preventiva."
+      ],
+      [
+        "A Santos Refrigeração vende câmara fria para gelo?",
+        "Não vende câmara pronta, câmara usada nem mini câmara. A Santos Refrigeração faz o projeto, a montagem e a instalação de câmara fria modular, monta câmara que o cliente já comprou e faz a manutenção depois."
+      ],
+      [
+        "Onde a Santos Refrigeração monta câmara fria para gelo?",
+        "Em toda a cidade do Rio de Janeiro (Zona Norte, Zona Oeste, Centro e Zona Sul) e no Grande Rio. A oficina fica em Cascadura, na Zona Norte."
+      ]
+    ],
+    "related": [
+      [
+        "Instalação de câmara fria",
+        "/instalacao-de-camara-fria.html",
+        "wrench",
+        "Projeto, montagem e instalação de câmara fria no tamanho da operação."
+      ],
+      [
+        "Manutenção de câmara fria",
+        "/camara-fria.html",
+        "warehouse",
+        "Conserto, manutenção preventiva e corretiva de câmaras de resfriados e congelados."
+      ],
+      [
+        "Máquina de gelo",
+        "/maquina-de-gelo.html",
+        "cuboid",
+        "Manutenção e conserto de máquina de gelo comercial."
+      ]
+    ],
+    "waMessage": "Olá! Li o artigo sobre câmara fria para gelo no site e quero um orçamento de CÂMARA FRIA PARA GELO."
   }
 }
