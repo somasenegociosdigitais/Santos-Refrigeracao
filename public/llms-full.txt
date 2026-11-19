@@ -274,6 +274,29 @@ não congela tem, em grande parte, as mesmas causas.
 
 ---
 
+## Câmara fria pingando água: 7 causas e o que fazer
+
+Fonte: https://www.santosrefricomercial.com.br/blog/camara-fria-pingando-agua.html
+Publicado em 19 de novembro de 2026.
+
+Câmara fria pingando água quase sempre tem uma de duas origens: a água do
+degelo não consegue sair ou a umidade de fora está entrando. As causas mais
+comuns são sete: dreno entupido, dreno congelado (resistência de dreno queimada,
+em câmara de congelados), bandeja ou tubulação sem caimento ou sem sifão,
+degelo mal ajustado (inclusive ventilador religando antes de a água escorrer),
+porta que não veda, infiltração de ar pelos painéis e excesso de umidade na
+operação.
+
+O lugar onde a água aparece indica a causa: embaixo do evaporador, dreno ou
+degelo; perto da porta, vedação; num ponto fixo do teto ou da parede,
+infiltração pelo painel. É normal sair água pela ponta do dreno, do lado de
+fora, durante e logo depois do degelo; não é normal pingar dentro da câmara.
+Não se deve quebrar o gelo do evaporador com ferramenta, porque a serpentina
+fura. A RDC 216/2004 da Anvisa exige áreas de alimentos livres de goteiras,
+vazamentos e infiltrações em serviços de alimentação.
+
+---
+
 ## Equipamentos atendidos
 
 Câmara fria e câmara frigorífica — conserto, manutenção preventiva e corretiva,

@@ -209,7 +209,7 @@
     "metaDescription": "Câmara fria não gela ou está congelando o evaporador? Veja as 7 causas mais comuns, como funciona o degelo e quando chamar o técnico.",
     "category": "Câmara fria",
     "published": "2026-10-10",
-    "updated": "2026-10-14",
+    "updated": "2026-11-19",
     "readMin": 7,
     "cover": "/assets/trab-cf-3.webp",
     "coverAlt": "Evaporador de câmara fria com quatro ventiladores instalado no teto",
@@ -244,7 +244,8 @@
         "body": [
           "O degelo câmara fria é o ciclo em que a refrigeração para por alguns minutos para derreter o gelo do evaporador. Em câmara de resfriados, o degelo costuma ser feito só com a parada do compressor. Em câmara de congelados, uma resistência elétrica aquece o evaporador, porque o ar interno está frio demais para derreter o gelo sozinho. As outras diferenças entre os dois tipos estão em <a href=\"/blog/camara-fria-resfriados-ou-congelados.html\">câmara fria de resfriados ou de congelados</a>.",
           "O degelo falha quando a resistência queima, quando o controlador está com intervalo ou duração errados ou quando o sensor de fim de degelo dá leitura errada. A água do degelo também precisa escoar: dreno entupido ou congelado devolve a água para a bandeja, e ela congela de novo.",
-          "<strong>Como conferir:</strong> observe se, de tempos em tempos, a câmara para e o gelo do evaporador diminui. Se o gelo só aumenta, o degelo não está acontecendo ou está curto demais."
+          "<strong>Como conferir:</strong> observe se, de tempos em tempos, a câmara para e o gelo do evaporador diminui. Se o gelo só aumenta, o degelo não está acontecendo ou está curto demais.",
+          "Quando além do gelo há água pingando dentro da câmara, veja <a href=\"/blog/camara-fria-pingando-agua.html\">câmara fria pingando água</a>."
         ]
       },
       {
@@ -818,7 +819,7 @@
     "metaDescription": "O que conferir na câmara fria todo dia, toda semana e na visita técnica: temperatura, porta, evaporador, dreno, condensadora, elétrica, gás e degelo.",
     "category": "Câmara fria",
     "published": "2026-10-27",
-    "updated": "2026-10-27",
+    "updated": "2026-11-19",
     "readMin": 7,
     "cover": "/assets/trab-cf-4.webp",
     "coverAlt": "Evaporador de câmara fria com quatro ventiladores sobre prateleiras de mercadoria",
@@ -865,7 +866,8 @@
         "body": [
           "A água do degelo sai pela bandeja do evaporador e pelo dreno. Dreno entupido devolve a água para a bandeja, ela congela de novo e o evaporador forma bloco de gelo. Água pingando no piso ou gelo embaixo do evaporador são os sinais.",
           "Em câmara de congelados, o dreno tem uma resistência que impede a água de congelar no caminho. Se o cano de dreno aparece com gelo por dentro, a resistência pode estar queimada. A diferença de degelo e dreno entre os dois tipos está em <a href=\"/blog/camara-fria-resfriados-ou-congelados.html\">câmara fria de resfriados ou de congelados</a>.",
-          "Piso com gelo ou água é risco de queda para quem trabalha na câmara. Seque e procure a origem no mesmo dia."
+          "Piso com gelo ou água é risco de queda para quem trabalha na câmara. Seque e procure a origem no mesmo dia.",
+          "As causas de água e gelo dentro da câmara, uma a uma, estão em <a href=\"/blog/camara-fria-pingando-agua.html\">câmara fria pingando água</a>."
         ]
       },
       {
@@ -1644,5 +1646,234 @@
       ]
     ],
     "waMessage": "Olá! Li o artigo sobre geladeira comercial que não gela no site e preciso de atendimento para GELADEIRA COMERCIAL. Vou descrever o que está acontecendo."
+  },
+  "camara-fria-pingando-agua": {
+    "slug": "camara-fria-pingando-agua",
+    "title": "Câmara fria pingando água: 7 causas e o que fazer",
+    "metaTitle": "Câmara fria pingando água: 7 causas e o que fazer",
+    "metaDescription": "Câmara fria pingando água, com gelo no piso ou no teto? Veja as 7 causas mais comuns, como achar a origem pelo local da água e quando chamar o técnico.",
+    "category": "Câmara fria",
+    "published": "2026-11-19",
+    "updated": "2026-11-19",
+    "readMin": 8,
+    "cover": "/assets/trab-cf-2.webp",
+    "coverAlt": "Evaporador de quatro ventiladores no teto de uma câmara fria, com o tubo de dreno saindo da bandeja",
+    "excerpt": "Água pingando dentro da câmara fria, gelo no piso ou no teto: quase sempre é água do degelo que não sai ou umidade que entra. Veja as sete causas.",
+    "lead": "Câmara fria pingando água, com poça no piso, gelo embaixo do evaporador ou gotas no teto não é detalhe de limpeza. A água molha embalagem, congela sobre o produto, deixa o piso escorregadio e, se a origem não for corrigida, termina em evaporador bloqueado e câmara sem gelar. Este guia mostra as sete causas mais comuns em câmara de resfriados e de congelados e como descobrir a origem pelo lugar onde a água aparece.",
+    "answer": {
+      "title": "Por que a câmara fria está pingando água?",
+      "text": "Câmara fria pingando água quase sempre tem uma de duas origens: a água do degelo não consegue sair ou a umidade de fora está entrando. As causas mais comuns são sete: dreno entupido, dreno congelado, bandeja ou tubulação sem caimento, degelo mal ajustado, porta que não veda, infiltração de ar pelos painéis e excesso de umidade na operação. O lugar onde a água aparece indica a causa."
+    },
+    "summaryTitle": "As 7 causas mais comuns de câmara fria pingando água",
+    "sections": [
+      {
+        "id": "dreno-entupido",
+        "title": "1. Dreno entupido",
+        "image": {
+          "src": "/assets/trab-cf-7.webp",
+          "alt": "Evaporador de dois ventiladores no teto de uma câmara fria, com o tubo de dreno isolado descendo da bandeja",
+          "caption": "O tubo que desce da bandeja do evaporador é o dreno. É por ele que a água do degelo sai da câmara."
+        },
+        "body": [
+          "É a primeira coisa a conferir. No degelo, o gelo do evaporador derrete, a água cai na bandeja e sai da câmara pelo dreno. Sujeira, limo, pedaço de embalagem e gordura fecham o tubo aos poucos. A bandeja enche, transborda e a água pinga embaixo do evaporador, muitas vezes em cima da mercadoria.",
+          "<strong>Como conferir:</strong> observe a câmara logo depois de um degelo. Se a água escorre pelas bordas da bandeja e nada sai na ponta do dreno do lado de fora, o tubo está obstruído. O teste do dreno é um dos itens semanais do <a href=\"/blog/manutencao-preventiva-camara-fria.html\">checklist de manutenção preventiva de câmara fria</a>.",
+          "Água pingando sobre alimento também é problema sanitário. A <a href=\"https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2004/res0216_15_09_2004.html\" target=\"_blank\" rel=\"noopener\">RDC 216/2004 da Anvisa</a>, que vale para restaurante, padaria, lanchonete e outros serviços de alimentação, exige que piso, parede e teto das áreas de alimentos fiquem livres de goteiras, vazamentos e infiltrações."
+        ]
+      },
+      {
+        "id": "dreno-congelado",
+        "title": "2. Dreno congelado na câmara de congelados",
+        "body": [
+          "Em câmara de congelados, a água do degelo passa por um tubo que está abaixo de zero. Para ela não congelar no caminho, o dreno tem uma resistência elétrica. Quando essa resistência queima, a água vira gelo dentro do tubo, a bandeja enche e forma um bloco, e o que transborda congela no piso embaixo do evaporador.",
+          "<strong>Como conferir:</strong> tubo de dreno com gelo por dentro, bandeja com gelo sólido logo depois do degelo e placa de gelo no piso sempre no mesmo lugar, embaixo do evaporador.",
+          "Derreter o gelo resolve por alguns dias. Se a resistência não for testada e trocada, o tubo congela de novo. A diferença de dreno e degelo entre os dois tipos de câmara está em <a href=\"/blog/camara-fria-resfriados-ou-congelados.html\">câmara fria de resfriados ou de congelados</a>."
+        ]
+      },
+      {
+        "id": "caimento",
+        "title": "3. Bandeja ou tubulação sem caimento",
+        "body": [
+          "A água do degelo sai só por gravidade. Bandeja desnivelada, trincada ou mal encaixada depois de uma limpeza deixa a água parada ou escorrendo pelo canto errado. No tubo, um trecho com barriga ou sem inclinação segura a água, que suja, entope e, em congelados, congela.",
+          "Do lado de fora, o dreno precisa de um sifão. Sem ele, o ar quente e úmido do ambiente sobe pelo tubo, condensa na bandeja e vira gelo onde não deveria.",
+          "<strong>Como conferir:</strong> água parada na bandeja depois que o degelo terminou, pingo sempre no mesmo canto e tubo com trecho mais baixo que a saída. Caimento e sifão são definidos na <a href=\"/instalacao-de-camara-fria.html\">instalação da câmara fria</a> e podem ser corrigidos depois."
+        ]
+      },
+      {
+        "id": "degelo",
+        "title": "4. Degelo mal ajustado",
+        "body": [
+          "Degelo curto demais ou com intervalo longo demais deixa gelo sobrando no evaporador. O bloco cresce para além da bandeja, e a água do degelo seguinte cai fora dela.",
+          "Há também o caso contrário: o ventilador volta a girar cedo demais. O controlador tem um tempo de gotejamento, para a água escorrer da serpentina, e um retardo para religar o ventilador. Com esses parâmetros zerados ou curtos, o ventilador sopra a água que ainda está na serpentina para dentro da câmara. O resultado são gotas sobre o produto e, em congelados, gelo no teto e na frente do evaporador.",
+          "<strong>Como conferir:</strong> respingos ou gelo espalhado na frente do evaporador, aparecendo logo depois do degelo. O ajuste de parâmetros é serviço de técnico. Os outros sinais de degelo com defeito estão em <a href=\"/blog/camara-fria-nao-gela.html\">câmara fria não gela</a>."
+        ]
+      },
+      {
+        "id": "porta",
+        "title": "5. Porta que não veda ou fica aberta",
+        "image": {
+          "src": "/assets/trab-cfi-1.webp",
+          "alt": "Porta de câmara fria de produtos refrigerados vista por fora, com o controlador na parede ao lado",
+          "caption": "Borracha gasta ou porta que não fecha sozinha deixa entrar ar úmido, que vira água e gelo dentro da câmara."
+        },
+        "body": [
+          "O ar de fora é quente e úmido, ainda mais no verão do Rio. Cada vez que ele entra na câmara, a umidade condensa nas superfícies frias: gotas no teto perto da porta e água no batente. Em câmara de congelados, essa umidade vira neve e gelo no teto, no piso da entrada e no evaporador.",
+          "Borracha de vedação rasgada ou ressecada, porta desalinhada que não fecha sozinha, cortina de PVC incompleta e porta aberta durante todo o abastecimento são as origens mais comuns. Em congelados, gelo na moldura e porta colando indicam resistência do batente queimada.",
+          "<strong>Como conferir:</strong> feche a porta prendendo uma folha de papel. Se ela sai sem resistência, a vedação falha naquele ponto. Repare também se a água e o gelo se concentram perto da entrada."
+        ]
+      },
+      {
+        "id": "paineis",
+        "title": "6. Infiltração de ar pelos painéis",
+        "body": [
+          "Junta de painel aberta, silicone ressecado, furo de passagem de tubulação ou cabo sem vedação e painel amassado por carrinho deixam o ar úmido entrar por um ponto fixo. Ali a umidade condensa e forma goteira ou mancha de gelo, sempre no mesmo lugar, longe do evaporador e da porta.",
+          "Por fora, painel suando, com mancha de umidade ou mofo, mostra que o frio está passando naquele ponto e que o isolamento está comprometido.",
+          "<strong>Como conferir:</strong> marque o ponto que pinga ou forma gelo e procure, em volta dele, junta aberta, furo sem vedação ou amassado. Refazer a vedação e trocar painel danificado faz parte do <a href=\"/camara-fria.html\">conserto de câmara fria</a>."
+        ]
+      },
+      {
+        "id": "umidade",
+        "title": "7. Umidade demais na operação",
+        "image": {
+          "src": "/assets/trab-cfi-2.webp",
+          "alt": "Interior de uma câmara fria vazia, com o evaporador de três ventiladores no fundo e o piso à mostra",
+          "caption": "Água ou gelo no piso embaixo do evaporador aponta para dreno ou degelo. Perto da porta, aponta para vedação."
+        },
+        "body": [
+          "Nem toda água é defeito. Produto que entra quente ou molhado, caixa de papelão úmida, líquido guardado sem tampa e piso lavado com mangueira com a câmara em funcionamento colocam mais umidade no ar do que o equipamento consegue retirar. Ela vira névoa, condensa no teto e carrega o evaporador de gelo.",
+          "<strong>Como conferir:</strong> se a água aparece depois do abastecimento ou da lavagem e some sozinha em algumas horas, a origem é a rotina, não o equipamento.",
+          "Abastecer com a porta aberta o menor tempo possível, esperar o produto esfriar antes de guardar e secar o piso depois da limpeza resolve a maior parte desses casos."
+        ]
+      }
+    ],
+    "diagnosis": {
+      "title": "Como descobrir de onde vem a água",
+      "intro": "O lugar e a hora em que a água aparece dizem quase tudo. Siga esta ordem.",
+      "steps": [
+        "Veja onde a água ou o gelo aparece: embaixo do evaporador, perto da porta ou num ponto fixo do teto ou da parede.",
+        "Observe o evaporador logo depois de um degelo. A água deve escorrer pela bandeja, sem pingar pelas bordas.",
+        "Confira a ponta do dreno do lado de fora. Durante e logo depois do degelo tem que sair água.",
+        "Veja se a bandeja fica com água parada ou com gelo sólido.",
+        "Teste a vedação da porta com uma folha de papel e veja se a porta fecha sozinha.",
+        "Procure junta aberta, furo sem vedação ou painel amassado perto do ponto que pinga.",
+        "Anote quando acontece: depois do degelo, do abastecimento ou da lavagem."
+      ],
+      "after": "Não quebre o gelo da bandeja ou do evaporador com faca ou chave de fenda: a serpentina fura com facilidade e o conserto passa a incluir vazamento de gás. Com o local e o horário anotados, o técnico chega sabendo onde medir."
+    },
+    "midCta": {
+      "after": "dreno-congelado",
+      "text": "Gelo embaixo do evaporador ou água pingando na mercadoria? A Santos desobstrui o dreno, testa a resistência e ajusta o degelo.",
+      "button": "Chamar técnico de câmara fria"
+    },
+    "cta": {
+      "title": "Quando chamar o técnico",
+      "body": "Chame quando a água pinga sobre a mercadoria, quando o gelo volta poucos dias depois de retirado, quando o tubo de dreno aparece com gelo por dentro, quando a goteira ou a mancha de gelo fica sempre no mesmo ponto do teto ou da parede, ou quando a porta da câmara de congelados começa a colar. O técnico da Santos Refrigeração desobstrui o dreno, testa a resistência, confere o degelo e os parâmetros do controlador e refaz a vedação de porta e de painel. Você recebe o diagnóstico e o preço fechado antes do serviço. Em equipamento comercial a visita é sem custo, no Rio de Janeiro e no Grande Rio."
+    },
+    "conclusion": {
+      "title": "Resumo",
+      "table": {
+        "intro": "Água embaixo do evaporador aponta para dreno ou degelo. Perto da porta, para vedação. Num ponto fixo do teto ou da parede, para infiltração. Nesta tabela estão as sete causas, o sinal de cada uma e o que fazer.",
+        "head": [
+          "Causa",
+          "Como identificar",
+          "O que fazer"
+        ],
+        "rows": [
+          [
+            "Dreno entupido",
+            "Água transbordando da bandeja depois do degelo, nada saindo na ponta do dreno",
+            "Desobstruir e limpar bandeja e tubo"
+          ],
+          [
+            "Dreno congelado",
+            "Em congelados: gelo dentro do tubo, bandeja com bloco, gelo no piso embaixo do evaporador",
+            "Testar e trocar a resistência do dreno"
+          ],
+          [
+            "Bandeja ou tubo sem caimento",
+            "Água parada na bandeja, pingo sempre no mesmo canto, dreno sem sifão",
+            "Nivelar a bandeja, corrigir a inclinação e instalar o sifão"
+          ],
+          [
+            "Degelo mal ajustado",
+            "Respingos ou gelo na frente do evaporador logo depois do degelo",
+            "Ajustar duração, intervalo, gotejamento e retardo do ventilador"
+          ],
+          [
+            "Porta que não veda",
+            "Água e gelo concentrados perto da entrada, folha de papel sai sem resistência",
+            "Trocar a borracha, realinhar a porta, completar a cortina"
+          ],
+          [
+            "Infiltração pelos painéis",
+            "Goteira ou mancha de gelo sempre no mesmo ponto, painel suando por fora",
+            "Refazer a vedação da junta ou do furo, trocar o painel danificado"
+          ],
+          [
+            "Umidade da operação",
+            "Aparece depois do abastecimento ou da lavagem e some sozinha",
+            "Ajustar a rotina de abastecimento e de limpeza"
+          ]
+        ]
+      }
+    },
+    "faq": [
+      [
+        "É normal sair água da câmara fria?",
+        "Sim, pelo dreno e do lado de fora. Durante e logo depois do degelo, a água do gelo derretido sai pela ponta do dreno. O que não é normal é água pingando dentro da câmara, poça no piso ou gelo embaixo do evaporador."
+      ],
+      [
+        "Por que forma gelo no piso da câmara fria?",
+        "Em câmara de congelados, gelo no piso embaixo do evaporador indica dreno congelado ou bandeja transbordando. Gelo no piso perto da entrada indica ar úmido entrando pela porta. Nos dois casos o gelo volta se a causa não for corrigida."
+      ],
+      [
+        "Por que forma gelo no teto da câmara fria?",
+        "Gelo no teto perto da porta vem de ar úmido que entra por vedação ruim ou porta aberta demais. Gelo no teto na frente do evaporador costuma ser água soprada pelo ventilador, que religou cedo demais depois do degelo. Gelo num ponto isolado do teto indica junta de painel aberta."
+      ],
+      [
+        "Câmara fria suando por fora: o que é?",
+        "Painel ou porta suando por fora mostra que o frio está passando naquele ponto. As causas mais comuns são junta de painel aberta, isolamento danificado ou encharcado e borracha da porta falhando."
+      ],
+      [
+        "A equipe pode desentupir o dreno da câmara fria?",
+        "A sujeira visível na bandeja e na ponta do dreno pode ser retirada pela equipe, com a câmara desligada. Não use arame nem objeto pontiagudo perto da serpentina. Em câmara de congelados, se o tubo congelou, a resistência do dreno precisa ser testada por um técnico."
+      ],
+      [
+        "Posso quebrar o gelo do evaporador para parar de pingar?",
+        "Não. A serpentina do evaporador fura com facilidade, e um furo vira vazamento de gás. O gelo deve sair pelo degelo. Se ele não sai, o defeito está no degelo ou no dreno e precisa de reparo."
+      ],
+      [
+        "Água pingando na câmara fria estraga a mercadoria?",
+        "Pode estragar. A água molha e desmancha embalagem, congela sobre o produto e contamina alimento exposto. Para serviços de alimentação, a RDC 216/2004 da Anvisa exige áreas de alimentos livres de goteiras, vazamentos e infiltrações."
+      ],
+      [
+        "A Santos Refrigeração conserta câmara fria pingando água?",
+        "Sim. A Santos Refrigeração desobstrui dreno, troca resistência de dreno, ajusta o degelo no controlador, troca borracha de porta e refaz vedação e painel de câmara fria, com diagnóstico e preço fechado antes do serviço."
+      ],
+      [
+        "Onde a Santos Refrigeração atende câmara fria?",
+        "Em toda a cidade do Rio de Janeiro (Zona Norte, Zona Oeste, Centro e Zona Sul) e no Grande Rio, no local do cliente. A oficina fica em Cascadura, na Zona Norte."
+      ]
+    ],
+    "related": [
+      [
+        "Manutenção de câmara fria",
+        "/camara-fria.html",
+        "warehouse",
+        "Conserto, manutenção preventiva e corretiva de câmaras de resfriados e congelados."
+      ],
+      [
+        "Instalação de câmara fria",
+        "/instalacao-de-camara-fria.html",
+        "wrench",
+        "Projeto, montagem e instalação de câmara fria no tamanho da operação."
+      ],
+      [
+        "Técnico de refrigeração comercial",
+        "/tecnico-refrigeracao-comercial.html",
+        "thermometer-snowflake",
+        "Assistência técnica para os equipamentos de refrigeração do seu negócio."
+      ]
+    ],
+    "waMessage": "Olá! Li o artigo sobre câmara fria pingando água no site e preciso de atendimento para CÂMARA FRIA."
   }
 }
