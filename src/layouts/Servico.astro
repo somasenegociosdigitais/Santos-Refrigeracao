@@ -38,6 +38,7 @@ const accent = 'var(--color-accent-strong)';
 const estiloElo = 'color:var(--color-primary);font-weight:700';
 const elos = ['Conhe\u00e7a tamb\u00e9m os <a href="/" style="' + estiloElo + '">outros servi\u00e7os de refrigera\u00e7\u00e3o comercial da Santos Refrigera\u00e7\u00e3o</a>'];
 if (d.slug !== 'refrigeracao-cascadura') elos.push('a nossa <a href="/refrigeracao-cascadura.html" style="' + estiloElo + '">oficina de refrigera\u00e7\u00e3o em Cascadura</a>');
+if (d.slug !== 'areas-atendidas') elos.push('os <a href="/areas-atendidas.html" style="' + estiloElo + '">bairros e cidades que atendemos</a>');
 if (d.slug !== 'tecnico-refrigeracao-comercial') elos.push('a <a href="/tecnico-refrigeracao-comercial.html" style="' + estiloElo + '">assist\u00eancia t\u00e9cnica em refrigera\u00e7\u00e3o comercial</a>');
 const paragrafoElos = (elos.length === 1 ? elos[0] : elos.slice(0, -1).join(', ') + ' e ' + elos[elos.length - 1]) + ', no Rio e Grande Rio.';
 ---

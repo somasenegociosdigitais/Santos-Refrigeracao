@@ -3031,7 +3031,8 @@
         "body": [
           "Estar em Cascadura encurta o caminho até Madureira e o Méier, e significa conhecer o comércio daqui: os equipamentos que se repetem, os fornecedores de peça mais próximos e as condições de instalação de loja de rua e de galeria.",
           "Perto da oficina: Madureira, Piedade, Engenho de Dentro, Méier, Todos os Santos, Cavalcanti, Quintino Bocaiúva, Bento Ribeiro, Marechal Hermes e Osvaldo Cruz.",
-          "Fora da Zona Norte atendemos a cidade inteira e o Grande Rio — Nova Iguaçu, São João de Meriti, Duque de Caxias, Nilópolis, Belford Roxo e Niterói. Nesses casos o atendimento é agendado, com o prazo informado antes de você aprovar."
+          "Fora da Zona Norte atendemos a cidade inteira e o Grande Rio — Nova Iguaçu, São João de Meriti, Duque de Caxias, Nilópolis, Belford Roxo e Niterói. Nesses casos o atendimento é agendado, com o prazo informado antes de você aprovar.",
+          "A lista por região está em <a href=\"/areas-atendidas.html\">áreas atendidas no Rio e Grande Rio</a>."
         ]
       }
     ],
@@ -3158,6 +3159,150 @@
       "Torre de chopeira com bandeja de inox",
       "Expositor de bebidas de várias portas em mercado"
     ],
+    "visitaSemCusto": true
+  },
+  "areas-atendidas": {
+    "slug": "areas-atendidas",
+    "title": "Áreas atendidas",
+    "icon": "map-pin",
+    "eyebrow": "Rio de Janeiro e Grande Rio",
+    "metaTitle": "Áreas Atendidas: Refrigeração Comercial no Rio e Grande Rio",
+    "metaDescription": "A Santos Refrigeração atende todo o Rio e o Grande Rio: Zona Norte, Zona Oeste, Centro, Zona Sul, Baixada e Niterói. Câmara fria, chopeira e balcão.",
+    "heroTitle": "Refrigeração comercial em todo o Rio de Janeiro e Grande Rio",
+    "highlight": "Rio de Janeiro",
+    "heroLead": "A Santos Refrigeração atende no local em toda a cidade do Rio de Janeiro e no Grande Rio, a partir da oficina em Cascadura. Projeto, instalação, manutenção e conserto de <strong>câmara fria</strong>, chopeira, balcão refrigerado, geladeira comercial e dos demais equipamentos, com diagnóstico por medição e preço fechado antes do serviço.",
+    "servicesTitle": "Onde a Santos Refrigeração atende",
+    "intro": [
+      "Atendemos a cidade inteira e o Grande Rio. As visitas saem da <a href=\"/refrigeracao-cascadura.html\">oficina de refrigeração em Cascadura</a>, na Zona Norte. Perto dela a resposta é mais rápida; nas outras regiões o atendimento é agendado, com o prazo informado antes de você aprovar.",
+      "Para <a href=\"/camara-fria.html\">conserto e manutenção de câmara fria</a> e para sistemas que não podem parar, atendemos fora do horário comercial em toda a área. Câmara nova, do cálculo de carga térmica à montagem, está em <a href=\"/instalacao-de-camara-fria.html\">projeto e instalação de câmara fria</a>.",
+      "O atendimento começa pelo WhatsApp: você informa o bairro ou a cidade, o equipamento e o que está acontecendo, e fazemos a triagem antes de agendar."
+    ],
+    "sections": [
+      {
+        "title": "Câmara fria em todo o Rio de Janeiro e Grande Rio",
+        "body": [
+          "Câmara fria é atendida em toda a área: a parada custa por hora, e projeto de câmara nova só se faz com visita ao local. Fazemos o projeto, a montagem dos painéis e a instalação do equipamento, o contrato de manutenção preventiva e o conserto de emergência, em açougue, mercado, restaurante, padaria, distribuidora e indústria.",
+          "Vale para qualquer região desta página: o técnico vai ao local, mede e passa o preço fechado antes de executar. Quem está avaliando uma câmara nova encontra as faixas de referência em <a href=\"/blog/quanto-custa-camara-fria.html\">quanto custa uma câmara fria</a>."
+        ]
+      },
+      {
+        "title": "Zona Norte do Rio de Janeiro",
+        "body": [
+          "É a região da oficina e a de resposta mais rápida. Atendemos Cascadura, Madureira, Piedade, Engenho de Dentro, Méier, Todos os Santos, Cavalcanti, Quintino Bocaiúva, Bento Ribeiro, Marechal Hermes e Osvaldo Cruz.",
+          "Também Pilares, Del Castilho, Higienópolis, Engenheiro Leal, Honório Gurgel, Vigário Geral, Irajá, Penha, Vila Isabel e Tijuca."
+        ]
+      },
+      {
+        "title": "Zona Oeste do Rio de Janeiro",
+        "body": [
+          "Atendemos Jacarepaguá, Taquara, Tanque, Praça Seca, Vila Valqueire, Cidade de Deus, Barra da Tijuca e Recreio dos Bandeirantes.",
+          "E também Realengo, Padre Miguel, Bangu, Senador Vasconcelos, Santíssimo, Campo Grande e Santa Cruz."
+        ]
+      },
+      {
+        "title": "Centro e Zona Sul do Rio de Janeiro",
+        "body": [
+          "No Centro, atendemos também Santo Cristo e Lapa. Na Zona Sul, Catete, Flamengo, Laranjeiras, Botafogo, Copacabana, Ipanema e Leblon.",
+          "São regiões com muito bar, restaurante e hotel. O atendimento é agendado conforme o horário de funcionamento da casa."
+        ]
+      },
+      {
+        "title": "Grande Rio: Baixada Fluminense, Niterói e São Gonçalo",
+        "body": [
+          "Fora da capital, atendemos Duque de Caxias, São João de Meriti, Nilópolis, Belford Roxo, Nova Iguaçu, Niterói e São Gonçalo.",
+          "Não viu a sua cidade ou o seu bairro? Fale pelo WhatsApp. Atendemos a região metropolitana, e o prazo de cada visita é informado antes de você aprovar."
+        ]
+      }
+    ],
+    "hubTitle": "Serviços atendidos em toda a área",
+    "hubLinks": [
+      [
+        "Câmara fria",
+        "/camara-fria.html",
+        "warehouse",
+        "Conserto, manutenção preventiva e emergência fora do horário comercial."
+      ],
+      [
+        "Instalação de câmara fria",
+        "/instalacao-de-camara-fria.html",
+        "wrench",
+        "Projeto, cálculo de carga térmica, montagem e instalação."
+      ],
+      [
+        "Chopeira",
+        "/chopeiras.html",
+        "beer",
+        "Instalação, manutenção, conserto e assepsia de chopeira."
+      ],
+      [
+        "Balcão refrigerado",
+        "/balcao-refrigerado.html",
+        "store",
+        "Balcão, vitrine de açougue, balcão de frios e de saladas."
+      ],
+      [
+        "Geladeira comercial",
+        "/geladeira-comercial.html",
+        "refrigerator",
+        "Geladeira, refrigerador e freezer comercial de duas a seis portas."
+      ],
+      [
+        "Máquina de gelo",
+        "/maquina-de-gelo.html",
+        "cuboid",
+        "Manutenção e conserto de máquina de gelo comercial."
+      ]
+    ],
+    "servicesListTitle": "Regiões atendidas",
+    "services": [
+      "Zona Norte do Rio de Janeiro",
+      "Zona Oeste do Rio de Janeiro",
+      "Centro do Rio de Janeiro",
+      "Zona Sul do Rio de Janeiro",
+      "Duque de Caxias e São João de Meriti",
+      "Nilópolis, Belford Roxo e Nova Iguaçu",
+      "Niterói e São Gonçalo",
+      "Câmara fria: toda a área, inclusive fora do horário comercial"
+    ],
+    "ctaTitle": "Precisa de refrigeração comercial no Rio de Janeiro ou no Grande Rio?",
+    "waMessage": "Olá! Vi no site as áreas atendidas e preciso de atendimento. Vou informar o bairro ou a cidade, o equipamento e o que está acontecendo.",
+    "faqTitle": "Dúvidas sobre as áreas atendidas",
+    "emergency": "Câmara fria parada gera prejuízo por hora — mercadoria em risco e operação travada. Para câmara fria e sistemas que não podem parar, atendemos fora do horário comercial em toda a área. Ligue e avaliamos na hora.",
+    "faq": [
+      [
+        "Vocês atendem em Vila Isabel, Tijuca, Méier e Todos os Santos?",
+        "Sim. A Zona Norte é a região da oficina, em Cascadura, e a de resposta mais rápida. Atendemos também Madureira, Piedade, Engenho de Dentro, Pilares, Irajá e Penha."
+      ],
+      [
+        "Vocês atendem na Zona Oeste: Jacarepaguá, Barra, Bangu e Campo Grande?",
+        "Sim. Atendemos Jacarepaguá, Taquara, Praça Seca, Vila Valqueire, Barra da Tijuca, Recreio, Realengo, Padre Miguel, Bangu, Santíssimo, Campo Grande e Santa Cruz, com visita agendada."
+      ],
+      [
+        "Vocês atendem no Centro e na Zona Sul?",
+        "Sim. Centro, Santo Cristo, Lapa, Catete, Flamengo, Laranjeiras, Botafogo, Copacabana, Ipanema e Leblon, com horário combinado conforme o funcionamento do estabelecimento."
+      ],
+      [
+        "Vocês atendem na Baixada Fluminense, em Niterói e em São Gonçalo?",
+        "Sim. Duque de Caxias, São João de Meriti, Nilópolis, Belford Roxo, Nova Iguaçu, Niterói e São Gonçalo. O atendimento é agendado, com o prazo informado antes de você aprovar."
+      ],
+      [
+        "Câmara fria é atendida em toda a área?",
+        "Sim. Projeto, instalação, manutenção e conserto de câmara fria são feitos em todo o Rio de Janeiro e Grande Rio. Para câmara parada, atendemos fora do horário comercial."
+      ],
+      [
+        "O atendimento fora da Zona Norte demora mais?",
+        "Perto da oficina a resposta é mais rápida. Nas outras regiões a visita é agendada, e o prazo é informado antes de você aprovar."
+      ],
+      [
+        "Não vi o meu bairro na lista. Vocês atendem?",
+        "Provavelmente sim: atendemos a cidade inteira e o Grande Rio. Fale pelo WhatsApp informando o bairro ou a cidade e o equipamento."
+      ],
+      [
+        "Vocês cobram pela visita?",
+        "Em equipamento comercial e industrial, não. O técnico vai até o local, avalia e passa o preço fechado antes de executar."
+      ]
+    ],
+    "gallery": [],
     "visitaSemCusto": true
   }
 }
