@@ -6,9 +6,9 @@
     "eyebrow": "Câmara fria",
     "metaTitle": "Conserto e Manutenção de Câmara Fria no Rio | Santos",
     "metaDescription": "Manutenção preventiva e conserto de câmara fria e frigorífica no Rio e Grande Rio. Atendemos fora do horário quando o equipamento não pode parar.",
-    "heroTitle": "Conserto e instalação de câmara fria e câmara frigorífica no Rio",
+    "heroTitle": "Conserto e manutenção de câmara fria e câmara frigorífica no Rio",
     "highlight": "câmara fria",
-    "heroLead": "Conserto, manutenção e instalação de câmara fria no Rio e Grande Rio. A instalação e a manutenção de câmaras frias exigem alta especialização técnica para assegurar a conservação ideal das mercadorias, a eficiência energética e a integridade do sistema. Seja em novos projetos ou em equipamentos em funcionamento, cada detalhe impacta diretamente o consumo elétrico e a durabilidade da sua câmara.",
+    "heroLead": "Conserto e manutenção de câmara fria e câmara frigorífica no Rio de Janeiro e Grande Rio, com técnico no local, diagnóstico por medição e preço fechado antes do serviço. Atendemos câmara de resfriados e de congelados, com manutenção preventiva programada, corretiva de emergência fora do horário comercial e instalação de câmara nova.",
     "heroImageLabel": "Foto da câmara fria / serviço",
     "servicesTitle": "Conserto e manutenção de câmara fria: do projeto ao degelo",
     "intro": [
@@ -46,7 +46,16 @@
         "title": "Quanto custa uma câmara fria? Como fazemos o orçamento",
         "body": [
           "Não existe preço de tabela para câmara fria, porque o custo é definido pelo projeto: volume interno, temperatura de trabalho, tipo de painel, capacidade do motor, comprimento de tubulação e necessidade de adequação elétrica. Uma câmara de resfriados de 6 m³ e uma de congelados de 30 m³ não têm nada em comum além do nome.",
-          "Fazemos a visita técnica, o cálculo de carga térmica e enviamos o orçamento com material e mão de obra discriminados. Para manutenção, o diagnóstico vem com preço fechado antes de qualquer serviço. Em ambos os casos você aprova antes de começar."
+          "Fazemos a visita técnica, o cálculo de carga térmica e enviamos o orçamento com material e mão de obra discriminados. Para manutenção, o diagnóstico vem com preço fechado antes de qualquer serviço. Em ambos os casos você aprova antes de começar.",
+          "As faixas de referência e os pontos que mudam o valor estão no guia <a href=\"/blog/quanto-custa-camara-fria.html\">quanto custa uma câmara fria</a>."
+        ]
+      },
+      {
+        "title": "Guias de câmara fria",
+        "body": [
+          "Para quem quer entender o defeito antes de chamar o técnico, cada sintoma tem um guia: <a href=\"/blog/camara-fria-nao-gela.html\">câmara fria não gela</a>, <a href=\"/blog/camara-fria-desligando-sozinha.html\">câmara fria desligando sozinha</a> e <a href=\"/blog/camara-fria-pingando-agua.html\">câmara fria pingando água ou com gelo no piso</a>.",
+          "Para manter a câmara funcionando, o <a href=\"/blog/manutencao-preventiva-camara-fria.html\">checklist de manutenção preventiva</a> mostra o que a equipe confere todo dia e toda semana e o que o técnico faz em cada visita.",
+          "Para quem vai montar ou ampliar: <a href=\"/blog/camara-fria-resfriados-ou-congelados.html\">resfriados ou congelados</a>, <a href=\"/blog/camara-fria-para-gelo.html\">câmara fria para gelo</a> e <a href=\"/blog/quanto-custa-camara-fria.html\">quanto custa uma câmara fria</a>."
         ]
       }
     ],
@@ -132,6 +141,10 @@
       [
         "Vocês fazem conserto de câmara frigorífica?",
         "Sim. Câmara fria e câmara frigorífica são o mesmo equipamento, e atendemos os dois termos: conserto, manutenção preventiva e montagem nova. Trabalhamos com câmara de resfriados e de congelados em açougue, mercado, restaurante, padaria, frigorífico e distribuidora, no Rio e Grande Rio. O diagnóstico é feito com medição e o preço é informado antes da aprovação."
+      ],
+      [
+        "Quanto custa o conserto de câmara fria?",
+        "Depende do defeito: limpar a condensadora ou trocar uma resistência de dreno custa bem menos que trocar um compressor. Por isso o técnico mede antes e passa o preço fechado, para você aprovar antes de qualquer serviço. Em equipamento comercial e industrial a visita é sem custo."
       ],
       [
         "Vocês cobram pela visita?",
