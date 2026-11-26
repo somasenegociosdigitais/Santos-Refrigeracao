@@ -1884,7 +1884,7 @@
     "metaDescription": "Câmara fria para gelo: temperatura de trabalho, como calcular o tamanho, diferença para a mini câmara e o que define o preço. Projeto e montagem no Rio.",
     "category": "Câmara fria",
     "published": "2026-11-19",
-    "updated": "2026-11-19",
+    "updated": "2026-11-25",
     "readMin": 8,
     "cover": "/assets/trab-cf-1.webp",
     "coverAlt": "Câmara fria montada dentro de uma loja, com painéis brancos, porta e controlador na parede",
@@ -1968,7 +1968,8 @@
         "body": [
           "Não existe tabela de preço por 2x2 ou 3x3 que valha. Duas câmaras do mesmo tamanho têm custos diferentes conforme a temperatura, o piso e o equipamento. O que pesa: volume, espessura e tipo de painel, piso isolado, porta, potência do equipamento, adequação da rede elétrica, distância entre a condensadora e o evaporador e o acesso ao local.",
           "Como referência de equipamento pronto, em novembro de 2026 uma mini câmara para gelo de cerca de 950 litros aparecia em loja online na faixa de R$ 10 mil a R$ 12 mil. Câmara modular sob medida só tem preço depois da visita: a Santos avalia o espaço, calcula e fecha o valor antes de começar.",
-          "Cuidado com câmara usada. Painel com isolamento encharcado e equipamento no fim da vida custam mais que a economia da compra, e câmara de resfriados usada não serve para gelo sem refazer painel, piso e porta."
+          "Cuidado com câmara usada. Painel com isolamento encharcado e equipamento no fim da vida custam mais que a economia da compra, e câmara de resfriados usada não serve para gelo sem refazer painel, piso e porta.",
+          "As faixas de referência para outros tipos de câmara estão em <a href=\"/blog/quanto-custa-camara-fria.html\">quanto custa uma câmara fria</a>."
         ]
       }
     ],
@@ -2106,5 +2107,236 @@
       ]
     ],
     "waMessage": "Olá! Li o artigo sobre câmara fria para gelo no site e quero um orçamento de CÂMARA FRIA PARA GELO."
+  },
+  "quanto-custa-camara-fria": {
+    "slug": "quanto-custa-camara-fria",
+    "title": "Quanto custa uma câmara fria: preço, tamanhos e o que muda o valor",
+    "metaTitle": "Quanto custa uma câmara fria? Preço e tamanhos (2x2, 3x3)",
+    "metaDescription": "Quanto custa uma câmara fria: faixas de preço de referência, diferença entre 2x2 e 3x3, resfriados e congelados, e o que muda o valor do orçamento.",
+    "category": "Câmara fria",
+    "published": "2026-11-25",
+    "updated": "2026-11-25",
+    "readMin": 9,
+    "cover": "/assets/trab-cfi-1.webp",
+    "coverAlt": "Porta de uma câmara fria de produtos refrigerados vista por fora, com o controlador ao lado",
+    "excerpt": "Não existe preço único de câmara fria. Veja as faixas de referência de mini câmara e de câmara modular e os oito pontos que formam o valor do orçamento.",
+    "lead": "Quem pesquisa quanto custa uma câmara fria quase sempre começa pelo tamanho: 2x2, 2x3, 3x3. Só que duas câmaras do mesmo tamanho podem ter preços bem diferentes, porque o que vai dentro muda a temperatura, o painel, o piso e o equipamento. Este guia traz faixas de preço de referência, mostra o que cada tamanho comporta e explica os oito pontos que formam o valor, para você comparar orçamentos sabendo o que está incluído em cada um.",
+    "answer": {
+      "title": "Quanto custa uma câmara fria?",
+      "text": "Não existe preço único. Como referência, em novembro de 2026 as mini câmaras prontas apareciam no varejo de cerca de R$ 5,5 mil (700 litros) a R$ 27 mil (3.750 litros), e anúncios de câmara modular pequena, nova, partiam de R$ 10 mil a R$ 20 mil. O valor final depende do tamanho, da temperatura, do painel, do piso, da porta, do equipamento e da instalação no local."
+    },
+    "summaryTitle": "Os 8 pontos que formam o preço de uma câmara fria",
+    "sections": [
+      {
+        "id": "referencias",
+        "title": "1. Faixas de preço de referência",
+        "body": [
+          "Dois tipos de equipamento aparecem na mesma busca. A mini câmara é um refrigerador de linha, com portas, comprado pronto em loja. A câmara modular é montada no local com painéis, tem porta para entrar e equipamento escolhido para o espaço.",
+          "Em novembro de 2026, as mini câmaras prontas apareciam em loja online por cerca de R$ 5,5 mil a R$ 6,2 mil no modelo de 700 litros, R$ 8,1 mil a R$ 9 mil no de 1.100 litros e de R$ 15,6 mil a R$ 27,5 mil nos modelos de 2.900 a 4.000 litros.",
+          "Para câmara modular pequena e nova, os anúncios partiam de R$ 10 mil a R$ 20 mil. Um deles, de uma câmara de resfriados de 2,30 x 2,30 x 2,20 m, pedia cerca de R$ 14,3 mil. São preços de anúncio, na configuração mais simples: piso isolado, adequação elétrica e instalação no local podem não estar incluídos. Os pontos a seguir explicam por que o orçamento real varia tanto."
+        ]
+      },
+      {
+        "id": "tamanho",
+        "title": "2. Tamanho: 2x2, 2x3, 3x3",
+        "image": {
+          "src": "/assets/trab-cf-1.webp",
+          "alt": "Câmara fria montada dentro de uma loja, com painéis brancos, porta e controlador na parede",
+          "caption": "Câmara modular montada dentro da loja: o tamanho sai do estoque máximo, não do espaço que sobrou.",
+          "wide": true
+        },
+        "body": [
+          "A medida em metros é a área do piso. O que define a capacidade é o volume, e a altura entra na conta: uma câmara de 2x2 com 2,5 m de altura tem 10 m³, e uma de 3x3 com a mesma altura tem 22,5 m³, mais que o dobro.",
+          "O volume útil é menor que o total. Corredor, estrado ou prateleira e o afastamento das paredes e do evaporador, que o ar precisa para circular, ficam fora da conta. Por isso o tamanho se escolhe pelo estoque máximo, e não pelo espaço que sobrou no imóvel.",
+          "No preço, o tamanho pesa pela quantidade de painel e pela potência do equipamento. Mas duas câmaras de 2x3, uma para bebida e outra para carne, não levam o mesmo equipamento. O tamanho é só o começo do <a href=\"/instalacao-de-camara-fria.html\">projeto de câmara fria</a>."
+        ]
+      },
+      {
+        "id": "temperatura",
+        "title": "3. Temperatura: resfriados ou congelados",
+        "body": [
+          "É o ponto que mais muda o valor. Câmara de resfriados trabalha poucos graus acima de zero. Câmara de congelados trabalha abaixo de zero, com referência de −18 °C ou menos.",
+          "Para a mesma medida, a de congelados custa mais: o painel é mais espesso, o piso precisa de isolamento, a porta tem resistência no batente, o degelo é elétrico ou por gás quente e o equipamento é maior. O consumo de energia também é maior.",
+          "As sete diferenças estão em <a href=\"/blog/camara-fria-resfriados-ou-congelados.html\">câmara fria de resfriados ou de congelados</a>. Para estoque de gelo, veja <a href=\"/blog/camara-fria-para-gelo.html\">câmara fria para gelo</a>."
+        ]
+      },
+      {
+        "id": "painel-piso",
+        "title": "4. Painel e piso",
+        "body": [
+          "Paredes e teto são painéis isotérmicos com núcleo de EPS, PUR ou PIR. O PUR e o PIR isolam mais na mesma espessura e custam mais. Quanto mais fria a câmara, mais espesso o painel. Painel fino demais sai barato na compra e caro na conta de luz, porque o equipamento trabalha sem parar.",
+          "Na câmara de resfriados, muitas vezes o piso existente serve, com acabamento lavável. Na de congelados, o piso é isolado e tem barreira de vapor, e isso é obra. É o item mais esquecido quando se compara orçamento: um inclui o piso, o outro não."
+        ]
+      },
+      {
+        "id": "porta",
+        "title": "5. Porta",
+        "body": [
+          "A porta muda de preço pelo tipo, pelo tamanho do vão e pela temperatura. Porta giratória é a mais comum em câmara pequena. Porta de correr serve quando falta espaço para abrir ou quando entra carrinho e palete.",
+          "Em câmara de congelados, a porta é mais espessa e tem resistência elétrica no batente. Cortina de PVC é um acessório barato que reduz a troca de ar e o gelo no evaporador, e vale em qualquer câmara que abre muito."
+        ]
+      },
+      {
+        "id": "equipamento",
+        "title": "6. Equipamento de refrigeração",
+        "image": {
+          "src": "/assets/trab-cf-3.webp",
+          "alt": "Evaporador de quatro ventiladores instalado no teto de uma câmara fria",
+          "caption": "Evaporador e unidade condensadora são escolhidos pelo cálculo de carga térmica, não pelo tamanho da câmara.",
+          "wide": true
+        },
+        "body": [
+          "A unidade condensadora e o evaporador são escolhidos pelo cálculo de carga térmica: volume, temperatura de trabalho, quantos quilos de produto entram por dia e a que temperatura, quantas vezes a porta abre e onde a condensadora vai ficar.",
+          "Equipamento menor que o necessário não chega na temperatura e trabalha sem desligar. Maior que o necessário custa mais na compra e liga e desliga demais. Nos dois casos a vida útil cai.",
+          "Controlador, quadro de comando e a tubulação entre as duas unidades entram nessa parte do orçamento. Quanto mais longe a condensadora fica da câmara, mais tubulação e mais mão de obra."
+        ]
+      },
+      {
+        "id": "instalacao",
+        "title": "7. Instalação elétrica e local",
+        "body": [
+          "A rede elétrica do imóvel entra no levantamento: se é monofásica ou trifásica e quanto ainda suporta. Quando é preciso puxar circuito novo ou trocar o quadro, o custo sobe e não aparece em preço de anúncio.",
+          "O local também conta. A condensadora precisa de lugar ventilado e com acesso para manutenção. Montagem em andar alto, por escada ou em espaço apertado leva mais tempo. Prazo e mão de obra de montagem fazem parte do orçamento."
+        ]
+      },
+      {
+        "id": "nova-usada",
+        "title": "8. Nova, usada ou já comprada",
+        "body": [
+          "Câmara usada pode sair bem mais barata, e pode custar mais no fim. Os riscos são painel com isolamento encharcado, borrachas e porta gastas e equipamento no fim da vida ou que usa gás refrigerante já fora de linha. Câmara de resfriados usada não serve para congelados sem refazer painel, piso e porta.",
+          "Quem já comprou a câmara, nova ou usada, pode contratar só a montagem. A Santos Refrigeração monta e instala câmara já adquirida, e avalia antes se os painéis e o equipamento servem para o que vai ser guardado.",
+          "Depois de pronta, o custo que continua é o de energia e de manutenção. O <a href=\"/blog/manutencao-preventiva-camara-fria.html\">checklist de manutenção preventiva de câmara fria</a> mostra o que mantém esse custo baixo."
+        ]
+      }
+    ],
+    "diagnosis": {
+      "title": "O que levantar antes de pedir o orçamento",
+      "intro": "Com estas respostas em mãos, os orçamentos ficam comparáveis e a visita técnica rende.",
+      "steps": [
+        "O que vai ser guardado e em que temperatura: resfriados, congelados ou os dois.",
+        "Estoque máximo, em quilos ou em caixas, no pico de venda.",
+        "Quanto produto entra por dia e a que temperatura ele chega.",
+        "Espaço disponível: largura, comprimento, altura e por onde os painéis entram.",
+        "Tipo de piso do local e se ele pode receber obra.",
+        "Rede elétrica: monofásica ou trifásica.",
+        "Onde a unidade condensadora pode ficar: local ventilado e com acesso para manutenção."
+      ],
+      "after": "Ao comparar orçamentos, confira se cada um inclui piso, porta, equipamento, instalação elétrica, montagem e garantia. Diferença grande de preço quase sempre é diferença no que está incluído."
+    },
+    "midCta": {
+      "after": "temperatura",
+      "text": "Quer o preço da sua câmara, e não uma faixa? A Santos avalia o espaço, calcula a carga térmica e fecha o valor antes de começar.",
+      "button": "Pedir orçamento de câmara fria"
+    },
+    "cta": {
+      "title": "Como a Santos fecha o preço",
+      "body": "A Santos Refrigeração faz o levantamento do que vai ser armazenado, a visita técnica, o cálculo de carga térmica e o projeto, e entrega o orçamento fechado antes de qualquer compra. Depois faz a montagem dos painéis, a instalação do equipamento, os testes e a manutenção. Não vende câmara pronta nem usada, e monta câmara que o cliente já comprou. Em equipamento comercial a visita é sem custo, no Rio de Janeiro e no Grande Rio."
+    },
+    "conclusion": {
+      "title": "Resumo",
+      "table": {
+        "intro": "Faixas de referência de novembro de 2026, tiradas de lojas online e de anúncios. Servem para ter ordem de grandeza; o preço da sua câmara sai do projeto.",
+        "head": [
+          "Tipo",
+          "Referência em novembro de 2026",
+          "Observação"
+        ],
+        "rows": [
+          [
+            "Mini câmara pronta, 700 litros",
+            "R$ 5,5 mil a R$ 6,2 mil",
+            "Equipamento de linha, 4 portas"
+          ],
+          [
+            "Mini câmara pronta, 1.100 litros",
+            "R$ 8,1 mil a R$ 9 mil",
+            "Equipamento de linha, 6 portas"
+          ],
+          [
+            "Mini câmara pronta, 2.900 a 4.000 litros",
+            "R$ 15,6 mil a R$ 27,5 mil",
+            "Equipamento de linha, 3 ou 4 portas"
+          ],
+          [
+            "Câmara modular pequena, nova",
+            "A partir de R$ 10 mil a R$ 20 mil",
+            "Preço de anúncio, configuração mais simples"
+          ],
+          [
+            "Câmara modular de congelados",
+            "Acima da de resfriados do mesmo tamanho",
+            "Painel mais espesso, piso isolado, porta com resistência"
+          ],
+          [
+            "Câmara sob medida, com projeto",
+            "Fechado depois da visita técnica",
+            "Inclui cálculo de carga térmica, montagem e instalação"
+          ]
+        ]
+      }
+    },
+    "faq": [
+      [
+        "Quanto custa uma câmara fria pequena, de 2x2?",
+        "Depende da temperatura, do painel, do piso e do equipamento. Como referência, em novembro de 2026 um anúncio de câmara de resfriados de 2,30 x 2,30 x 2,20 m pedia cerca de R$ 14,3 mil, e anúncios de câmara modular pequena, nova, partiam de R$ 10 mil a R$ 20 mil, sem garantia de que piso e instalação estivessem incluídos."
+      ],
+      [
+        "Quanto custa uma câmara fria de 3x3?",
+        "Mais que a de 2x2, porque tem mais que o dobro do volume, usa mais painel e pede equipamento maior. Se for de congelados, sobe de novo por causa do painel mais espesso, do piso isolado e da porta com resistência. O valor exato só sai depois do cálculo de carga térmica."
+      ],
+      [
+        "Câmara fria de congelados é mais cara que a de resfriados?",
+        "Sim. Para o mesmo tamanho, a câmara de congelados usa painel mais espesso, piso isolado com barreira de vapor, porta com resistência, degelo elétrico ou por gás quente e equipamento maior. O consumo de energia também é maior."
+      ],
+      [
+        "Qual a diferença entre mini câmara e câmara fria?",
+        "A mini câmara é um refrigerador de linha, com portas, comprado pronto em loja. A câmara fria modular é montada no local com painéis, tem porta para entrar e equipamento dimensionado por projeto. A primeira resolve estoque pequeno; a segunda, estoque que precisa de corredor, prateleira ou palete."
+      ],
+      [
+        "Vale a pena comprar câmara fria usada?",
+        "Só com avaliação técnica antes. Os riscos são painel com isolamento encharcado, porta e borrachas gastas e equipamento no fim da vida. Câmara de resfriados usada não serve para congelados sem refazer painel, piso e porta."
+      ],
+      [
+        "Quanto custa montar uma câmara fria já comprada?",
+        "Depende do tamanho, do estado dos painéis, do equipamento e das adequações de piso e de rede elétrica no local. A Santos Refrigeração monta e instala câmara já adquirida e passa o preço fechado depois da visita."
+      ],
+      [
+        "O que faz um orçamento de câmara fria ser mais barato que outro?",
+        "Quase sempre é o que está incluído. Compare se cada orçamento traz piso, porta, espessura e tipo de painel, potência do equipamento, instalação elétrica, montagem e garantia. Painel mais fino e equipamento menor baixam o preço e aumentam a conta de luz."
+      ],
+      [
+        "A Santos Refrigeração vende câmara fria?",
+        "Não vende câmara pronta, câmara usada nem mini câmara. A Santos Refrigeração faz o projeto, a montagem e a instalação de câmara fria modular, monta câmara que o cliente já comprou e faz a manutenção."
+      ],
+      [
+        "A visita para orçamento de câmara fria é cobrada?",
+        "Em equipamento comercial e industrial, não. O técnico vai até o local, avalia e passa o preço fechado antes de executar."
+      ],
+      [
+        "Onde a Santos Refrigeração monta câmara fria?",
+        "Em toda a cidade do Rio de Janeiro (Zona Norte, Zona Oeste, Centro e Zona Sul) e no Grande Rio. A oficina fica em Cascadura, na Zona Norte."
+      ]
+    ],
+    "related": [
+      [
+        "Instalação de câmara fria",
+        "/instalacao-de-camara-fria.html",
+        "wrench",
+        "Projeto, montagem e instalação de câmara fria no tamanho da operação."
+      ],
+      [
+        "Manutenção de câmara fria",
+        "/camara-fria.html",
+        "warehouse",
+        "Conserto, manutenção preventiva e corretiva de câmaras de resfriados e congelados."
+      ],
+      [
+        "Técnico em refrigeração comercial",
+        "/tecnico-refrigeracao-comercial.html",
+        "thermometer-snowflake",
+        "Atendimento técnico para os equipamentos de refrigeração do seu negócio."
+      ]
+    ],
+    "waMessage": "Olá! Li o artigo sobre quanto custa uma câmara fria no site e quero um orçamento de CÂMARA FRIA."
   }
 }
